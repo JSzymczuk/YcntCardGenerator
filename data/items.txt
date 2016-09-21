@@ -92,12 +92,12 @@
 	"Price": 	 2,
 	"Categories": ["Przedmioty zużywalne", "Eliksiry"],
 	"Description": "Wydaje ci się, że możesz wszystko!",
-	"Effects": [{ "Type": "Effect", "Text": "Rzuć [r6]. Wynik różny od 0 oznacza, że obrażenia zadane przez używającego w tej turze zostają podwojone. Wynik równy 2 oznacza dodatkowo, że używający podczas [testu obrażeń] w tej turze otrzymuje dodatkowe [k6]. Wynik równy 0 oznacza natychmiastowe zakończenie tury przez używającego." }]
+	"Effects": [{ "Type": "Effect", "Text": "Rzuć [k6]. Wynik różny od 0 oznacza, że obrażenia zadane przez używającego w tej turze zostają podwojone. Wynik równy 2 oznacza dodatkowo, że używający podczas [testu obrażeń] w tej turze otrzymuje dodatkowe [k6]. Wynik równy 0 oznacza natychmiastowe zakończenie tury przez używającego." }]
 },
 {
 	"Name": 	 "Galaktyczny blaster na wodę",
 	"ImageName": "i13.png",
-	"Price": 	 4,
+	"Price": 	 3,
 	"Categories": ["Ekwipunek", "Broń"],
 	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "1": ["[zadawanych obrażeń]"] }}]
 },
@@ -113,7 +113,7 @@
 {
 	"Name": 	 "Pedalski miecz grawerowany",
 	"ImageName": "i15.png",
-	"Price": 	 6,
+	"Price": 	 5,
 	"Categories": ["Ekwipunek", "Broń"],
 	"Description":
 	"Nadzy miłośnicy natury hasają z nim po swoich zaklętych gajach, a wszyscy się z nich śmieją. Chociaż to raczej nie ten miecz jest tego przyczyną...",
@@ -125,7 +125,7 @@
 {
 	"Name": 	 "Na wskroś zmrożony okoń",
 	"ImageName": "i16.png",
-	"Price": 	 5,
+	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Broń"],
 	"Description":
 	"- Zimny jak lód. Twardy jak stal. Śmierdzi jak ryba.\n- Podaję hasło: Okoń!",
@@ -137,7 +137,7 @@
 {
 	"Name": 	 "Kostur mistrza magii",
 	"ImageName": "i17.png",
-	"Price": 	 8,
+	"Price": 	 7,
 	"Categories": ["Ekwipunek", "Broń"],
 	"Effects": [{
 			"Type": "StatTemplate", 
@@ -166,7 +166,7 @@
 {
 	"Name": 	 "Przypalona patelnia",
 	"ImageName": "i20.png",
-	"Price": 	 6,
+	"Price": 	 5,
 	"Categories": ["Ekwipunek", "Broń"],
 	"Description": "Damage is rather consistent.",
 	"Effects": [
@@ -177,7 +177,7 @@
 {
 	"Name": 	 "Długopisowy miotacz kulek z papieru",
 	"ImageName": "i21.png",
-	"Price": 	 3,
+	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Broń"],
 	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "[k6]": ["[testu obrażeń]"]} }]
 },
@@ -255,7 +255,7 @@
 {
 	"Name": 	 "Gniazdo",
 	"ImageName": "i30.png",
-	"Price": 	 4,
+	"Price": 	 5,
 	"Categories": ["Ekwipunek", "Nakrycie głowy"],
 	"Description": "Może i nie wyglądasz z nim atrakcyjnie, ale z pewnością sprawiasz wrażenie dużo mądrzejszego.",
 	"Effects": [{"Type": "StatTemplate", "ModifiedStats": { "[k6]": ["[testu obrażeń]"] }}]
