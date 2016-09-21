@@ -1,0 +1,464 @@
+[
+{
+	"Name": "Półmartwy",
+	"ImageName": "o01.png",
+	"VictoryPts":  3,
+	"Condition": { "Type": "Effect", "Text": "Zgiń 4 razy." }
+},
+{
+	"Name": "Weterynarz",
+	"ImageName": "o02.png",
+	"VictoryPts":  1,
+	"Condition": { "Type": "Effect", "Text": "Pokonaj dowolne stworzenie w Klinice małych bestii." }
+},
+{
+	"Name": "Pierdolony wiedźmin",
+	"ImageName": "o03.png",
+	"VictoryPts":  3,
+	"Condition": { "Type": "Effect", "Text": "Samotnie pokonaj przynajmniej dwa stworzenia podczas jednej walki." }
+},
+{
+	"Name": "Obrońca",
+	"ImageName": "o04.png",
+	"VictoryPts":  3,
+	"Condition": { "Type": "Template", "Name": "defeat_on_certain_type", "Value": "przyległych do Centrum wszechświata" }
+},
+{
+	"Name": "Strażnik rubieży",
+	"ImageName": "o05.png",
+	"VictoryPts":  3,
+	"Condition": { "Type": "Template", "Name": "defeat_on_certain_type", "Value": "na obrzeżu planszy" }
+},
+{
+	"Name": "Skacowany",
+	"ImageName": "o06.png",
+	"VictoryPts": 2,
+	"Condition": { "Type": "Effect", "Text": "Po wygranej walce na postaci gracza znajduje się przynajmniej 3 znaczników zatrucia." }
+},
+{
+	"Name": "Żywiołak porażki",
+	"ImageName": "o07.png",
+	"VictoryPts": 3,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "condition_after_semester", 
+		"Parameters": [ 
+			"siódmego", 
+			"jako jedyny miej najmniej punktów zwycięstwa" 
+	]}
+},
+{
+	"Name": "Underachiever",
+	"ImageName": "o08.png",
+	"VictoryPts": 3,
+		"Condition": { 
+		"Type": "Template", 
+		"Name": "condition_after_semester", 
+		"Parameters": [ 
+			"siódmego", 
+			"nie miej wszystkich zdolności ani maksymalnego potencjału" 
+	]}
+},
+{
+	"Name": "Geniusz",
+	"ImageName": "o09.png",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "be_first_to_gain", 
+		"Value": "maksymalny potencjał"
+	}
+},
+{
+	"Name": "Spryciarz",
+	"ImageName": "o10.png",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "be_first_to_gain", 
+		"Value": "zdolność piątego poziomu"
+	}
+},
+{
+	"Name": "Bogacz",
+	"ImageName": "o11.png",
+	"VictoryPts":  2,
+	"Condition": { "Type": "Effect", "Text": "Zdobądź 20 btc." }
+},
+{
+	"Name": "Korepetytor",
+	"ImageName": "o12.png",
+	"VictoryPts": 2,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "deliver_item", 
+		"Value": "Notatki"
+	}
+},
+{
+	"Name": "Droid",
+	"ImageName": "o13.png",
+	"VictoryPts": 2,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "deliver_item", 
+		"Value": "Napój magiczny"
+	}
+},
+{
+	"Name": "Szaman",
+	"ImageName": "o14.png",
+	"VictoryPts": 2,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "deliver_item", 
+		"Value": "Intensywne perfumy piżmowe"
+	}
+},
+{
+	"Name": "Finansista",
+	"ImageName": "o15.png",
+	"VictoryPts": 2,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "deliver_item", 
+		"Value": "Świnka skarbonka"
+	}
+},
+{
+	"Name": "Biomanta",
+	"ImageName": "o16.png",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "play_action_card", 
+		"Value": "Zbiorowa praktyczna inżynieria biomedyczna"
+	}
+},
+{
+	"Name": "Urzędnik",
+	"ImageName": "o17.png",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "play_action_card", 
+		"Value": "Podanie odrzucone"
+	}
+},
+{
+	"Name": "Uczony",
+	"ImageName": "o18.png",
+	"VictoryPts":  1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "assign_action_points", 
+		"Parameters": [ 5, "Biblioteka" ]
+	}
+},
+{
+	"Name": "Odkrywca",
+	"ImageName": "o19.png",
+	"VictoryPts":  1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "assign_action_points", 
+		"Parameters": [ 5, "Niezbadane ziemie" ]
+	}
+},
+{
+	"Name": "Inwestor",
+	"ImageName": "o20.png",
+	"VictoryPts": 2,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "discard_on", 
+		"Parameters": [ "10 btc", "Centrum handlu detalicznego" ]
+	}
+},
+{
+	"Name": "Działkowiec",
+	"ImageName": "o21.png",
+	"VictoryPts": 2,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "discard_on", 
+		"Parameters": [ "10 btc", "Ogródki działkowe" ]
+	}
+},
+{
+	"Name": "Szczodry",
+	"ImageName": "o22.png",
+	"VictoryPts": 2,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "discard_on", 
+		"Parameters": [ "3 karty z ręki", "Wioska żaków" ]
+	}
+},
+{
+	"Name": "Hodowca",
+	"ImageName": "o23.png",
+	"VictoryPts": 2,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "discard_on", 
+		"Parameters": [ "3 karty z ręki", "Szklarnia" ]
+	}
+},
+{
+	"Name": "Hobbit",
+	"ImageName": "o24.png",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "discard_on", 
+		"Parameters": [ "buty", "Śródziemie" ]
+	}
+},
+{
+	"Name": "Zdrajca",
+	"ImageName": "o25.png",
+	"VictoryPts": 2,
+	"Condition": { "Type": "Effect", "Text": "Jako jedyny skutecznie przeszkodź w walce innemu graczowi, który w jej wyniku zginie." }
+},
+{
+	"Name": "Tchórz",
+	"ImageName": "o26.png",
+	"VictoryPts": 1,
+	"Condition": { "Type": "Effect", "Text": "Skutecznie ucieknij z walki." }
+},
+{
+	"Name": "Imprezowicz",
+	"ImageName": "o27.png",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "collect_set", 
+		"Parameters": [ 
+			"imprezowa koszulka", 
+			"fluorescencyjne spodnie",
+			"rozwodnione piwo festiwalowe",
+			"eliksir zapomnienia"
+		]
+	}
+},
+{
+	"Name": "Metal",
+	"ImageName": "o28.png",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "collect_set", 
+		"Parameters": [ 
+			"sfatygowana kurtka skórzana",
+			"czarne glany",
+			"w ch** kultowy plecak typu kostka", 
+			"koci pocisk armatni"
+		]
+	}
+},
+{
+	"Name": "Dresiarz",
+	"ImageName": "o29.png",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "collect_set", 
+		"Parameters": [ 
+			"stare domowe dresy",
+			"wodoszczelna zbroja rycerzy ortalionu",
+			"suple spod lady",
+			"szalik prawdziwego kibica"
+		]
+	}
+},
+{
+	"Name": "Turbonerd",
+	"ImageName": "o30.png",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "collect_set", 
+		"Parameters": [ 
+			"uniwersalna zbroja informatyczna", 
+			"nerdowskie okulary",
+			"dizajnerska mysz bezprzewodowa",
+			"zestaw kustomowych kości"
+		]
+	}
+},
+{
+	"Name": "Arcymag",
+	"ImageName": "o31.png",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "collect_set", 
+		"Parameters": [ 
+			"kostur mistrza magii",
+			"transcendencyjna czapka ambiwalencji maga-ch**a znad Gibraltaru",
+			"magiczna kula",
+			"zwój zajebistości"
+		]
+	}
+},
+{
+	"Name": "Elficki Mistrz Cieni",
+	"ImageName": "o32.png",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "collect_set", 
+		"Parameters": [ 
+			"pedalski miecz grawerowany", 
+			"nietoperzasty shuriken",
+			"superśliskie kapciuszki-króliczki", 
+			"frappé z pianką"
+		]
+	}
+},
+{
+	"Name": "Wojownik",
+	"ImageName": "o33.png",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "collect_set", 
+		"Parameters": [ 
+			"krwawy topór ostatniej przysługi",
+			"imperialna płytówka obrońcy",
+			"fiolka krwi berserkera",
+			"rączy rumak"
+		]
+	}
+},
+{
+	"Name": "Turysta",
+	"ImageName": "o34.png",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "collect_set", 
+		"Parameters": [ 
+			"sandały turystyczne",
+			"mapa",
+			"lembas",
+			"ulgowy bilet jednoprzejazdowy"
+		]
+	}
+},
+{
+	"Name": "Kolekcjoner",
+	"ImageName": "o35.png",
+	"VictoryPts": 1,
+	"Condition": { "Type": "Effect", "Text": "Skompletuj i wyposaż broń, zbroję, nakrycie głowy oraz buty." }
+},
+{
+	"Name": "Pogromca mend",
+	"ImageName": "o36.png",
+	"VictoryPts": 3,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "defeat_enemy_type", 
+		"Value": "mendami" 
+	}
+},
+{
+	"Name": "Strażnik Ciszy Nocnej",
+	"ImageName": "o37.png",
+	"VictoryPts": 3,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "defeat_enemy_type", 
+		"Value": "imprezowymi podludźmi" 
+	}
+},
+{
+	"Name": "Niszczyciel marzeń",
+	"ImageName": "o38.png",
+	"VictoryPts": 3,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "defeat_enemy_type", 
+		"Value": "postaciami baśniowymi" 
+	}
+},
+{
+	"Name": "Obkuty na blachę",
+	"ImageName": "o39.png",
+	"VictoryPts": 3,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "defeat_enemy_type", 
+		"Value": "zmorami studenta" 
+	}
+},
+{
+	"Name": "Pasibrzuch",
+	"ImageName": "o40.png",
+	"VictoryPts": 3,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "defeat_enemy_type", 
+		"Value": "stworzeniami spożywczymi" 
+	}
+},
+{
+	"Name": "Poważny dorosły człowiek",
+	"ImageName": "o41.png",
+	"VictoryPts": 3,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "defeat_enemy_type", 
+		"Value": "zabawkami" 
+	}
+},
+{
+	"Name": "Inżynier",
+	"ImageName": "o42.png",
+	"VictoryPts": 3,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "defeat_enemy_type", 
+		"Value": "konstruktami" 
+	}
+},
+{
+	"Name": "Łowca trofeów ",
+	"ImageName": "o43.png",
+	"VictoryPts": 3,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "defeat_enemy_type", 
+		"Value": "bestiami" 
+	}
+},
+{
+	"Name": "Mistrz sztuki wojennej",
+	"ImageName": "o44.png",
+	"VictoryPts": 3,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "defeat_enemy_type", 
+		"Value": "wojownikami" 
+	}
+},
+{
+	"Name": "Skrytobójca",
+	"ImageName": "o45.png",
+	"VictoryPts":  1,
+	"Condition": { "Type": "Effect", "Text": "Pokonaj stworzenie w ciągu 2 tur." }
+},
+{
+	"Name": "Mocarz",
+	"ImageName": "o46.png",
+	"VictoryPts":  2,
+	"Condition": { "Type": "Effect", "Text": "Zadaj co najmniej 10 obrażeń w jednym ataku (nie uwzględniając  obrażenia na skutek zatrucia)." }
+},
+{
+	"Name": "Gadżeciarz",
+	"ImageName": "o47.png",
+	"VictoryPts":  2,
+	"Condition": { "Type": "Effect", "Text": "W trakcie walki zagraj 5 przedmiotów zużywalnych w trakcie jednej tury." }
+}
+]

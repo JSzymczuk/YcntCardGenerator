@@ -1,0 +1,132 @@
+{
+	"CreaturesFileName": 	"data/creatures.txt",
+	"ItemsFileName": 		"data/items.txt",
+	"ActionsFileName": 		"data/actions.txt",
+	"ObjectivesFileName":	"data/objectives.txt",
+	"EventsFileName":		"data/events.txt",
+	"TemplatesFileName": 	"data/skills_and_templates.txt",
+
+	"ResultFileName": "cards.docx",
+	"AutoOpen": 	  true,
+
+	"MarginTop":	40.0,
+	"MarginRight":	40.0,
+	"MarginBottom":	40.0,
+	"MarginLeft":	40.0,
+
+	"TableColumns":	4,
+	"CardHeight":	250.0,
+
+	"Spacing":				4.0,
+	"TopSpacing":			3.0,
+	"TitleFontSize":		9.0,
+	"TagFontSize":			7.0,
+	"DescriptionFontSize":	7.0,
+	"EffectFontSize":		8.0,
+	"TextSize":				8.0,
+	"ItemTextSize":			9.0,
+	"MovementCatFontSize":	8.0,
+	"SpawnFontSize":		10.0,
+	"DiceFontSize":			7.0,
+	"ItemDiceFontSize":		7.0,
+	
+	"DescriptionAlignment": 0,
+	"ActionNameAlignment":  0,
+	"EventNameAlignment":   0,
+
+	"SymbolFont": "Segoe UI Symbol",
+	"FootRPath": "img/foot_R.png",
+	"FootGPath": "img/foot_G.png",
+	"FootBPath": "img/foot_B.png",
+	"MvtFootHeight":    16,
+	"MvtFootWidth":     11,
+	"MvtCatColWidth":   450.0,
+	"MvtStepsColWidth": 850.0,
+	"SpawnColWidth":    800.0,
+
+	"WhiteDiceColor": 	"0, 0, 0",
+	"RedDiceColor": 	"224, 64, 80",
+	"GreenDiceColor": 	"64, 224, 80",
+	"LegendaryColor": 	"224, 64, 80",
+	"ActionNameColor": 	"64, 80, 224",
+	"SpawnEasyColor": 	"16, 16, 16",
+	"SpawnHardColor": 	"144, 144, 144",
+
+	"WhiteDiceText": 	"[k6]",
+	"RedDiceText": 		"[r6]",
+	"GreenDiceText": 	"[g6]",
+	
+	"DiceSymbol":	"■",
+	"SpawnSymbol":	"\u2B24  ",
+	"ActionSymbol": "★",
+	"FirstSymbol":	"❶",
+	"SecondSymbol":	"❷",
+	"ThirdSymbol":	"❸",
+
+	"PrizeGold": 	"btc",
+	"PrizeItems": 	"przed.",
+	"ObjectivePoints": "ECTS",
+	"ActionTag": "Karta akcji",
+	"EventTag": "Karta wydarzenia",
+
+	"STplTextStartPermanent": 	"Zapewnia ",
+	"STplTextStartBattle": 		"Do zakończenia walki zapewnia ",
+	"STplTextStartTurn": 		"Do końca tury zapewnia ",
+	"STplTextEndTurn": 			".",
+	"STplTextEndBattle": 		".",
+	"STplTextEndPermanent": 	".",
+	"STplSeparator": 			", ",
+	"STplLastSeparator": 		" oraz ",
+	"STplModifierText": 		"trwały modyfikator {0} do {1}",
+	"STplDicesText": 			"dodatkowe {0} podczas {1}",	
+	
+	"ConstTerms": {
+		"[żeton zdolności]":    "żeton zdolności",
+		"[żetony zdolności]":   "żetony zdolności",
+		"[żetonów zdolności]":  "żetonów zdolności",
+		"[punkt akcji]": 		"punkt akcji",
+		"[punkty akcji]": 		"punkty akcji",
+		"[punktów akcji]": 		"punktów akcji",
+		
+		"[znacznik zatrucia]":   "znacznik zatrucia",
+		"[znaczniki zatrucia]":  "znaczniki zatrucia",
+		"[znaczników zatrucia]": "znaczników zatrucia",
+		
+		"[punktów zwycięstwa]": "punktów zwycięstwa",
+		"[punktom zwycięstwa]": "punktom zwycięstwa",
+		
+		"[punktów wytrzymałości]": "punktów wytrzymałości",	
+		"[punkt doświadczenia]": "punkt doświadczenia",		
+		
+		"[zadawanych obrażeń]": "zadawanych obrażeń",
+		"[testu obrażeń]": 		"testu obrażeń",
+		"[testy obrażeń]": 		"testy obrażeń",
+		"[testów obrażeń]": 	"testów obrażeń",
+		"[testach obrażeń]": 	"testach obrażeń",
+		"[testu inicjatywy]":	"testu inicjatywy",
+		"[testu ucieczki]":		"testu ucieczki",
+		"[testu otwarcia]":		"testu otwarcia",
+		"[test inicjatywy]": 	"test inicjatywy",
+		
+		"[redukcji obrażeń]": "redukcji obrażeń",
+		"[poziom paniki]":	  "poziom paniki",
+		"[Poziom paniki]":	  "Poziom paniki",
+		"[aktywnych celów]":  "aktywnych celów",
+	
+		"[first_player]": "starosta",
+		"[First_player]": "Starosta",
+		"[first_player_token]": "znacznik starosty",
+		"[First_player_token]": "Znacznik starosty",
+		
+		"[zdolność]":    "zdolność",
+		"[Infekcja +1]": "Infekcja +1",
+		"[Strach +2]": "Strach +2",
+		"[Twarda skóra +2]": "Twarda skóra +2",		
+		
+		"[for_this_semester]": "na czas semestru",
+		"[Every_time_card_cant_be_discarded]": "Za każdym razem, gdy gracz nie może odrzucić karty",
+		
+		"[NO_ACTION_POINTS_IN_SEMESTER]": "Żaden z graczy nie otrzymuje w tym semestrze żetonów zdolności.",
+		"[NO_ACTION_POINTS_AND_GOLD_IN_SEMESTER]": "Żaden z graczy nie otrzymuje w tym semestrze złota ani żetonów zdolności.",
+	}
+}

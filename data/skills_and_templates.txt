@@ -1,0 +1,130 @@
+[
+	{
+		"Name": "heal",
+		"Text": "Przywraca do {0} utraconych punktów wytrzymałości używającego."
+	},
+	{
+		"Name": "ruch+1",
+		"Text": "Posiadacz tego przedmiotu może przemieszczać się o jedno pole więcej poza walką."
+	},
+	{
+		"Name": "enemy_busy",
+		"Text": "Wybrane stworzenie nie może podjąć żadnego działania w swojej najbliższej rundzie."
+	},
+	{
+		"Name": "move_enemy",
+		"Text": "Przesuń dowolne stworzenie o 1 pole w wybranym przez siebie kierunku, w którym stworzenie to może poruszyć się z pola, na którym się znajduje."
+	},
+	{
+		"Name": "check_any_card",
+		"Text": "Podejrzyj pierwszą kartę z dowolnego stosu kart."
+	},
+	{
+		"Name": "change_objectives",
+		"Text": "Wybierz {0} aktywne karty celów i odrzuć je. Połóż na ich miejsce nowe karty celów."
+	},
+	{
+		"Name": "draw_2_action_cards",
+		"Text": "Weź 2 karty akcji."
+	},
+	{
+		"Name": "restore_action_points",
+		"Text": "Przywraca do {0} wykorzystanych punktów akcji używającego."
+	},
+	{
+		"Name": "gain_btc",
+		"Text": "Pobierz {0} btc."
+	},
+	{
+		"Name": "remove_poison_counters",
+		"Text": "Zdejmij {0} znaczniki zatrucia z postaci."
+	},
+	{
+		"Name": "teleport",
+		"Text": "Zagraj w fazie ruchu. Przesuń swój pionek na dowolnie wybrane pole. Nie możesz wykonać więcej kroków w fazie ruchu."
+	},
+	{
+		"Name": "direct_damage",
+		"Text": "Możesz zagrać ten przedmiot w trakcie walki, przed wykonaniem ataku. Wybierz jednostkę biorącą udział w tej walce. Jednostka ta otrzymuje 10 punktów obrażeń. Nie uwzględnia się do nich [redukcji obrażeń]. Po zagraniu tej karty twoja tura walki kończy się."
+	},
+	{
+		"Name": "ask_help",
+		"Text": "Zagraj w trakcie swojej tury w walce. Możesz poprosić o pomoc w walce gracza, który nie znajduje się na przylegającym polu."
+	},
+	{
+		"Name": "prevent_action",
+		"Text": "Zagraj tę kartę od razu po zagraniu karty akcji przez dowolnego gracza. Efekt tej karty jest unieważniony."
+	},
+	{
+		"Name": "insane_enemy_boost",
+		"Text": "Zagraj tę kartę w dowolnym momencie na wybrane stworzenie. Stworzenie to otrzymuje {0}. Nie odrzucaj tej karty do momentu, w którym stworzenie zostanie pokonane lub odrzucone.\nLiczba btc oraz liczba skarbów przeznaczonych za pokonanie stworzenia, do którego dołączona jest ta karta, jest dwukrotnie wyższa."
+	},
+	{
+		"Name": "lower_panic",
+		"Text": "Obniż poziom paniki o 1."
+	},
+	{
+		"Name": "defeat_on_certain_type",
+		"Text": "Pokonaj przynajmniej trzy stworzenia na polach {0}."
+	},
+	{
+		"Name": "condition_after_semester",
+		"Text": "Po zakończeniu {0} semestru {1}."
+	},
+	{
+		"Name": "be_first_to_gain",
+		"Text": "Jako pierwszy zdobądź {0}."
+	},
+	{
+		"Name": "deliver_item",
+		"Text": "Przekaż przedmiot {0} innemu graczowi."
+	},
+	{
+		"Name": "play_action_card",
+		"Text": "Zagraj akcję {0}."
+	},
+	{
+		"Name": "assign_action_points",
+		"Text": "Wydaj {0} [punktów akcji] na raz na polu {1}."
+	},
+	{
+		"Name": "discard_on",
+		"Text": "Odrzuć {0} na polu {1}."
+	},
+	{
+		"Name": "collect_set",
+		"Text": "Skompletuj i wyposaż przynajmniej dwa przedmioty z zestawu:\n - {0},\n - {1},\n - {2},\n - {3}."
+	},
+	{
+		"Name": "defeat_enemy_type",
+		"Text": "Pokonaj 2 stworzenia będące {0}."
+	},
+	{
+		"Name": "spawn_order_info",
+		"Text": "Dodatkowe stworzenia należy rozkładać na siedliskach zaczynając od Dworku bogów zgodnie z ruchem wskazówek zegara."
+	},
+	{
+		"Name": "vote_2",
+		"Text": "Przeprowadźcie głosowanie:\n1) {0}\n2) {1}"
+	},
+	{
+		"Name": "choose_1_of_3_individual",
+		"Text": "Każdy z graczy może wybrać jedno z poniższych działań:\n1) {0}\n2) {1}\n3) {2}"
+	},
+	{
+		"Name": "blind_auction",
+		"Text": "Przeprowadźcie licytację w ciemno. "
+	},	
+	{
+		"Name": "blind_auction_sum",
+		"Text": "Jeśli zgromadzona pula {0}, {1}."
+	},
+	{
+		"Name": "blind_auction_winner",
+		"Text": "Gracz, który poświęcił najwięcej btc, {0}."
+	},
+	{
+		"Name": "first_player_roll_dices",
+		"Text": "[First_player] bierze liczbę {0} równą liczbie graczy i wykonuje rzut. Gracze muszą łącznie poświęcić ilość btc równą wynikowi rzutu. Jeśli graczom nie uda się zgromadzić wystarczającej ilości btc, {1}."
+	},
+]

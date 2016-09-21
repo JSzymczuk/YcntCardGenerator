@@ -1,0 +1,417 @@
+[
+{
+	"Name": "Opatrzność bogini płodności",
+	"ImageName": "e01.png",
+	"MovementCat": 3,
+	"Description": "Każda nieledwie przedludzka rasa i każde pierwotne, koczownicze jeszcze ludzkie plemię czciły jakąś boginię urodzaju i płodności, opiekunkę rolników i ogrodników, patronkę miłości i małżeństwa.",
+	"SpawnEasy": {
+		"TopLeft": 0, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 0,
+	},
+	"SpawnHard": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 1,
+	},
+	"Effects": [
+		{ 	
+			"Type": "Template", 
+			"Name": "vote_2", 
+			"Parameters": [
+				"Pojawia się liczba stworzeń równa połowie (zaokrąglając do góry) liczby graczy. Każdy gracz dostaje 1 [punkt doświadczenia].",
+				"Pojawia się jedno dodatkowe stworzenie."
+			]
+		},
+		{ "Type": "Effect", "Text": "\n" },
+		{ "Type": "Template", "Name": "spawn_order_info" }
+	]
+},
+{
+	"Name": "Krucy i wilcy",
+	"ImageName": "e02.png",
+	"MovementCat": 1,
+	"SpawnEasy": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 0,
+	},
+	"SpawnHard": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 2,
+	},
+	"Effects": [{ 
+		"Type": "Template", 
+		"Name": "first_player_roll_dices",
+		"Parameters": [
+			"[k6]",
+			"wszystkie stworzenia otrzymują modyfikator +2 do [zadawanych obrażeń] [for_this_semester]" 
+		]
+	}]
+},
+{
+	"Name": "Odwiedziny dobrej wróżki",
+	"ImageName": "e03.png",
+	"MovementCat": 3,
+	"Description": "Dla ciebie nie ma.",
+	"SpawnEasy": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 0, "BottomRight": 0,
+	},
+	"SpawnHard": {
+		"TopLeft": 1, "TopRight": 2,
+		"BottomLeft": 0, "BottomRight": 1,
+	},
+	"Effects": [
+		{ 	
+			"Type": "Template", 
+			"Name": "choose_1_of_3_individual", 
+			"Parameters": [
+				"pobrać kartę przedmiotu,",
+				"otrzymać modyfikator +2 do [zadawanych obrażeń] [for_this_semester],", 
+				"otrzymać 2 dodatkowe [żetony zdolności]."
+			]
+		}
+	]
+},
+{
+	"Name": "Metalowe Karaoke",
+	"ImageName": "e04.png",
+	"MovementCat": 1,
+	"Description": "W jednym z sąsiednich pokoi odbywała się impreza trwająca do rana. Przez całą noc nie zmrużyłeś oka.",
+	"SpawnEasy": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 0,
+	},
+	"SpawnHard": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 1,
+	},
+	"Effects": [
+		{ 	
+			"Type": "Template", 
+			"Name": "vote_2", 
+			"Parameters": [
+				"[NO_ACTION_POINTS_IN_SEMESTER]",
+				"Wszystkie stworzenia otrzymują [zdolność] [Infekcja +1] [for_this_semester]."
+			]
+		}
+	]
+},
+{
+	"Name": "Walka o darmowe praktyki w znanej firmie",
+	"ImageName": "e05.png",
+	"MovementCat": 2,
+	"SpawnEasy": {
+		"TopLeft": 1, "TopRight": 0,
+		"BottomLeft": 1, "BottomRight": 0,
+	},
+	"SpawnHard": {
+		"TopLeft": 2, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 0,
+	},
+	"Effects": [{ 
+		"Type": "Effect", 
+		"Text": "Gracze odrzucają karty z ręki bądź z ekwipunku. Ten, kto odrzuci najwięcej kart, otrzymuje [first_player_token]." 
+	}]
+},
+{
+	"Name": "Frytkowy alarm",
+	"ImageName": "e06.png",
+	"MovementCat": 1,
+	"Description": "Hańba! Ale i tak zabrudzenie na twojej zbroi jest niczym w porównaniu z plamą na honorze!",
+	"SpawnEasy": {
+		"TopLeft": 1, "TopRight": 0,
+		"BottomLeft": 1, "BottomRight": 1,
+	},
+	"SpawnHard": {
+		"TopLeft": 2, "TopRight": 0,
+		"BottomLeft": 1, "BottomRight": 2,
+	},
+	"Effects": [{ 
+		"Type": "Effect", 
+		"Text": "Każdy gracz musi odrzucić trzy karty z ręki. [Every_time_card_cant_be_discarded], należy umieścić na jego postaci [znacznik zatrucia]." 
+	}]
+},
+{
+	"Name": "Szczepienia okresowe",
+	"ImageName": "e07.png",
+	"MovementCat": 2,
+	"Description": "Baza wirusów została zaktualizowana.",
+	"SpawnEasy": {
+		"TopLeft": 1, "TopRight": 0,
+		"BottomLeft": 0, "BottomRight": 1,
+	},
+	"SpawnHard": {
+		"TopLeft": 1, "TopRight": 0,
+		"BottomLeft": 2, "BottomRight": 1,
+	},
+	"Effects": [
+		{ "Type": "Template", "Name": "blind_auction" },
+		{ 
+			"Type": "Template", 
+			"Name": "blind_auction_sum",
+			"Parameters": [
+				"jest większa bądź równa czterokrotności liczby graczy",
+				"należy obniżyć o 1 [poziom paniki] (jeśli to możliwe)"
+			]
+		}
+	]
+},
+{
+	"Name": "Romantyczna kolacja",
+	"ImageName": "e08.png",
+	"MovementCat": 1,
+	"Description": "Każdy płaci za siebie.",
+	"SpawnEasy": {
+		"TopLeft": 0, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 1,
+	},
+	"SpawnHard": {
+		"TopLeft": 0, "TopRight": 2,
+		"BottomLeft": 2, "BottomRight": 1,
+	},
+	"Effects": [
+		{ 	
+			"Type": "Effect", 
+			"Text": "Każdy gracz musi zapłacić za przedmioty znajdujące się w ekwipunku swojej postaci. Za każdy wyposażony przedmiot należy wpłacić kwotę równą połowie jego ceny (zaokrągloną do góry). Kolejność opłacania przedmiotów jest dowolna. Jeśli gracza nie stać na opłacenie danego przedmiotu, musi go odrzucić."
+		}
+	]
+},
+{
+	"Name": "Potworna biba",
+	"ImageName": "e09.png",
+	"MovementCat": 1,
+	"Description": "Wyjątkowo kiepska muzyka, kiepskie trunki i przede wszystkim wyjątkowo kiepskie towarzystwo.",
+	"SpawnEasy": {
+		"TopLeft": 0, "TopRight": 0,
+		"BottomLeft": 1, "BottomRight": 1,
+	},
+	"SpawnHard": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 1,
+	},
+	"Effects": [{ 
+		"Type": "Template", 
+		"Name": "first_player_roll_dices",
+		"Parameters": [
+			"[r6]",
+			"[for_this_semester] ruch wszystkich stworzeń jest podwojony" 
+		]
+	}]
+},
+{
+	"Name": "Krwawa rzeź",
+	"ImageName": "e10.png",
+	"MovementCat": 1,
+	"SpawnEasy": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 1,
+	},
+	"SpawnHard": {
+		"TopLeft": 1, "TopRight": 2,
+		"BottomLeft": 2, "BottomRight": 1,
+	},
+	"Effects": [
+		{ "Type": "Effect", "Text": "Każdy z graczy rzuca [k6]. " },
+		{ "Type": "Template", "Name": "blind_auction" },
+		{ 
+			"Type": "Template", 
+			"Name": "blind_auction_sum",
+			"Parameters": [
+				"jest mniejsza niż połowa (zaokrąglając do góry) łącznego wyniku rzutów",
+				"wszystkie stworzenia otrzymują modyfikator +2 do [zadawanych obrażeń] [for_this_semester]" 
+			]
+		},
+		{ 
+			"Type": "Template", 
+			"Name": "blind_auction_sum",
+			"Parameters": [
+				"jest mniejsza niż łączny wynik rzutów",
+				"wszystkie stworzenia otrzymują dodatkowo [zdolność] [Twarda skóra +2] [for_this_semester]" 
+			]
+		}
+	]
+},
+{
+	"Name": "Wyciągamy karteczki",
+	"ImageName": "e011.png",
+	"MovementCat": 1,
+	"SpawnEasy": {
+		"TopLeft": 1, "TopRight": 0,
+		"BottomLeft": 1, "BottomRight": 1,
+	},
+	"SpawnHard": {
+		"TopLeft": 1, "TopRight": 2,
+		"BottomLeft": 1, "BottomRight": 1,
+	},
+	"Effects": [{ 
+		"Type": "Effect", 
+		"Text": "Każdy z graczy dobiera jedną kartę przedmiotu i umieszcza w swojej ręce. Następnie każdy z graczy rzuca [test inicjatywy] i traci liczbę [punktów wytrzymałości] równą wynikowi rzutu (nie uwzględniając premii od redukcji obrażeń)." 
+	}]
+},
+{
+	"Name": "Ursynalia",
+	"ImageName": "e012.png",
+	"MovementCat": 3,
+	"SpawnEasy": {
+		"TopLeft": 0, "TopRight": 1,
+		"BottomLeft": 0, "BottomRight": 1,
+	},
+	"SpawnHard": {
+		"TopLeft": 0, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 2,
+	},
+	"Effects": [{ 
+		"Type": "Effect", 
+		"Text": "[NO_ACTION_POINTS_IN_SEMESTER] Nikt się przecież nie uczy w Ursynalia." 
+	}]
+},
+{
+	"Name": "Tydzień szalonych gryzoni",
+	"ImageName": "e013.png",
+	"MovementCat": 1,
+	"Description": "W tym tygodniu populacja Chomików i Bojowych Chomiczych Berserkerów jest podwojona.",
+	"SpawnEasy": {
+		"TopLeft": 0, "TopRight": 1,
+		"BottomLeft": 0, "BottomRight": 0,
+	},
+	"SpawnHard": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 0, "BottomRight": 1,
+	},
+	"Effects": [{ 
+		"Type": "Effect", 
+		"Text": "Nic się nie dzieje." 
+	}]
+},
+{
+	"Name": "Tydzień zarazy",
+	"ImageName": "e014.png",
+	"MovementCat": 2,
+	"SpawnEasy": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 0, "BottomRight": 1,
+	},
+	"SpawnHard": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 2, "BottomRight": 1,
+	},
+	"Effects": [{ 	
+		"Type": "Template", 
+		"Name": "vote_2", 
+		"Parameters": [
+			"[NO_ACTION_POINTS_AND_GOLD_IN_SEMESTER]",
+			"Umieśćcie dwa [znaczniki zatrucia] na postaci każdego z graczy."
+		]
+	}]
+},
+{
+	"Name": "Jesteśmy zgubieni!",
+	"ImageName": "e015.png",
+	"MovementCat": 1,
+	"SpawnEasy": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 1,
+	},
+	"SpawnHard": {
+		"TopLeft": 2, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 2,
+	},
+	"Effects": [{ 
+		"Type": "Effect", 
+		"Text": "Każdy z graczy odrzuca dwie karty akcji. [Every_time_card_cant_be_discarded], jego postać traci [r6][r6] [punktów wytrzymałości]." 
+	}]
+},
+{
+	"Name": "Atak dzikich",
+	"ImageName": "e016.png",
+	"MovementCat": 2,
+	"Description": "Więcej was matka nie miała?",
+	"SpawnEasy": {
+		"TopLeft": 0, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 1,
+	},
+	"SpawnHard": {
+		"TopLeft": 2, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 1,
+	},
+	"Effects": [{ 	
+		"Type": "Template", 
+		"Name": "vote_2", 
+		"Parameters": [
+			"Gracze znajdują się pod wpływem [Strach +2] [for_this_semester].",
+			"[Poziom paniki] wzrasta o 1."
+		]
+	}]
+},
+{
+	"Name": "Rewaluacja priorytetów",
+	"ImageName": "e017.png",
+	"MovementCat": 1,
+	"SpawnEasy": {
+		"TopLeft": 0, "TopRight": 0,
+		"BottomLeft": 1, "BottomRight": 0,
+	},
+	"SpawnHard": {
+		"TopLeft": 1, "TopRight": 0,
+		"BottomLeft": 1, "BottomRight": 1,
+	},
+	"Effects": [{ 
+		"Type": "Effect", 
+		"Text": "Wtasujcie karty [aktywnych celów] do talii celów i wyłóżcie 5 nowych kart celu." 
+	}]
+},
+{
+	"Name": "Turniej rycerski",
+	"ImageName": "e018.png",
+	"MovementCat": 2,
+	"Description": "Przetrzymujesz!",
+	"SpawnEasy": {
+		"TopLeft": 0, "TopRight": 0,
+		"BottomLeft": 0, "BottomRight": 1,
+	},
+	"SpawnHard": {
+		"TopLeft": 0, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 1,
+	},
+	"Effects": [
+		{ "Type": "Template", "Name": "blind_auction" },
+		{ 
+			"Type": "Template", 
+			"Name": "blind_auction_winner",
+			"Value": "otrzymuje [first_player_token]"
+		}
+	]
+},
+{
+	"Name": "Fundusz pomocy niepełnosprytnym",
+	"ImageName": "e19.png",
+	"MovementCat": 3,
+	"Description": "Dzielimy po równo czy sprawiedliwie?",
+	"SpawnEasy": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 0, "BottomRight": 1,
+	},
+	"SpawnHard": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 1,
+	},
+	"Effects": [{ 
+		"Type": "Effect", 
+		"Text": "Każdy gracz otrzymuje btc w ilości odpowiadającej różnicy posiadanych [punktów zwycięstwa] i [punktom zwycięstwa] gracza, który ma ich najwięcej. Gracz, który posiada najmniej [punktów zwycięstwa] otrzymuje [first_player_token]." 
+	}]
+},
+{
+	"Name": "--MissingNo--",
+	"ImageName": "e20.png",
+	"MovementCat": 2,
+	"Description": "--Placeholder--",
+	"SpawnEasy": {
+		"TopLeft": 1, "TopRight": 0,
+		"BottomLeft": 0, "BottomRight": 0,
+	},
+	"SpawnHard": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 0,
+	},
+	"Effects": [{ "Type": "Effect", "Text": "--Placeholder--" }]
+}
+]
