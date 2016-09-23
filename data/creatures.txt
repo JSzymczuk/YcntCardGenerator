@@ -121,7 +121,7 @@
 		"ImageName": "m05.png",
 		
 		"HP": 	      4,
-		"Initiative": 0,
+		"Initiative": 1,
 		"Damage":     1,
 		"AttackDices": 
 		{
@@ -203,7 +203,7 @@
 		"- Matematyka jest jak kobieta - trzeba z nią rozmawiać. Co na przykład mówi panu ta całka?\n- Nie jestem taka łatwa, na jaką wyglądam?",
 		
 		"HP": 	      15,
-		"Initiative": 0,
+		"Initiative": 2,
 		"Damage":     0,
 		"AttackDices": 
 		{
@@ -497,7 +497,7 @@
 		"Jaka puszcza taki postrach. Jest przerażająca i już trochę podpita. Udawaj, że jej nie widzisz, bo jeszcze podejdzie.",
 		
 		"HP": 	      14,
-		"Initiative": 0,
+		"Initiative": 2,
 		"Damage":     0,
 		"AttackDices": 
 		{
@@ -526,7 +526,7 @@
 		Lepi się zwłaszcza do kobiet. Jeśli jesteś kobietą, nie możesz przed nim uciec.",
 		
 		"HP": 	      14,
-		"Initiative": 1,
+		"Initiative": 3,
 		"Damage":     0,
 		"AttackDices": 
 		{
@@ -639,7 +639,7 @@
 		"ImageName": "m25.png",
 		
 		"HP": 	      23,
-		"Initiative": 4,
+		"Initiative": 3,
 		"Damage":     0,
 		
 		"AttackDices": 
@@ -666,7 +666,7 @@
 		"Description": "Kawaii~~!!! (≧∇≦)/",
 		
 		"HP": 	      30,
-		"Initiative": 0,
+		"Initiative": 2,
 		"Damage":     0,
 		
 		"AttackDices": 
@@ -698,7 +698,7 @@
 		"Każdy gracz rozpoczynający walkę z tym przeciwnikiem musi podrapać za prawym uchem gracza siedzącego po jego lewej stronie.",
 		
 		"HP": 	      16,
-		"Initiative": 1,
+		"Initiative": 2,
 		"Damage":     2,
 		
 		"AttackDices": 
@@ -924,7 +924,7 @@
 		"Description": "Mądrym zwierzęciem będąc, dwurożec rozumie niechybnie, że ponad miarę w dziewictwie trwać podejrzaną i przeciwną naturze jest rzeczą.",
 		
 		"HP": 	      43,
-		"Initiative": 4,
+		"Initiative": 5,
 		"Damage":     1,
 		
 		"AttackDices": 
@@ -955,7 +955,7 @@
 		"Instynkt bierze górę nad jego łagodnym usposobieniem. Ilekroć to stworzenie rozpoczyna swoją turę, zadawane przez nie obrażenia wzrastają o 1.",
 		
 		"HP": 	      35,
-		"Initiative": 2,
+		"Initiative": 4,
 		"Damage":     0,
 		
 		"AttackDices": 
@@ -980,7 +980,7 @@
 		"ImageName": "l03.png",
 				
 		"HP": 	      33,
-		"Initiative": 2,
+		"Initiative": 3,
 		"Damage":     0,
 		
 		"AttackDices": 
@@ -1010,7 +1010,7 @@
 		"Skills": [ "Regeneracja 4" ],
 		
 		"HP": 	      20,
-		"Initiative": 0,
+		"Initiative": 2,
 		"Damage":     0,
 		
 		"AttackDices": 
@@ -1128,7 +1128,7 @@
 		],
 				
 		"HP": 	      100,
-		"Initiative": 2,
+		"Initiative": 3,
 		"Damage":     2,
 		
 		"AttackDices": 

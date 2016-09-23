@@ -57,7 +57,7 @@
 {
 	"Name": 	 "Eliksir zapomnienia",
 	"ImageName": "i08.png",
-	"Price": 	 2,
+	"Price": 	 1,
 	"Categories": ["Przedmioty zużywalne", "Eliksiry"],
 	"Description": "No stary, k***a, ze mną się nie napijesz?",
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj po dowolnym rzucie kością. Wynik tego rzutu jest nieważny. Rzucający musi przerzucić wszystkie kości, którymi wykonał rzut." }]
@@ -68,7 +68,7 @@
 	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Jeśli tak smakuje cierpienie, to warto cierpieć!",
-	"Effects": [{ "Type": "Effect", "Text": "Możesz zagrać ten przedmiot w trakcie walki, przed wykonaniem ataku. Wszyscy gracze, biorący udział w tej walce odzyskują 10 punktów wytrzymałości. Po zagraniu tej karty twoja tura walki kończy się." }]
+	"Effects": [{ "Type": "Effect", "Text": "Możesz zagrać ten przedmiot w trakcie walki, przed wykonaniem ataku. Wszyscy gracze, biorący udział w tej walce odzyskują 10 punktów wytrzymałości." }]
 },
 {
 	"Name": 	 "Zwykły fuks",
@@ -113,7 +113,7 @@
 {
 	"Name": 	 "Pedalski miecz grawerowany",
 	"ImageName": "i15.png",
-	"Price": 	 5,
+	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Broń"],
 	"Description":
 	"Nadzy miłośnicy natury hasają z nim po swoich zaklętych gajach, a wszyscy się z nich śmieją. Chociaż to raczej nie ten miecz jest tego przyczyną...",
@@ -150,7 +150,7 @@
 {
 	"Name": 	 "Dizajnerska mysz bezprzewodowa",
 	"ImageName": "i18.png",
-	"Price": 	 3,
+	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Broń"],
 	"Description":
 	"Wyśmienita precyzja, nietuzinkowy dizajn, liczne wcięcia oraz agresywny wygląd okraszony szkarłatną poświatą. Tradycjonaliści nawet na nią nie spojrzą.",
@@ -184,7 +184,7 @@
 {
 	"Name": 	 "Gumowe klapki z dziurami",
 	"ImageName": "i22.png",
-	"Price": 	 3,
+	"Price": 	 2,
 	"Categories": ["Ekwipunek", "Buty"],
 	"Effects": [	
 		{ "Type": "Effect", "Text": "Posiadacz jest pod wpływem Strach +1. " },
@@ -203,7 +203,7 @@
 {
 	"Name": 	 "Sandały turystyczne",
 	"ImageName": "i24.png",
-	"Price": 	 2,
+	"Price": 	 1,
 	"Categories": ["Ekwipunek", "Buty"],
 	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "[k6]": ["[testu otwarcia]"] }}]
 },
@@ -243,14 +243,14 @@
 	"ImageName": "i28.png",
 	"Price": 	 6,
 	"Categories": ["Ekwipunek", "Nakrycie głowy"],
-	"Effects": [{ "Type": "Effect", "Text": "Podnosi limit posiadanych punktów akcji o 2." }]
+	"Effects": [{ "Type": "Effect", "Text": "Podnosi limit posiadanych [punktów akcji] o 2." }]
 },
 {
 	"Name": 	 "Amortyzujący hełm analityczny",
 	"ImageName": "i29.png",
 	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Nakrycie głowy"],
-	"Effects": [{ "Type": "Effect", "Text": "Ilekroć posiadacz tego przedmiotu odnosi obrażenia na skutek ataku, może wydać dowolną liczbę punktów akcji. Za każde dwa wydane punkty akcji obrażenia od tego ataku zostają zmniejszone o 1." }]
+	"Effects": [{ "Type": "Effect", "Text": "Ilekroć posiadacz tego przedmiotu odnosi obrażenia na skutek ataku, może wydać dowolną liczbę [punktów akcji]. Za każde dwa wydane punkty akcji obrażenia od tego ataku zostają zmniejszone o 1." }]
 },
 {
 	"Name": 	 "Gniazdo",
@@ -266,7 +266,7 @@
 	"Price": 	 5,
 	"Categories": ["Ekwipunek", "Nakrycie głowy"],
 	"Description": "Trzeba przyznać, że bardzo inteligentnie wygląda w okularach.",
-	"Effects": [{ "Type": "Effect", "Text": "Ilekroć walka, w której bierzesz udział, kończy się zwycięstwem, pobierz 2 punkty akcji. Liczba posiadanych punktów akcji nie może być wyższa od limitu punktów akcji."}]
+	"Effects": [{ "Type": "Effect", "Text": "Ilekroć walka, w której bierzesz udział, kończy się zwycięstwem, pobierz 2 punkty akcji. Uzyskana w ten sposób liczba posiadanych [punktów akcji] może przekraczać twoją maksymalną liczbę [punktów akcji]."}]
 },
 {
 	"Name": 	 "Wybitnie przeciętna koszulka",
@@ -278,7 +278,7 @@
 {
 	"Name": 	 "Imprezowa koszulka",
 	"ImageName": "i33.png",
-	"Price": 	 6,
+	"Price": 	 5,
 	"Categories": ["Ekwipunek", "Zbroja"],
 	"Description": "Posiadacz tej relikwi uzyskuje nadnaturalną moc, która sprawia, że każdy wypity przez niego eliksir może się zwrócić następnego dnia.",
 	"Effects": [
@@ -370,27 +370,27 @@
 	"Price": 	 2,
 	"Categories": ["Ekwipunek"],
 	"Description": "Nikt na świecie nie ma takich spodni jak ja - całe fioletowe, szerokie, lalala...",
-	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "1": ["[testu otwarcia]"]}} ]
+	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "1": ["[testów inicjatywy]"]}} ]
 },
 {
 	"Name": 	 "Fluorescencyjne spodnie",
 	"ImageName": "i42.png",
 	"Price": 	 3,
 	"Categories": ["Ekwipunek"],
-	"Effects": [{ "Type": "Effect", "Text": "Za każdym razem, gdy znacznik pierwszego gracza zmienia właściciela, możesz zużyć 1 punkt akcji, aby wykonać rzut [k6]. Wynik równy 2 oznacza, że właściciel fluorescencyjnych spodni przejmuje znacznik pierwszego gracza. Posiadacz nie może korzystać z nie-ściągi ani uciec z walki." }]
+	"Effects": [{ "Type": "Effect", "Text": "Za każdym razem, gdy znacznik pierwszego gracza zmienia właściciela, możesz zużyć 2 punkty akcji, aby wykonać rzut [k6]. Wynik równy 2 oznacza, że właściciel fluorescencyjnych spodni przejmuje znacznik pierwszego gracza. Posiadacz nie może korzystać z nie-ściągi ani uciec z walki." }]
 },
 {
 	"Name": 	 "W ch** kultowy plecak typu kostka",
 	"ImageName": "i43.png",
-	"Price": 	 4,
+	"Price": 	 5,
 	"Categories": ["Ekwipunek"],
 	"Description": "Kultowy plecak o nieskończonej pojemności, czczony przez liczne subkultury młodzieżowe. Jest całkowicie niezniszczalny i występuje w kolorze czarnym, zielonym oraz czarnym i czarno-zielonym.",
-	"Effects": [{ "Type": "Effect", "Text": "Poza możliwością zapakowania do środka absolutnie wszystkiego, zapewnia posiadaczowi możliwość posiadania w ręce jednej dodatkowej karty." }]
+	"Effects": [{ "Type": "Effect", "Text": "Poza możliwością zapakowania do środka absolutnie wszystkiego, zapewnia właścicielowi możliwość posiadania w ręce dwóch dodatkowych kart." }]
 },
 {
 	"Name": 	 "Rączy rumak",
 	"ImageName": "i44.png",
-	"Price": 	 7,
+	"Price": 	 5,
 	"Categories": ["Ekwipunek"],
 	"Description": "To najlepszy wóz - najszybszy w mieście. Każdy chciałby mieć taką bestię.",
 	"Effects": [
@@ -433,7 +433,7 @@
 {
 	"Name": 	 "Intensywne perfumy piżmowe",
 	"ImageName": "i48.png",
-	"Price": 	 3,
+	"Price": 	 2,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Nigdy nie pryskaj się piżmem, kiedy idziesz do zoo.",
 	"Effects": [
@@ -444,7 +444,7 @@
 {
 	"Name": 	 "Wyciąg z frajera",
 	"ImageName": "i49.png",
-	"Price": 	 2,
+	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Stary! Co to za sikacz?",
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj na dowolnego gracza w trakcie dowolnej walki. Do końca tej walki gracz ten wykonuje [testy obrażeń] używając [k6], a żaden przedmiot nie zapewnia temu graczowi premii do zadawanych obrażeń." }]
@@ -454,7 +454,7 @@
 	"ImageName": "i50.png",
 	"Price": 	 1,
 	"Categories": ["Przedmioty zużywalne"],
-	"Effects": [{ "Type": "Effect", "Text": "Zagraj po dowolnym rzucie kością. Dodaj 2 do wyniku tego rzutu." }]
+	"Effects": [{ "Type": "Effect", "Text": "Zagraj po dowolnym rzucie kośćmi. Dodaj 2 do wyniku tego rzutu." }]
 },
 {
 	"Name": 	 "Suple spod lady",
@@ -465,18 +465,11 @@
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj tę kartę po wygranej walce, w której brałeś udział. Weź dodatkowy punkt doświadczenia." }]
 },
 {
-	"Name": 	 "Karty tarota",
-	"ImageName": "i52.png",
-	"Price": 	 1,
-	"Categories": ["Przedmioty zużywalne"],
-	"Effects": [{ "Type": "Template", "Name": "check_any_card" }]
-},
-{
 	"Name": 	 "Magiczna kula",
 	"ImageName": "i53.png",
-	"Price": 	 2,
+	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne"],
-	"Effects": [{ "Type": "Effect", "Text": "Spójrz na trzy pierwsze karty talii akcji. Wybierz jedną z nich i weź do ręki. Pozostałe dwie pokaż innym grzaczom i odrzuć je." }]
+	"Effects": [{ "Type": "Effect", "Text": "Spójrz na trzy pierwsze karty talii przedmiotów. Wybierz jedną z nich i weź do ręki. Pozostałe dwie pokaż innym grzaczom i odrzuć je." }]
 },
 {
 	"Name": 	 "Haracz dla żula",
@@ -524,10 +517,10 @@
 {
 	"Name": 	 "Frappé z pianką",
 	"ImageName": "i60.png",
-	"Price": 	 3,
+	"Price": 	 2,
 	"Categories": ["Przedmioty zużywalne", "Eliksiry"],
 	"Description": "Orzeźwia i pobudza.",
-	"Effects": [{ "Type": "Template", "Name": "draw_2_action_cards" }]
+	"Effects": [{ "Type": "Template", "Name": "restore_action_points", "Value":"2" }]
 },
 {
 	"Name": 	 "Miękki bawełniany biodegradowalny jednorazowy kocyk turbodrzemki",
@@ -548,14 +541,14 @@
 {
 	"Name": 	 "Szalik prawdziwego kibica",
 	"ImageName": "i63.png",
-	"Price": 	 3,
+	"Price": 	 4,
 	"Categories": ["Przedmioty zużywalne"],
-	"Effects": [{ "Type": "Effect", "Text": "Zabierz innemu graczowi dwa punkty akcji" }]
+	"Effects": [{ "Type": "Template", "Name": "steal_item" }]
 },
 {
 	"Name": 	 "Świnka-skarbonka",
 	"ImageName": "i64.png",
-	"Price": 	 2,
+	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne"],
 	"Effects": [{ "Type": "Template", "Name": "gain_btc", "Value": "[k6][k6][k6]" }]
 },
@@ -570,7 +563,7 @@
 {
 	"Name": 	 "Pompka do materaca",
 	"ImageName": "i66.png",
-	"Price": 	 2,
+	"Price": 	 1,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Najlepsza na kaca.",
 	"Effects": [{ "Type": "Template", "Name": "remove_poison_counters", "Value": "wszystkie" }]
@@ -603,7 +596,7 @@
 	"ImageName": "i69.png",
 	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne"],
-	"Effects": [{ "Type": "Effect", "Text": "Wyglądasz w nich bardzo pretensjonalnie i aż się prosisz o sowity wp*****l. Wszystkie stworzenia zadają ci obrażenia zwiększone o 2. Wyjątkiem jest półkobieta-półryba - ona uważa to za bardzo seksowne.\n\nMożna zagrać w dowolnym momencie poza walką na dowolnego gracza. Jeśli posiadacz chce odrzucić ten przedmiot, musi wydać punkt akcji, a następnie rzucić [k6]. Wynik równy 2 pozwala odrzucić przedmiot." }]
+	"Effects": [{ "Type": "Effect", "Text": "Wyglądasz w nich bardzo pretensjonalnie i aż się prosisz o sowity wp*****l. Wszystkie stworzenia zadają ci obrażenia zwiększone o 2. Wyjątkiem jest półkobieta-półryba - ona uważa to za bardzo seksowne.\n\nMożna zagrać w dowolnym momencie poza walką na dowolnego gracza. Jeśli posiadacz chce odrzucić ten przedmiot, musi wydać punkt akcji, a następnie rzucić [k6]. Wynik równy 0 pozwala odrzucić przedmiot." }]
 },
 {
 	"Name": 	 "Zestaw kustomowych kości",

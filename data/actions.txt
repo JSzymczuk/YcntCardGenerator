@@ -17,7 +17,7 @@
 	"Name": 	 "Firewall",
 	"ImageName": "a02.png",
 	"Points": 	 1,
-	"Effects": [{ "Type": "Effect", "Text": "Zagraj po dowolnym ataku, aby jednorazowo zignorować [k6][k6] obrażeń od tego ataku." }]
+	"Effects": [{ "Type": "Effect", "Text": "Zagraj po dowolnym ataku. Zignoruj [k6][k6] obrażeń od tego ataku, które zamiast celu otrzymuje atakujący." }]
 },
 {
 	"Name": 	 "Larwa akademicka",
@@ -26,7 +26,7 @@
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj w trakcie walki. Wybierz dowolnego uczestnika tej walki. Rzuć [k6][k6][k6]. Wybrany uczestnik traci tyle punktów wytrzymałości ile wynosi wynik rzutu (nie uwzględniając modyfikatorów od redukcji obrażeń). Wybierz innego uczestnika tej walki. Odzyskuje on tyle punktów wytrzymałości ile wynosi wynik rzutu." }]
 },
 {
-	"Name": 	 "Klasyczna kula ognia",
+	"Name": 	 "Jak słup soli",
 	"ImageName": "a04.png",
 	"Points": 	 2,
 	"Description": "Panie zajmują się robieniem herbaty, a panowie depczą im po piętach jak słup soli.",
@@ -35,20 +35,20 @@
 {
 	"Name": 	 "Iście wyśmienity buf",
 	"ImageName": "a05.png",
-	"Points": 	 3,
+	"Points": 	 4,
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj w trakcie walki. Wybrany przez ciebie uczestnik tej walki otrzymuje modyfikator +3 lub -3 do zadawanych obrażeń do końca tej walki." }]
 },
 {
 	"Name": 	 "Pieśń o Julianie i Romualdzie",
 	"ImageName": "a06.png",
-	"Points": 	 2,
+	"Points": 	 3,
 	"Effects": [{ "Type": "Effect", "Text": "Weź po 2 btc od gracza po twojej prawej i lewej stronie." }]
 },
 {
 	"Name": 	 "Śmierdź dziesięciu stóp",
 	"ImageName": "a07.png",
-	"Points": 	 2,
-	"Effects": [{ "Type": "Effect", "Text": "Zagraj w trakcie walki podczas swojej tury. Możesz zagrać tę kartę tylko, jeśli nie wykonałeś w tej rundzie żadnego innego działania. Po zagraniu tej karty nie możesz podjąć żadnego działania w tej rundzie. Każdy uczestnik walki poza używającym traci [k6][k6][k6] punktów wytrzymałości (rzuty indywidualne, do otrzymanych obrażeń nie uwzględnia się redukcji obrażeń)." }]
+	"Points": 	 3,
+	"Effects": [{ "Type": "Effect", "Text": "Każdy uczestnik walki poza używającym traci [k6][k6][k6] punktów wytrzymałości (rzuty indywidualne, do otrzymanych obrażeń nie uwzględnia się redukcji obrażeń)." }]
 },
 {
 	"Name": 	 "Unik z gracją delfina",
@@ -59,7 +59,7 @@
 {
 	"Name": 	 "Krejzolowy kręciołek",
 	"ImageName": "a09.png",
-	"Points": 	 1,
+	"Points": 	 2,
 	"Effects": [{ "Type": "Effect", "Text": "Przesuń znacznik pierwszego gracza o dwa miejsca przeciwnie do ruchu wskazówek zegara." }]
 },
 {
@@ -84,13 +84,13 @@
 	"Name": 	 "Strzał prosto w serce",
 	"ImageName": "a13.png",
 	"Points": 	 5,
-	"Effects": [{ "Type": "Effect", "Text": "Zagraj w trakcie swojej tury w walce. Rzuć [k6]. Wynik większy od 0 oznacza, że wybrany uczestnik walki umiera." }]
+	"Effects": [{ "Type": "Effect", "Text": "Zagraj w trakcie swojej tury w walce. Rzuć [k6]. Wynik mniejszy od 2 oznacza, że wybrany uczestnik walki umiera." }]
 },
 {
 	"Name": 	 "Czar z tablicy charów",
 	"ImageName": "a14.png",
-	"Points": 	 1,
-	"Effects": [{ "Type": "Effect", "Text": "Dobierz dwie karty akcji, a następnie odrzuć kartę z ręki." }]
+	"Points": 	 2,
+	"Effects": [{ "Type": "Effect", "Text": "Dobierz dwie karty przedmiotu, a następnie odrzuć kartę z ręki." }]
 },
 {
 	"Name": 	 "Nikt nie przejdzie",
@@ -132,7 +132,7 @@
 	"ImageName": "a20.png",
 	"Points": 	 2,
 	"Description": "Hop! Hop! Hop!",
-	"Effects": [{ "Type": "Effect", "Text": "Zagraj w dowolnym momencie w trakcie walki. Wszyscy gracze niepobierający nauk w SGH otrzymują modyfikator +2 do [zadawanych obrażeń] do zakończenia rundy." }]
+	"Effects": [{ "Type": "Effect", "Text": "Zagraj w dowolnym momencie w trakcie walki. Wszyscy gracze niepobierający nauk w SGH jednorazowo otrzymują modyfikator +2 do [zadawanych obrażeń]." }]
 },
 {
 	"Name": 	 "Otóż nie.",
@@ -150,7 +150,7 @@
 	"Name": 	 "Chytra baba",
 	"ImageName": "a23.png",
 	"Points": 	 4,
-	"Effects": [{ "Type": "Effect", "Text": "Zagraj poza walką. Weź kartę z ekwipunku dowolnego gracza i umieść ją w swoim ekwipunku." }]
+	"Effects": [{ "Type": "Template", "Name": "steal_item" }]
 },
 {
 	"Name": 	 "Refleksja",
@@ -162,7 +162,7 @@
 {
 	"Name": 	 "Na dywaniku u dziekana",
 	"ImageName": "a25.png",
-	"Points": 	 1,
+	"Points": 	 2,
 	"Effects": [{ "Type": "Effect", "Text": "Przesuń znacznik pierwszego gracza o dwa miejsca zgodnie z ruchem wskazówek zegara." }]
 },
 {
@@ -174,14 +174,14 @@
 {
 	"Name": 	 "Wymiana ekwipunku",
 	"ImageName": "a27.png",
-	"Points": 	 3,
+	"Points": 	 2,
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj poza walką. Wybierz przedmiot z ekwipunku wybranego gracza i wymień z przedmiotem z twojego ekwipunku. Ofiarowany graczowi przedmiot nie może spowodować odrzucenia przedmiotu z jego ekwipunku." }]
 },
 {
 	"Name": 	 "Strzyżenie w Feniksie",
 	"ImageName": "a28.png",
 	"Points": 	 3,
-	"Effects": [{ "Type": "Effect", "Text": "Zagraj poza walką na dowolnego gracza. Gracz ten do końca tej tury jest pod wpływem Strach +2. Gracz ten otrzymuje znacznik pierwszego gracza." }]
+	"Effects": [{ "Type": "Effect", "Text": "Zagraj poza walką na dowolnego gracza. Gracz ten do końca tego semestru jest pod wpływem Strach +2. Gracz ten otrzymuje znacznik pierwszego gracza." }]
 },
 {
 	"Name": 	 "Przerwa technologiczna",
@@ -199,7 +199,7 @@
 {
 	"Name": 	 "Sokoli wzrok",
 	"ImageName": "a31.png",
-	"Points": 	 4,
+	"Points": 	 3,
 	"Description": "Cholera, co za gówno, chciałem mistrzostwo magii powietrza...",
 	"Effects": [{ "Type": "Effect", "Text": "Obejrzyj karty z ręki jednego z pozostałych graczy. Wybierz jedną z tych kart i umieść ją w swojej ręce." }]
 },
@@ -220,8 +220,7 @@
 {
 	"Name": 	 "Na ratunek matce przełożonej",
 	"ImageName": "a34.png",
-	"Points": 	 1,
-	"Description": "Nigdy się nie nauczą...",
+	"Points": 	 3,
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj poza walką. Weź kartę przedmiotu albo [k6][k6] btc." }]
 },
 {

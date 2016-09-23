@@ -2,7 +2,7 @@
 {
 	"Name": "Półmartwy",
 	"ImageName": "o01.png",
-	"VictoryPts":  3,
+	"VictoryPts":  2,
 	"Condition": { "Type": "Effect", "Text": "Zgiń 4 razy." }
 },
 {

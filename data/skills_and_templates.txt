@@ -49,7 +49,7 @@
 	},
 	{
 		"Name": "ask_help",
-		"Text": "Zagraj w trakcie swojej tury w walce. Możesz poprosić o pomoc w walce gracza, który nie znajduje się na przylegającym polu."
+		"Text": "Zagraj w trakcie swojej tury w walce. Możesz zmusić do pomocy w walce dowolnego gracza."
 	},
 	{
 		"Name": "prevent_action",
@@ -98,6 +98,10 @@
 	{
 		"Name": "defeat_enemy_type",
 		"Text": "Pokonaj 2 stworzenia będące {0}."
+	},
+	{
+		"Name": "steal_item",
+		"Text": "Zagraj poza walką. Weź kartę z ekwipunku dowolnego gracza i umieść ją w swoim ekwipunku."
 	},
 	{
 		"Name": "spawn_order_info",
