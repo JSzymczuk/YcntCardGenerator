@@ -67,7 +67,7 @@
 	"Name": "Antyczna kanapka sprzed tygodnia",
 	"Tag":  "spożywcze",
 	
-	"ImageName": "m03.png",	
+	"ImageName": "",	
 	
 	"HP": 	      6,
 	"Initiative": 1,
@@ -256,7 +256,7 @@
 	"ID":		 "c10",
 	"Name": 	 "Roztargniony profesor",
 	"Tag":  	 "zmora studenta",		
-	"ImageName": "m10.png",
+	"ImageName": "",
 	
 	"HP": 	      18,
 	"Initiative": 1,
@@ -911,7 +911,7 @@
 	"ID":		 "c34",
 	"Name": 	 "Chochoł",
 	"Tag":  	 "konstrukt",		
-	"ImageName": "m34.png",
+	"ImageName": "m42_chochol.png",
 	
 	"Description": "Miałeś, chamie, złoty róg, ostał ci się ino sznur.",
 	
