@@ -9,7 +9,7 @@
 	},
 	{
 		"Name": "enemy_busy",
-		"Text": "Wybrane stworzenie nie może podjąć żadnego działania w swojej najbliższej rundzie."
+		"Text": "Wybrane stworzenie nie może podjąć żadnego działania w swojej najbliższej turze."
 	},
 	{
 		"Name": "move_enemy",
@@ -54,6 +54,10 @@
 	{
 		"Name": "prevent_action",
 		"Text": "Zagraj tę kartę od razu po zagraniu karty akcji przez dowolnego gracza. Efekt tej karty jest unieważniony."
+	},	
+	{
+		"Name": "prevent_action_item_skill",
+		"Text": "Zagraj tę kartę od razu po zagraniu karty akcji, przedmiotu zużywalnego lub po użyciu aktywnej zdolności przez dowolnego z graczy. Efekt karty lub zdolności jest unieważniony."
 	},
 	{
 		"Name": "insane_enemy_boost",
@@ -97,7 +101,7 @@
 	},
 	{
 		"Name": "defeat_enemy_type",
-		"Text": "Pokonaj 2 stworzenia będące {0}."
+		"Text": "Pokonaj stworzenie będące {0}."
 	},
 	{
 		"Name": "steal_item",

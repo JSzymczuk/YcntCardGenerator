@@ -1,7 +1,12 @@
 [
 {
+	"ID":		 "a01",
 	"Name": 	 "Klasyczna kula ognia",
-	"ImageName": "a01.png",
+	"ImageName": "a01_klasyczna_kula_ognia.png",
+		
+	"NeedUpdate": true,
+	"Comment":	  "Podobno efekt jest niejasny",
+	
 	"Points": 	 1,
 	"Description": "Klasycznie wali ogniem.",
 	"Effects": [
@@ -14,112 +19,133 @@
 	]
 },
 {
+	"ID":		 "a02",
 	"Name": 	 "Firewall",
-	"ImageName": "a02.png",
+	"ImageName": "a02_firewall.png",
 	"Points": 	 1,
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj po dowolnym ataku. Zignoruj [k6][k6] obrażeń od tego ataku, które zamiast celu otrzymuje atakujący." }]
 },
 {
+	"ID":		 "a03",
 	"Name": 	 "Larwa akademicka",
-	"ImageName": "a03.png",
+	"ImageName": "a03_larwa_akademicka.png",
 	"Points": 	 2,
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj w trakcie walki. Wybierz dowolnego uczestnika tej walki. Rzuć [k6][k6][k6]. Wybrany uczestnik traci tyle punktów wytrzymałości ile wynosi wynik rzutu (nie uwzględniając modyfikatorów od redukcji obrażeń). Wybierz innego uczestnika tej walki. Odzyskuje on tyle punktów wytrzymałości ile wynosi wynik rzutu." }]
 },
 {
+	"ID":		 "a04",
 	"Name": 	 "Jak słup soli",
-	"ImageName": "a04.png",
-	"Points": 	 2,
+	"ImageName": "a04_jak_slup_soli.png",
+	"Points": 	 1,
 	"Description": "Panie zajmują się robieniem herbaty, a panowie depczą im po piętach jak słup soli.",
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj na dowolne stworzenie przed fazą ruchu stworzeń. To stworzenie nie porusza się w trakcie tego semestru. Odrzuć tę kartę po zakończeniu fazy ruchu stworzeń." }]
 },
 {
+	"ID":		 "a05",
 	"Name": 	 "Iście wyśmienity buf",
-	"ImageName": "a05.png",
+	"ImageName": "a05_iscie_wysmienity_buf.png",
 	"Points": 	 4,
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj w trakcie walki. Wybrany przez ciebie uczestnik tej walki otrzymuje modyfikator +3 lub -3 do zadawanych obrażeń do końca tej walki." }]
 },
 {
+	"ID":		 "a06",
 	"Name": 	 "Pieśń o Julianie i Romualdzie",
-	"ImageName": "a06.png",
+	"ImageName": "a06_piesn_o_julianie_i_romualdzie.png",
 	"Points": 	 3,
 	"Effects": [{ "Type": "Effect", "Text": "Weź po 2 btc od gracza po twojej prawej i lewej stronie." }]
 },
 {
+	"ID":		 "a07",
 	"Name": 	 "Śmierdź dziesięciu stóp",
-	"ImageName": "a07.png",
+	"ImageName": "a07_smierdz_dziesieciu_stop.png",
 	"Points": 	 3,
 	"Effects": [{ "Type": "Effect", "Text": "Każdy uczestnik walki poza używającym traci [k6][k6][k6] punktów wytrzymałości (rzuty indywidualne, do otrzymanych obrażeń nie uwzględnia się redukcji obrażeń)." }]
 },
 {
+	"ID":		 "a08",
 	"Name": 	 "Unik z gracją delfina",
-	"ImageName": "a08.png",
+	"ImageName": "a08_unik_z_gracja_delfina.png",
 	"Points": 	 2,
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj na wybraną jednostkę po dowolnym ataku. Jednostka ta nie otrzymuje obrażeń od tego ataku." }]
 },
 {
+	"ID":		 "a09",
 	"Name": 	 "Krejzolowy kręciołek",
-	"ImageName": "a09.png",
+	"ImageName": "a09_krejzolowy_kreciolek.png",
 	"Points": 	 2,
 	"Effects": [{ "Type": "Effect", "Text": "Przesuń znacznik pierwszego gracza o dwa miejsca przeciwnie do ruchu wskazówek zegara." }]
 },
 {
+	"ID":		 "a10",
 	"Name": 	 "Co się ma marnować?",
-	"ImageName": "a10.png",
+	"ImageName": "a10_co_sie_ma_marnowac.png",
 	"Points": 	 3,
 	"Effects": [{ "Type": "Effect", "Text": "Weź kartę znajdującą się na szczycie stosu odrzuconych przedmiotów." }]
 },
 {
+	"ID":		 "a11",
 	"Name": 	 "Rozrewolwerowany rewolwerowiec",
-	"ImageName": "a11.png",
+	"ImageName": "a11_rozrewolwerowany_rewolwerowiec.png",
 	"Points": 	 3,
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj na dowolnego gracza podczas walki. Gracz ten nie otrzymuje premii od swojego ekwipunku w trakcie tej walki." }]
 },
 {
+	"ID":		 "a12",
 	"Name": 	 "Zbiorowa praktyczna inżynieria biomedyczna",
-	"ImageName": "a12.png",
+	"ImageName": "a12_zbiorowa_praktyczna_inzynieria_biomedyczna.png",
 	"Points": 	 1,
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj w trakcie dowolnej walki. Każdy uczestnik tej walki odzyskuje [k6][k6][k6][k6] punktów wytrzymałości (rzuty indywidualne)." }]
 },
 {
+	"ID":		 "a13",
 	"Name": 	 "Strzał prosto w serce",
-	"ImageName": "a13.png",
+	"ImageName": "a13_strzal_prosto_w_serce.png",
 	"Points": 	 5,
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj w trakcie swojej tury w walce. Rzuć [k6]. Wynik mniejszy od 2 oznacza, że wybrany uczestnik walki umiera." }]
 },
 {
+	"ID":		 "a14",
 	"Name": 	 "Czar z tablicy charów",
-	"ImageName": "a14.png",
+	"ImageName": "a14_czar_z_tablicy_charow_2.png",
 	"Points": 	 2,
 	"Effects": [{ "Type": "Effect", "Text": "Dobierz dwie karty przedmiotu, a następnie odrzuć kartę z ręki." }]
 },
 {
+	"ID":		 "a15",
 	"Name": 	 "Nikt nie przejdzie",
-	"ImageName": "a15.png",
+	"ImageName": "a15_nikt_nie_przejdzie.png",
 	"Points": 	 3,
 	"Description": "- YOU SHALL NOT PASS!!!\n- Stary, rusz dupę!",
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj tę kartę w dowolnym momencie i połóż ją na wybranym polu na planszy. Żaden z graczy ani żadne stworzenie nie może wejść na to pole w tej turze. Na początku następnej tury odrzuć tę kartę." }]
 },
 {
+	"ID":		 "a16",
 	"Name": 	 "Wpadnięcie do kociołka",
-	"ImageName": "a16.png",
+	"ImageName": "a16_wpadniecie_do_kociolka.png",
 	"Points": 	 3,
-	"Effects": [{ "Type": "Effect", "Text": "Zagraj w trakcie walki. Wybrany przez ciebie uczestnik tej walki otrzymuje dodatkowe [r6] przy wszystkich [testach obrażeń] do zakończenia tej walki." }]
+	"Effects": [{ "Type": "Effect", "Text": "Zagraj w trakcie walki. Wybrany przez ciebie uczestnik tej walki otrzymuje dodatkowe [r6] przy wszystkich [testach obrażeń] aż do jej zakończenia." }]
 },
 {
+	"ID":		 "a17",
 	"Name": 	 "Patrz tam!",
-	"ImageName": "a17.png",
+	"ImageName": "a17_popatrz_tam.png",
 	"Points": 	 2,
-	"Effects": [{ "Type": "Template", "Name": "enemy_busy" }]
+	"Effects": [
+		{ "Type": "Effect", "Text": "Zagraj w trakcie walki. " },
+		{ "Type": "Template", "Name": "enemy_busy" }
+	]
 },
 {
+	"ID":		 "a18",
 	"Name": 	 "Atak grupowy",
-	"ImageName": "a18.png",
+	"ImageName": "a18_atak_grupowy.png",
 	"Points": 	 1,
 	"Effects": [{ "Type": "Template", "Name": "ask_help" }]
 },
 {
+	"ID":		 "a19",
 	"Name": 	 "Przynęta na kaszaloty",
-	"ImageName": "a19.png",
+	"ImageName": "a19_wabienie_kaszalotow.png",
 	"Points": 	 2,
 	"Description": "Prażynek się zachciało? To teraz odpędzaj te bestie!",
 	"Effects": [
@@ -128,143 +154,166 @@
 	]
 },
 {
+	"ID":		 "a20",
 	"Name": 	 "Kto nie skacze ten z es-gie-chu",
-	"ImageName": "a20.png",
+	"ImageName": "a20_kto_nie_skacze_ten_sesgiechu.png",
 	"Points": 	 2,
 	"Description": "Hop! Hop! Hop!",
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj w dowolnym momencie w trakcie walki. Wszyscy gracze niepobierający nauk w SGH jednorazowo otrzymują modyfikator +2 do [zadawanych obrażeń]." }]
 },
 {
+	"ID":		 "a21",
 	"Name": 	 "Otóż nie.",
-	"ImageName": "a21.png",
+	"ImageName": "a21_otoz_nie.png",
 	"Points": 	 3,
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj tę kartę od razu po odkryciu karty wydarzenia. Odrzuć tę kartę wydarzenia i weź następną." }]
 },
 {
+	"ID":		 "a22",
 	"Name": 	 "Zamknij mordę!",
-	"ImageName": "a22.png",
+	"ImageName": "a22_zamknij_morde.png",
 	"Points": 	 2,
-	"Effects": [{ "Type": "Template", "Name": "prevent_action" }]
+	"Effects": [{ "Type": "Template", "Name": "prevent_action_item_skill" }]
 },
 {
+	"ID":		 "a23",
 	"Name": 	 "Chytra baba",
-	"ImageName": "a23.png",
+	"ImageName": "a24_chytra_baba.png",
 	"Points": 	 4,
 	"Effects": [{ "Type": "Template", "Name": "steal_item" }]
 },
 {
+	"ID":		 "a24",
 	"Name": 	 "Refleksja",
-	"ImageName": "a24.png",
+	"ImageName": "a25_refleksja.png",
 	"Points": 	 2,
 	"Description": "Co ja zrobiłem ze swoim życiem?",
 	"Effects": [{ "Type": "Template", "Name": "change_objectives", "Value": 2 }]
 },
 {
+	"ID":		 "a25",
 	"Name": 	 "Na dywaniku u dziekana",
-	"ImageName": "a25.png",
+	"ImageName": "a26_na_dywaniku_u_dziekana.png",
 	"Points": 	 2,
 	"Effects": [{ "Type": "Effect", "Text": "Przesuń znacznik pierwszego gracza o dwa miejsca zgodnie z ruchem wskazówek zegara." }]
 },
 {
+	"ID":		 "a26",
 	"Name": 	 "Osaczony",
-	"ImageName": "a26.png",
+	"ImageName": "a27_osaczony.png",
 	"Points": 	 2,
 	"Effects": [{ "Type": "Effect", "Text": "Z tej walki nie można uciec ani nie można uzyskać pomocy." }]
 },
 {
+	"ID":		 "a27",
 	"Name": 	 "Wymiana ekwipunku",
-	"ImageName": "a27.png",
+	"ImageName": "a28_wymiana_ekwipunku.png",
 	"Points": 	 2,
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj poza walką. Wybierz przedmiot z ekwipunku wybranego gracza i wymień z przedmiotem z twojego ekwipunku. Ofiarowany graczowi przedmiot nie może spowodować odrzucenia przedmiotu z jego ekwipunku." }]
 },
 {
+	"ID":		 "a28",
 	"Name": 	 "Strzyżenie w Feniksie",
-	"ImageName": "a28.png",
+	"ImageName": "a29_strzyzenie_w_feniksie.png",
 	"Points": 	 3,
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj poza walką na dowolnego gracza. Gracz ten do końca tego semestru jest pod wpływem Strach +2. Gracz ten otrzymuje znacznik pierwszego gracza." }]
 },
 {
+	"IsDeleted": true,
+	"ID":		 "a29",
 	"Name": 	 "Przerwa technologiczna",
-	"ImageName": "a29.png",
+	"ImageName": "a30_przerwa_technologiczna.png",
 	"Points": 	 2,
 	"Description": "W dniu dzisiejszym dziekanat nieczynny.",
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj tę kartę w dowolnym momencie i połóż ją na wybranym polu na planszy. Żaden z graczy nie może podjąć żadnej akcji związanej z tym polem w tej turze. Na początku następnej tury odrzuć tę kartę." }]
 },
 {
+	"ID":		 "a30",
 	"Name": 	 "Ja tylko na chwilę",
-	"ImageName": "a30.png",
+	"ImageName": "a31_ja_tylko_na_chwile.png",
 	"Points": 	 4,
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj na gracza ze znacznikiem pierwszego gracza. Odbierz temu graczowi znacznik pierwszego gracza." }]
 },
 {
+	"ID":		 "a31",
 	"Name": 	 "Sokoli wzrok",
-	"ImageName": "a31.png",
+	"ImageName": "a32_sokoli_wzrok.png",
 	"Points": 	 3,
 	"Description": "Cholera, co za gówno, chciałem mistrzostwo magii powietrza...",
 	"Effects": [{ "Type": "Effect", "Text": "Obejrzyj karty z ręki jednego z pozostałych graczy. Wybierz jedną z tych kart i umieść ją w swojej ręce." }]
 },
 {
+	"ID":		 "a32",
 	"Name": 	 "Miękkie lądowanie",
-	"ImageName": "a32.png",
+	"ImageName": "a33_miekkie_ladowanie.png",
 	"Points": 	 0,
 	"Description": "Nigdy się nie nauczą...",
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj po śmierci, aby uniknąć związanych z nią konsekwencji." }]
 },
 {
+	"ID":		 "a33",
 	"Name": 	 "Podanie odrzucone",
-	"ImageName": "a33.png",
+	"ImageName": "a34_podanie_odrzucone.png",
 	"Points": 	 2,
 	"Description": "Odmowa. Poprawka ma być długa i męcząca. Robicie listy obecności na wykładach, do tego kolokwia co zajęcia, egzaminy ustne, zaliczenia od 80%. Doktorze, weźmiesz trzysta pytań... wielokrotny wybór... sześć odpowiedzi, a żadna nie będzie poprawna. Masz ich uwalić, mogą być punkty ujemne.",
-	"Effects": [{ "Type": "Template", "Name": "prevent_action" }]
+	"Effects": [{ "Type": "Template", "Name": "prevent_action_item_skill" }]
 },
 {
+	"ID":		 "a34",
 	"Name": 	 "Na ratunek matce przełożonej",
-	"ImageName": "a34.png",
-	"Points": 	 3,
+	"ImageName": "a35_na_ratunek_matce_przeoryszy.png",
+	"Points": 	 2,
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj poza walką. Weź kartę przedmiotu albo [k6][k6] btc." }]
 },
 {
+	"ID":		 "a35",
 	"Name": 	 "Telefon w rękawie",
-	"ImageName": "a35.png",
+	"ImageName": "a36_telefon_w_rekawie.png",
 	"Points": 	 1,
 	"Description": "Wersja dla profesjonalistów: kamera w brodzie.",
 	"Effects": [{ "Type": "Template", "Name": "ask_help" }]
 },
 {
+	"ID":		 "a36",
 	"Name": 	 "Spóźniony na egzamin",
-	"ImageName": "a36.png",
+	"ImageName": "a37_spozniony_na_egzamin.png",
 	"Points": 	 1,
 	"Description": "- Można jeszcze?\n- Pan siada. ",
 	"Effects": [{ "Type": "Effect", "Text": "Przyłącz się do dowolnej walki." }]
 },
 {
+	"ID":		 "a37",
 	"Name": 	 "Mutacja",
-	"ImageName": "a37.png",
+	"ImageName": "a38_mutacja.png",
 	"Points": 	 4,
 	"Effects": [{ "Type": "Template", "Name": "insane_enemy_boost", "Value": "dodatkowe [r6][r6] podczas [testów obrażeń]" }]
 },
 {
+	"ID":		 "a38",
 	"Name": 	 "Poranny oddech",
-	"ImageName": "a38.png",
+	"ImageName": "a39_poranny_oddech.png",
 	"Points": 	 4,
 	"Effects": [{ "Type": "Template", "Name": "insane_enemy_boost", "Value": "dodatkowe [g6][g6] podczas [testów obrażeń]" }]
 },
 {
+	"ID":		 "a39",
 	"Name": 	 "Autostop",
-	"ImageName": "a39.png",
+	"ImageName": "a41_autostop.png",
 	"Points": 	 3,
 	"Effects": [{ "Type": "Template", "Name": "teleport" }]
 },
 {
+	"ID":		 "a40",
 	"Name": 	 "Przypływ optymizmu",
-	"ImageName": "a40.png",
+	"ImageName": "",
 	"Points": 	 4,
 	"Description": "Będzie dobrze.",
 	"Effects": [{ "Type": "Template", "Name": "lower_panic" }]
 },
 {
+	"ID":		 "a41",
 	"Name": 	 "Wcale nie jestem jeszcze pijany",
-	"ImageName": "a41.png",
+	"ImageName": "",
 	"Points": 	 2,
 	"Effects": [{ "Type": "Template", "Name": "remove_poison_counters", "Value": "wszystkie" }]
 }

@@ -8,6 +8,13 @@
 
 	"ResultFileName": "cards.docx",
 	"AutoOpen": 	  true,
+	
+	"IncludeAllEvents": 	true,
+	"IncludeAllCreatures":  true,
+	"IncludeAllItems": 	    true,
+	"IncludeAllActions": 	true,
+	"IncludeAllObjectives": true,
+	"IncludeIds": 			"",
 
 	"MarginTop":	40.0,
 	"MarginRight":	40.0,
@@ -34,10 +41,10 @@
 	"ActionNameAlignment":  0,
 	"EventNameAlignment":   0,
 
-	"SymbolFont": "Segoe UI Symbol",
-	"FootRPath": "img/foot_R.png",
-	"FootGPath": "img/foot_G.png",
-	"FootBPath": "img/foot_B.png",
+	"SymbolFont": 	"Segoe UI Symbol",
+	"FootRPath": 	"img/foot_R.png",
+	"FootGPath": 	"img/foot_Y.png",
+	"FootBPath": 	"img/foot_B.png",
 	"MvtFootHeight":    16,
 	"MvtFootWidth":     11,
 	"MvtCatColWidth":   450.0,
@@ -96,7 +103,7 @@
 		"[punktom zwycięstwa]": "punktom zwycięstwa",
 		
 		"[punktów wytrzymałości]": "punktów wytrzymałości",	
-		"[punkt doświadczenia]": "punkt doświadczenia",		
+		"[punkt doświadczenia]":   "punkt doświadczenia",		
 		
 		"[zadawanych obrażeń]": "zadawanych obrażeń",
 		"[testu obrażeń]": 		"testu obrażeń",
@@ -118,9 +125,9 @@
 		"[first_player_token]": "znacznik starosty",
 		"[First_player_token]": "Znacznik starosty",
 		
-		"[zdolność]":    "zdolność",
-		"[Infekcja +1]": "Infekcja +1",
-		"[Strach +2]": "Strach +2",
+		"[zdolność]":        "zdolność",
+		"[Infekcja +1]":     "Infekcja +1",
+		"[Strach +2]":       "Strach +2",
 		"[Twarda skóra +2]": "Twarda skóra +2",		
 		
 		"[for_this_semester]": "na czas semestru",

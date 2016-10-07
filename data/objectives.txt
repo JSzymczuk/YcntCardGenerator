@@ -1,43 +1,45 @@
 [
 {
+	"IsDeleted": true,
+	"Id": 		 "o01",
 	"Name": "Półmartwy",
-	"ImageName": "o01.png",
 	"VictoryPts":  2,
 	"Condition": { "Type": "Effect", "Text": "Zgiń 4 razy." }
 },
 {
 	"Name": "Weterynarz",
-	"ImageName": "o02.png",
+	"Id": "o02",
 	"VictoryPts":  1,
 	"Condition": { "Type": "Effect", "Text": "Pokonaj dowolne stworzenie w Klinice małych bestii." }
 },
 {
 	"Name": "Pierdolony wiedźmin",
-	"ImageName": "o03.png",
-	"VictoryPts":  3,
+	"Id": "o03",
+	"VictoryPts":  2,
 	"Condition": { "Type": "Effect", "Text": "Samotnie pokonaj przynajmniej dwa stworzenia podczas jednej walki." }
 },
 {
 	"Name": "Obrońca",
-	"ImageName": "o04.png",
+	"Id": "o04",
 	"VictoryPts":  3,
 	"Condition": { "Type": "Template", "Name": "defeat_on_certain_type", "Value": "przyległych do Centrum wszechświata" }
 },
 {
 	"Name": "Strażnik rubieży",
-	"ImageName": "o05.png",
+	"Id": "o05",
 	"VictoryPts":  3,
 	"Condition": { "Type": "Template", "Name": "defeat_on_certain_type", "Value": "na obrzeżu planszy" }
 },
 {
 	"Name": "Skacowany",
-	"ImageName": "o06.png",
+	"Id": "o06",
 	"VictoryPts": 2,
-	"Condition": { "Type": "Effect", "Text": "Po wygranej walce na postaci gracza znajduje się przynajmniej 3 znaczników zatrucia." }
+	"Condition": { "Type": "Effect", "Text": "Po wygranej walce na postaci gracza znajdują się przynajmniej 3 [znaczniki zatrucia]." }
 },
 {
+	"NeedUpdate": true,
 	"Name": "Żywiołak porażki",
-	"ImageName": "o07.png",
+	"Id": "o07",
 	"VictoryPts": 3,
 	"Condition": { 
 		"Type": "Template", 
@@ -48,8 +50,9 @@
 	]}
 },
 {
+	"NeedUpdate": true,
 	"Name": "Underachiever",
-	"ImageName": "o08.png",
+	"Id": "o08",
 	"VictoryPts": 3,
 		"Condition": { 
 		"Type": "Template", 
@@ -61,7 +64,7 @@
 },
 {
 	"Name": "Geniusz",
-	"ImageName": "o09.png",
+	"Id": "o09",
 	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
@@ -71,7 +74,7 @@
 },
 {
 	"Name": "Spryciarz",
-	"ImageName": "o10.png",
+	"Id": "o10",
 	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
@@ -81,14 +84,14 @@
 },
 {
 	"Name": "Bogacz",
-	"ImageName": "o11.png",
+	"Id": "o11",
 	"VictoryPts":  2,
 	"Condition": { "Type": "Effect", "Text": "Zdobądź 20 btc." }
 },
 {
 	"Name": "Korepetytor",
-	"ImageName": "o12.png",
-	"VictoryPts": 2,
+	"Id": "o12",
+	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "deliver_item", 
@@ -97,8 +100,8 @@
 },
 {
 	"Name": "Droid",
-	"ImageName": "o13.png",
-	"VictoryPts": 2,
+	"Id": "o13",
+	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "deliver_item", 
@@ -107,7 +110,7 @@
 },
 {
 	"Name": "Szaman",
-	"ImageName": "o14.png",
+	"Id": "o14",
 	"VictoryPts": 2,
 	"Condition": { 
 		"Type": "Template", 
@@ -117,8 +120,8 @@
 },
 {
 	"Name": "Finansista",
-	"ImageName": "o15.png",
-	"VictoryPts": 2,
+	"Id": "o15",
+	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "deliver_item", 
@@ -127,7 +130,7 @@
 },
 {
 	"Name": "Biomanta",
-	"ImageName": "o16.png",
+	"Id": "o16",
 	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
@@ -137,7 +140,7 @@
 },
 {
 	"Name": "Urzędnik",
-	"ImageName": "o17.png",
+	"Id": "o17",
 	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
@@ -147,7 +150,7 @@
 },
 {
 	"Name": "Uczony",
-	"ImageName": "o18.png",
+	"Id": "o18",
 	"VictoryPts":  1,
 	"Condition": { 
 		"Type": "Template", 
@@ -157,7 +160,7 @@
 },
 {
 	"Name": "Odkrywca",
-	"ImageName": "o19.png",
+	"Id": "o19",
 	"VictoryPts":  1,
 	"Condition": { 
 		"Type": "Template", 
@@ -167,8 +170,8 @@
 },
 {
 	"Name": "Inwestor",
-	"ImageName": "o20.png",
-	"VictoryPts": 2,
+	"Id": "o20",
+	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "discard_on", 
@@ -177,8 +180,8 @@
 },
 {
 	"Name": "Działkowiec",
-	"ImageName": "o21.png",
-	"VictoryPts": 2,
+	"Id": "o21",
+	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "discard_on", 
@@ -187,8 +190,8 @@
 },
 {
 	"Name": "Szczodry",
-	"ImageName": "o22.png",
-	"VictoryPts": 2,
+	"Id": "o22",
+	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "discard_on", 
@@ -197,8 +200,8 @@
 },
 {
 	"Name": "Hodowca",
-	"ImageName": "o23.png",
-	"VictoryPts": 2,
+	"Id": "o23",
+	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "discard_on", 
@@ -207,7 +210,7 @@
 },
 {
 	"Name": "Hobbit",
-	"ImageName": "o24.png",
+	"Id": "o24",
 	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
@@ -217,20 +220,21 @@
 },
 {
 	"Name": "Zdrajca",
-	"ImageName": "o25.png",
+	"Id": "o25",
 	"VictoryPts": 2,
 	"Condition": { "Type": "Effect", "Text": "Jako jedyny skutecznie przeszkodź w walce innemu graczowi, który w jej wyniku zginie." }
 },
 {
+	"NeedUpdate": true,
 	"Name": "Tchórz",
-	"ImageName": "o26.png",
+	"Id": "o26",
 	"VictoryPts": 1,
 	"Condition": { "Type": "Effect", "Text": "Skutecznie ucieknij z walki." }
 },
 {
 	"Name": "Imprezowicz",
-	"ImageName": "o27.png",
-	"VictoryPts": 1,
+	"Id": "o27",
+	"VictoryPts": 2,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "collect_set", 
@@ -244,8 +248,8 @@
 },
 {
 	"Name": "Metal",
-	"ImageName": "o28.png",
-	"VictoryPts": 1,
+	"Id": "o28",
+	"VictoryPts": 2,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "collect_set", 
@@ -259,8 +263,8 @@
 },
 {
 	"Name": "Dresiarz",
-	"ImageName": "o29.png",
-	"VictoryPts": 1,
+	"Id": "o29",
+	"VictoryPts": 2,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "collect_set", 
@@ -274,8 +278,8 @@
 },
 {
 	"Name": "Turbonerd",
-	"ImageName": "o30.png",
-	"VictoryPts": 1,
+	"Id": "o30",
+	"VictoryPts": 2,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "collect_set", 
@@ -289,8 +293,8 @@
 },
 {
 	"Name": "Arcymag",
-	"ImageName": "o31.png",
-	"VictoryPts": 1,
+	"Id": "o31",
+	"VictoryPts": 2,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "collect_set", 
@@ -304,8 +308,8 @@
 },
 {
 	"Name": "Elficki Mistrz Cieni",
-	"ImageName": "o32.png",
-	"VictoryPts": 1,
+	"Id": "o32",
+	"VictoryPts": 2,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "collect_set", 
@@ -319,8 +323,8 @@
 },
 {
 	"Name": "Wojownik",
-	"ImageName": "o33.png",
-	"VictoryPts": 1,
+	"Id": "o33",
+	"VictoryPts": 2,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "collect_set", 
@@ -334,8 +338,8 @@
 },
 {
 	"Name": "Turysta",
-	"ImageName": "o34.png",
-	"VictoryPts": 1,
+	"Id": "o34",
+	"VictoryPts": 2,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "collect_set", 
@@ -349,115 +353,114 @@
 },
 {
 	"Name": "Kolekcjoner",
-	"ImageName": "o35.png",
-	"VictoryPts": 1,
+	"Id": "o35",
+	"VictoryPts": 2,
 	"Condition": { "Type": "Effect", "Text": "Skompletuj i wyposaż broń, zbroję, nakrycie głowy oraz buty." }
 },
 {
 	"Name": "Pogromca mend",
-	"ImageName": "o36.png",
-	"VictoryPts": 3,
+	"Id": "o36",
+	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "defeat_enemy_type", 
-		"Value": "mendami" 
+		"Value": "mendą" 
 	}
 },
 {
 	"Name": "Strażnik Ciszy Nocnej",
-	"ImageName": "o37.png",
-	"VictoryPts": 3,
+	"Id": "o37",
+	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "defeat_enemy_type", 
-		"Value": "imprezowymi podludźmi" 
+		"Value": "imprezowym podczłowiekiem" 
 	}
 },
 {
 	"Name": "Niszczyciel marzeń",
-	"ImageName": "o38.png",
-	"VictoryPts": 3,
+	"Id": "o38",
+	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "defeat_enemy_type", 
-		"Value": "postaciami baśniowymi" 
+		"Value": "postacią baśniową" 
 	}
 },
 {
 	"Name": "Obkuty na blachę",
-	"ImageName": "o39.png",
-	"VictoryPts": 3,
+	"Id": "o39",
+	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "defeat_enemy_type", 
-		"Value": "zmorami studenta" 
+		"Value": "zmorą studenta" 
 	}
 },
 {
 	"Name": "Pasibrzuch",
-	"ImageName": "o40.png",
-	"VictoryPts": 3,
+	"Id": "o40",
+	"VictoryPts": 1,
 	"Condition": { 
-		"Type": "Template", 
-		"Name": "defeat_enemy_type", 
-		"Value": "stworzeniami spożywczymi" 
+		"Type": "Effect", 
+		"Text": "Pokonaj stworzenie spożywcze."
 	}
 },
 {
 	"Name": "Poważny dorosły człowiek",
-	"ImageName": "o41.png",
-	"VictoryPts": 3,
+	"Id": "o41",
+	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "defeat_enemy_type", 
-		"Value": "zabawkami" 
+		"Value": "zabawką" 
 	}
 },
 {
 	"Name": "Inżynier",
-	"ImageName": "o42.png",
-	"VictoryPts": 3,
+	"Id": "o42",
+	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "defeat_enemy_type", 
-		"Value": "konstruktami" 
+		"Value": "konstruktem" 
 	}
 },
 {
 	"Name": "Łowca trofeów ",
-	"ImageName": "o43.png",
-	"VictoryPts": 3,
+	"Id": "o43",
+	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "defeat_enemy_type", 
-		"Value": "bestiami" 
+		"Value": "bestią" 
 	}
 },
 {
 	"Name": "Mistrz sztuki wojennej",
-	"ImageName": "o44.png",
-	"VictoryPts": 3,
+	"Id": "o44",
+	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "defeat_enemy_type", 
-		"Value": "wojownikami" 
+		"Value": "wojownikiem" 
 	}
 },
 {
 	"Name": "Skrytobójca",
-	"ImageName": "o45.png",
+	"Id": "o45",
 	"VictoryPts":  1,
 	"Condition": { "Type": "Effect", "Text": "Pokonaj stworzenie w ciągu 2 tur." }
 },
 {
 	"Name": "Mocarz",
-	"ImageName": "o46.png",
+	"Id": "o46",
 	"VictoryPts":  2,
-	"Condition": { "Type": "Effect", "Text": "Zadaj co najmniej 10 obrażeń w jednym ataku (nie uwzględniając  obrażenia na skutek zatrucia)." }
+	"Condition": { "Type": "Effect", "Text": "Zadaj co najmniej 10 obrażeń w jednym ataku (nie uwzględniając obrażenia na skutek zatrucia)." }
 },
 {
 	"Name": "Gadżeciarz",
-	"ImageName": "o47.png",
+	"Id": "o47",
 	"VictoryPts":  2,
 	"Condition": { "Type": "Effect", "Text": "W trakcie walki zagraj 5 przedmiotów zużywalnych w trakcie jednej tury." }
 }

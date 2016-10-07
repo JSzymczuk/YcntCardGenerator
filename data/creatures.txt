@@ -1,1152 +1,1225 @@
 [
-	{
-		"Name":        "Oliwki",
-		"Tag":         "spożywcze",
-		"IsLegendary": false,
-		
-		"ImageName":   "m01.png",
-		"CustomSkill": "",
-		"Skills":
-		[
-			"Twarda skóra"
-		],
-		"Description":  
-		"Nikt nie lubi Oliwek, dlatego postanowiły powziąć straszliwy odwet - zabijają, gwałcą i palą wsie. Gdyby tylko udało ci się odkręcić słoik...",
-		
-		"HP": 	      3,
-		"Initiative": 0,
-		"Damage":     0,
-		
-		"AttackDices": 
-		{
-			"White": 1,
-			"Red":   0,
-			"Green": 0
-		},		
-		"Movement":
-		{
-			"First":  "B",
-			"Second": "B",
-			"Third":  "G"
-		},
-		"Prize":
-		{
-			"Gold":  3,
-			"Items": 0
-		}
-	}, 
+{
+	"ID":		   "c01",
+	"Name":        "Oliwki",
+	"Tag":         "spożywcze",
+	"IsLegendary": false,
+	"IsDeleted":   false,
 	
-	{
-		"Name":        "Żelkowy golem",
-		"Tag":         "spożywcze",
-		
-		"ImageName":   "m02.png",
-		"CustomSkill": "Obrażenia zadawane weganom i wegetarianom +1.",	
-		
-		"HP": 	      5,		
-		"AttackDices": 
-		{
-			"Red":   1
-		},		
-		"Movement":
-		{
-			"First":  "R",
-			"Second": "G",
-			"Third":  "B"
-		},
-		"Prize":
-		{
-			"Gold":  2,
-			"Items": 1
-		}
-	}, 
+	"ImageName":   "m01_oliwki.png",
+	"CustomSkill": "",
+	"Skills":
+	[
+		"Twarda skóra +1"
+	],
+	"Description":  
+	"Nikt nie lubi Oliwek, dlatego postanowiły powziąć straszliwy odwet - zabijają, gwałcą i palą wsie. Gdyby tylko udało ci się odkręcić słoik...",
 	
-	{
-		"Name": "Antyczna kanapka sprzed tygodnia",
-		"Tag":  "spożywcze",
-		
-		"ImageName": "m03.png",	
-		
-		"HP": 	      6,
-		"Initiative": 1,
-		"Damage":     1,
-		"AttackDices": 
-		{
-			"White": 1,
-			"Green": 1
-		},		
-		"Movement":
-		{
-			"First":  "R",
-			"Second": "RR",
-			"Third":  "G"
-		},
-		"Prize":
-		{
-			"Gold":  4,
-			"Items": 1
-		}
-	}, 
+	"HP": 	      3,
+	"Initiative": 0,
+	"Damage":     0,
 	
+	"AttackDices": 
 	{
-		"Name": "Półkobieta-półryba",
-		"Tag":  "spożywcze",
-		
-		"ImageName": "m04.png",	
-		"Description":
-		"Może i oczu nie cieszy, ale kto wybrzydza...",
-		
-		"HP": 	      15,
-		"Initiative": 4,
-		"Damage":     1,
-		"AttackDices": 
-		{
-			"White": 1
-		},		
-		"Movement":
-		{
-			"First":  "GGG",
-			"Second": "BB",
-			"Third":  "RR"
-		},
-		"Prize":
-		{
-			"Gold":  7,
-			"Items": 0
-		}
+		"White": 1,
+		"Red":   0,
+		"Green": 0
+	},		
+	"Movement":
+	{
+		"First":  "B",
+		"Second": "B",
+		"Third":  "G"
 	},
+	"Prize":
 	{
-		"Name": "Ołowiany żołnierzyk",
-		"Tag":  "zabawka",		
-		"ImageName": "m05.png",
-		
-		"HP": 	      4,
-		"Initiative": 1,
-		"Damage":     1,
-		"AttackDices": 
-		{
-			"Red": 1
-		},		
-		"Movement":
-		{
-			"First":  "B",
-			"Second": "B",
-			"Third":  "R"
-		},
-		"Prize":
-		{
-			"Gold":  3,
-			"Items": 0
-		}
-	},
-	{
-		"Name": "Pisklę zielonego smoka",
-		"Tag":  "zabawka",		
-		"ImageName": "m06.png",
-		
-		"HP": 	      3,
-		"Initiative": 0,
-		"Damage":     1,
-		"AttackDices": 
-		{
-			"White": 1
-		},		
-		"Movement":
-		{
-			"First":  "B",
-			"Second": "R",
-			"Third":  "G"
-		},
-		"Prize":
-		{
-			"Gold":  2,
-			"Items": 0
-		}
-	},
-	{
-		"Name": "Urocze pluszowe różowe coś",
-		"Tag":  "zabawka",
-		
-		"ImageName": "m07.png",
-		"CustomSkill": 
-		"Wszyscy gracze, którzy chcą zaatakować to stworzenie, zadać mu obrażenia lub zagrać przeciwko niemu kartę, muszą rzucić test inicjatywy. Wynik rzutu mniejszy od inicjatywy stworzenia sprawia, że ulegają jego urokowi, podjęte przez nich działanie kończy się niepowodzeniem, a to stworzenie nie doznaje obrażeń ani żadnego efektu od zagrywanej karty (zagraną kartę należy odrzucić).",
-		
-		"Description":
-		"Tak naprawdę może być tetrowe.",
-		
-		"HP": 	      4,
-		"Initiative": 0,
-		"Damage":     1,
-		"AttackDices": 
-		{
-			"White": 2
-		},		
-		"Movement":
-		{
-			"First":  "GG",
-			"Second": "G",
-			"Third":  "BB"
-		},
-		"Prize":
-		{
-			"Gold":  3,
-			"Items": 1
-		}
-	}, 
-	{
-		"Name": "Całka potrójna",
-		"Tag":  "zmora studenta",
-		
-		"ImageName": "m08.png",
-		
-		"Description":
-		"- Matematyka jest jak kobieta - trzeba z nią rozmawiać. Co na przykład mówi panu ta całka?\n- Nie jestem taka łatwa, na jaką wyglądam?",
-		
-		"HP": 	      15,
-		"Initiative": 2,
-		"Damage":     0,
-		"AttackDices": 
-		{
-			"White": 3
-		},		
-		"Movement":
-		{
-			"First":  "B",
-			"Second": "BB",
-			"Third":  "BBB"
-		},
-		"Prize":
-		{
-			"Gold":  6,
-			"Items": 3
-		}
-	}, 
-	{
-		"Name": "Typowy bug",
-		"Tag":  "zmora studenta",		
-		"ImageName": "m09.png",
-		
-		"HP": 	      5,
-		"Initiative": 1,
-		"Damage":     1,
-		"AttackDices": 
-		{
-			"Red": 1
-		},		
-		"Movement":
-		{
-			"First":  "B",
-			"Second": "R",
-			"Third":  "RR"
-		},
-		"Prize":
-		{
-			"Gold":  4,
-			"Items": 1
-		}
-	}, 
-	
-	{
-		"Name": "Roztargniony profesor",
-		"Tag":  "zmora studenta",		
-		"ImageName": "m10.png",
-		
-		"HP": 	      18,
-		"Initiative": 1,
-		"Damage":     2,
-		"AttackDices": 
-		{
-			"Red": 1
-		},		
-		"Movement":
-		{
-			"First":  "BR",
-			"Second": "BB",
-			"Third":  "R"
-		},
-		"Prize":
-		{
-			"Gold":  5,
-			"Items": 3
-		}
-	}, 
-	
-	{
-		"Name": "Mały trójnogi snotling",
-		"Tag":  "bestia",		
-		"ImageName": "m12.png",
-		
-		"HP": 	      3,
-		"Initiative": 4,
-		"Damage":     0,
-		"AttackDices": 
-		{
-			"White": 1
-		},		
-		"Movement":
-		{
-			"First":  "RR",
-			"Second": "R",
-			"Third":  "RRR"
-		},
-		"Prize":
-		{
-			"Gold":  2,
-			"Items": 0
-		}
-	},
-	
-	{
-		"Name": "Emerytowana zębowa wróżka",
-		"Tag":  "baśniowe",		
-		"ImageName": "m13.png",
-		
-		"CustomSkill":
-		"Jeśli to stworzenie nie otrzymało obrażeń oraz nie zaatakowało żadnego z graczy, wszyscy gracze biorący udział w walce mogą przeprowadzić licytację punktami akcji. Jeśli graczom uda się zgromadzić 4 punkty akcji, to każdy z nich może pobrać 2 btc, walka kończy się natychmiast, a stworzenie to należy odrzucić.",
-		
-		"HP": 	      6,
-		"Initiative": 0,
-		"Damage":     0,
-		"AttackDices": 
-		{
-			"White": 1
-		},		
-		"Movement":
-		{
-			"First":  "GG",
-			"Second": "B",
-			"Third":  "G"
-		},
-		"Prize":
-		{
-			"Gold":  2,
-			"Items": 0
-		}
-	},
-	
-	{
-		"Name": "Przystojny nastoletni wąpierz",
-		"Tag":  "baśniowe",		
-		"ImageName": "m14.png",
-		
-		"Skills":
-		[
-			"Regeneracja +1",
-			"Niewrażliwość na zatrucie"
-		],
-		
-		"HP": 	      13,
-		"Initiative": 4,
-		"Damage":     1,
-		"AttackDices": 
-		{
-			"Green": 2
-		},		
-		"Movement":
-		{
-			"First":  "BB",
-			"Second": "BR",
-			"Third":  "GG"
-		},
-		"Prize":
-		{
-			"Gold":  9,
-			"Items": 3
-		}
-	},
-	{
-		"Name": "Zapomniany gargulec",
-		"Tag":  "konstrukt",		
-		"ImageName": "m15.png",
-		
-		"CustomSkill": 
-		"Stworzenie to należy umieścić od razu na polu, na którym znajduje się Starosta. Stworzenie to nie może zostać przesunięte przy użyciu żadnych kart ani zdolności.",
-				
-		"Description": "On cały czas tu był.",
-		
-		"HP": 	      10,
-		"Initiative": 0,
-		"Damage":     0,
-		"AttackDices": 
-		{
-			"White": 1,
-			"Red": 1
-		},
-		"Prize":
-		{
-			"Gold":  6,
-			"Items": 2
-		}
-	},
-	{
-		"Name": "Moher autobusowy",
-		"Tag":  "menda",		
-		"ImageName": "m16.png",
-		
-		"CustomSkill": 
-		"Niezdany test otwarcia walki oznacza, że musisz ustąpić jej miejsca na polu i automatycznie uciec z walki.",
-		
-		"Description":
-		"Ty niewychowany, zuchwały, wulgarny bezbożniku! Starszym się ustępuje!",
-		
-		"HP": 	      16,
-		"Initiative": 1,
-		"Damage":     0,
-		"AttackDices": 
-		{
-			"Red": 1
-		},		
-		"Movement":
-		{
-			"First":  "R",
-			"Second": "B",
-			"Third":  "RR"
-		},
-		"Prize":
-		{
-			"Gold":  6,
-			"Items": 2
-		}
-	},
-	{
-		"Name": "Najzwyklejszy z cieci",
-		"Tag":  "menda",		
-		"ImageName": "m17.png",
-		
-		"HP": 	      19,
-		"Initiative": 0,
-		"Damage":     0,
-		"AttackDices": 
-		{
-			"White": 2
-		},		
-		"Movement":
-		{
-			"First":  "B",
-			"Second": "R",
-			"Third":  "BB"
-		},
-		"Prize":
-		{
-			"Gold":  7,
-			"Items": 1
-		}
-	},
-	{
-		"Name": "Baba klozetowa",
-		"Tag":  "menda",		
-		"ImageName": "m18.png",
-		
-		"CustomSkill":
-		"Gracze biorący udział w walce mogą zebrać 5 btc, aby odrzucić to stworzenie z walki. Jeśli to zrobią, nikt nie otrzymuje nagrody ani doświadczenia za to stworzenie.",
-		
-		"HP": 	      25,
-		"Initiative": 1,
-		"Damage":     1,
-		"AttackDices": 
-		{
-			"Red": 2
-		},		
-		"Movement":
-		{
-			"First":  "B",
-			"Second": "B",
-			"Third":  "R"
-		},
-		"Prize":
-		{
-			"Gold":  8,
-			"Items": 2
-		}
-	},
-	{
-		"Name": "Pirat",
-		"Tag":  "baśniowe",		
-		"ImageName": "m19.png",
-		
-		"CustomSkill":
-		"Stworzenie to na początku każdej swojej tury pobiera 1 btc od każdego gracza, który z nim walczy. Zebrane sztuki złota nie zostają odzyskane po pokonaniu tego stworzenia.",
-		
-		"HP": 	      9,
-		"Initiative": 2,
-		"Damage":     0,
-		"AttackDices": 
-		{
-			"White": 2,
-			"Red": 1
-		},		
-		"Movement":
-		{
-			"First":  "G",
-			"Second": "GG",
-			"Third":  "B"
-		},
-		"Prize":
-		{
-			"Gold":  3,
-			"Items": 3
-		}
-	},
-	
-	{
-		"Name": "Postrach dyskoteki berserker",
-		"Tag":  "podczłowiek imprezowy",		
-		"ImageName": "m20.png",
-		
-		"Description":
-		"Jaka puszcza taki postrach. Jest przerażająca i już trochę podpita. Udawaj, że jej nie widzisz, bo jeszcze podejdzie.",
-		
-		"HP": 	      14,
-		"Initiative": 2,
-		"Damage":     0,
-		"AttackDices": 
-		{
-			"White": 1,
-			"Green": 1
-		},		
-		"Movement":
-		{
-			"First":  "R",
-			"Second": "RG",
-			"Third":  "BG"
-		},
-		"Prize":
-		{
-			"Gold":  5,
-			"Items": 1
-		}
-	},
-	{
-		"Name": "Żywiołak brylantyny",
-		"Tag":  "podczłowiek imprezowy",		
-		"ImageName": "m21.png",
-		
-		"CustomSkill":
-		"Lepi się do wszystkiego. Jeśli zaatakujesz go posiadając broń, to posiadana broń przykleja się do tego stworzenia. Po pierwszym bezpośrednim ataku, połóż używaną kartę broni przy tym stworzeniu. Jeżeli to stworzenie zostanie pokonane, weź z powrotem swoją kartę broni. W przeciwnym wypadku po zakończeniu walki należy odrzucić wszystkie karty broni znajdujące się przy tym stworzeniu.
-		Lepi się zwłaszcza do kobiet. Jeśli jesteś kobietą, nie możesz przed nim uciec.",
-		
-		"HP": 	      14,
-		"Initiative": 3,
-		"Damage":     0,
-		"AttackDices": 
-		{
-			"Red": 2
-		},		
-		"Movement":
-		{
-			"First":  "R",
-			"Second": "B",
-			"Third":  "R"
-		},
-		"Prize":
-		{
-			"Gold":  5,
-			"Items": 2
-		}
-	},
-	{
-		"Name": "Elficki łotrzyk",
-		"Tag":  "baśniowe",		
-		"ImageName": "m22.png",
-		
-		"Description":
-		"Nawet się nie spostrzeżesz, w którym momencie jego ręka znalazła się w twojej kieszeni.",
-		
-		"CustomSkill":
-		"Każda nieudana próba ucieczki z walki z tym stworzeniem oznacza utratę wszystkich posiadanych btc przez gracza.",
-		
-		"HP": 	      11,
-		"Initiative": 6,
-		"Damage":     0,
-		"AttackDices": 
-		{
-			"White": 1,
-			"Red": 1
-		},		
-		"Movement":
-		{
-			"First":  "BB",
-			"Second": "BR",
-			"Third":  "GG"
-		},
-		"Prize":
-		{
-			"Gold":  4,
-			"Items": 1
-		}
-	},
-
-	{
-		"Name": "Homogoblin",
-		"Tag":  "bestia",		
-		"ImageName": "m23.png",
-		
-		"Description":
-		"Nie uwierzycie, ale nic nie ma w tych sklepach. No przez trzy godziny szukał spodni, a wrócił z torebką.",
-		
-		"HP": 	      17,
-		"Initiative": 2,
-		"Damage":     0,
-		"AttackDices": 
-		{
-			"White": 3
-		},		
-		"Movement":
-		{
-			"First":  "G",
-			"Second": "GG",
-			"Third":  "R"
-		},
-		"Prize":
-		{
-			"Gold":  6,
-			"Items": 2
-		}
-	},
-	{
-		"Name": "Chimera",
-		"Tag":  "bestia",		
-		"ImageName": "m24.png",
-		
-		"Description":
-		"Warczy, śmierdzi siarką i zabija wszystko na swojej drodze. Założę się o Miodowo-Lipowy, że nie złapiesz jej za ogon!",
-		
-		"HP": 	      9,
-		"Initiative": 2,
-		"Damage":     0,
-		
-		"AttackDices": 
-		{
-			"White": 1,
-			"Red":   1,
-			"Green": 1
-		},		
-		"Movement":
-		{
-			"First":  "G",
-			"Second": "R",
-			"Third":  "RR"
-		},
-		"Prize":
-		{
-			"Gold":  7,
-			"Items": 2
-		}
-	},
-	{
-		"Name": "Człowiek bez twarzy",
-		"Tag":  "podczłowiek imprezowy",		
-		"ImageName": "m25.png",
-		
-		"HP": 	      23,
-		"Initiative": 3,
-		"Damage":     0,
-		
-		"AttackDices": 
-		{
-			"White": 3
-		},		
-		"Movement":
-		{
-			"First":  "G",
-			"Second": "R",
-			"Third":  "RR"
-		},
-		"Prize":
-		{
-			"Gold":  8,
-			"Items": 2
-		}
-	},
-	{
-		"Name": "Wojownik otaku",
-		"Tag":  "zbrojny",		
-		"ImageName": "m26.png",
-		
-		"Description": "Kawaii~~!!! (≧∇≦)/",
-		
-		"HP": 	      30,
-		"Initiative": 2,
-		"Damage":     0,
-		
-		"AttackDices": 
-		{
-			"White": 1,
-			"Red":   1
-		},		
-		"Movement":
-		{
-			"First":  "B",
-			"Second": "G",
-			"Third":  "B"
-		},
-		"Prize":
-		{
-			"Gold":  10,
-			"Items": 1
-		}
-	},
-	{
-		"Name": "Pomniejszy pieseł",
-		"Tag":  "zbrojny",		
-		"ImageName": "m27.png",
-		
-		"Description": "Jest poza twoim zasięgiem.",
-		
-		"Skills": [ "Twarda skóra 2" ],
-		"CustomSkill":
-		"Każdy gracz rozpoczynający walkę z tym przeciwnikiem musi podrapać za prawym uchem gracza siedzącego po jego lewej stronie.",
-		
-		"HP": 	      16,
-		"Initiative": 2,
-		"Damage":     2,
-		
-		"AttackDices": 
-		{
-			"Red":   2
-		},		
-		"Movement":
-		{
-			"First":  "R",
-			"Second": "R",
-			"Third":  "B"
-		},
-		"Prize":
-		{
-			"Gold":  10,
-			"Items": 3
-		}
-	},
-
-	{
-		"Name": "Trzygłowy rycerz",
-		"Tag":  "zbrojny",		
-		"ImageName": "m28.png",
-		
-		"Description": 
-		"-Bądźmy dla niego mili.\n-Zamknij się.",
-		
-		"HP": 	      27,
-		"Initiative": 3,
-		"Damage":     2,
-		
-		"AttackDices": 
-		{
-			"White":   3
-		},		
-		"Movement":
-		{
-			"First":  "B",
-			"Second": "R",
-			"Third":  "RB"
-		},
-		"Prize":
-		{
-			"Gold":  11,
-			"Items": 2
-		}
-	},
-	
-	{
-		"Name": "Leszek",
-		"Tag":  "bestia",		
-		"ImageName": "m29.png",
-		
-		"HP": 	      23,
-		"Initiative": 1,
-		"Damage":     0,
-		
-		"AttackDices": 
-		{
-			"White": 2,
-			"Green": 2
-		},		
-		"Movement":
-		{
-			"First":  "GG",
-			"Second": "R",
-			"Third":  "R"
-		},
-		"Prize":
-		{
-			"Gold":  8,
-			"Items": 3
-		}
-	},
-	
-	{
-		"Name": "Cztery schaby",
-		"Tag":  "podczłowiek imprezowy",		
-		"ImageName": "m30.png",
-		
-		"CustomSkill":
-		"Wszyscy gracze, którzy przegrają starcie z tym stworzeniem, tracą całe posiadane btc.",
-		
-		"HP": 	      40,
-		"Initiative": 2,
-		"Damage":     0,
-		
-		"AttackDices": 
-		{
-			"White": 4
-		},		
-		"Movement":
-		{
-			"First":  "R",
-			"Second": "R",
-			"Third":  "B"
-		},
-		"Prize":
-		{
-			"Gold":  15,
-			"Items": 4
-		}
-	},
-	
-	{
-		"Name": "Zaklęta zbroja",
-		"Tag":  "konstrukt",		
-		"ImageName": "m31.png",
-		
-		"Description":
-		"Pusta zbroja... Serio? Jak zabić sam pancerz...?",
-		
-		"Skills": [ "Twarda skóra 4" ],
-		
-		"HP": 	      12,
-		"Initiative": 0,
-		"Damage":     0,
-		
-		"AttackDices": 
-		{
-			"Red": 2
-		},		
-		"Movement":
-		{
-			"First":  "B",
-			"Second": "R",
-			"Third":  "B"
-		},
-		"Prize":
-		{
-			"Gold":  10,
-			"Items": 4
-		}
-	},
-	
-	{
-		"Name": "Spragniony ghul przydworcowy",
-		"Tag":  "menda",		
-		"ImageName": "m32.png",
-		
-		"CustomSkill":
-		"W fazie ruchu stworzeń to stworzenie porusza się w kierunku najbliższego gracza, a nie zgodnie z kierunkiem wskazywanym przez wydarzenie.",
-		
-		"HP": 	      26,
-		"Initiative": 1,
-		"Damage":     1,
-		
-		"AttackDices": 
-		{
-			"White": 2
-		},
-		"Prize":
-		{
-			"Gold":  9,
-			"Items": 1
-		}
-	},
-	
-	{
-		"Name": "Morderczy papierowy kaczor",
-		"Tag":  "konstrukt",		
-		"ImageName": "m33.png",
-		
-		"Description": "Stworzyłem... potwora...",
-		
-		"HP": 	      14,
-		"Initiative": 2,
-		"Damage":     1,
-		
-		"AttackDices": 
-		{
-			"Red": 1
-		},		
-		"Movement":
-		{
-			"First":  "RR",
-			"Second": "BB",
-			"Third":  "BBB"
-		},
-		"Prize":
-		{
-			"Gold":  4,
-			"Items": 1
-		}
-	},
-	
-	{
-		"Name": "Chochoł",
-		"Tag":  "konstrukt",		
-		"ImageName": "m34.png",
-		
-		"Description": "Miałeś, chamie, złoty róg, ostał ci się ino sznur.",
-		
-		"CustomSkill": "Tak długo jak to stworzenie pozostaje na planszy, każdy z graczy, który nie znajduje się na tym samym polu, co to stworzenie, po fazie ruchu graczy musi rzucić [k6] i przesunąć swój pionek w kierunku wskazywanym przez zieloną strzałkę tyle razy ile wyniósł wynik rzutu.",
-		
-		"HP": 	      11,
-		"Initiative": 1,
-		"Damage":     0,
-		
-		"AttackDices": 
-		{
-			"White": 1
-		},		
-		"Movement":
-		{
-			"First":  "R",
-			"Second": "R",
-			"Third":  "G"
-		},
-		"Prize":
-		{
-			"Gold":  7,
-			"Items": 1
-		}
-	},
-	
-	
-	{
-		"Name": "Dwurożec",
-		"IsLegendary": true,		
-		"ImageName": "l01.png",
-		
-		"Description": "Mądrym zwierzęciem będąc, dwurożec rozumie niechybnie, że ponad miarę w dziewictwie trwać podejrzaną i przeciwną naturze jest rzeczą.",
-		
-		"HP": 	      43,
-		"Initiative": 5,
-		"Damage":     1,
-		
-		"AttackDices": 
-		{
-			"White": 1,
-			"Red": 2
-		},		
-		"Movement":
-		{
-			"First":  "R",
-			"Second": "B",
-			"Third":  "BB"
-		},
-		"Prize":
-		{
-			"Gold":  14,
-			"Items": 3
-		}
-	},
-	{
-		"Name": "Wściekły warg",
-		"IsLegendary": true,		
-		"ImageName": "l02.png",
-		
-		"Description": 
-		"Uwaga! Zły pies. Na dodatek nieszczepiony.",
-		"CustomSkill": 
-		"Instynkt bierze górę nad jego łagodnym usposobieniem. Ilekroć to stworzenie rozpoczyna swoją turę, zadawane przez nie obrażenia wzrastają o 1.",
-		
-		"HP": 	      35,
-		"Initiative": 4,
-		"Damage":     0,
-		
-		"AttackDices": 
-		{
-			"White": 2
-		},		
-		"Movement":
-		{
-			"First":  "R",
-			"Second": "G",
-			"Third":  "R"
-		},
-		"Prize":
-		{
-			"Gold":  12,
-			"Items": 3
-		}
-	},
-	{
-		"Name": "Best Igor",
-		"IsLegendary": true,		
-		"ImageName": "l03.png",
-				
-		"HP": 	      33,
-		"Initiative": 3,
-		"Damage":     0,
-		
-		"AttackDices": 
-		{
-			"Red": 3
-		},		
-		"Movement":
-		{
-			"First":  "R",
-			"Second": "B",
-			"Third":  "R"
-		},
-		"Prize":
-		{
-			"Gold":  12,
-			"Items": 3
-		}
-	},
-	{
-		"Name": "Hydra",
-		"IsLegendary": true,		
-		"ImageName": "l04.png",
-		
-		"Description": 
-		"Grałeś kiedyś w Heroes III? Pamiętasz Cytadelę? To był w niej najsilniejszy stwór! Okaż trochę szacunku!",
-		
-		"Skills": [ "Regeneracja 4" ],
-		
-		"HP": 	      20,
-		"Initiative": 2,
-		"Damage":     0,
-		
-		"AttackDices": 
-		{
-			"White": 3,
-			"Green": 1
-		},		
-		"Movement":
-		{
-			"First":  "B",
-			"Second": "R",
-			"Third":  "B"
-		},
-		"Prize":
-		{
-			"Gold":  18,
-			"Items": 4
-		}
-	},
-	{
-		"Name": "Lisz z liszajami",
-		"IsLegendary": true,		
-		"ImageName": "l05.png",
-				
-		"HP": 	      22,
-		"Initiative": 1,
-		"Damage":     0,
-		
-		"AttackDices": 
-		{
-			"Red": 2,
-			"Green": 1
-		},		
-		"Movement":
-		{
-			"First":  "B",
-			"Second": "R",
-			"Third":  "G"
-		},
-		"Prize":
-		{
-			"Gold":  14,
-			"Items": 5
-		}
-	},
-	{
-		"Name": "Arcymistrz Raikhard",
-		"IsLegendary": true,		
-		"ImageName": "l06.png",
-				
-		"HP": 	      25,
-		"Initiative": 1,
-		"Damage":     2,
-		
-		"AttackDices": 
-		{
-			"Red": 3
-		},		
-		"Movement":
-		{
-			"First":  "R",
-			"Second": "B",
-			"Third":  "G"
-		},
-		"Prize":
-		{
-			"Gold":  17,
-			"Items": 4
-		},
-		"Description": 
-		"Stary?! Synek, ja ja ci zaraz przy*******ę!",
-	},
-	{
-		"Name": "Niszczyciel wszechświatów",
-		"IsLegendary": true,		
-		"ImageName": "l07.png",
-		
-		"CustomSkill":
-		"Wszyscy gracze znajdujący się na polach przyległych zostają wciągnięci do walki z tym stworzeniem.",
-		"Description": 
-		"Hej chłopaki! Chodźcie tutaj! Coś tu jest! Chyba znalazłem tego snotlinga!",
-				
-		"HP": 	      41,
-		"Initiative": 2,
-		"Damage":     0,
-		
-		"AttackDices": 
-		{
-			"White": 2,
-			"Red":   2
-		},		
-		"Movement":
-		{
-			"First":  "R",
-			"Second": "R",
-			"Third":  "RR"
-		},
-		"Prize":
-		{
-			"Gold":  24,
-			"Items": 6
-		}
-	},
-	{
-		"Name": "Czerwony smok",
-		"IsLegendary": true,		
-		"ImageName": "l08.png",
-		
-		"CustomSkill":
-		"Na początku piątej tury Czerwonego smoka, uznaje on, że nie jesteś godny z nim walczyć i odlatuje. Jeżeli tak się stanie, żaden z graczy nie dostaje nagród za jego pokonanie, a kartę tego stworzenia należy odrzucić.",
-		"Skills": 
-		[
-			"Strach 1",
-			"Twarda skóra 1"
-		],
-				
-		"HP": 	      100,
-		"Initiative": 3,
-		"Damage":     2,
-		
-		"AttackDices": 
-		{
-			"White": 2,
-			"Red":   2,
-			"Green": 2
-		},		
-		"Movement":
-		{
-			"First":  "GGG",
-			"Second": "GG",
-			"Third":  "G"
-		},
-		"Prize":
-		{
-			"Gold":  50,
-			"Items": 6
-		}
+		"Gold":  3,
+		"Items": 0
 	}
+},	
+{
+	"ID":		   "c02",
+	"Name":        "Żelkowy golem",
+	"Tag":         "spożywcze",
+	
+	"ImageName":   "m02_zelkowy_golem.png",
+	"CustomSkill": "Obrażenia zadawane weganom i wegetarianom +1.",	
+	
+	"HP": 	      5,		
+	"AttackDices": 
+	{
+		"Red":   1
+	},		
+	"Movement":
+	{
+		"First":  "R",
+		"Second": "G",
+		"Third":  "B"
+	},
+	"Prize":
+	{
+		"Gold":  2,
+		"Items": 1
+	}
+}, 	
+{
+	"ID":   "c03",
+	"Name": "Antyczna kanapka sprzed tygodnia",
+	"Tag":  "spożywcze",
+	
+	"ImageName": "m03.png",	
+	
+	"HP": 	      6,
+	"Initiative": 1,
+	"Damage":     1,
+	"AttackDices": 
+	{
+		"White": 1,
+		"Green": 1
+	},		
+	"Movement":
+	{
+		"First":  "R",
+		"Second": "RR",
+		"Third":  "G"
+	},
+	"Prize":
+	{
+		"Gold":  4,
+		"Items": 1
+	}
+}, 	
+{
+	"ID":	"c04",
+	"Name": "Półkobieta-półryba",
+	"Tag":  "spożywcze",
+	
+	"ImageName": "m12_polkobieta_polryba.png",	
+	"Description":
+	"Może i oczu nie cieszy, ale kto wybrzydza...",
+	
+	"HP": 	      15,
+	"Initiative": 4,
+	"Damage":     1,
+	"AttackDices": 
+	{
+		"White": 1
+	},		
+	"Movement":
+	{
+		"First":  "GGG",
+		"Second": "BB",
+		"Third":  "RR"
+	},
+	"Prize":
+	{
+		"Gold":  7,
+		"Items": 0
+	}
+},
+{
+	"ID":		   "c05",
+	"Name": 	   "Ołowiany żołnierzyk",
+	"Tag":  	   "zabawka",		
+	"ImageName":   "m04_olowiany_zolnierzyk.png",
+	
+	"HP": 	      4,
+	"Initiative": 1,
+	"Damage":     1,
+	"AttackDices": 
+	{
+		"Red": 1
+	},		
+	"Movement":
+	{
+		"First":  "B",
+		"Second": "B",
+		"Third":  "R"
+	},
+	"Prize":
+	{
+		"Gold":  3,
+		"Items": 0
+	}
+},
+{
+	"ID":	"c06",
+	"Name": "Pisklę zielonego smoka",
+	"Tag":  "zabawka",		
+	"ImageName": "m03_piskle_zielonego_smoka.png",
+	
+	"HP": 	      3,
+	"Initiative": 0,
+	"Damage":     1,
+	"AttackDices": 
+	{
+		"White": 1
+	},		
+	"Movement":
+	{
+		"First":  "B",
+		"Second": "R",
+		"Third":  "G"
+	},
+	"Prize":
+	{
+		"Gold":  2,
+		"Items": 0
+	}
+},
+{
+	"ID":   "c07",
+	"Name": "Urocze pluszowe różowe coś",
+	"Tag":  "zabawka",
+	
+	"ImageName": "m10_urocze_pluszowe_rozowe_cos.png",
+	"CustomSkill": 
+	"Wszyscy gracze, którzy chcą zaatakować to stworzenie, zadać mu obrażenia lub zagrać przeciwko niemu kartę, muszą rzucić [test inicjatywy]. Wynik rzutu mniejszy lub równy inicjatywie tego stworzenia sprawia, że gracze ulegają jego urokowi, podjęte przez nich działanie kończy się niepowodzeniem, a stworzenie nie doznaje obrażeń ani żadnego efektu od zagrywanej karty (zagraną kartę należy odrzucić).",
+	
+	"Description":
+	"Tak naprawdę może być tetrowe.",
+	
+	"HP": 	      4,
+	"Initiative": 0,
+	"Damage":     1,
+	"AttackDices": 
+	{
+		"White": 2
+	},		
+	"Movement":
+	{
+		"First":  "GG",
+		"Second": "G",
+		"Third":  "BB"
+	},
+	"Prize":
+	{
+		"Gold":  3,
+		"Items": 1
+	}
+}, 
+{
+	"ID":   "c08",
+	"Name": "Całka potrójna",
+	"Tag":  "zmora studenta",
+	
+	"ImageName": "m17_calka_potrojna.png",
+	
+	"Description":
+	"- Matematyka jest jak kobieta - trzeba z nią rozmawiać. Co na przykład mówi panu ta całka?\n- Nie jestem taka łatwa, na jaką wyglądam?",
+	
+	"HP": 	      15,
+	"Initiative": 2,
+	"Damage":     0,
+	"AttackDices": 
+	{
+		"White": 3
+	},		
+	"Movement":
+	{
+		"First":  "B",
+		"Second": "BB",
+		"Third":  "BBB"
+	},
+	"Prize":
+	{
+		"Gold":  6,
+		"Items": 3
+	}
+}, 
+{
+	"ID":		 "c09",
+	"Name": 	 "Typowy bug",
+	"Tag":  	 "zmora studenta",		
+	"ImageName": "m07_typowy_bug.png",
+	
+	"HP": 	      5,
+	"Initiative": 1,
+	"Damage":     1,
+	"AttackDices": 
+	{
+		"Red": 1
+	},		
+	"Movement":
+	{
+		"First":  "B",
+		"Second": "R",
+		"Third":  "RR"
+	},
+	"Prize":
+	{
+		"Gold":  4,
+		"Items": 1
+	}
+}, 	
+{
+	"ID":		 "c10",
+	"Name": 	 "Roztargniony profesor",
+	"Tag":  	 "zmora studenta",		
+	"ImageName": "m10.png",
+	
+	"HP": 	      18,
+	"Initiative": 1,
+	"Damage":     2,
+	"AttackDices": 
+	{
+		"Red": 1
+	},		
+	"Movement":
+	{
+		"First":  "BR",
+		"Second": "BB",
+		"Third":  "R"
+	},
+	"Prize":
+	{
+		"Gold":  5,
+		"Items": 3
+	}
+}, 	
+{
+	"ID":	"c11",
+	"Name": "Mały trójnogi snotling",
+	"Tag":  "bestia",		
+	"ImageName": "m05_maly_trojnogi_snotling.png",
+	
+	"HP": 	      3,
+	"Initiative": 4,
+	"Damage":     0,
+	"AttackDices": 
+	{
+		"White": 1
+	},		
+	"Movement":
+	{
+		"First":  "RR",
+		"Second": "R",
+		"Third":  "RRR"
+	},
+	"Prize":
+	{
+		"Gold":  2,
+		"Items": 0
+	}
+},	
+{
+	"ID":		 "c12",
+	"Name": 	 "Emerytowana zębowa wróżka",
+	"Tag":  	 "baśniowe",		
+	"ImageName": "m06_emerytowana_zebowa_wrozka.png",
+	
+	"CustomSkill":
+	"Jeśli to stworzenie nie otrzymało obrażeń oraz nie zaatakowało żadnego z graczy, wszyscy gracze biorący udział w walce mogą przeprowadzić licytację punktami akcji. Jeśli graczom uda się zgromadzić 4 punkty akcji, to każdy z nich może pobrać 2 btc, walka kończy się natychmiast, a stworzenie to należy odrzucić.",
+	
+	"HP": 	      6,
+	"Initiative": 0,
+	"Damage":     0,
+	"AttackDices": 
+	{
+		"White": 1
+	},		
+	"Movement":
+	{
+		"First":  "GG",
+		"Second": "B",
+		"Third":  "G"
+	},
+	"Prize":
+	{
+		"Gold":  2,
+		"Items": 0
+	}
+},	
+{
+	"ID":		 "c13",
+	"Name": 	 "Przystojny nastoletni wąpierz",
+	"Tag":  	 "baśniowe",		
+	"ImageName": "m41_przystojny_nastoletni_wapierz.png",
+	
+	"Skills":
+	[
+		"Regeneracja +1",
+		"Niewrażliwość na zatrucie"
+	],
+	
+	"HP": 	      13,
+	"Initiative": 4,
+	"Damage":     1,
+	"AttackDices": 
+	{
+		"Green": 2
+	},		
+	"Movement":
+	{
+		"First":  "BB",
+		"Second": "BR",
+		"Third":  "GG"
+	},
+	"Prize":
+	{
+		"Gold":  9,
+		"Items": 3
+	}
+},
+{
+	"ID":	"c14",
+	"Name": "Zapomniany gargulec",
+	"Tag":  "konstrukt",		
+	"ImageName": "m43_zapomniany_gargulec.png",
+	
+	"CustomSkill": 
+	"Stworzenie to należy umieścić od razu na polu, na którym znajduje się Starosta. Stworzenie to nie może zostać przesunięte przy użyciu żadnych kart ani zdolności.",
+			
+	"Description": "On cały czas tu był.",
+	
+	"HP": 	      10,
+	"Initiative": 0,
+	"Damage":     0,
+	"AttackDices": 
+	{
+		"White": 1,
+		"Red": 1
+	},
+	"Prize":
+	{
+		"Gold":  6,
+		"Items": 2
+	}
+},
+{
+	"ID":		 "c15",
+	"Name": 	 "Moher autobusowy",
+	"Tag":  	 "menda",		
+	"ImageName": "m15_moher_autobusowy.png",
+	
+	"CustomSkill": 
+	"Niezdany test otwarcia walki oznacza, że musisz ustąpić jej miejsca na polu i automatycznie uciec z walki.",
+	
+	"Description":
+	"Ty niewychowany, zuchwały, wulgarny bezbożniku! Starszym się ustępuje!",
+	
+	"HP": 	      16,
+	"Initiative": 1,
+	"Damage":     0,
+	"AttackDices": 
+	{
+		"Red": 1
+	},		
+	"Movement":
+	{
+		"First":  "R",
+		"Second": "B",
+		"Third":  "RR"
+	},
+	"Prize":
+	{
+		"Gold":  6,
+		"Items": 2
+	}
+},
+{
+	"ID":		 "c16",
+	"Name": 	 "Najzwyklejszy z cieci",
+	"Tag":  	 "menda",		
+	"ImageName": "m16_ejdzej.png",
+	
+	"HP": 	      19,
+	"Initiative": 0,
+	"Damage":     0,
+	"AttackDices": 
+	{
+		"White": 2
+	},		
+	"Movement":
+	{
+		"First":  "B",
+		"Second": "R",
+		"Third":  "BB"
+	},
+	"Prize":
+	{
+		"Gold":  7,
+		"Items": 1
+	}
+},
+{
+	"ID":		 "c17",
+	"Name": 	 "Baba klozetowa",
+	"Tag":  	 "menda",		
+	"ImageName": "m18_baba_klozetowa.png",
+	
+	"CustomSkill":
+	"Gracze biorący udział w walce mogą zebrać 5 btc, aby odrzucić to stworzenie z walki. Jeśli to zrobią, nikt nie otrzymuje nagrody ani doświadczenia za to stworzenie.",
+	
+	"HP": 	      25,
+	"Initiative": 1,
+	"Damage":     1,
+	"AttackDices": 
+	{
+		"Red": 2
+	},		
+	"Movement":
+	{
+		"First":  "B",
+		"Second": "B",
+		"Third":  "R"
+	},
+	"Prize":
+	{
+		"Gold":  8,
+		"Items": 2
+	}
+},
+{
+	"ID":		 "c18",
+	"Name": 	 "Pirat",
+	"Tag":  	 "baśniowe",		
+	"ImageName": "m19_pirat.png",
+	
+	"CustomSkill":
+	"Stworzenie to na początku każdej swojej tury pobiera 1 btc od każdego gracza, który z nim walczy. Zebrane sztuki złota nie zostają odzyskane po pokonaniu tego stworzenia.",
+	
+	"HP": 	      9,
+	"Initiative": 2,
+	"Damage":     0,
+	"AttackDices": 
+	{
+		"White": 2,
+		"Red": 1
+	},		
+	"Movement":
+	{
+		"First":  "G",
+		"Second": "GG",
+		"Third":  "B"
+	},
+	"Prize":
+	{
+		"Gold":  3,
+		"Items": 3
+	}
+},	
+{
+	"ID":		 "c20",
+	"Name": 	 "Postrach dyskoteki berserker",
+	"Tag":  	 "podczłowiek imprezowy",		
+	"ImageName": "m20_postrach_dyskoteki_berserker.png",
+	
+	"Description":
+	"Jaka puszcza taki postrach. Jest przerażająca i już trochę podpita. Udawaj, że jej nie widzisz, bo jeszcze podejdzie.",
+	
+	"HP": 	      14,
+	"Initiative": 2,
+	"Damage":     0,
+	"AttackDices": 
+	{
+		"White": 1,
+		"Green": 1
+	},		
+	"Movement":
+	{
+		"First":  "R",
+		"Second": "RG",
+		"Third":  "BG"
+	},
+	"Prize":
+	{
+		"Gold":  5,
+		"Items": 1
+	}
+},
+{
+	"ID":		 "c21",
+	"Name": 	 "Żywiołak brylantyny",
+	"Tag":   	 "podczłowiek imprezowy",		
+	"ImageName": "m21_zywiolak_brylantyny.png",
+	
+	"CustomSkill":
+	"Lepi się do wszystkiego. Jeśli zaatakujesz go posiadając broń, to posiadana broń przykleja się do tego stworzenia. Po pierwszym bezpośrednim ataku, połóż używaną kartę broni przy tym stworzeniu. Jeżeli to stworzenie zostanie pokonane, weź z powrotem swoją kartę broni. W przeciwnym wypadku po zakończeniu walki należy odrzucić wszystkie karty broni znajdujące się przy tym stworzeniu.
+	Lepi się zwłaszcza do kobiet. Jeśli jesteś kobietą, nie możesz przed nim uciec.",
+	
+	"HP": 	      14,
+	"Initiative": 3,
+	"Damage":     0,
+	"AttackDices": 
+	{
+		"Red": 2
+	},		
+	"Movement":
+	{
+		"First":  "R",
+		"Second": "B",
+		"Third":  "R"
+	},
+	"Prize":
+	{
+		"Gold":  5,
+		"Items": 2
+	}
+},
+{
+	"ID":		 "c22",
+	"Name": 	 "Elficki łotrzyk",
+	"Tag":  	 "baśniowe",		
+	"ImageName": "m22_elficki_lotrzyk.png",
+	
+	"Description":
+	"Nawet się nie spostrzeżesz, w którym momencie jego ręka znalazła się w twojej kieszeni.",
+	
+	"CustomSkill":
+	"Każda nieudana próba ucieczki z walki z tym stworzeniem oznacza utratę wszystkich posiadanych btc przez gracza.",
+	
+	"HP": 	      11,
+	"Initiative": 6,
+	"Damage":     0,
+	"AttackDices": 
+	{
+		"White": 1,
+		"Red": 1
+	},		
+	"Movement":
+	{
+		"First":  "BB",
+		"Second": "BR",
+		"Third":  "GG"
+	},
+	"Prize":
+	{
+		"Gold":  4,
+		"Items": 1
+	}
+},
+{
+	"ID":		 "c23",
+	"Name": 	 "Homogoblin",
+	"Tag":   	 "bestia",		
+	"ImageName": "m23_homogoblin.png",
+	
+	"Description":
+	"Nie uwierzycie, ale nic nie ma w tych sklepach. No przez trzy godziny szukał spodni, a wrócił z torebką.",
+	
+	"HP": 	      17,
+	"Initiative": 2,
+	"Damage":     0,
+	"AttackDices": 
+	{
+		"White": 3
+	},		
+	"Movement":
+	{
+		"First":  "G",
+		"Second": "GG",
+		"Third":  "R"
+	},
+	"Prize":
+	{
+		"Gold":  6,
+		"Items": 2
+	}
+},
+{
+	"ID":		 "c24",
+	"Name":  	 "Chimera",
+	"Tag":  	 "bestia",		
+	"ImageName": "m24_chimera.png",
+	
+	"Description":
+	"Warczy, śmierdzi siarką i zabija wszystko na swojej drodze. Założę się o Miodowo-Lipowy, że nie złapiesz jej za ogon!",
+	
+	"HP": 	      9,
+	"Initiative": 2,
+	"Damage":     0,
+	
+	"AttackDices": 
+	{
+		"White": 1,
+		"Red":   1,
+		"Green": 1
+	},		
+	"Movement":
+	{
+		"First":  "G",
+		"Second": "R",
+		"Third":  "RR"
+	},
+	"Prize":
+	{
+		"Gold":  7,
+		"Items": 2
+	}
+},
+{
+	"ID":		 "c25",
+	"Name": 	 "Człowiek bez twarzy",
+	"Tag":   	 "podczłowiek imprezowy",		
+	"ImageName": "m25_czlowiek_bez_twarzy.png",
+	
+	"HP": 	      23,
+	"Initiative": 3,
+	"Damage":     0,
+	
+	"AttackDices": 
+	{
+		"White": 3
+	},		
+	"Movement":
+	{
+		"First":  "G",
+		"Second": "R",
+		"Third":  "RR"
+	},
+	"Prize":
+	{
+		"Gold":  8,
+		"Items": 2
+	}
+},
+{
+
+	"ID":		 "c26",
+	"Name": 	 "Wojownik otaku",
+	"Tag":  	 "zbrojny",		
+	"ImageName": "m27_wojownik_otaku.png",
+	
+	"Description": "Kawaii~~!!! (≧∇≦)/",
+	
+	"HP": 	      30,
+	"Initiative": 2,
+	"Damage":     0,
+	
+	"AttackDices": 
+	{
+		"White": 1,
+		"Red":   1
+	},		
+	"Movement":
+	{
+		"First":  "B",
+		"Second": "G",
+		"Third":  "B"
+	},
+	"Prize":
+	{
+		"Gold":  10,
+		"Items": 1
+	}
+},
+{
+	"ID":		 "c27",
+	"Name": 	 "Pomniejszy pieseł",
+	"Tag":  	 "zbrojny",		
+	"ImageName": "m28_pomniejszy_piesel.png",
+	
+	"Description": "Jest poza twoim zasięgiem.",
+	
+	"Skills": [ "Twarda skóra 2" ],
+	"CustomSkill":
+	"Każdy gracz rozpoczynający walkę z tym przeciwnikiem musi podrapać za prawym uchem gracza siedzącego po jego lewej stronie.",
+	
+	"HP": 	      16,
+	"Initiative": 2,
+	"Damage":     2,
+	
+	"AttackDices": 
+	{
+		"Red":   2
+	},		
+	"Movement":
+	{
+		"First":  "R",
+		"Second": "R",
+		"Third":  "B"
+	},
+	"Prize":
+	{
+		"Gold":  10,
+		"Items": 3
+	}
+},
+{	
+	"ID":		 "c28",
+	"Name": 	 "Trzygłowy rycerz",
+	"Tag":  	 "zbrojny",		
+	"ImageName": "m29_trzyglowy_rycerz.png",
+	
+	"Description": 
+	"-Bądźmy dla niego mili.\n-Zamknij się.",
+	
+	"HP": 	      27,
+	"Initiative": 3,
+	"Damage":     2,
+	
+	"AttackDices": 
+	{
+		"White":   3
+	},		
+	"Movement":
+	{
+		"First":  "B",
+		"Second": "R",
+		"Third":  "RB"
+	},
+	"Prize":
+	{
+		"Gold":  11,
+		"Items": 2
+	}
+},	
+{
+	"ID":		 "c29",
+	"Name":		 "Leszek",
+	"Tag":  	 "bestia",		
+	"ImageName": "m30_leszek.png",
+	
+	"HP": 	      23,
+	"Initiative": 1,
+	"Damage":     0,
+	
+	"AttackDices": 
+	{
+		"White": 2,
+		"Green": 2
+	},		
+	"Movement":
+	{
+		"First":  "GG",
+		"Second": "R",
+		"Third":  "R"
+	},
+	"Prize":
+	{
+		"Gold":  8,
+		"Items": 3
+	}
+},	
+{	
+	"ID":		 "c30",
+	"Name": 	 "Cztery schaby",
+	"Tag":  	 "podczłowiek imprezowy",		
+	"ImageName": "m31_cztery_schaby.png",
+	
+	"CustomSkill":
+	"Wszyscy gracze, którzy przegrają starcie z tym stworzeniem, tracą całe posiadane btc.",
+	
+	"HP": 	      40,
+	"Initiative": 2,
+	"Damage":     0,
+	
+	"AttackDices": 
+	{
+		"White": 4
+	},		
+	"Movement":
+	{
+		"First":  "R",
+		"Second": "R",
+		"Third":  "B"
+	},
+	"Prize":
+	{
+		"Gold":  15,
+		"Items": 4
+	}
+},	
+{
+
+	"ID":		 "c31",
+	"Name": 	 "Zaklęta zbroja",
+	"Tag":  	 "konstrukt",		
+	"ImageName": "m32_zakleta_zbroja.png",
+	
+	"Description":
+	"Pusta zbroja... Serio? Jak zabić sam pancerz...?",
+	
+	"Skills": [ "Twarda skóra 4" ],
+	
+	"HP": 	      12,
+	"Initiative": 0,
+	"Damage":     0,
+	
+	"AttackDices": 
+	{
+		"Red": 2
+	},		
+	"Movement":
+	{
+		"First":  "B",
+		"Second": "R",
+		"Third":  "B"
+	},
+	"Prize":
+	{
+		"Gold":  10,
+		"Items": 4
+	}
+},	
+{	
+	"ID":		 "c32",
+	"Name": 	 "Spragniony ghul przydworcowy",
+	"Tag":  	 "menda",		
+	"ImageName": "m26_spragniony_ghul_przydworcowy.png",
+	
+	"NeedUpdate": true,
+	"Comment":	  "Podobno efekt jest niejasny",
+	
+	"CustomSkill":
+	"W fazie ruchu stworzeń to stworzenie porusza się w kierunku najbliższego gracza, a nie zgodnie z kierunkiem wskazywanym przez wydarzenie.",
+	
+	"HP": 	      26,
+	"Initiative": 1,
+	"Damage":     1,
+	
+	"AttackDices": 
+	{
+		"White": 2
+	},
+	"Prize":
+	{
+		"Gold":  9,
+		"Items": 1
+	}
+},	
+{
+	"ID":		 "c33",
+	"Name": 	 "Morderczy papierowy kaczor",
+	"Tag":  	 "konstrukt",		
+	"ImageName": "m08_morderczy_papierowy_kaczor.png",
+	
+	"Description": "Stworzyłem... potwora...",
+	
+	"HP": 	      14,
+	"Initiative": 2,
+	"Damage":     1,
+	
+	"AttackDices": 
+	{
+		"Red": 1
+	},		
+	"Movement":
+	{
+		"First":  "RR",
+		"Second": "BB",
+		"Third":  "BBB"
+	},
+	"Prize":
+	{
+		"Gold":  4,
+		"Items": 1
+	}
+},	
+{	
+	"ID":		 "c34",
+	"Name": 	 "Chochoł",
+	"Tag":  	 "konstrukt",		
+	"ImageName": "m34.png",
+	
+	"Description": "Miałeś, chamie, złoty róg, ostał ci się ino sznur.",
+	
+	"CustomSkill": "Tak długo jak to stworzenie pozostaje na planszy, każdy z graczy, który nie znajduje się na tym samym polu, co to stworzenie, po fazie ruchu graczy musi rzucić [k6] i przesunąć swój pionek w kierunku wskazywanym przez zieloną strzałkę tyle razy ile wyniósł wynik rzutu.",
+	
+	"HP": 	      11,
+	"Initiative": 1,
+	"Damage":     0,
+	
+	"AttackDices": 
+	{
+		"White": 1
+	},		
+	"Movement":
+	{
+		"First":  "R",
+		"Second": "R",
+		"Third":  "G"
+	},
+	"Prize":
+	{
+		"Gold":  7,
+		"Items": 1
+	}
+},
+{
+	"ID":		 "c35",
+	"Name": 	 "Dwurożec",	
+	"ImageName": "m33_dwurozec.png",
+	
+	"Description": "Mądrym zwierzęciem będąc, dwurożec rozumie niechybnie, że ponad miarę w dziewictwie trwać podejrzaną i przeciwną naturze jest rzeczą.",
+	
+	"HP": 	      43,
+	"Initiative": 5,
+	"Damage":     1,
+	
+	"AttackDices": 
+	{
+		"White": 1,
+		"Red": 2
+	},		
+	"Movement":
+	{
+		"First":  "R",
+		"Second": "B",
+		"Third":  "BB"
+	},
+	"Prize":
+	{
+		"Gold":  14,
+		"Items": 3
+	}
+},
+
+
+
+
+
+
+
+
+{
+	"IsDeleted": true,
+	"ID":		 "l01",
+	"Name": 	 "Dwurożec",
+	"IsLegendary": true,		
+	"ImageName": "m33_dwurozec.png",
+	
+	"Description": "Mądrym zwierzęciem będąc, dwurożec rozumie niechybnie, że ponad miarę w dziewictwie trwać podejrzaną i przeciwną naturze jest rzeczą.",
+	
+	"HP": 	      43,
+	"Initiative": 5,
+	"Damage":     1,
+	
+	"AttackDices": 
+	{
+		"White": 1,
+		"Red": 2
+	},		
+	"Movement":
+	{
+		"First":  "R",
+		"Second": "B",
+		"Third":  "BB"
+	},
+	"Prize":
+	{
+		"Gold":  14,
+		"Items": 3
+	}
+},
+{
+	"IsDeleted": true,
+	"ID":		 "l02",
+	"Name": "Wściekły warg",
+	"IsLegendary": true,		
+	"ImageName": "m34_wsciekly_warg.png",
+	
+	"Description": 
+	"Uwaga! Zły pies. Na dodatek nieszczepiony.",
+	"CustomSkill": 
+	"Instynkt bierze górę nad jego łagodnym usposobieniem. Ilekroć to stworzenie rozpoczyna swoją turę, zadawane przez nie obrażenia wzrastają o 1.",
+	
+	"HP": 	      35,
+	"Initiative": 4,
+	"Damage":     0,
+	
+	"AttackDices": 
+	{
+		"White": 2
+	},		
+	"Movement":
+	{
+		"First":  "R",
+		"Second": "G",
+		"Third":  "R"
+	},
+	"Prize":
+	{
+		"Gold":  12,
+		"Items": 3
+	}
+},
+{
+	"IsDeleted": true,
+	"ID":		 "l03",
+	"Name": "Best Igor",
+	"IsLegendary": true,		
+	"ImageName": "m35_the_best_igor.png",
+			
+	"HP": 	      33,
+	"Initiative": 3,
+	"Damage":     0,
+	
+	"AttackDices": 
+	{
+		"Red": 3
+	},		
+	"Movement":
+	{
+		"First":  "R",
+		"Second": "B",
+		"Third":  "R"
+	},
+	"Prize":
+	{
+		"Gold":  12,
+		"Items": 3
+	}
+},
+{
+	"IsDeleted":   true,
+	"ID":		   "l04",
+	"Name": 	   "Hydra",
+	"IsLegendary": true,		
+	"ImageName":   "m36_hydra.png",
+	
+	"Description": 
+	"Grałeś kiedyś w Heroes III? Pamiętasz Cytadelę? To był w niej najsilniejszy stwór! Okaż trochę szacunku!",
+	
+	"Skills": [ "Regeneracja 4" ],
+	
+	"HP": 	      20,
+	"Initiative": 2,
+	"Damage":     0,
+	
+	"AttackDices": 
+	{
+		"White": 3,
+		"Green": 1
+	},		
+	"Movement":
+	{
+		"First":  "B",
+		"Second": "R",
+		"Third":  "B"
+	},
+	"Prize":
+	{
+		"Gold":  18,
+		"Items": 4
+	}
+},
+{
+	"IsDeleted": true,
+	"ID":		 "l05",
+	"Name": "Lisz z liszajami",
+	"IsLegendary": true,		
+	"ImageName": "m37_lisz_z_liszajami.png",
+			
+	"HP": 	      22,
+	"Initiative": 1,
+	"Damage":     0,
+	
+	"AttackDices": 
+	{
+		"Red": 2,
+		"Green": 1
+	},		
+	"Movement":
+	{
+		"First":  "B",
+		"Second": "R",
+		"Third":  "G"
+	},
+	"Prize":
+	{
+		"Gold":  14,
+		"Items": 5
+	}
+},
+{
+	"IsDeleted": true,
+	"ID":		 "l06",
+	"Name": "Arcymistrz Raikhard",
+	"IsLegendary": true,		
+	"ImageName": "m38_arcymistrz_raikhard.png",
+			
+	"HP": 	      25,
+	"Initiative": 1,
+	"Damage":     2,
+	
+	"AttackDices": 
+	{
+		"Red": 3
+	},		
+	"Movement":
+	{
+		"First":  "R",
+		"Second": "B",
+		"Third":  "G"
+	},
+	"Prize":
+	{
+		"Gold":  17,
+		"Items": 4
+	},
+	"Description": 
+	"Stary?! Synek, ja ja ci zaraz przy*******ę!",
+},
+{
+	"IsDeleted": true,
+	"ID":		 "l07",
+	"Name": "Niszczyciel wszechświatów",
+	"IsLegendary": true,		
+	"ImageName": "m39_niszczyciel_wszechswiatow.png",
+	
+	"CustomSkill":
+	"Wszyscy gracze znajdujący się na polach przyległych zostają wciągnięci do walki z tym stworzeniem.",
+	"Description": 
+	"Hej chłopaki! Chodźcie tutaj! Coś tu jest! Chyba znalazłem tego snotlinga!",
+			
+	"HP": 	      41,
+	"Initiative": 2,
+	"Damage":     0,
+	
+	"AttackDices": 
+	{
+		"White": 2,
+		"Red":   2
+	},		
+	"Movement":
+	{
+		"First":  "R",
+		"Second": "R",
+		"Third":  "RR"
+	},
+	"Prize":
+	{
+		"Gold":  24,
+		"Items": 6
+	}
+},
+{
+	"IsDeleted": true,
+	"ID":		 "l08",
+	"Name": "Czerwony smok",
+	"IsLegendary": true,		
+	"ImageName": "m40_czerwony_smok.png",
+	
+	"CustomSkill":
+	"Na początku piątej tury Czerwonego smoka, uznaje on, że nie jesteś godny z nim walczyć i odlatuje. Jeżeli tak się stanie, żaden z graczy nie dostaje nagród za jego pokonanie, a kartę tego stworzenia należy odrzucić.",
+	"Skills": 
+	[
+		"Strach 1",
+		"Twarda skóra 1"
+	],
+			
+	"HP": 	      100,
+	"Initiative": 3,
+	"Damage":     2,
+	
+	"AttackDices": 
+	{
+		"White": 2,
+		"Red":   2,
+		"Green": 2
+	},		
+	"Movement":
+	{
+		"First":  "GGG",
+		"Second": "GG",
+		"Third":  "G"
+	},
+	"Prize":
+	{
+		"Gold":  50,
+		"Items": 6
+	}
+}
 ]

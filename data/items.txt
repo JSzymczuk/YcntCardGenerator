@@ -1,37 +1,42 @@
 [
 {
+	"Id":		 "i01",
 	"Name": 	 "Mikstura leczenia",
-	"ImageName": "i01.png",
+	"ImageName": "i01_mikstura_leczenia.png",
 	"Price": 	 1,
 	"Categories": ["Przedmioty zużywalne", "Eliksiry"],
 	"Effects": [{ "Type": "Template", "Name": "heal", "Value": 10 }]
 },
 {
+	"Id":		 "i02",
 	"Name": 	 "Lembas",
-	"ImageName": "i02.png",
+	"ImageName": "i02_lembas.png",
 	"Price": 	 1,
 	"Categories": ["Przedmioty zużywalne"],
 	"Effects": [{ "Type": "Template", "Name": "heal", "Value": 10 }]
 },
 {
+	"Id":		 "i03",
 	"Name": 	 "Med-pak",
-	"ImageName": "i03.png",
+	"ImageName": "i59_med_pak.png",
 	"Price": 	 1,
 	"Categories": ["Przedmioty zużywalne"],
 	"Effects": [{ "Type": "Template", "Name": "heal", "Value": 10 }]
 },
 {
+	"Id":		 "i04",
 	"Name": 	 "Potion",
-	"ImageName": "i04.png",
+	"ImageName": "i72_potion.png",
 	"Price": 	 1,
-	"Categories": ["Przedmioty zużywalne"],
+	"Categories": ["Przedmioty zużywalne", "Eliksiry"],
 	"Description":
 	"Mówiłem ci, że można stosować go na ludziach!",
 	"Effects": [{ "Type": "Template", "Name": "heal", "Value": 10 }]
 },
 {
+	"Id":		 "i05",
 	"Name": 	 "Pierożek",
-	"ImageName": "i05.png",
+	"ImageName": "i07_pierozek.png",
 	"Price": 	 1,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description":
@@ -39,71 +44,80 @@
 	"Effects": [{ "Type": "Template", "Name": "heal", "Value": 10 }]
 },
 {
+	"Id":		 "i06",
 	"Name": 	 "Czekoladowa żaba",
-	"ImageName": "i06.png",
+	"ImageName": "i12_czekoladowa_zaba.png",
 	"Price": 	 1,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Tu o karty chodzi!",
 	"Effects": [{ "Type": "Template", "Name": "heal", "Value": 10 }]
 },
 {
+	"Id":		 "i07",
 	"Name": 	 "Kestral",
-	"ImageName": "i07.png",
+	"ImageName": "i06_kestral.png",
 	"Price": 	 1,
 	"Categories": ["Przedmioty zużywalne", "Eliksiry"],
 	"Description": "Daj no tego kestrala.",
 	"Effects": [{ "Type": "Effect", "Text": "Używający otrzymuje Regeneracja +5 na czas następnych 3 tur walki." }]
 },
 {
+	"Id":		 "i08",
 	"Name": 	 "Eliksir zapomnienia",
-	"ImageName": "i08.png",
+	"ImageName": "i09_eliksir_zapomnienia.png",
 	"Price": 	 1,
 	"Categories": ["Przedmioty zużywalne", "Eliksiry"],
 	"Description": "No stary, k***a, ze mną się nie napijesz?",
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj po dowolnym rzucie kością. Wynik tego rzutu jest nieważny. Rzucający musi przerzucić wszystkie kości, którymi wykonał rzut." }]
 },
 {
+	"Id":		 "i09",
 	"Name": 	 "Pizza na telefon",
-	"ImageName": "i09.png",
+	"ImageName": "i13_pizza_na_telefon.png",
 	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Jeśli tak smakuje cierpienie, to warto cierpieć!",
 	"Effects": [{ "Type": "Effect", "Text": "Możesz zagrać ten przedmiot w trakcie walki, przed wykonaniem ataku. Wszyscy gracze, biorący udział w tej walce odzyskują 10 punktów wytrzymałości." }]
 },
 {
+	"Id":		 "i10",
 	"Name": 	 "Zwykły fuks",
-	"ImageName": "i10.png",
+	"ImageName": "i05_zwykly_fuks.png",
 	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne", "Eliksiry"],
 	"Description": "Jebany, znowu farci!",
 	"Effects": [{ "Type": "Effect", "Text": "Użyj na siebie przed wykonaniem rzutu. Ustal wynik tego rzutu. Rzut kośćmi nie odbywa się." }]
 },
 {
+	"Id":		 "i11",
 	"Name": 	 "Fiolka krwi berserkera",
-	"ImageName": "i11.png",
+	"ImageName": "i10_fiolka_krwi_berserkera.png",
 	"Price": 	 1,
 	"Categories": ["Przedmioty zużywalne", "Eliksiry"],
 	"Description": "GWRAAAAAAAAAAAAAAAH!!!",
 	"Effects": [{ "Type": "Effect", "Text": "Na trzy tury od momentu użycia zapewnia używającemu dodatkowe [r6][r6] do [testów obrażeń], ale zwiększa otrzymywane przez niego obrażenia od ataków o 2." }]
 },
 {
+	"Id":		 "i12",
 	"Name": 	 "Rozwodnione piwo festiwalowe",
-	"ImageName": "i12.png",
+	"ImageName": "i03_rozwodnione_piwo_festiwalowe_za_dyche.png",
 	"Price": 	 2,
 	"Categories": ["Przedmioty zużywalne", "Eliksiry"],
 	"Description": "Wydaje ci się, że możesz wszystko!",
 	"Effects": [{ "Type": "Effect", "Text": "Rzuć [k6]. Wynik różny od 0 oznacza, że obrażenia zadane przez używającego w tej turze zostają podwojone. Wynik równy 2 oznacza dodatkowo, że używający podczas [testu obrażeń] w tej turze otrzymuje dodatkowe [k6]. Wynik równy 0 oznacza natychmiastowe zakończenie tury przez używającego." }]
 },
 {
+	"Id":		 "i13",
 	"Name": 	 "Galaktyczny blaster na wodę",
-	"ImageName": "i13.png",
+	"ImageName": "i52_galaktyczny_blaster_na_wode.png",
 	"Price": 	 3,
 	"Categories": ["Ekwipunek", "Broń"],
 	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "1": ["[zadawanych obrażeń]"] }}]
 },
 {
+	"Id":		 "i14",
 	"Name": 	 "Wymarzony oręż młodego wojownika",
-	"ImageName": "i14.png",
+	"ImageName": "i50_wymarzony_orez_mlodego_wojownika.png",
 	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Broń"],
 	"Description":
@@ -111,8 +125,9 @@
 	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "[k6]": ["[testu obrażeń]"] }}]
 },
 {
+	"Id":		 "i15",
 	"Name": 	 "Pedalski miecz grawerowany",
-	"ImageName": "i15.png",
+	"ImageName": "i53_pedalski_miecz_grawerowany.png",
 	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Broń"],
 	"Description":
@@ -123,8 +138,9 @@
 		}]
 },
 {
+	"Id":		 "i16",
 	"Name": 	 "Na wskroś zmrożony okoń",
-	"ImageName": "i16.png",
+	"ImageName": "i54_na_wskros_zmrozony_okon.png",
 	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Broń"],
 	"Description":
@@ -135,8 +151,9 @@
 	]
 },
 {
+	"Id":		 "i17",
 	"Name": 	 "Kostur mistrza magii",
-	"ImageName": "i17.png",
+	"ImageName": "i56_kostur_mistrza_magii.png",
 	"Price": 	 7,
 	"Categories": ["Ekwipunek", "Broń"],
 	"Effects": [{
@@ -148,8 +165,9 @@
 		}]
 },
 {
+	"Id":		 "i18",
 	"Name": 	 "Dizajnerska mysz bezprzewodowa",
-	"ImageName": "i18.png",
+	"ImageName": "i57_dizajnerska_mysz_bezprzewodowa.png",
 	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Broń"],
 	"Description":
@@ -157,15 +175,17 @@
 	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "[k6]": ["[testu obrażeń]"] }}]
 },
 {
+	"Id":		 "i19",
 	"Name": 	 "Krwawy topór ostatniej przysługi",
-	"ImageName": "i19.png",
+	"ImageName": "i58_krwawy_topor_ostatniej_przyslugi.png",
 	"Price": 	 5,
 	"Categories": ["Ekwipunek", "Broń"],
 	"Effects": [{"Type": "StatTemplate", "ModifiedStats": { "[r6]": ["[testu obrażeń]"] }}]
 },
 {
+	"Id":		 "i20",
 	"Name": 	 "Przypalona patelnia",
-	"ImageName": "i20.png",
+	"ImageName": "i61_przypalona_patelnia.png",
 	"Price": 	 5,
 	"Categories": ["Ekwipunek", "Broń"],
 	"Description": "Damage is rather consistent.",
@@ -175,15 +195,17 @@
 	]
 },
 {
+	"Id":		 "i21",
 	"Name": 	 "Długopisowy miotacz kulek z papieru",
-	"ImageName": "i21.png",
+	"ImageName": "i67_dlugopisowy_miotacz_papierowych_kulek.png",
 	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Broń"],
 	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "[k6]": ["[testu obrażeń]"]} }]
 },
 {
+	"Id":		 "i22",
 	"Name": 	 "Gumowe klapki z dziurami",
-	"ImageName": "i22.png",
+	"ImageName": "i30_gumowe_klapki_z_dziurami.png",
 	"Price": 	 2,
 	"Categories": ["Ekwipunek", "Buty"],
 	"Effects": [	
@@ -193,23 +215,26 @@
 	]
 },
 {
+	"Id":		 "i23",
 	"Name": 	 "Superśliskie kapciuszki-króliczki",
-	"ImageName": "i23.png",
+	"ImageName": "i34_supersliskie_kapciuski_kroliczki.png",
 	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Buty"],
 	"Description": "Są miękkie i różowe. I mają uszy.",
 	"Effects": [{ "Type": "Template", "Name": "ruch+1" }]
 },
 {
+	"Id":		 "i24",
 	"Name": 	 "Sandały turystyczne",
-	"ImageName": "i24.png",
+	"ImageName": "i46_sandaly_turystyczne.png",
 	"Price": 	 1,
 	"Categories": ["Ekwipunek", "Buty"],
 	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "[k6]": ["[testu otwarcia]"] }}]
 },
 {
+	"Id":		 "i25",
 	"Name": 	 "Czarne glany",
-	"ImageName": "i25.png",
+	"ImageName": "i55_czarne_glany.png",
 	"Price": 	 3,
 	"Categories": ["Ekwipunek", "Buty"],
 	"Description": "Bo tylko czarne glany są naprawdę funny!",
@@ -222,8 +247,9 @@
 		}]
 },
 {
+	"Id":		 "i26",
 	"Name": 	 "Łyżwowrotki",
-	"ImageName": "i26.png",
+	"ImageName": "",
 	"Price": 	 5,
 	"Categories": ["Ekwipunek", "Buty"],
 	"Effects": [{ 
@@ -232,52 +258,63 @@
 	}]
 },
 {
+	"Id":		 "i27",
 	"Name": 	 "Modny kapelusz malarski",
-	"ImageName": "i27.png",
+	"ImageName": "i04_modny_kapelusz_malarza.png",
 	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Nakrycie głowy"],
 	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "1": ["[redukcji obrażeń]"] }}]
 },
 {
+	"Id":		 "i28",
 	"Name": 	 "Transcendencyjna czapka ambiwalencji maga-ch*** znad Gibraltaru",
-	"ImageName": "i28.png",
+	"ImageName": "i44_transcendencyjna_czapka_ambiwalencji.png",
 	"Price": 	 6,
 	"Categories": ["Ekwipunek", "Nakrycie głowy"],
 	"Effects": [{ "Type": "Effect", "Text": "Podnosi limit posiadanych [punktów akcji] o 2." }]
 },
 {
+	"Id":		 "i29",
 	"Name": 	 "Amortyzujący hełm analityczny",
-	"ImageName": "i29.png",
+	"ImageName": "i48_analityczny_helm_amortyzujacy.png",
 	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Nakrycie głowy"],
 	"Effects": [{ "Type": "Effect", "Text": "Ilekroć posiadacz tego przedmiotu odnosi obrażenia na skutek ataku, może wydać dowolną liczbę [punktów akcji]. Za każde dwa wydane punkty akcji obrażenia od tego ataku zostają zmniejszone o 1." }]
 },
 {
+	"Id":		 "i30",
 	"Name": 	 "Gniazdo",
-	"ImageName": "i30.png",
+	"ImageName": "i49_gniazdo.png",
 	"Price": 	 5,
 	"Categories": ["Ekwipunek", "Nakrycie głowy"],
 	"Description": "Może i nie wyglądasz z nim atrakcyjnie, ale z pewnością sprawiasz wrażenie dużo mądrzejszego.",
 	"Effects": [{"Type": "StatTemplate", "ModifiedStats": { "[k6]": ["[testu obrażeń]"] }}]
 },
 {
+	"Id":		 "i31",
 	"Name": 	 "Diadem mądrości",
-	"ImageName": "i31.png",
-	"Price": 	 5,
+	"ImageName": "i51_diadem_inteligencji.png",
+	"Price": 	 5,	
+	
+	"NeedUpdate": true,
+	"Comment":	  "Podobno efekt jest niejasny",
+	
 	"Categories": ["Ekwipunek", "Nakrycie głowy"],
 	"Description": "Trzeba przyznać, że bardzo inteligentnie wygląda w okularach.",
 	"Effects": [{ "Type": "Effect", "Text": "Ilekroć walka, w której bierzesz udział, kończy się zwycięstwem, pobierz 2 punkty akcji. Uzyskana w ten sposób liczba posiadanych [punktów akcji] może przekraczać twoją maksymalną liczbę [punktów akcji]."}]
 },
 {
+	"Id":		 "i32",
 	"Name": 	 "Wybitnie przeciętna koszulka",
-	"ImageName": "i32.png",
+	"ImageName": "i39_wybitnie_przecietna_koszulka.png",
 	"Price": 	 2,
 	"Categories": ["Ekwipunek", "Zbroja"],
 	"Effects": [{ "Type": "Effect", "Text": "Jest tak nijaka, że możesz wtopić sie w tłum i zyskać modyfikator +1 do [testu inicjatywy] podczas ucieczki z walki." } ]
 },
 {
+	"Id":		 "i33",
 	"Name": 	 "Imprezowa koszulka",
-	"ImageName": "i33.png",
+	"ImageName": "i36_imprezowa_koszulka.png",
 	"Price": 	 5,
 	"Categories": ["Ekwipunek", "Zbroja"],
 	"Description": "Posiadacz tej relikwi uzyskuje nadnaturalną moc, która sprawia, że każdy wypity przez niego eliksir może się zwrócić następnego dnia.",
@@ -287,8 +324,9 @@
 	]
 },
 {
+	"Id":		 "i34",
 	"Name": 	 "Napierśnik z folii bąbelkowej",
-	"ImageName": "i34.png",
+	"ImageName": "i73_napiersnik_z_folii_babelkowej.png",
 	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Zbroja"],
 	"Description": "Człowiek siedzi sobie w spokoju, a tu nagle słyszy: pyk. pyk. pyk. Pyk. Pyk. Pyk. PYK. PYK. PYK. PYK!",
@@ -299,8 +337,9 @@
 	]
 },
 {
-	"Name": 	 "Zbroja z kartonu",
-	"ImageName": "i35.png",
+	"Id":		 "i35",
+	"Name": 	 "Kartonowa zbroja",
+	"ImageName": "i37_zbroja_z_kartonu.png",
 	"Price": 	 3,
 	"Categories": ["Ekwipunek", "Zbroja"],
 	"Description": "Legendarny artefakt wielu akademików. Pozwala dużo skuteczniej odebrać pizzę od dostawcy.",
@@ -317,32 +356,36 @@
 	]
 },
 {
+	"Id":		 "i36",
 	"Name": 	 "Uniwersalna zbroja informatyczna",
-	"ImageName": "i36.png",
+	"ImageName": "i38_uniwersalna_zbroja_informatyczna.png",
 	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Zbroja"],
 	"Description": "Każdy szanujący się mężczyzna powinien mieć w swojej garderobie niebieską koszulę w kratę.",
 	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "1": ["[redukcji obrażeń]"]}} ]
 },
 {
+	"Id":		 "i37",
 	"Name": 	 "Sfatygowana kurtka skórzana",
-	"ImageName": "i37.png",
+	"ImageName": "i40_sfatygowana_kurtka_skorzana.png",
 	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Zbroja"],
 	"Description": "Widzisz tę skórę? Czuć wpierza! Syntetycznego, ale wieprza!",
 	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "1": ["[redukcji obrażeń]"]}} ]
 },
 {
-	"Name": 	 "Wodoszczelna zbroja rycerzy ortalionu",
-	"ImageName": "i38.png",
+	"Id":		 "i38",
+	"Name": 	 "Wodoszczelna zbroja rycerza ortalionu",
+	"ImageName": "i41_zbroja_rycerza_ortalionu.png",
 	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Zbroja"],
 	"Description": "Trzy paski zapewnią szacun na dzielni!",
 	"Effects": [{ "Type": "Effect", "Text": "Zapewnia trwały modyfikator +1 do redukcji obrażeń oraz trwały modyfikator +3 do ochrony przed wodą." }]
 },
 {
+	"Id":		 "i39",
 	"Name": 	 "Imperialna płytówka obrońcy",
-	"ImageName": "i39.png",
+	"ImageName": "i45_imperialna_plytowka_obroncy.png",
 	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Zbroja"],
 	"Description": "Prawie każdy marzy o grze tankiem. Chyba, że jest supportem - support nie ma marzeń.",
@@ -358,38 +401,43 @@
 	]
 },
 {
+	"Id":		 "i40",
 	"Name": 	 "Proteza gruczołów jadowych",
-	"ImageName": "i40.png",
+	"ImageName": "i68_proteza_gruczolow_jadowych.png",
 	"Price": 	 6,
 	"Categories": ["Ekwipunek"],
 	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "[g6]": ["[testu obrażeń]"]}} ]
 },
 {
+	"Id":		 "i41",
 	"Name": 	 "Stare domowe dresy",
-	"ImageName": "i41.png",
+	"ImageName": "i33_stare_domowe_dresy.png",
 	"Price": 	 2,
 	"Categories": ["Ekwipunek"],
 	"Description": "Nikt na świecie nie ma takich spodni jak ja - całe fioletowe, szerokie, lalala...",
 	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "1": ["[testów inicjatywy]"]}} ]
 },
 {
+	"Id":		 "i42",
 	"Name": 	 "Fluorescencyjne spodnie",
-	"ImageName": "i42.png",
+	"ImageName": "i35_fluorescencyjne_spodnie.png",
 	"Price": 	 3,
 	"Categories": ["Ekwipunek"],
 	"Effects": [{ "Type": "Effect", "Text": "Za każdym razem, gdy znacznik pierwszego gracza zmienia właściciela, możesz zużyć 2 punkty akcji, aby wykonać rzut [k6]. Wynik równy 2 oznacza, że właściciel fluorescencyjnych spodni przejmuje znacznik pierwszego gracza. Posiadacz nie może korzystać z nie-ściągi ani uciec z walki." }]
 },
 {
+	"Id":		 "i43",
 	"Name": 	 "W ch** kultowy plecak typu kostka",
-	"ImageName": "i43.png",
+	"ImageName": "i42_w_ch_kultowy_plecak_typu_kostka.png",
 	"Price": 	 5,
 	"Categories": ["Ekwipunek"],
 	"Description": "Kultowy plecak o nieskończonej pojemności, czczony przez liczne subkultury młodzieżowe. Jest całkowicie niezniszczalny i występuje w kolorze czarnym, zielonym oraz czarnym i czarno-zielonym.",
 	"Effects": [{ "Type": "Effect", "Text": "Poza możliwością zapakowania do środka absolutnie wszystkiego, zapewnia właścicielowi możliwość posiadania w ręce dwóch dodatkowych kart." }]
 },
 {
+	"Id":		 "i44",
 	"Name": 	 "Rączy rumak",
-	"ImageName": "i44.png",
+	"ImageName": "i43_raczy_rumak.png",
 	"Price": 	 5,
 	"Categories": ["Ekwipunek"],
 	"Description": "To najlepszy wóz - najszybszy w mieście. Każdy chciałby mieć taką bestię.",
@@ -399,8 +447,9 @@
 	]
 },
 {
+	"Id":		 "i45",
 	"Name": 	 "Notatki",
-	"ImageName": "i45.png",
+	"ImageName": "i32_notatki.png",
 	"Price": 	 1,
 	"Categories": ["Przedmioty zużywalne"],
 	"Effects": [
@@ -412,8 +461,9 @@
 	]
 },
 {
+	"Id":		 "i46",
 	"Name": 	 "Nie-ściaga",
-	"ImageName": "i46.png",
+	"ImageName": "i15_niesciaga.png",
 	"Price": 	 2,
 	"Categories": ["Przedmioty zużywalne"],
 	"Effects": [
@@ -424,15 +474,17 @@
 	]
 },
 {
+	"Id":		 "i47",
 	"Name": 	 "Słoik przywieziony z domu",
-	"ImageName": "i47.png",
+	"ImageName": "i16_sloik_przywieziony_z_domu.png",
 	"Price": 	 1,
 	"Categories": ["Przedmioty zużywalne"],
 	"Effects": [{ "Type": "Effect", "Text": "Możesz użyć tego przedmiotu po nieudanym rzucie za ucieczkę z walki, aby z niej uciec. Mamie pewnie będzie przykro, ale lepiej wyrzucić słoik niż samemu zostać pożartym."	}]
 },
 {
+	"Id":		 "i48",
 	"Name": 	 "Intensywne perfumy piżmowe",
-	"ImageName": "i48.png",
+	"ImageName": "i17_intensywne_perfumy_pizmowe.png",
 	"Price": 	 2,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Nigdy nie pryskaj się piżmem, kiedy idziesz do zoo.",
@@ -442,135 +494,154 @@
 	]
 },
 {
+	"Id":		 "i49",
 	"Name": 	 "Wyciąg z frajera",
-	"ImageName": "i49.png",
+	"ImageName": "i14_wyciag_z_kozulka_lekarskiego.png",
 	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Stary! Co to za sikacz?",
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj na dowolnego gracza w trakcie dowolnej walki. Do końca tej walki gracz ten wykonuje [testy obrażeń] używając [k6], a żaden przedmiot nie zapewnia temu graczowi premii do zadawanych obrażeń." }]
 },
 {
+	"Id":		 "i50",
 	"Name": 	 "Szczęśliwa podkowa",
-	"ImageName": "i50.png",
+	"ImageName": "i18_szczesliwa_podkowa.png",
 	"Price": 	 1,
 	"Categories": ["Przedmioty zużywalne"],
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj po dowolnym rzucie kośćmi. Dodaj 2 do wyniku tego rzutu." }]
 },
 {
+	"Id":		 "i51",
 	"Name": 	 "Suple spod lady",
-	"ImageName": "i51.png",
+	"ImageName": "i11_suple_spod_lady.png",
 	"Price": 	 4,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Dobra, tym razem już naprawdę biorę się za siebie. Regularny tryb życia, zdrowa dieta, intensywne ćwiczenia... Może po prostu wystarczy więcej supli.",
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj tę kartę po wygranej walce, w której brałeś udział. Weź dodatkowy punkt doświadczenia." }]
 },
 {
+	"Id":		 "i52",
 	"Name": 	 "Magiczna kula",
-	"ImageName": "i53.png",
+	"ImageName": "i23_magiczna_kula.png",
 	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne"],
 	"Effects": [{ "Type": "Effect", "Text": "Spójrz na trzy pierwsze karty talii przedmiotów. Wybierz jedną z nich i weź do ręki. Pozostałe dwie pokaż innym grzaczom i odrzuć je." }]
 },
 {
+	"Id":		 "i53",
 	"Name": 	 "Haracz dla żula",
-	"ImageName": "i54.png",
+	"ImageName": "i24_haracz_dla_ediego.png",
 	"Price": 	 4,
 	"Categories": ["Przedmioty zużywalne"],
 	"Effects": [{ "Type": "Effect", "Text": "Przejrzyj stos odrzuconych przedmiotów, wybierz jeden z nich, pokaż go pozostałym graczom i umieść go w swojej ręce." }]
 },
 {
+	"Id":		 "i54",
 	"Name": 	 "Nerdowskie okulary",
-	"ImageName": "i55.png",
+	"ImageName": "i47_nerdowskie_okulary.png",
 	"Price": 	 1,
 	"Categories": ["Przedmioty zużywalne"],
 	"Effects": [{ "Type": "Effect", "Text": "Zobacz kolejną kartę wydarzenia, nie pokazuj jej nikomu innemu. Jeśli chcesz, możesz odłożyć ją na wierzch talii wydarzeń. W przeciwnym wypadku odłóż ją na spód talii wydarzeń i potasuj karty w tej talii." }]
 },
 {
+	"Id":		 "i55",
 	"Name": 	 "Ciasteczko z horoskopem",
-	"ImageName": "i56.png",
+	"ImageName": "",
 	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne"],
 	"Effects": [{ "Type": "Template", "Name": "change_objectives", "Value": "dwie" }]
 },
 {
+	"Id":		 "i56",
 	"Name": 	 "Gumowa rękawica pustych kieszeni",
-	"ImageName": "i57.png",
+	"ImageName": "i25_gumowa_rekawica_pustych_kieszeni.png",
 	"Price": 	 2,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Jak mamę kocham! Te dwie karty naprawdę się skleiły! Przysięgam!",
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj tę kartę w momencie, w którym dobierasz kartę z talii przedmiotów. Weź drugą kartę przedmiotu i umieść w swojej ręce." }]
 },
 {
+	"IsDeleted": true,
+	"Id":		 "i57",
 	"Name": 	 "Smocza babeczka predestynacji",
-	"ImageName": "i58.png",
+	"ImageName": "i28_babeczka_predestynacji.png",
 	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne"],
 	"Effects": [{ "Type": "Effect", "Text": "Weź na rękę kartę leżącą na wierzchu talii wydarzeń. Po odkryciu karty wydarzenia możesz zagrać na jej miejsce kartę wydarzenia z ręki." }]
 },
 {
+	"Id":		 "i58",
 	"Name": 	 "Super grzybek mocy",
-	"ImageName": "i59.png",
+	"ImageName": "i63_super_grzybek_mocy.png",
 	"Price": 	 6,
 	"Categories": ["Przedmioty zużywalne"],
 	"Effects": [{ "Type": "Effect", "Text": "Używający otrzymuje 1 punkt doświadczenia." }]
 },
 {
+	"Id":		 "i59",
 	"Name": 	 "Frappé z pianką",
-	"ImageName": "i60.png",
+	"ImageName": "",
 	"Price": 	 2,
 	"Categories": ["Przedmioty zużywalne", "Eliksiry"],
 	"Description": "Orzeźwia i pobudza.",
 	"Effects": [{ "Type": "Template", "Name": "restore_action_points", "Value":"2" }]
 },
 {
+	"Id":		 "i60",
 	"Name": 	 "Miękki bawełniany biodegradowalny jednorazowy kocyk turbodrzemki",
-	"ImageName": "i61.png",
+	"ImageName": "i66_miekki_bawelniany_biodegradowalny_jednorazowy_kocyk_turbodrzemki.png",
 	"Price": 	 2,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Kocyk złożony w kostkę traci na milutkości. Musi po prostu sobie leżeć pofałdowany, zawinięty, porzucony - ale nie na zawsze.",
 	"Effects": [{ "Type": "Template", "Name": "restore_action_points", "Value": 2  }]
 },
 {
+	"Id":		 "i61",
 	"Name": 	 "Lyrium",
-	"ImageName": "i62.png",
+	"ImageName": "i62_lyrium.png",
 	"Price": 	 2,
 	"Categories": ["Przedmioty zużywalne", "Eliksiry"],
 	"Description": "Taki stymulant. Coś jak mocniejsza kawa. Tylko nie do picia.",
 	"Effects": [{ "Type": "Template", "Name": "restore_action_points", "Value": 2 }]
 },
 {
+	"Id":		 "i63",
 	"Name": 	 "Szalik prawdziwego kibica",
-	"ImageName": "i63.png",
+	"ImageName": "",
 	"Price": 	 4,
 	"Categories": ["Przedmioty zużywalne"],
 	"Effects": [{ "Type": "Template", "Name": "steal_item" }]
 },
 {
+	"Id":		 "i64",
 	"Name": 	 "Świnka-skarbonka",
-	"ImageName": "i64.png",
+	"ImageName": "i26_pierwsze_konto_w_banku.png",
 	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne"],
 	"Effects": [{ "Type": "Template", "Name": "gain_btc", "Value": "[k6][k6][k6]" }]
 },
 {
+	"Id":		 "i65",
 	"Name": 	 "Klatka z plecionki na kangury",
-	"ImageName": "i65.png",
+	"ImageName": "i27_klatka_z_plecionki_na_kagury.png",
 	"Price": 	 4,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Jeśli zamknie się w niej hotentockiego zabójcę matki głupka i jąkały, to w skrócie można nazwać ją Hottentottenstottertrottelmutterattentäter-beutelrattenlattengitterkoffer.",
 	"Effects": [{ "Type": "Effect", "Text": "Wybierz nie-elitarne stworzenie biorące udział w walce. Stworzenie to zostaje złapane w klatkę z plecionki. Jeśli jest to jedyne stworzenie w tej walce, walka kończy się. Posiadacz klatki zdobywa połowę (zaokrąglając w dół) puli btc przeznaczonej za schwytane stworzenie. Nikt nie otrzymuje punktów doświadczenia ani skarbów za to stworzenie. Po walce odrzuć schwytane stworzenie." }]
 },
 {
+	"Id":		 "i66",
 	"Name": 	 "Pompka do materaca",
-	"ImageName": "i66.png",
+	"ImageName": "",
 	"Price": 	 1,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Najlepsza na kaca.",
 	"Effects": [{ "Type": "Template", "Name": "remove_poison_counters", "Value": "wszystkie" }]
 },
 {
+	"Id":		 "i67",
 	"Name": 	 "Zwój zajebistości",
-	"ImageName": "i67.png",
+	"ImageName": "i20_zwoj_zajebistosci.png",
 	"Price": 	 4,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Widziałeś kiedyś bardziej zajebisty zwój?",
@@ -584,62 +655,70 @@
 	}]
 },
 {
+	"Id":		 "i68",
 	"Name": 	 "Napój magiczny",
-	"ImageName": "i68.png",
+	"ImageName": "i69_napoj_magiczny.png",
 	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne", "Eliksiry"],
 	"Description": "Otóż ten napój to jest taki napój magiczny, którzy przyrządza nasz druid i który zasadniczo zwiększa tężyznę.",
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj w trakcie walki. Wybrany przez ciebie uczestnik tej walki otrzymuje modyfikator +3 do zadawanych obrażeń do końca tej walki." }]
 },
 {
+	"Id":		 "i69",
 	"Name": 	 "Samoprzylepne wąsy żigolo",
-	"ImageName": "i69.png",
+	"ImageName": "i70_samoprzylepne_wasy_zigolo.png",
 	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne"],
 	"Effects": [{ "Type": "Effect", "Text": "Wyglądasz w nich bardzo pretensjonalnie i aż się prosisz o sowity wp*****l. Wszystkie stworzenia zadają ci obrażenia zwiększone o 2. Wyjątkiem jest półkobieta-półryba - ona uważa to za bardzo seksowne.\n\nMożna zagrać w dowolnym momencie poza walką na dowolnego gracza. Jeśli posiadacz chce odrzucić ten przedmiot, musi wydać punkt akcji, a następnie rzucić [k6]. Wynik równy 0 pozwala odrzucić przedmiot." }]
 },
 {
+	"Id":		 "i70",
 	"Name": 	 "Zestaw kustomowych kości",
-	"ImageName": "i70.png",
+	"ImageName": "i22_zestaw_kustomowych_kosci.png",
 	"Price": 	 5,
 	"Categories": ["Ekwipunek"],
 	"Description": "Nie toczyła się!",
 	"Effects": [{ "Type": "Effect", "Text": "Po dowolnym rzucie kością wykonanym przez siebie możesz wydać 2 punkty akcji. Wynik tego rzutu jest nieważny. Przerzuć wszystkie kości, którymi wykonałeś rzut. Wynik drugiego rzutu nie może być ponownie przerzucany." }]
 },
 {
+	"Id":		 "i71",
 	"Name": 	 "Koci pocisk armatni",
-	"ImageName": "i71.png",
+	"ImageName": "i19_koci_pocisk_armatni.png",
 	"Price": 	 4,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Jurek! Sto razy mówiłam ci, żebyś nie rzucał Mruczkiem w jabłonkę!",
 	"Effects": [{ "Type": "Template", "Name": "direct_damage" }]
 },
 {
+	"Id":		 "i72",
 	"Name": 	 "Nietoperzasty shuriken",
-	"ImageName": "i72.png",
+	"ImageName": "i64_nietoperzasty_shuriken.png",
 	"Price": 	 4,
 	"Categories": ["Przedmioty zużywalne"],
 	"Effects": [{ "Type": "Template", "Name": "direct_damage" }]
 },
 {
+	"Id":		 "i73",
 	"Name": 	 "Święty granat ręczny",
-	"ImageName": "i73.png",
+	"ImageName": "i65_swiety_granat_reczny.png",
 	"Price": 	 4,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "I Święty Attyla uniósł granat ręczny wysoko, mówiąc: \"Panie, błogosław ten granat, niechaj w łasce twojej rozniesie nieprzyjacioły twoje na kawałeczki.\" A Pan uśmiechnął się do niego, a ludzie spożywać poczęli owce, leniwce, karpie, sardele, orangutany, płatki śniadaniowe i nietoperze [...] I Pan powiedział: Wpierw wyjąć musisz świętą Zawleczkę, potem masz zliczyć do trzech, ni mniej, ni więcej. Trzy jest liczbą, do której liczyć masz i liczbą twego liczenia będzie trzy. Nie policzysz do czterech ani do dwóch, chyba, że w czasie liczenia do trzech. Pięć jest wykluczone. Gdy liczba trzy jako trzecia w kolejności osiągnięta zostanie, wówczas rzucić masz Święty Granat Ręczny z Antiochii w kierunku wroga, co naigrawał się z ciebie w polu widzenia twego, a wówczas on kitę odwali. Amen.\nKsięga Uzbrojenia, rozdział drugi, wersety od 9 do 21",
 	"Effects": [{ "Type": "Template", "Name": "direct_damage" }]
 },
 {
+	"Id":		 "i74",
 	"Name": 	 "Ulgowy bilet jednoprzejazdowy",
-	"ImageName": "i74.png",
+	"ImageName": "i60_ulgowy_bilet_jednoprzejazdowy.png",
 	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Bilet upoważnia podróżnego do jednorazowego przejazdu miejską komunikacją autobusową, tramwajową lub metrem w strefie 1. Bilet upoważnia podróżnego do przejazdu liniami nocnymi. Do biletu nie wolno stosować dopłat w postaci biletów jednorazowych.",
 	"Effects": [{ "Type": "Template", "Name": "teleport" }]
 },
 {
+	"Id":		 "i75",
 	"Name": 	 "Mapa",
-	"ImageName": "i75.png",
+	"ImageName": "",
 	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Może jednak zapytamy o drogę?",
