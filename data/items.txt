@@ -1,4 +1,4 @@
-[
+﻿[
 {
 	"Id":		 "i01",
 	"Name": 	 "Mikstura leczenia",
@@ -349,7 +349,7 @@
 			"ModifiedStats": 
 			{ 
 				"1": ["[redukcji obrażeń]"],				
-				"-1": ["[test otwarcia]"] 
+				"-1": ["[testu otwarcia]"] 
 			}
 		},
 		{"Type": "Effect", "Text": "Posiadacz nie otrzymuje obrażeń od Śmierdzi 10 stóp." }

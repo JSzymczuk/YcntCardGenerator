@@ -1,4 +1,4 @@
-{
+﻿{
 	"CreaturesFileName": 	"data/creatures.txt",
 	"ItemsFileName": 		"data/items.txt",
 	"ActionsFileName": 		"data/actions.txt",
@@ -110,8 +110,11 @@
 		"[testy obrażeń]": 		"testy obrażeń",
 		"[testów obrażeń]": 	"testów obrażeń",
 		"[testach obrażeń]": 	"testach obrażeń",
+		"[test inicjatywy]":	"test inicjatywy",
 		"[testu inicjatywy]":	"testu inicjatywy",
+		"[test ucieczki]":		"test ucieczki",
 		"[testu ucieczki]":		"testu ucieczki",
+		"[test otwarcia]":		"test otwarcia",
 		"[testu otwarcia]":		"testu otwarcia",
 		"[test inicjatywy]": 	"test inicjatywy",
 		
