@@ -249,7 +249,7 @@
 {
 	"Id":		 "i26",
 	"Name": 	 "Łyżwowrotki",
-	"ImageName": "",
+	"ImageName":     "i71_lyzwowrotki.png",
 	"Price": 	 5,
 	"Categories": ["Ekwipunek", "Buty"],
 	"Effects": [{ 
@@ -546,10 +546,10 @@
 {
 	"Id":		 "i55",
 	"Name": 	 "Ciasteczko z horoskopem",
-	"ImageName": "",
+	"ImageName":     "i74_ciasteczko_z_horoskopem.png",
 	"Price": 	 3,
-	"Categories": ["Przedmioty zużywalne"],
-	"Effects": [{ "Type": "Template", "Name": "change_objectives", "Value": "dwie" }]
+	"Categories":    ["Przedmioty zużywalne"],
+	"Effects":       [{ "Type": "Template", "Name": "change_objectives", "Value": "dwie" }]
 },
 {
 	"Id":		 "i56",

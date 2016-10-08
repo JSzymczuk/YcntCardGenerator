@@ -21,7 +21,7 @@
 {
 	"ID":		 "a02",
 	"Name": 	 "Firewall",
-	"ImageName": "",
+	"ImageName": "a02_firewall.png",
 	"Points": 	 1,
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj po dowolnym ataku. Zignoruj [k6][k6] obrażeń od tego ataku, które zamiast celu otrzymuje atakujący." }]
 },
