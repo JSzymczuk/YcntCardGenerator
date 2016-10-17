@@ -85,7 +85,7 @@
 	},
 	"Prize":
 	{
-		"Gold":  4,
+		"Gold":  6,
 		"Items": 1
 	}
 }, 	
@@ -98,23 +98,23 @@
 	"Description":
 	"Może i oczu nie cieszy, ale kto wybrzydza...",
 	
-	"HP": 	      15,
+	"HP": 	      10,
 	"Initiative": 4,
-	"Damage":     1,
+	"Damage":     0,
 	"AttackDices": 
 	{
-		"White": 1
+		"White": 3
 	},		
 	"Movement":
 	{
-		"First":  "GGG",
+		"First":  "GG",
 		"Second": "BB",
 		"Third":  "RR"
 	},
 	"Prize":
 	{
-		"Gold":  7,
-		"Items": 0
+		"Gold":  8,
+		"Items": 2
 	}
 },
 {
@@ -138,8 +138,8 @@
 	},
 	"Prize":
 	{
-		"Gold":  3,
-		"Items": 0
+		"Gold":  4,
+		"Items": 1
 	}
 },
 {
@@ -150,7 +150,7 @@
 	
 	"HP": 	      3,
 	"Initiative": 0,
-	"Damage":     1,
+	"Damage":     2,
 	"AttackDices": 
 	{
 		"White": 1
@@ -163,7 +163,7 @@
 	},
 	"Prize":
 	{
-		"Gold":  2,
+		"Gold":  4,
 		"Items": 0
 	}
 },
@@ -180,7 +180,7 @@
 	"Tak naprawdę może być tetrowe.",
 	
 	"HP": 	      4,
-	"Initiative": 0,
+	"Initiative": 1,
 	"Damage":     1,
 	"AttackDices": 
 	{
@@ -194,7 +194,7 @@
 	},
 	"Prize":
 	{
-		"Gold":  3,
+		"Gold":  4,
 		"Items": 1
 	}
 }, 
@@ -208,9 +208,9 @@
 	"Description":
 	"- Matematyka jest jak kobieta - trzeba z nią rozmawiać. Co na przykład mówi panu ta całka?\n- Nie jestem taka łatwa, na jaką wyglądam?",
 	
-	"HP": 	      15,
-	"Initiative": 2,
-	"Damage":     0,
+	"HP": 	      9,
+	"Initiative": 3,
+	"Damage":     3,
 	"AttackDices": 
 	{
 		"White": 3
@@ -234,7 +234,7 @@
 	"ImageName": "m07_typowy_bug.png",
 	
 	"HP": 	      5,
-	"Initiative": 1,
+	"Initiative": 2,
 	"Damage":     1,
 	"AttackDices": 
 	{
@@ -248,7 +248,7 @@
 	},
 	"Prize":
 	{
-		"Gold":  4,
+		"Gold":  5,
 		"Items": 1
 	}
 }, 	
@@ -258,12 +258,12 @@
 	"Tag":  	 "zmora studenta",		
 	"ImageName": "",
 	
-	"HP": 	      18,
+	"HP": 	      11,
 	"Initiative": 1,
 	"Damage":     2,
 	"AttackDices": 
 	{
-		"Red": 1
+		"Red": 2
 	},		
 	"Movement":
 	{
@@ -273,7 +273,7 @@
 	},
 	"Prize":
 	{
-		"Gold":  5,
+		"Gold":  8,
 		"Items": 3
 	}
 }, 	
@@ -298,8 +298,8 @@
 	},
 	"Prize":
 	{
-		"Gold":  2,
-		"Items": 0
+		"Gold":  3,
+		"Items": 1
 	}
 },	
 {
@@ -316,7 +316,7 @@
 	"Damage":     0,
 	"AttackDices": 
 	{
-		"White": 1
+		"White": 3
 	},		
 	"Movement":
 	{
@@ -326,7 +326,7 @@
 	},
 	"Prize":
 	{
-		"Gold":  2,
+		"Gold":  3,
 		"Items": 0
 	}
 },	
@@ -342,12 +342,12 @@
 		"Niewrażliwość na zatrucie"
 	],
 	
-	"HP": 	      13,
+	"HP": 	      10,
 	"Initiative": 4,
 	"Damage":     1,
 	"AttackDices": 
 	{
-		"Green": 2
+		"Green": 3
 	},		
 	"Movement":
 	{
@@ -368,16 +368,21 @@
 	"ImageName": "m43_zapomniany_gargulec.png",
 	
 	"CustomSkill": 
-	"Stworzenie to należy umieścić od razu na polu, na którym znajduje się Starosta. Stworzenie to nie może zostać przesunięte przy użyciu żadnych kart ani zdolności.",
-			
+	"Jeśli to stworzenie pojawi się w pierwszym semestrze, należy wtasować je z powrotem do talii stworzeń i położyć na jego miejsce kolejną kartę stworzenia. \nW przeciwnym przypadku Zapomnianego gargulca należy umieścić od razu na polu, na którym znajduje się Starosta. Stworzenie to nie może zostać przesunięte przy użyciu żadnych kart ani zdolności.",
+
+	"Skills":
+	[
+		"Twarda skóra +1"
+	],		
+
 	"Description": "On cały czas tu był.",
 	
-	"HP": 	      10,
+	"HP": 	      7,
 	"Initiative": 0,
 	"Damage":     0,
 	"AttackDices": 
 	{
-		"White": 1,
+		"White": 2,
 		"Red": 1
 	},
 	"Prize":
@@ -398,12 +403,12 @@
 	"Description":
 	"Ty niewychowany, zuchwały, wulgarny bezbożniku! Starszym się ustępuje!",
 	
-	"HP": 	      16,
+	"HP": 	      9,
 	"Initiative": 1,
 	"Damage":     0,
 	"AttackDices": 
 	{
-		"Red": 1
+		"Red": 3
 	},		
 	"Movement":
 	{
@@ -413,7 +418,7 @@
 	},
 	"Prize":
 	{
-		"Gold":  6,
+		"Gold":  7,
 		"Items": 2
 	}
 },
@@ -423,12 +428,12 @@
 	"Tag":  	 "menda",		
 	"ImageName": "m16_ejdzej.png",
 	
-	"HP": 	      19,
+	"HP": 	      12,
 	"Initiative": 0,
-	"Damage":     0,
+	"Damage":     1,
 	"AttackDices": 
 	{
-		"White": 2
+		"White": 4
 	},		
 	"Movement":
 	{
@@ -438,8 +443,8 @@
 	},
 	"Prize":
 	{
-		"Gold":  7,
-		"Items": 1
+		"Gold":  8,
+		"Items": 2
 	}
 },
 {
@@ -451,11 +456,12 @@
 	"CustomSkill":
 	"Gracze biorący udział w walce mogą zebrać 5 btc, aby odrzucić to stworzenie z walki. Jeśli to zrobią, nikt nie otrzymuje nagrody ani doświadczenia za to stworzenie.",
 	
-	"HP": 	      25,
-	"Initiative": 1,
-	"Damage":     1,
+	"HP": 	      13,
+	"Initiative": 2,
+	"Damage":     0,
 	"AttackDices": 
 	{
+		"Green": 2,
 		"Red": 2
 	},		
 	"Movement":
@@ -466,8 +472,8 @@
 	},
 	"Prize":
 	{
-		"Gold":  8,
-		"Items": 2
+		"Gold":  10,
+		"Items": 3
 	}
 },
 {
@@ -490,8 +496,8 @@
 	"Movement":
 	{
 		"First":  "G",
-		"Second": "GG",
-		"Third":  "B"
+		"Second": "B",
+		"Third":  "R"
 	},
 	"Prize":
 	{
@@ -508,13 +514,13 @@
 	"Description":
 	"Jaka puszcza taki postrach. Jest przerażająca i już trochę podpita. Udawaj, że jej nie widzisz, bo jeszcze podejdzie.",
 	
-	"HP": 	      14,
+	"HP": 	      12,
 	"Initiative": 2,
 	"Damage":     0,
 	"AttackDices": 
 	{
 		"White": 1,
-		"Green": 1
+		"Green": 2
 	},		
 	"Movement":
 	{
@@ -524,8 +530,8 @@
 	},
 	"Prize":
 	{
-		"Gold":  5,
-		"Items": 1
+		"Gold":  8,
+		"Items": 3
 	}
 },
 {
@@ -553,7 +559,7 @@
 	},
 	"Prize":
 	{
-		"Gold":  5,
+		"Gold":  8,
 		"Items": 2
 	}
 },
@@ -564,18 +570,18 @@
 	"ImageName": "m22_elficki_lotrzyk.png",
 	
 	"Description":
-	"Nawet się nie spostrzeżesz, w którym momencie jego ręka znalazła się w twojej kieszeni.",
+	"Nawet się nie spostrzeżesz, w którym momencie jego ręka znajdzie się w twojej kieszeni.",
 	
 	"CustomSkill":
 	"Każda nieudana próba ucieczki z walki z tym stworzeniem oznacza utratę wszystkich posiadanych btc przez gracza.",
 	
 	"HP": 	      11,
-	"Initiative": 6,
+	"Initiative": 5,
 	"Damage":     0,
 	"AttackDices": 
 	{
 		"White": 1,
-		"Red": 1
+		"Red": 2
 	},		
 	"Movement":
 	{
@@ -585,8 +591,8 @@
 	},
 	"Prize":
 	{
-		"Gold":  4,
-		"Items": 1
+		"Gold":  10,
+		"Items": 2
 	}
 },
 {
@@ -598,23 +604,23 @@
 	"Description":
 	"Nie uwierzycie, ale nic nie ma w tych sklepach. No przez trzy godziny szukał spodni, a wrócił z torebką.",
 	
-	"HP": 	      17,
+	"HP": 	      14,
 	"Initiative": 2,
 	"Damage":     0,
 	"AttackDices": 
 	{
-		"White": 3
+		"White": 4
 	},		
 	"Movement":
 	{
-		"First":  "G",
+		"First":  "BG",
 		"Second": "GG",
 		"Third":  "R"
 	},
 	"Prize":
 	{
-		"Gold":  6,
-		"Items": 2
+		"Gold":  9,
+		"Items": 3
 	}
 },
 {
@@ -628,7 +634,7 @@
 	
 	"HP": 	      9,
 	"Initiative": 2,
-	"Damage":     0,
+	"Damage":     3,
 	
 	"AttackDices": 
 	{
@@ -644,7 +650,7 @@
 	},
 	"Prize":
 	{
-		"Gold":  7,
+		"Gold":  9,
 		"Items": 2
 	}
 },
@@ -654,13 +660,14 @@
 	"Tag":   	 "podczłowiek imprezowy",		
 	"ImageName": "m25_czlowiek_bez_twarzy.png",
 	
-	"HP": 	      23,
+	"HP": 	      15,
 	"Initiative": 3,
 	"Damage":     0,
 	
 	"AttackDices": 
 	{
-		"White": 3
+		"White": 2,
+		"Red":	 2
 	},		
 	"Movement":
 	{
@@ -670,8 +677,8 @@
 	},
 	"Prize":
 	{
-		"Gold":  8,
-		"Items": 2
+		"Gold":  9,
+		"Items": 4
 	}
 },
 {
@@ -683,14 +690,14 @@
 	
 	"Description": "Kawaii~~!!! (≧∇≦)/",
 	
-	"HP": 	      30,
+	"HP": 	      18,
 	"Initiative": 2,
 	"Damage":     0,
 	
 	"AttackDices": 
 	{
 		"White": 1,
-		"Red":   1
+		"Red":   3
 	},		
 	"Movement":
 	{
@@ -701,7 +708,7 @@
 	"Prize":
 	{
 		"Gold":  10,
-		"Items": 1
+		"Items": 4
 	}
 },
 {
@@ -716,13 +723,13 @@
 	"CustomSkill":
 	"Każdy gracz rozpoczynający walkę z tym przeciwnikiem musi podrapać za prawym uchem gracza siedzącego po jego lewej stronie.",
 	
-	"HP": 	      16,
+	"HP": 	      10,
 	"Initiative": 2,
 	"Damage":     2,
 	
 	"AttackDices": 
 	{
-		"Red":   2
+		"Red":   3
 	},		
 	"Movement":
 	{
@@ -732,7 +739,7 @@
 	},
 	"Prize":
 	{
-		"Gold":  10,
+		"Gold":  11,
 		"Items": 3
 	}
 },
@@ -745,13 +752,14 @@
 	"Description": 
 	"-Bądźmy dla niego mili.\n-Zamknij się.",
 	
-	"HP": 	      27,
+	"HP": 	      18,
 	"Initiative": 3,
-	"Damage":     2,
+	"Damage":     0,
 	
 	"AttackDices": 
 	{
-		"White":   3
+		"White":   3,
+		"Red":	   3
 	},		
 	"Movement":
 	{
@@ -761,8 +769,8 @@
 	},
 	"Prize":
 	{
-		"Gold":  11,
-		"Items": 2
+		"Gold":  14,
+		"Items": 3
 	}
 },	
 {
@@ -771,14 +779,14 @@
 	"Tag":  	 "bestia",		
 	"ImageName": "m30_leszek.png",
 	
-	"HP": 	      23,
+	"HP": 	      16,
 	"Initiative": 1,
 	"Damage":     0,
 	
 	"AttackDices": 
 	{
-		"White": 2,
-		"Green": 2
+		"Red":	 3,
+		"Green": 3
 	},		
 	"Movement":
 	{
@@ -788,8 +796,8 @@
 	},
 	"Prize":
 	{
-		"Gold":  8,
-		"Items": 3
+		"Gold":  15,
+		"Items": 4
 	}
 },	
 {	
@@ -801,13 +809,14 @@
 	"CustomSkill":
 	"Wszyscy gracze, którzy przegrają starcie z tym stworzeniem, tracą całe posiadane btc.",
 	
-	"HP": 	      40,
-	"Initiative": 2,
+	"HP": 	      20,
+	"Initiative": 3,
 	"Damage":     0,
 	
 	"AttackDices": 
 	{
-		"White": 4
+		"White": 2,
+		"Red":	 4
 	},		
 	"Movement":
 	{
@@ -817,8 +826,8 @@
 	},
 	"Prize":
 	{
-		"Gold":  15,
-		"Items": 4
+		"Gold":  13,
+		"Items": 5
 	}
 },	
 {
@@ -831,15 +840,15 @@
 	"Description":
 	"Pusta zbroja... Serio? Jak zabić sam pancerz...?",
 	
-	"Skills": [ "Twarda skóra 4" ],
+	"Skills": [ "Twarda skóra 3" ],
 	
-	"HP": 	      12,
+	"HP": 	      8,
 	"Initiative": 0,
-	"Damage":     0,
+	"Damage":     2,
 	
 	"AttackDices": 
 	{
-		"Red": 2
+		"Red": 3
 	},		
 	"Movement":
 	{
@@ -859,24 +868,22 @@
 	"Tag":  	 "menda",		
 	"ImageName": "m26_spragniony_ghul_przydworcowy.png",
 	
-	"NeedUpdate": true,
-	"Comment":	  "Podobno efekt jest niejasny",
-	
 	"CustomSkill":
-	"W fazie ruchu stworzeń to stworzenie porusza się w kierunku najbliższego gracza, a nie zgodnie z kierunkiem wskazywanym przez wydarzenie.",
+	"W fazie ruchu stworzeń to stworzenie porusza się w kierunku najbliższego gracza (jeśli gracze są równie blisko do gracza wyżej w starszeństwie), a nie zgodnie z kierunkiem wskazywanym przez wydarzenie.",
 	
-	"HP": 	      26,
+	"HP": 	      14,
 	"Initiative": 1,
-	"Damage":     1,
+	"Damage":     2,
 	
 	"AttackDices": 
 	{
-		"White": 2
+		"White": 3,
+		"Green": 1
 	},
 	"Prize":
 	{
 		"Gold":  9,
-		"Items": 1
+		"Items": 3
 	}
 },	
 {
@@ -887,14 +894,11 @@
 	
 	"Description": "Stworzyłem... potwora...",
 	
-	"HP": 	      14,
-	"Initiative": 2,
-	"Damage":     1,
+	"HP": 	      13,
+	"Initiative": 3,
+	"Damage":     4,
 	
-	"AttackDices": 
-	{
-		"Red": 1
-	},		
+	"AttackDices": { },		
 	"Movement":
 	{
 		"First":  "RR",
@@ -903,8 +907,8 @@
 	},
 	"Prize":
 	{
-		"Gold":  4,
-		"Items": 1
+		"Gold":  6,
+		"Items": 2
 	}
 },	
 {	
@@ -918,12 +922,12 @@
 	"CustomSkill": "Tak długo jak to stworzenie pozostaje na planszy, każdy z graczy, który nie znajduje się na tym samym polu, co to stworzenie, po fazie ruchu graczy musi rzucić [k6] i przesunąć swój pionek w kierunku wskazywanym przez zieloną strzałkę tyle razy ile wyniósł wynik rzutu.",
 	
 	"HP": 	      11,
-	"Initiative": 1,
+	"Initiative": 2,
 	"Damage":     0,
 	
 	"AttackDices": 
 	{
-		"White": 1
+		"White": 2
 	},		
 	"Movement":
 	{
@@ -933,24 +937,25 @@
 	},
 	"Prize":
 	{
-		"Gold":  7,
-		"Items": 1
+		"Gold":  8,
+		"Items": 2
 	}
 },
 {
 	"ID":		 "c35",
 	"Name": 	 "Dwurożec",	
+	"Tag":  	 "bestia",	
 	"ImageName": "m33_dwurozec.png",
 	
 	"Description": "Mądrym zwierzęciem będąc, dwurożec rozumie niechybnie, że ponad miarę w dziewictwie trwać podejrzaną i przeciwną naturze jest rzeczą.",
 	
-	"HP": 	      43,
+	"HP": 	      25,
 	"Initiative": 5,
-	"Damage":     1,
+	"Damage":     4,
 	
 	"AttackDices": 
 	{
-		"White": 1,
+		"White": 2,
 		"Red": 2
 	},		
 	"Movement":
@@ -961,8 +966,8 @@
 	},
 	"Prize":
 	{
-		"Gold":  14,
-		"Items": 3
+		"Gold":  18,
+		"Items": 5
 	}
 },
 

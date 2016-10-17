@@ -9,13 +9,13 @@
 {
 	"Name": "Weterynarz",
 	"Id": "o02",
-	"VictoryPts":  1,
+	"VictoryPts":  2,
 	"Condition": { "Type": "Effect", "Text": "Pokonaj dowolne stworzenie w Klinice małych bestii." }
 },
 {
 	"Name": "Pierdolony wiedźmin",
 	"Id": "o03",
-	"VictoryPts":  2,
+	"VictoryPts":  3,
 	"Condition": { "Type": "Effect", "Text": "Samotnie pokonaj przynajmniej dwa stworzenia podczas jednej walki." }
 },
 {
@@ -33,32 +33,30 @@
 {
 	"Name": "Skacowany",
 	"Id": "o06",
-	"VictoryPts": 2,
+	"VictoryPts": 3,
 	"Condition": { "Type": "Effect", "Text": "Po wygranej walce na postaci gracza znajdują się przynajmniej 3 [znaczniki zatrucia]." }
 },
 {
-	"NeedUpdate": true,
 	"Name": "Żywiołak porażki",
 	"Id": "o07",
-	"VictoryPts": 3,
+	"VictoryPts": 2,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "condition_after_semester", 
 		"Parameters": [ 
-			"siódmego", 
+			"czwartego", 
 			"jako jedyny miej najmniej punktów zwycięstwa" 
 	]}
 },
 {
-	"NeedUpdate": true,
 	"Name": "Underachiever",
 	"Id": "o08",
-	"VictoryPts": 3,
+	"VictoryPts": 2,
 		"Condition": { 
 		"Type": "Template", 
 		"Name": "condition_after_semester", 
 		"Parameters": [ 
-			"siódmego", 
+			"czwartego", 
 			"nie miej wszystkich zdolności ani maksymalnego potencjału" 
 	]}
 },
@@ -85,7 +83,7 @@
 {
 	"Name": "Bogacz",
 	"Id": "o11",
-	"VictoryPts":  2,
+	"VictoryPts":  1,
 	"Condition": { "Type": "Effect", "Text": "Zdobądź 20 btc." }
 },
 {
@@ -111,7 +109,7 @@
 {
 	"Name": "Szaman",
 	"Id": "o14",
-	"VictoryPts": 2,
+	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "deliver_item", 
@@ -129,6 +127,7 @@
 	}
 },
 {
+	"IsDeleted": true,
 	"Name": "Biomanta",
 	"Id": "o16",
 	"VictoryPts": 1,
@@ -139,6 +138,7 @@
 	}
 },
 {
+	"IsDeleted": true,
 	"Name": "Urzędnik",
 	"Id": "o17",
 	"VictoryPts": 1,
@@ -149,13 +149,13 @@
 	}
 },
 {
-	"Name": "Uczony",
+	"Name": "Obieżyświat",
 	"Id": "o18",
 	"VictoryPts":  1,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "assign_action_points", 
-		"Parameters": [ 5, "Biblioteka" ]
+		"Parameters": [ 5, "Obce kraje" ]
 	}
 },
 {
@@ -169,16 +169,17 @@
 	}
 },
 {
-	"Name": "Inwestor",
+	"Name": "Łapówkarz",
 	"Id": "o20",
 	"VictoryPts": 1,
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "discard_on", 
-		"Parameters": [ "10 btc", "Centrum handlu detalicznego" ]
+		"Parameters": [ "10 btc", "Łektołat(Dworek bogów)" ]
 	}
 },
 {
+	"IsDeleted": true,
 	"Name": "Działkowiec",
 	"Id": "o21",
 	"VictoryPts": 1,
@@ -199,6 +200,7 @@
 	}
 },
 {
+	"IsDeleted": true,
 	"Name": "Hodowca",
 	"Id": "o23",
 	"VictoryPts": 1,
@@ -221,11 +223,11 @@
 {
 	"Name": "Zdrajca",
 	"Id": "o25",
-	"VictoryPts": 2,
+	"VictoryPts": 3,
 	"Condition": { "Type": "Effect", "Text": "Jako jedyny skutecznie przeszkodź w walce innemu graczowi, który w jej wyniku zginie." }
 },
 {
-	"NeedUpdate": true,
+	"IsDeleted": true,
 	"Name": "Tchórz",
 	"Id": "o26",
 	"VictoryPts": 1,
@@ -449,8 +451,8 @@
 {
 	"Name": "Skrytobójca",
 	"Id": "o45",
-	"VictoryPts":  1,
-	"Condition": { "Type": "Effect", "Text": "Pokonaj stworzenie w ciągu 2 tur." }
+	"VictoryPts":  2,
+	"Condition": { "Type": "Effect", "Text": "Pokonaj stworzenie w ciągu jednej tury." }
 },
 {
 	"Name": "Mocarz",
@@ -461,7 +463,7 @@
 {
 	"Name": "Gadżeciarz",
 	"Id": "o47",
-	"VictoryPts":  2,
+	"VictoryPts":  3,
 	"Condition": { "Type": "Effect", "Text": "W trakcie walki zagraj 5 przedmiotów zużywalnych w trakcie jednej tury." }
 }
 ]

@@ -296,12 +296,9 @@
 	"ImageName": "i51_diadem_inteligencji.png",
 	"Price": 	 5,	
 	
-	"NeedUpdate": true,
-	"Comment":	  "Podobno efekt jest niejasny",
-	
 	"Categories": ["Ekwipunek", "Nakrycie głowy"],
 	"Description": "Trzeba przyznać, że bardzo inteligentnie wygląda w okularach.",
-	"Effects": [{ "Type": "Effect", "Text": "Ilekroć walka, w której bierzesz udział, kończy się zwycięstwem, pobierz 2 punkty akcji. Uzyskana w ten sposób liczba posiadanych [punktów akcji] może przekraczać twoją maksymalną liczbę [punktów akcji]."}]
+	"Effects": [{ "Type": "Effect", "Text": "Ilekroć wygrasz walkę, pobierz 3 punkty akcji. Uzyskana w ten sposób liczba posiadanych [punktów akcji] nie może przekraczać twojej maksymalnej liczby [punktów akcji]."}]
 },
 {
 	"Id":		 "i32",
@@ -669,7 +666,7 @@
 	"ImageName": "i70_samoprzylepne_wasy_zigolo.png",
 	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne"],
-	"Effects": [{ "Type": "Effect", "Text": "Wyglądasz w nich bardzo pretensjonalnie i aż się prosisz o sowity wp*****l. Wszystkie stworzenia zadają ci obrażenia zwiększone o 2. Wyjątkiem jest półkobieta-półryba - ona uważa to za bardzo seksowne.\n\nMożna zagrać w dowolnym momencie poza walką na dowolnego gracza. Jeśli posiadacz chce odrzucić ten przedmiot, musi wydać punkt akcji, a następnie rzucić [k6]. Wynik równy 0 pozwala odrzucić przedmiot." }]
+	"Effects": [{ "Type": "Effect", "Text": "Wyglądasz w nich bardzo pretensjonalnie i aż się prosisz o sowity wp*****l. Wszystkie stworzenia zadają ci obrażenia zwiększone o 2. Wyjątkiem jest półkobieta-półryba - ona uważa to za bardzo seksowne.\n\nMożna zagrać w dowolnym momencie poza walką na dowolnego gracza. Jeśli posiadacz chce odrzucić ten przedmiot, musi wydać punkt akcji, a następnie rzucić [k6]. Wynik równy 2 pozwala odrzucić przedmiot." }]
 },
 {
 	"Id":		 "i70",

@@ -3,9 +3,6 @@
 	"ID":		 "a01",
 	"Name": 	 "Klasyczna kula ognia",
 	"ImageName": "a01_klasyczna_kula_ognia.png",
-		
-	"NeedUpdate": true,
-	"Comment":	  "Podobno efekt jest niejasny",
 	
 	"Points": 	 1,
 	"Description": "Klasycznie wali ogniem.",
