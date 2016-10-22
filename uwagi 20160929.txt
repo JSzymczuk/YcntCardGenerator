@@ -1,24 +1,12 @@
 ﻿[zrobione] Potion powinien być eliksirem
-
 [zdolność] "Piliśmy kiedyś razem" -> 2pkty akcji, jeśli którykolwiek ze ściągniętych w ten sposób graczy ma większy potencjał niż ty po wygranej walce dostejesz dodatkowy punkt dośwadczenia.
-
 [zasada]   Przechodząc przez pole ze stworzeniem test inicjatywy
-
 [zrobione] wszystkie cele z zabójstwami dają 1 ects
-
 [zasada]   po śmierci automatyczne zmartwychwstanie
-
 [???]      Patrz tam
-
 [nieaktualne] Cele proporcjonlnie do semestru
-
 [nieaktualne] 3 kroki
-
 [???]	   Przedmiot uniemożliwiający ucieczkę
-
 [zdolność] gotowiec -> koszt akcji o jeden mniej
-
 [zdolność] mocny łeb -> zdejmuje wszystkie znaczniki obrażeń
-
 [zdolność] "na drugą nóżkę": [3] Wybrany uczestnik walki nie może z niej uciec, nawet jeśli ma zdolność lub kartę do ucieczki.
-
