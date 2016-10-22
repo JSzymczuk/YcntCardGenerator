@@ -7,11 +7,7 @@
 	"IsDeleted":   false,
 	
 	"ImageName":   "m01_oliwki.png",
-	"CustomSkill": "",
-	"Skills":
-	[
-		"Twarda skóra +1"
-	],
+	"Skills": 	   [{ "Type": "Template", "Name": "hard_skin", "Value": 1 }],
 	"Description":  
 	"Nikt nie lubi Oliwek, dlatego postanowiły powziąć straszliwy odwet - zabijają, gwałcą i palą wsie. Gdyby tylko udało ci się odkręcić słoik...",
 	
@@ -43,7 +39,7 @@
 	"Tag":         "spożywcze",
 	
 	"ImageName":   "m02_zelkowy_golem.png",
-	"CustomSkill": "Obrażenia zadawane weganom i wegetarianom +1.",	
+	"Skills": 	   [{ "Type": "Effect", "Text": "Obrażenia zadawane weganom i wegetarianom +1." }],	
 	
 	"HP": 	      5,		
 	"AttackDices": 
@@ -67,7 +63,7 @@
 	"Name": "Antyczna kanapka sprzed tygodnia",
 	"Tag":  "spożywcze",
 	
-	"ImageName": "",	
+	"ImageName": "m45_antyczna_kanapka.png",	
 	
 	"HP": 	      6,
 	"Initiative": 1,
@@ -173,8 +169,8 @@
 	"Tag":  "zabawka",
 	
 	"ImageName": "m10_urocze_pluszowe_rozowe_cos.png",
-	"CustomSkill": 
-	"Wszyscy gracze, którzy chcą zaatakować to stworzenie, zadać mu obrażenia lub zagrać przeciwko niemu kartę, muszą rzucić [test inicjatywy]. Wynik rzutu mniejszy lub równy inicjatywie tego stworzenia sprawia, że gracze ulegają jego urokowi, podjęte przez nich działanie kończy się niepowodzeniem, a stworzenie nie doznaje obrażeń ani żadnego efektu od zagrywanej karty (zagraną kartę należy odrzucić).",
+	
+	"Skills": [{ "Type": "Effect", "Text": "Wszyscy gracze, którzy chcą zaatakować to stworzenie, zadać mu obrażenia lub zagrać przeciwko niemu kartę, muszą rzucić [test inicjatywy]. Wynik rzutu mniejszy lub równy inicjatywie tego stworzenia sprawia, że gracze ulegają jego urokowi, podjęte przez nich działanie kończy się niepowodzeniem, a stworzenie nie doznaje obrażeń ani żadnego efektu od zagrywanej karty (zagraną kartę należy odrzucić)." }],
 	
 	"Description":
 	"Tak naprawdę może być tetrowe.",
@@ -308,8 +304,8 @@
 	"Tag":  	 "baśniowe",		
 	"ImageName": "m06_emerytowana_zebowa_wrozka.png",
 	
-	"CustomSkill":
-	"Jeśli to stworzenie nie otrzymało obrażeń oraz nie zaatakowało żadnego z graczy, wszyscy gracze biorący udział w walce mogą przeprowadzić licytację punktami akcji. Jeśli graczom uda się zgromadzić 4 punkty akcji, to każdy z nich może pobrać 2 btc, walka kończy się natychmiast, a stworzenie to należy odrzucić.",
+	"Skills":
+	[{ "Type": "Effect", "Text": "Jeśli to stworzenie nie otrzymało obrażeń oraz nie zaatakowało żadnego z graczy, wszyscy gracze biorący udział w walce mogą przeprowadzić licytację w ciemno [żetonami zdolności]. Jeśli graczom uda się zgromadzić przynajmniej 4 [żetony zdolności], to każdy z nich może pobrać 2 btc, walka kończy się natychmiast, a stworzenie to należy odrzucić." }],
 	
 	"HP": 	      6,
 	"Initiative": 0,
@@ -336,10 +332,9 @@
 	"Tag":  	 "baśniowe",		
 	"ImageName": "m41_przystojny_nastoletni_wapierz.png",
 	
-	"Skills":
-	[
-		"Regeneracja +1",
-		"Niewrażliwość na zatrucie"
+	"Skills": 	  [
+	{ "Type": "Effect", "Text": "Na tym stworzeniu nie mogą znajdować się znaczniki zatrucia.\n" },
+	{ "Type": "Effect", "Text": "Ilekroć Przystojny nastoletni wąpierz atakuje graczy, odzyskuje liczbę [punktów wytrzymałości] odpowiadającą połowie (zaokrąglając do góry) [znaczników zatrucia] znajdujących się na graczach będących celem ataku (niezależnie od zadanych obrażeń)." }
 	],
 	
 	"HP": 	      10,
@@ -366,14 +361,17 @@
 	"Name": "Zapomniany gargulec",
 	"Tag":  "konstrukt",		
 	"ImageName": "m43_zapomniany_gargulec.png",
-	
-	"CustomSkill": 
-	"Jeśli to stworzenie pojawi się w pierwszym semestrze, należy wtasować je z powrotem do talii stworzeń i położyć na jego miejsce kolejną kartę stworzenia. \nW przeciwnym przypadku Zapomnianego gargulca należy umieścić od razu na polu, na którym znajduje się Starosta. Stworzenie to nie może zostać przesunięte przy użyciu żadnych kart ani zdolności.",
 
-	"Skills":
-	[
-		"Twarda skóra +1"
-	],		
+	"Skills": 	   
+	[{ 
+		"Type": "Effect", 
+		"Text": "Jeśli to stworzenie pojawi się w pierwszym semestrze, należy wtasować je z powrotem do talii stworzeń i położyć na jego miejsce kolejną kartę stworzenia. \nW przeciwnym przypadku Zapomnianego gargulca należy umieścić od razu na polu, na którym znajduje się Starosta. Stworzenie to nie może zostać przesunięte przy użyciu żadnych kart ani zdolności.\n" 
+	},
+	{ 
+		"Type": "Template", 
+		"Name": "hard_skin",
+		"Value": 1 
+	}],
 
 	"Description": "On cały czas tu był.",
 	
@@ -396,9 +394,12 @@
 	"Name": 	 "Moher autobusowy",
 	"Tag":  	 "menda",		
 	"ImageName": "m15_moher_autobusowy.png",
-	
-	"CustomSkill": 
-	"Niezdany test otwarcia walki oznacza, że musisz ustąpić jej miejsca na polu i automatycznie uciec z walki.",
+		
+	"Skills": 
+	[{
+		"Type": "Effect", 
+		"Text": "Gracz, który nie zda [testu otwarcia], musi ustąpić jej miejsca na polu i automatycznie ucieka z walki."
+	}],	
 	
 	"Description":
 	"Ty niewychowany, zuchwały, wulgarny bezbożniku! Starszym się ustępuje!",
@@ -452,9 +453,12 @@
 	"Name": 	 "Baba klozetowa",
 	"Tag":  	 "menda",		
 	"ImageName": "m18_baba_klozetowa.png",
-	
-	"CustomSkill":
-	"Gracze biorący udział w walce mogą zebrać 5 btc, aby odrzucić to stworzenie z walki. Jeśli to zrobią, nikt nie otrzymuje nagrody ani doświadczenia za to stworzenie.",
+		
+	"Skills": 
+	[{
+		"Type": "Effect", 
+		"Text": "Gracze biorący udział w walce mogą zebrać 5 btc, aby odrzucić to stworzenie z walki. Jeśli to zrobią, nikt nie otrzymuje nagrody ani doświadczenia za to stworzenie."
+	}],	
 	
 	"HP": 	      13,
 	"Initiative": 2,
@@ -482,9 +486,12 @@
 	"Tag":  	 "baśniowe",		
 	"ImageName": "m19_pirat.png",
 	
-	"CustomSkill":
-	"Stworzenie to na początku każdej swojej tury pobiera 1 btc od każdego gracza, który z nim walczy. Zebrane sztuki złota nie zostają odzyskane po pokonaniu tego stworzenia.",
-	
+	"Skills": 
+	[{
+		"Type": "Effect", 
+		"Text": "Stworzenie to na początku każdej swojej tury pobiera 1 btc od każdego gracza, który z nim walczy. Zebrane sztuki złota nie zostają odzyskane po pokonaniu tego stworzenia."
+	}],	
+		
 	"HP": 	      9,
 	"Initiative": 2,
 	"Damage":     0,
@@ -540,10 +547,12 @@
 	"Tag":   	 "podczłowiek imprezowy",		
 	"ImageName": "m21_zywiolak_brylantyny.png",
 	
-	"CustomSkill":
-	"Lepi się do wszystkiego. Jeśli zaatakujesz go posiadając broń, to posiadana broń przykleja się do tego stworzenia. Po pierwszym bezpośrednim ataku, połóż używaną kartę broni przy tym stworzeniu. Jeżeli to stworzenie zostanie pokonane, weź z powrotem swoją kartę broni. W przeciwnym wypadku po zakończeniu walki należy odrzucić wszystkie karty broni znajdujące się przy tym stworzeniu.
-	Lepi się zwłaszcza do kobiet. Jeśli jesteś kobietą, nie możesz przed nim uciec.",
-	
+	"Skills": 
+	[{
+		"Type": "Effect", 
+		"Text": "Lepi się do wszystkiego. Jeśli zaatakujesz go posiadając broń, to posiadana broń przykleja się do tego stworzenia. Po pierwszym bezpośrednim ataku, połóż używaną kartę broni przy tym stworzeniu. Jeżeli to stworzenie zostanie pokonane, weź z powrotem swoją kartę broni. W przeciwnym wypadku po zakończeniu walki należy odrzucić wszystkie karty broni znajdujące się przy tym stworzeniu.\nKlei się zwłaszcza do laseczek. Jeśli jesteś kobietą, nie możesz przed nim uciec."
+	}],	
+		
 	"HP": 	      14,
 	"Initiative": 3,
 	"Damage":     0,
@@ -571,9 +580,12 @@
 	
 	"Description":
 	"Nawet się nie spostrzeżesz, w którym momencie jego ręka znajdzie się w twojej kieszeni.",
-	
-	"CustomSkill":
-	"Każda nieudana próba ucieczki z walki z tym stworzeniem oznacza utratę wszystkich posiadanych btc przez gracza.",
+		
+	"Skills": 
+	[{
+		"Type": "Effect", 
+		"Text": "Każda nieudana próba ucieczki z walki z tym stworzeniem oznacza utratę wszystkich posiadanych btc przez gracza."
+	}],	
 	
 	"HP": 	      11,
 	"Initiative": 5,
@@ -719,9 +731,16 @@
 	
 	"Description": "Jest poza twoim zasięgiem.",
 	
-	"Skills": [ "Twarda skóra 2" ],
-	"CustomSkill":
-	"Każdy gracz rozpoczynający walkę z tym przeciwnikiem musi podrapać za prawym uchem gracza siedzącego po jego lewej stronie.",
+	Skills: 
+	[{ 
+		"Type": "Effect", 
+		"Text": "Każdy gracz rozpoczynający walkę z tym przeciwnikiem musi podrapać za prawym uchem gracza siedzącego po jego lewej stronie.\n" 
+	},
+	{ 
+		"Type": "Template", 
+		"Name": "hard_skin", 
+		"Value": 2 
+	}],
 	
 	"HP": 	      10,
 	"Initiative": 2,
@@ -806,8 +825,11 @@
 	"Tag":  	 "podczłowiek imprezowy",		
 	"ImageName": "m31_cztery_schaby.png",
 	
-	"CustomSkill":
-	"Wszyscy gracze, którzy przegrają starcie z tym stworzeniem, tracą całe posiadane btc.",
+	"Skills": 
+	[{
+		"Type": "Effect", 
+		"Text": "Wszyscy gracze, którzy przegrają starcie z tym stworzeniem, tracą całe posiadane btc."
+	}],	
 	
 	"HP": 	      20,
 	"Initiative": 3,
@@ -840,7 +862,7 @@
 	"Description":
 	"Pusta zbroja... Serio? Jak zabić sam pancerz...?",
 	
-	"Skills": [ "Twarda skóra 3" ],
+	Skills: [{ "Type": "Template", "Name": "hard_skin", "Value": 3 }],
 	
 	"HP": 	      8,
 	"Initiative": 0,
@@ -868,8 +890,11 @@
 	"Tag":  	 "menda",		
 	"ImageName": "m26_spragniony_ghul_przydworcowy.png",
 	
-	"CustomSkill":
-	"W fazie ruchu stworzeń to stworzenie porusza się w kierunku najbliższego gracza (jeśli gracze są równie blisko do gracza wyżej w starszeństwie), a nie zgodnie z kierunkiem wskazywanym przez wydarzenie.",
+	"Skills": 
+	[{
+		"Type": "Effect", 
+		"Text": "W fazie ruchu stworzeń to stworzenie porusza się w kierunku najbliższego gracza (jeśli gracze są równie blisko do gracza wyżej w starszeństwie), a nie zgodnie z kierunkiem wskazywanym przez wydarzenie."
+	}],	
 	
 	"HP": 	      14,
 	"Initiative": 1,
@@ -919,7 +944,11 @@
 	
 	"Description": "Miałeś, chamie, złoty róg, ostał ci się ino sznur.",
 	
-	"CustomSkill": "Tak długo jak to stworzenie pozostaje na planszy, każdy z graczy, który nie znajduje się na tym samym polu, co to stworzenie, po fazie ruchu graczy musi rzucić [k6] i przesunąć swój pionek w kierunku wskazywanym przez zieloną strzałkę tyle razy ile wyniósł wynik rzutu.",
+	"Skills": 
+	[{
+		"Type": "Effect", 
+		"Text": "Tak długo jak to stworzenie pozostaje na planszy, każdy z graczy, który nie znajduje się na tym samym polu, co to stworzenie, po fazie ruchu graczy musi rzucić [k6] i przesunąć swój pionek w kierunku wskazywanym przez zieloną strzałkę tyle razy ile wyniósł wynik rzutu."
+	}],
 	
 	"HP": 	      11,
 	"Initiative": 2,
@@ -1017,8 +1046,12 @@
 	
 	"Description": 
 	"Uwaga! Zły pies. Na dodatek nieszczepiony.",
-	"CustomSkill": 
-	"Instynkt bierze górę nad jego łagodnym usposobieniem. Ilekroć to stworzenie rozpoczyna swoją turę, zadawane przez nie obrażenia wzrastają o 1.",
+	
+	"Skills": 
+	[{
+		"Type": "Effect", 
+		"Text": "Instynkt bierze górę nad jego łagodnym usposobieniem. Ilekroć to stworzenie rozpoczyna swoją turę, zadawane przez nie obrażenia wzrastają o 1."
+	}],
 	
 	"HP": 	      35,
 	"Initiative": 4,
@@ -1076,9 +1109,7 @@
 	
 	"Description": 
 	"Grałeś kiedyś w Heroes III? Pamiętasz Cytadelę? To był w niej najsilniejszy stwór! Okaż trochę szacunku!",
-	
-	"Skills": [ "Regeneracja 4" ],
-	
+		
 	"HP": 	      20,
 	"Initiative": 2,
 	"Damage":     0,
@@ -1164,8 +1195,12 @@
 	"IsLegendary": true,		
 	"ImageName": "m39_niszczyciel_wszechswiatow.png",
 	
-	"CustomSkill":
-	"Wszyscy gracze znajdujący się na polach przyległych zostają wciągnięci do walki z tym stworzeniem.",
+	"Skills": 
+	[{
+		"Type": "Effect", 
+		"Text": "Wszyscy gracze znajdujący się na polach przyległych zostają wciągnięci do walki z tym stworzeniem."
+	}],
+	
 	"Description": 
 	"Hej chłopaki! Chodźcie tutaj! Coś tu jest! Chyba znalazłem tego snotlinga!",
 			
@@ -1197,13 +1232,11 @@
 	"IsLegendary": true,		
 	"ImageName": "m40_czerwony_smok.png",
 	
-	"CustomSkill":
-	"Na początku piątej tury Czerwonego smoka, uznaje on, że nie jesteś godny z nim walczyć i odlatuje. Jeżeli tak się stanie, żaden z graczy nie dostaje nagród za jego pokonanie, a kartę tego stworzenia należy odrzucić.",
 	"Skills": 
-	[
-		"Strach 1",
-		"Twarda skóra 1"
-	],
+	[{
+		"Type": "Effect", 
+		"Text": "Na początku piątej tury Czerwonego smoka, uznaje on, że nie jesteś godny z nim walczyć i odlatuje. Jeżeli tak się stanie, żaden z graczy nie dostaje nagród za jego pokonanie, a kartę tego stworzenia należy odrzucić."
+	}],
 			
 	"HP": 	      100,
 	"Initiative": 3,

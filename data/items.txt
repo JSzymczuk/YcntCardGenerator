@@ -59,7 +59,7 @@
 	"Price": 	 1,
 	"Categories": ["Przedmioty zużywalne", "Eliksiry"],
 	"Description": "Daj no tego kestrala.",
-	"Effects": [{ "Type": "Effect", "Text": "Używający otrzymuje Regeneracja +5 na czas następnych 3 tur walki." }]
+	"Effects": [{ "Type": "Effect", "Text": "Używający odzyskuje 5 utraconych [punktów wytrzymałości] na początku każdej z kolejnych trzech tur." }]
 },
 {
 	"Id":		 "i08",
@@ -209,7 +209,7 @@
 	"Price": 	 2,
 	"Categories": ["Ekwipunek", "Buty"],
 	"Effects": [	
-		{ "Type": "Effect", "Text": "Posiadacz jest pod wpływem Strach +1. " },
+		{ "Type": "Effect", "Text": "Posiadacz używa jednej kości mniej podczas [testów obrażeń]. Jeśli liczba kości jest mniejsza od 1, posiadacz używa [k6] i nie otrzymuje premii do zadawanych obrażeń. " },
 		{ "Type": "StatTemplate", "ModifiedStats": { "2": ["[testu otwarcia]"] }},
 		{ "Type": "Template", "Name": "ruch+1" }
 	]
@@ -306,7 +306,7 @@
 	"ImageName": "i39_wybitnie_przecietna_koszulka.png",
 	"Price": 	 2,
 	"Categories": ["Ekwipunek", "Zbroja"],
-	"Effects": [{ "Type": "Effect", "Text": "Jest tak nijaka, że możesz wtopić sie w tłum i zyskać modyfikator +1 do [testu inicjatywy] podczas ucieczki z walki." } ]
+	"Effects": [{ "Type": "Effect", "Text": "Jest tak nijaka, że możesz wtopić się w tłum i zyskać modyfikator +1 do [testu inicjatywy] podczas ucieczki z walki." } ]
 },
 {
 	"Id":		 "i33",
@@ -314,7 +314,7 @@
 	"ImageName": "i36_imprezowa_koszulka.png",
 	"Price": 	 5,
 	"Categories": ["Ekwipunek", "Zbroja"],
-	"Description": "Posiadacz tej relikwi uzyskuje nadnaturalną moc, która sprawia, że każdy wypity przez niego eliksir może się zwrócić następnego dnia.",
+	"Description": "Posiadacz tej relikwii uzyskuje nadnaturalną moc, która sprawia, że każdy wypity przez niego eliksir może się zwrócić następnego dnia.",
 	"Effects": [
 		{"Type": "StatTemplate", "ModifiedStats": { "1": ["[redukcji obrażeń]"] }},
 		{"Type": "Effect", "Text": "Ilekroć posiadacz tego przedmiotu używa karty eliksiru na swojej postaci, może rzucić [test inicjatywy] - uzyskany wynik 2 oznacza, że posiadacz może wziąć zagraną kartę eliksiru do ręki." }
@@ -420,7 +420,7 @@
 	"ImageName": "i35_fluorescencyjne_spodnie.png",
 	"Price": 	 3,
 	"Categories": ["Ekwipunek"],
-	"Effects": [{ "Type": "Effect", "Text": "Za każdym razem, gdy znacznik pierwszego gracza zmienia właściciela, możesz zużyć 2 punkty akcji, aby wykonać rzut [k6]. Wynik równy 2 oznacza, że właściciel fluorescencyjnych spodni przejmuje znacznik pierwszego gracza. Posiadacz nie może korzystać z nie-ściągi ani uciec z walki." }]
+	"Effects": [{ "Type": "Effect", "Text": "Za każdym razem, gdy [first_player_token] zmienia właściciela, możesz zużyć 2 [punkty akcji], aby wykonać rzut [k6]. Wynik równy 2 oznacza, że właściciel fluorescencyjnych spodni przejmuje [first_player_token]. Posiadacz nie może korzystać z nie-ściągi ani uciec z walki." }]
 },
 {
 	"Id":		 "i43",
@@ -485,10 +485,7 @@
 	"Price": 	 2,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Nigdy nie pryskaj się piżmem, kiedy idziesz do zoo.",
-	"Effects": [
-		{ "Type": "Effect", "Text": "Możesz zagrać ten przedmiot w trakcie fazy ruchu graczy." },
-		{ "Type": "Template", "Name": "move_enemy" }
-	]
+	"Effects": [{ "Type": "Template", "Name": "move_enemy_or_player" }]
 },
 {
 	"Id":		 "i49",
@@ -522,7 +519,7 @@
 	"ImageName": "i23_magiczna_kula.png",
 	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne"],
-	"Effects": [{ "Type": "Effect", "Text": "Spójrz na trzy pierwsze karty talii przedmiotów. Wybierz jedną z nich i weź do ręki. Pozostałe dwie pokaż innym grzaczom i odrzuć je." }]
+	"Effects": [{ "Type": "Effect", "Text": "Spójrz na trzy pierwsze karty talii przedmiotów. Wybierz jedną z nich i weź do ręki. Pozostałe dwie pokaż innym graczom i odrzuć je." }]
 },
 {
 	"Id":		 "i53",
@@ -624,7 +621,7 @@
 	"Price": 	 4,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Jeśli zamknie się w niej hotentockiego zabójcę matki głupka i jąkały, to w skrócie można nazwać ją Hottentottenstottertrottelmutterattentäter-beutelrattenlattengitterkoffer.",
-	"Effects": [{ "Type": "Effect", "Text": "Wybierz nie-elitarne stworzenie biorące udział w walce. Stworzenie to zostaje złapane w klatkę z plecionki. Jeśli jest to jedyne stworzenie w tej walce, walka kończy się. Posiadacz klatki zdobywa połowę (zaokrąglając w dół) puli btc przeznaczonej za schwytane stworzenie. Nikt nie otrzymuje punktów doświadczenia ani skarbów za to stworzenie. Po walce odrzuć schwytane stworzenie." }]
+	"Effects": [{ "Type": "Effect", "Text": "Wybierz stworzenie biorące udział w walce. Stworzenie to zostaje złapane w klatkę z plecionki. Jeśli jest to jedyne stworzenie w tej walce, walka kończy się. Posiadacz klatki zdobywa połowę (zaokrąglając w dół) puli btc przeznaczonej za schwytane stworzenie. Nikt nie otrzymuje punktów doświadczenia ani przedmiotów za to stworzenie. Po walce odrzuć schwytane stworzenie." }]
 },
 {
 	"Id":		 "i66",
@@ -666,7 +663,16 @@
 	"ImageName": "i70_samoprzylepne_wasy_zigolo.png",
 	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne"],
-	"Effects": [{ "Type": "Effect", "Text": "Wyglądasz w nich bardzo pretensjonalnie i aż się prosisz o sowity wp*****l. Wszystkie stworzenia zadają ci obrażenia zwiększone o 2. Wyjątkiem jest półkobieta-półryba - ona uważa to za bardzo seksowne.\n\nMożna zagrać w dowolnym momencie poza walką na dowolnego gracza. Jeśli posiadacz chce odrzucić ten przedmiot, musi wydać punkt akcji, a następnie rzucić [k6]. Wynik równy 2 pozwala odrzucić przedmiot." }]
+	"Effects": [
+	{ 
+		"Type": "Effect", 
+		"Text": "Wyglądasz w nich bardzo pretensjonalnie i aż się prosisz o sowity wp*****l. Wszystkie stworzenia zadają ci obrażenia zwiększone o 2. Wyjątkiem jest półkobieta-półryba - ona uważa to za bardzo seksowne.\n\n" 
+	},
+	{ 
+		"Type": "Template", 
+		"Name": "hand_nasty_item", 
+		"Value": "Samoprzylepne wąsy żigolo" 
+	}]
 },
 {
 	"Id":		 "i70",
@@ -720,5 +726,26 @@
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Może jednak zapytamy o drogę?",
 	"Effects": [{ "Type": "Template", "Name": "teleport" }]
+},
+{
+	"Id":		 "i76",
+	"Name": 	 "Styropianowa kula u nogi",
+	"ImageName": "",
+	"Price": 	 3,
+	"Categories": ["Przedmioty zużywalne"],
+	"Effects": [	
+	{ 
+		"Type": "StatTemplate", 
+		"ModifiedStats": { "-2": ["[testu otwarcia]"] } 
+	},
+	{ 
+		"Type": "Effect", 
+		"Text": " Dodatkowo posiadacz tego przedmiotu porusza się o jedno pole mniej w trakcie fazy ruchu (ale nie mniej niż 1 pole)." 
+	},
+	{ 
+		"Type": "Template", 
+		"Name": "hand_nasty_item", 
+		"Value": "Styropianową kulę u nogi" 
+	}]
 }
 ]

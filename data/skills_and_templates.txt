@@ -1,19 +1,23 @@
 [
 	{
+		"Name": "hard_skin",
+		"Text": "To stworzenie otrzymuje obrażenia od ataków zmniejszone o {0}."
+	},
+	{
 		"Name": "heal",
 		"Text": "Przywraca do {0} utraconych punktów wytrzymałości używającego."
 	},
 	{
 		"Name": "ruch+1",
-		"Text": "Posiadacz tego przedmiotu może przemieszczać się o jedno pole więcej poza walką."
+		"Text": "Posiadacz tego przedmiotu może przemieszczać się o jedno pole więcej w trakcie fazy ruchu."
 	},
 	{
 		"Name": "enemy_busy",
 		"Text": "Wybrane stworzenie nie może podjąć żadnego działania w swojej najbliższej turze."
 	},
 	{
-		"Name": "move_enemy",
-		"Text": "Przesuń dowolne stworzenie o 1 pole w wybranym przez siebie kierunku, w którym stworzenie to może poruszyć się z pola, na którym się znajduje."
+		"Name": "move_enemy_or_player",
+		"Text": "Możesz zagrać tę kartę w trakcie fazy ruchu graczy przed wykonaniem swojego ruchu. Przesuń dowolnego gracza lub stworzenie o 1 pole w wybranym przez siebie kierunku."
 	},
 	{
 		"Name": "check_any_card",
@@ -61,7 +65,7 @@
 	},
 	{
 		"Name": "insane_enemy_boost",
-		"Text": "Zagraj tę kartę w dowolnym momencie na wybrane stworzenie. Stworzenie to otrzymuje {0}. Nie odrzucaj tej karty do momentu, w którym stworzenie zostanie pokonane lub odrzucone.\nLiczba btc oraz liczba skarbów przeznaczonych za pokonanie stworzenia, do którego dołączona jest ta karta, jest dwukrotnie wyższa."
+		"Text": "Zagraj tę kartę w dowolnym momencie na wybrane stworzenie. Stworzenie to otrzymuje {0}. Nie odrzucaj tej karty do momentu, w którym stworzenie zostanie pokonane lub odrzucone.\nLiczba btc oraz liczba przedmiotów przeznaczonych za pokonanie stworzenia, do którego dołączona jest ta karta, jest dwukrotnie wyższa."
 	},
 	{
 		"Name": "lower_panic",
@@ -108,10 +112,6 @@
 		"Text": "Zagraj poza walką. Weź kartę z ekwipunku dowolnego gracza i umieść ją w swoim ekwipunku."
 	},
 	{
-		"Name": "spawn_order_info",
-		"Text": "Dodatkowe stworzenia należy rozkładać na siedliskach zaczynając od Dworku bogów zgodnie z ruchem wskazówek zegara."
-	},
-	{
 		"Name": "vote_2",
 		"Text": "Przeprowadźcie głosowanie:\n1) {0}\n2) {1}"
 	},
@@ -133,6 +133,10 @@
 	},
 	{
 		"Name": "first_player_roll_dices",
-		"Text": "[First_player] bierze liczbę {0} równą liczbie graczy i wykonuje rzut. Gracze muszą łącznie poświęcić ilość btc równą wynikowi rzutu. Jeśli graczom nie uda się zgromadzić wystarczającej ilości btc, {1}."
+		"Text": "[First_player] bierze liczbę {0} równą liczbie graczy i wykonuje rzut. Przeprowadźcie licytację w ciemno. Jeśli zgromadzona pula btc jest mniejsza od wyniku tego rzutu, {1}."
 	},
+	{
+		"Name": "hand_nasty_item",
+		"Text": "{0} można umieścić w dowolnym momencie w ekwipunku wybranego gracza (o ile nie spowoduje to odrzucenia posiadanego przez niego przedmiotu). Jeśli posiadacz chce odrzucić {0}, musi wydać 1 punkt akcji, a następnie rzucić [k6]. Wynik rzutu równy 2 pozwala odrzucić ten przedmiot."
+	}
 ]

@@ -25,9 +25,9 @@
 {
 	"ID":		 "a03",
 	"Name": 	 "Larwa akademicka",
-	"ImageName": "a03_larwa_akademicka.png",
+	"ImageName": "a03_larwa_akademicka_2.png",
 	"Points": 	 2,
-	"Effects": [{ "Type": "Effect", "Text": "Zagraj w trakcie walki. Wybierz dowolnego uczestnika tej walki. Rzuć [k6][k6][k6]. Wybrany uczestnik traci tyle punktów wytrzymałości ile wynosi wynik rzutu (nie uwzględniając modyfikatorów od redukcji obrażeń). Wybierz innego uczestnika tej walki. Odzyskuje on tyle punktów wytrzymałości ile wynosi wynik rzutu." }]
+	"Effects": [{ "Type": "Effect", "Text": "Zagraj w trakcie walki. Wybierz dowolnego uczestnika tej walki. Rzuć [k6][k6][k6]. Wybrany uczestnik traci tyle [punktów wytrzymałości] ile wynosi wynik rzutu (nie uwzględniając modyfikatorów od [redukcji obrażeń]). Wybierz innego uczestnika tej walki. Odzyskuje on tyle [punktów wytrzymałości] ile wynosi wynik rzutu." }]
 },
 {
 	"ID":		 "a04",
@@ -54,7 +54,7 @@
 {
 	"ID":		 "a07",
 	"Name": 	 "Śmierdź dziesięciu stóp",
-	"ImageName": "a07_smierdz_dziesieciu_stop.png",
+	"ImageName": "a07_smierdz_dziesieciu_stop_2.png",
 	"Points": 	 3,
 	"Effects": [{ "Type": "Effect", "Text": "Każdy uczestnik walki poza używającym traci [k6][k6][k6] punktów wytrzymałości (rzuty indywidualne, do otrzymanych obrażeń nie uwzględnia się redukcji obrażeń)." }]
 },
@@ -145,10 +145,7 @@
 	"ImageName": "a19_wabienie_kaszalotow.png",
 	"Points": 	 2,
 	"Description": "Prażynek się zachciało? To teraz odpędzaj te bestie!",
-	"Effects": [
-		{ "Type": "Effect", "Text": "Możesz zagrać tę kartę w trakcie fazy ruchu graczy." },
-		{ "Type": "Template", "Name": "move_enemy" }
-	]
+	"Effects": [{ "Type": "Template", "Name": "move_enemy_or_player" }]
 },
 {
 	"ID":		 "a20",

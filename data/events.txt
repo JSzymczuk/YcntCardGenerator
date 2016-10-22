@@ -18,12 +18,10 @@
 			"Type": "Template", 
 			"Name": "vote_2", 
 			"Parameters": [
-				"Pojawia się liczba stworzeń równa połowie (zaokrąglając do góry) liczby graczy. Każdy gracz dostaje 1 [punkt doświadczenia].",
-				"Pojawia się jedno dodatkowe stworzenie."
+				"Pojawia się liczba stworzeń równa połowie (zaokrąglając do góry) liczby graczy. Każdy gracz dostaje 1 [punkt doświadczenia]. Dodatkowe stworzenia należy rozkładać na siedliskach zaczynając od Dworku bogów zgodnie z ruchem wskazówek zegara.",
+				"[Poziom paniki] wzrasta o 1."
 			]
-		},
-		{ "Type": "Effect", "Text": "\n" },
-		{ "Type": "Template", "Name": "spawn_order_info" }
+		}
 	]
 },
 {
@@ -94,7 +92,7 @@
 			"Name": "vote_2", 
 			"Parameters": [
 				"[NO_ACTION_POINTS_IN_SEMESTER]",
-				"Wszystkie stworzenia otrzymują [zdolność] [Infekcja +1] [for_this_semester]."
+				"Wszystkie stworzenia otrzymują dodatkowe [g6][g6] do [testów obrażeń] [for_this_semester]."
 			]
 		}
 	]
@@ -202,7 +200,7 @@
 		"Name": "first_player_roll_dices",
 		"Parameters": [
 			"[r6]",
-			"[for_this_semester] ruch wszystkich stworzeń jest podwojony" 
+			"[for_this_semester] wszystkie stworzenia poruszają się dwa razy." 
 		]
 	}]
 },
@@ -235,7 +233,7 @@
 			"Name": "blind_auction_sum",
 			"Parameters": [
 				"jest mniejsza niż łączny wynik rzutów",
-				"wszystkie stworzenia otrzymują dodatkowo [zdolność] [Twarda skóra +2] [for_this_semester]" 
+				"wszystkie stworzenia otrzymują dodatkowo 2 punkty obrażeń mniej od każdego ataku  [for_this_semester]" 
 			]
 		}
 	]
@@ -353,7 +351,7 @@
 		"Type": "Template", 
 		"Name": "vote_2", 
 		"Parameters": [
-			"Gracze znajdują się pod wpływem [Strach +2] [for_this_semester].",
+			"Ceny wszystkich przedmiotów w sklepie wzrastają dwukrotnie.",
 			"[Poziom paniki] wzrasta o 1."
 		]
 	}]
