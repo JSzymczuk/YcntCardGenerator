@@ -1,0 +1,251 @@
+################################################################
+
+YCNT - zasady uproszczone
+
+I.   Cel gry
+II.  Profesje 
+III. Elementy w grze
+IV.  Rozpoczęcie rozgrywki
+V.   Przebieg semestru
+VI.  Faza ruchu
+   - Ruch gracza
+   - Ruch stworzeń
+VII. Przedmioty
+VIII.Walka
+   - Test otwarcia
+   - Akcje w turzeObrażenia
+   - Zatrucie
+   - Pomoc i przyłączenie się do walki
+   - Podział nagród
+   - Ucieczka z walki
+   - Skreślenie z listy studentów
+IX.  Faza akcji
+   - Zakupy
+X.   Realizacja celów
+XI.  Poziom paniki
+
+################################################################
+
+I. Cel gry
+
+Gracze wcielają się w studnetów, którzy muszą zmagać się z rozmaitymi przeszkodami na drodze do osiągnięcia wymarzonego tytułu inżyniera. Gracze zdobywają punkty zwycięstwa (ECTS). Wygrywa pierwszy z graczy, który zdobędzie 10 ECTS (gra kończy się natychmiast) lub jeśli w ciągu 7 semestrów żaden z graczy nie zgromadzi 10 ECTS, wygrywa ten, kto ma ich najwięcej.
+
+Postać gracza posiada dwie statystyki: punkty wytrzymałości oraz potencjał. Wytrzymałość mierzy się punktami od 0 do 20. Jeśli wytrzymałość spadnie do zera, to postać gracza zostaje skreślona z listy studentów. Potencjał mierzy się od 1 do 5. Każdy poziom potencjału określa, jakich kości gracz używa przy określonych testach oraz jaką liczbą punktów akcji dysponuje. Gracze rozpoczynają z potencjałem na poziomie 1 oraz maksymalną żywotnością.
+
+Aby zwiększyć poziom potencjału, gracze wydają zdobywane punkty doświadczenia. Punkty doświadczenia mogą być wykorzystywane również do zdobywania specjalnych umiejętności.
+
+Umiejętności zależą od profesji wybranej przez gracza. Każda profesja ma kilka indywidualnych umiejętności. Aby wykupić umiejętność wyższego poziomu, postać musi mieć wszystkie umiejętności poziomu niższego.
+
+################################################################
+
+II. Profesje 
+
+Kujoni to indywidualiści, którzy wierzą, że nie opuszczając żadnego wykładu i konsultacji nauczą się wszystkiego, co pomoże im w każdej dziedzinie życia. Kujoni uważają, że każdy jest nieuczciwym konkurentem w walce o cenne stypendium naukowe, przez co nie powstrzymają się przed żadnym działaniem, mającym na celu wyeliminowanie rywali. Sprawia to, że nie są zwykle zbyt lubiani i inni gracze zastanowią się dwa razy, zanim zdecydują się na współpracę z kujonem.
+
+Każdy pracoholik jest świadom, że jest na studiach wyłącznie po to, aby zdobyć papier, który uczyni go bardziej atrakcyjnym na rynku pracy. Po co więc tracić czas na zajęcia na uczelni, skoro można od razu podłapać rewelacyjną ofertę w korpo i trzepać hajsy? Przecież jest oczywistym, że pracoholik i tak najlepiej nauczy się zawodu w praktyce. Notatki i wykłady należy pozostawić tym leszczom, którzy nie wiedzą jak działa biznes.
+
+Leserzy wychodzą z założenia, że studia są idealnym okresem na konkretne melanże i zawieranie nowych znajomości. Nauka nie jest niczym innym jak marnowaniem czasu, skoro można załatwić pytania od wyższego rocznika i przejechać całe studia na farcie. Częste uczestnictwo w libacjach alkoholowych sprawia, że tolerancja alkoholu leserów jest znacznie wyższa niż u przeciętnego śmiertelnika. Nieraz można odnieść wrażenie, że leserzy dzielą ludzi na tych, z którymi pili i na tych, z którymi jeszcze nie pili.
+
+################################################################
+
+III. Elementy w grze
+
+to do:
+-omówić rodzaje kart
+-omówić planszę
+-omówić znaczniki
+-omówić karty postaci
+
+################################################################
+
+IV. Rozpoczęcie rozgrywki
+
+to do:
+- wkleić na razie to co ma Adrian u siebie
+
+################################################################
+
+V. Przebieg semestru
+
+1. Faza wydarzenia
+   - zastosowanie zdolności, które aktywują się po rozpoczęciu semestru
+   - odkrycie karty wydarzenia
+   - umieszczenie stworzeń
+   - rozstrzygnięcie efektu karty wydarzenia
+   - uzupełnienie żetonów zdolności
+   - dobranie 2btc oraz karty akcji przez każego z graczy
+2. Faza ruchu
+   - ruch graczy
+   - ruch stworzeń
+3. Faza walk
+4. Faza akcji
+   - po zakończeniu tej fazy gracz nie może mieć więcej niż 5 kart w ręce
+5. Faza utrzymania
+   - uporządkowanie planszy (np. odrzucenie kart akcji, które pozostały po semestrze)
+   - wznowienie postaci skreślonych z listy studentów
+   - usunięcie 1 znacznika zatrucia z każdego gracza, na którym się taki znajduje
+   - odrzucenie pierwszej karty przedmiotu w sklepie i odkrycie nowego przedmiotu
+   - przekazanie znacznika starosty graczowi po lewej stronie obecnego starosty
+
+################################################################
+
+VI. Faza ruchu
+
+Ruch gracza:
+- Bazowy ruch = 2 kroki
+- Można poruszać się pomiędzy polami, które mają wyraźnie zaznaczoną wspólną krawędź
+- Ruch pomiędzy narożnymi polami planszy równy jest 1 krokowi.
+- Aby przejść przez pole, na którym znajduje się stworzenie, należy rzucić test inicjatywy tego stworzenia. Zdany test pozwala przejść. Niezdanie testu oznacza zakończenie ruchu gracza.
+- Jeśli po zakończeniu fazy ruchu pionek gracza znajduje się na tym samym polu, na którym był w momencie jej rozpoczącia i nie jest to Dziekanat, gracz rzuca k6. Jeśli wynik rzutu jest równy 2 należy umieścić na tym polu jedno stworzenie.
+
+Ruch stworzeń:
+Stworzenia poruszają się schematem ruchu na ich karcie, który odpowiada numerowi schematu ruchu na karcie wydarzenia. Ilekroć stworzenie wchodzi na pole Dziekanat, należy je odrzucić i podnieść poziom paniki o 1.
+
+################################################################
+
+VII. Przedmioty
+
+Przedmioty otrzymuje się za wygrane walki, na odpowiednich polach planszy lub mogą być kupione w sklepie.
+Przedmioty dzielą się na zużywalne i zapewniające trwałe efekty.
+Przed każdym z graczy należy umieszczać karty przedmiotów, które stanowią ekwipunek postaci. 
+
+- W ekwipunku może znajdować się maksymalnie jedna broń, jedna zbroja, jedno nakrycie głowy, jedna para butów oraz dwa przedmioty różne (zużywalne lub nie). 
+- Tylko przedmioty w ekwipunku zapewniają premie graczowi. 
+- Przedmioty zużywalne mogą być zagrywane zarówno z ręki, jak i z ekwipunku. 
+- Nie jest możliwe umieszczanie kart w swoim ekwipunku w trakcie walki. 
+- Nie jest możliwe umieszczanie kart w ekwipunku innego gracza.
+- Karta umieszczona w ekwipunku może być w dowolnym momencie odrzucona.
+- Karta umieszczona w ekwipunku nie może zostać umieszczona z powrotem w ręce gracza.
+
+Gracze mogą przekazywać btc oraz przedmioty z EKWIPUNKU innym graczom w dowolnym momencie. Przedmiot przekazany z ekwipunku musi zostać niezwłocznie umieszczony w ekwipunku innego gracza lub odrzucony. Nie można zmusić gracza do przyjęcia przedmiotu.
+
+################################################################
+
+VIII. Walka
+
+Walka rozpoczyna się, gdy po zakończeniu fazy ruchu potworów na jednym polu znajduje się przynajmniej jeden gracz oraz przynajmniej jedno stworzenie. Walka zawsze odbywa się pomiędzy grupą graczy i grupą potworów. Wszyscy gracze znajdujący się na danym polu jednocześnie rozpoczynają walkę ze wszystkimi stworzeniami znajdującymi się na tym polu. 
+
+Gracze nie mogą bezpośrednio walczyć pomiędzy sobą.
+ 
+Jeśli w jednej turze ma miejsce wiele walk, odbywają się one kolejno, począwszy od starosty. Jeśli jeden z graczy znajdujących się na polu rozpoczyna walkę, to wszyscy gracze znajdujący się na tym polu rozpoczynają walkę razem z nim.
+
+### Test otwarcia ##############################################
+
+Testem otwarcia nazywa się test inicjatywy rozpoczynający walkę. Każde stworzenie ma określony poziom inicjatywy. Każdy z graczy rzuca test inicjatywy. Jeżeli przynajmniej jednemu z graczy uda się uzyskać w wyniku tego testu wartość większą od inicjatywy stworzenia, wówczas wszyscy gracze wykonują ruch przed stworzeniem. W przeciwnym wypadku, gracze dali się zaskoczyć i to stworzenie pierwsze podejmuje działanie.
+ 
+Jeśli stworzeń jest więcej, gracze muszą zdać test inicjatywy najwyższego poziomu testów inicjatywy wszystkich stworzeń w tej walce. Jeśli gracze zdadzą test, wszyscy gracze wykonują działania przed wszystkimi stworzeniami. Jeśli graczom nie uda się zdać tego testu, wszystkie stworzenia podejmują działania przed graczami.
+ 
+Gracze podejmują decyzje w walce zgodnie z kolejnością na torze inicjatywy.
+
+Walkę uznaje się za rozpoczętą po wykonaniu testu otwarcia.
+
+### Akcje w turze ##############################################
+ 
+W trakcie tury walki gracz może użyć niektórych kart akcji i przedmiotów. Karty te określają, w jakich okolicznościach mogą być zagrane. Gracz może zagrać dowolną liczbę takich kart pod warunkiem, że treść karty nie stanowi inaczej (niektóre z kart mogą być zagrane tylko, jeśli gracz nie wykonał innego działania i automatycznie kończą rundę gracza). Graczom nie wolno dodawać nowych elementów ekwipunku w trakcie walki, ale wolno im je odrzucać.
+ 
+Gracz może również używać zdolności specjalnych swojej profesji, które mogą zostać użyte w trakcie walki.
+
+W swojej turze gracz może poprosić o pomoc dowolną liczbę graczy znajdujących się na polach sąsiadujących z polem, na którym odbywa się walka.
+ 
+Tura gracza kończy się w momencie, w którym jego postać zaatakuje albo podejmie próbę ucieczki. Gracz w swojej turze musi zaatakować albo podjąć próbę ucieczki.
+
+### Obrażenia #################################################
+
+Test obrażeń + premia do zadawanych obrażeń – redukcja obrażeń celu.
+Gracz może zaatakować tylko jednego potwora w swojej turze i sam wybiera, którego potwora atakuje.
+Potwór atakuje wszystkich graczy jednocześnie. 
+
+### Zatrucie ##################################################
+
+Niektóre ataki lub zdolności specjalne mogą powodować efekt zatrucia. Za każdym razem, gdy jednostka zostanie zaatakowana takim atakiem lub stanie się celem zdolności specjalnej powodującej zatrucie, należy położyć na niej znacznik zatrucia. Na początku swojej tury w walce jednostka otrzymuje obrażenia w liczbie znajdujących się na niej znaczników zatrucia. 
+ 
+Niektóre ataki lub zdolności specjalne mogą powodować zatrucie na poziomie wyższym niż 1. W przypadku ich użycia należy położyć na celu odpowiednią liczbę znaczników zatrucia.
+
+### Pomoc i przyłączenie się do walki ########################
+
+Gracze, którzy nie znajdują się na polu, na którym toczy się walka, mogą wziąć w niej udział na dwa sposoby: przez pomoc oraz przyłączenie się. 
+
+Gracze znajdujący się na polach przyległych do pola, na którym toczy się walka, mogą pomóc w walce, jeśli zostaną zaproszeni przez uczestników walki. Zanim gracz zdecyduje się pomóc w walce, należy ustalić warunki pomocy. Oznacza to, że gracze najprawdopodobniej będą zmuszeni oddać pewną część złota, skarbów lub własnych kart graczowi, którego poproszą o pomoc. Głos decydujący podczas proszenia o pomoc oraz negocjowania warunków pomocy ma najstarszy (w rozumieniu starostwa) gracz w walce. Gracz ten nie może jednak zarządzać kartami należącymi do innych graczy i stosować tych kart, jako warunków pomocy bez zgody ich właścicieli. 
+Prośba o pomoc może paść ze strony dowolnego uczestnika walki w jego turze w trakcie walki. Gracz, który pomaga w walce liczy się jako uczestnik walki. Gracz, który pomaga w walce nie jest uwzględniany przy podziale złota i przedmiotów, ale otrzymuje punkt doświadczenia za każde pokonane stworzenie. 
+
+Jeżeli gracz zagra odpowiednią kartę akcji, przedmiotu lub użyje zdolności specjalnej, może przyłączyć się do walki. Aby przyłączyć się do walki nie jest wymagana zgoda żadnego z jej uczestników. Gracz, który przyłączył się do walki, liczy się jako jej uczestnik, jest uwzględniany przy podziale złota oraz otrzymuje punkt doświadczenia za każde pokonane stworzenie, ale nie otrzymuje przedmiotów.
+
+Przyłączenie się i poproszenie o pomoc możliwe są w dowolnym momencie walki po wykonaniu testu otwarcia. 
+
+Każdy gracz może tylko jeden raz stać się uczestnikiem danej walki. Oznacza to, że gracz, który uciekł z walki, nie może być ponownie poproszony o pomoc ani nie może przyłączyć się do tej walki po raz kolejny.
+
+### Podział nagród ############################################
+ 
+Stworzenia zapewniają trzy typy nagród: punkty doświadczenia, przedmioty oraz btc. Nagrody otrzymują uczestnicy walki po jej zakończeniu (w momencie, w którym wszystkie stworzenia zostały pokonane). Przy podziale nagród uwzględnia się tych uczestników walki, którzy nie są skreśleni i którzy z niej nie uciekli. Wszyscy ci uczestnicy otrzymują jeden punkt doświadczenia za każde stworzenie pokonane w tej walce. 
+
+Jeśli w walce brało udział wiele stworzeń, należy zsumować liczbę btc oraz liczbę przedmiotów. Rozdzielane są one łącznie, a nie osobno za każde pokonane stworzenie. Przedmioty rozdzielane cyklicznie zgodnie ze starszeństwem. Złoto jest dzielone równo pomiędzy wszystkich graczy. Jeżeli wynik dzielenia nie jest całkowity, należy odrzucić część ułamkową.
+ 
+Gracze, którzy przyłączyli się do walki, liczą się do liczby graczy biorących udział w walce i otrzymują punkty doświadczenia oraz złoto.
+ 
+Gracze udzielający pomocy nie liczą się do liczby graczy biorących udział w walce. Nie otrzymują złota ani przedmiotów zgodnie z zasadami powyższego podziału, ale otrzymują punkty doświadczenia.
+
+### Ucieczka z walki ##########################################
+
+Próbę ucieczki z walki można podjąć jako swoje działanie w turze. Próba ucieczki kończy turę gracza próbującego uciec. Aby uciec z walki gracz musi zdać test inicjatywy na poziomie trudności inicjatywy stworzenia. 
+
+Gracz, który uciekł z walki nie może w żaden sposób przyłączyć się do walki (z własnej woli ani zostać zmuszony) oraz nie może pomóc w tej walce. Ponadto ten gracz nie otrzymuje btc, przedmiotów ani doświadczenia za walkę, z której uciekł.
+
+Jeśli graczowi uda się uciec z walki, przesuwa swój pionek na dowolne sąsiednie pole, o ile jego pionek znajduje się na polu, na którym ma miejsce walka. Jeśli gracz, który uciekł, umieści swój pionek na polu, na którym znajduje się stworzenie, to walka z tym stworzeniem rozpocznie się tylko wtedy, gdy gracz ten nie był jeszcze rozważany w fazie walk (według starszeństwa).
+
+### Skreślenie z listy studentów ##############################
+
+W momencie, w którym punkty wytrzymałości postaci spadną do zera, zostaje skreślona z listy studentów. Pionek tej postaci należy umieścić w Dziekanacie. Gracz kontrolujący tę postać musi odrzucić wybraną przez siebie kartę z ręki lub ekwipunku, połowę posiadanych sztuk złota (zaokrąglając do góry) oraz 1 ECTS. Jeśli gracz nie może odrzucić którejś z wymienionych rzeczy, nie spotykają go dodatkowe konsekwencje. Gracz ten nie może dodatkowo zagrywać kart akcji, używać przedmiotów, dokonywać zakupów, podejmować akcji na polach, używać zdolności klasowych, przekazywać innym graczom btc oraz przedmiotów ani w żaden inny sposób uczestniczyć w rozgrywce. Postać, która otrzymała warunek zostaje wznowiona w trakcie fazy utrzymania. W efekcie skreślenia należy zdjąć z postaci wszystkie znaczniki zatrucia. Skreślona postać zachowuje wszystkie posiadane punkty akcji.
+
+################################################################
+
+IX. Faza akcji
+
+Jeśli postać gracza jest skreślona, gracz nie uczestniczy w fazie akcji.
+
+Jeśli na polu, na którym znajduje się pionek gracza, nie znajduje się ani jedno stworzenie, gracz może jeden raz wykonać akcję związaną z tym polem.
+
+W fazie akcji gracz może:
+- podjąć akcję związaną z polem, na którym znajduje się jego pionek
+- zagrać dowolną liczbę kart akcji lub przedmiotów zużywalnych 
+- wykonać zakupy
+- odrzucić dowolną liczbę kart z ręki
+- użyć zdolności klasowej
+
+Po zakończeniu fazy akcji w ręce gracza może znajdować się maksymalnie 5 kart.
+
+### Zakupy #####################################################
+
+Gracz może kupić dowolną liczbę przedmiotów ze sklepu.
+Przedmioty nie mogą być sprzedawane.
+Gracz może kupić przedmiot w ciemno za 3btc i wziąć zakrytą kartę z wierzchu talii przedmiotów.
+
+################################################################
+
+X. Realizacja celów
+
+to do
+
+################################################################
+
+XI. Poziom paniki
+
+Poziom paniki podnosi się za każdym razem, gdy:
+- do Dziekanatu wkracza stworzenie (stworzenie to jest natychmiast odrzucane);
+- nie jest możliwe umieszczenie karty stworzenia, którą należałoby umieścić na planszy, ponieważ talia stworzeń jest pusta;
+- skutkiem karty wydarzenia jest podniesienie poziomu paniki.	
+	
+Poziom paniki obniża się za każdym razem, gdy:
+- na początku semestru nie znajduje się na terenie kampusu ani jedno stworzenie;
+- skutkiem karty akcji lub karty wydarzenia jest obniżenie poziomu paniki.	
+
+0   Brak negatywnych efektów.
+1   Gracze nie pobierają btc oraz kart akcji na początku semestru.
+2   Limit posiadanych przez graczy punktów akcji zostaje obniżony o 2.
+    Ceny wszystkich przedmiotów w sklepie wzrastają o 1 btc.
+3   Gracze nie mogą wykonywać zakupów w sklepie.
+    Sklep zostaje zamknięty i nie uzupełnia się w nim brakujących towarów. Należy wtasować wszystkie pozostałe w nim karty przedmiotów do talii przedmiotów.
+    Gracze nie otrzymują punktów zwycięstwa na skutek używania zdolności klasowych postaci.
+4	Nie uzupełnia się kart celów po ich zrealizowaniu lub odrzuceniu.
+    Koszt podjęcia akcji na polach kampusu wzrasta o 1 punkt akcji.
+    Koszt zagrania kart akcji wzrasta o 1 punkt akcji.
+5   Wszyscy gracze przegrywają rozgrywkę.

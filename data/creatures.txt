@@ -1,4 +1,4 @@
-[
+﻿[
 {
 	"ID":		   "c01",
 	"Name":        "Oliwki",
@@ -947,7 +947,7 @@
 	"Skills": 
 	[{
 		"Type": "Effect", 
-		"Text": "Tak długo jak to stworzenie pozostaje na planszy, każdy z graczy, który nie znajduje się na tym samym polu, co to stworzenie, po fazie ruchu graczy musi rzucić [k6] i przesunąć swój pionek w kierunku wskazywanym przez zieloną strzałkę tyle razy ile wyniósł wynik rzutu."
+		"Text": "Tak długo jak to stworzenie pozostaje na planszy, każdy z graczy, który nie znajduje się na tym samym polu, co to stworzenie, po fazie ruchu graczy musi rzucić [k6] i przesunąć swój pionek w kierunku wskazywanym przez żółtą strzałkę tyle razy ile wyniósł wynik rzutu."
 	}],
 	
 	"HP": 	      11,
