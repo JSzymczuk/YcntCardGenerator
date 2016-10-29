@@ -45,10 +45,12 @@
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj w trakcie walki. Wybrany przez ciebie uczestnik tej walki otrzymuje modyfikator +3 lub -3 do zadawanych obrażeń do końca tej walki." }]
 },
 {
+	"NeedUpdate": true,
+	"Comment": 	  "obrazek do zmieny, nazwa do zmiany",
 	"ID":		 "a06",
 	"Name": 	 "Pieśń o Julianie i Romualdzie",
 	"ImageName": "a06_piesn_o_julianie_i_romualdzie.png",
-	"Points": 	 3,
+	"Points": 	 2,
 	"Effects": [{ "Type": "Effect", "Text": "Weź po 2 btc od gracza po twojej prawej i lewej stronie." }]
 },
 {
@@ -63,7 +65,7 @@
 	"Name": 	 "Unik z gracją delfina",
 	"ImageName": "a08_unik_z_gracja_delfina.png",
 	"Points": 	 2,
-	"Effects": [{ "Type": "Effect", "Text": "Zagraj na wybraną jednostkę po dowolnym ataku. Jednostka ta nie otrzymuje obrażeń od tego ataku." }]
+	"Effects": [{ "Type": "Effect", "Text": "Zagraj na wybranego uczestnika walki po dowolnym ataku. Nie otrzymuje on obrażeń od tego ataku." }]
 },
 {
 	"ID":		 "a09",
@@ -87,6 +89,8 @@
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj na dowolnego gracza podczas walki. Gracz ten nie otrzymuje premii od swojego ekwipunku w trakcie tej walki." }]
 },
 {
+	"NeedUpdate": true,
+	"Comment": 	  "obrazek do zmiany",
 	"ID":		 "a12",
 	"Name": 	 "Zbiorowa praktyczna inżynieria biomedyczna",
 	"ImageName": "a12_zbiorowa_praktyczna_inzynieria_biomedyczna.png",
@@ -133,6 +137,7 @@
 	]
 },
 {
+	"IsDeleted": true,
 	"ID":		 "a18",
 	"Name": 	 "Atak grupowy",
 	"ImageName": "a18_atak_grupowy.png",
@@ -141,15 +146,17 @@
 },
 {
 	"ID":		 "a19",
-	"Name": 	 "Przynęta na kaszaloty",
+	"Name": 	 "Wabienie kaszalotów",
 	"ImageName": "a19_wabienie_kaszalotow.png",
 	"Points": 	 2,
 	"Description": "Prażynek się zachciało? To teraz odpędzaj te bestie!",
 	"Effects": [{ "Type": "Template", "Name": "move_enemy_or_player" }]
 },
 {
+	"NeedUpdate": true,
+	"Comment": 	  "obrazek do zmiany",
 	"ID":		 "a20",
-	"Name": 	 "Kto nie skacze ten z es-gie-chu",
+	"Name": 	 "Kto nie skacze ten z SGH",
 	"ImageName": "a20_kto_nie_skacze_ten_sesgiechu.png",
 	"Points": 	 2,
 	"Description": "Hop! Hop! Hop!",
@@ -159,7 +166,7 @@
 	"ID":		 "a21",
 	"Name": 	 "Otóż nie.",
 	"ImageName": "a21_otoz_nie.png",
-	"Points": 	 3,
+	"Points": 	 1,
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj tę kartę od razu po odkryciu karty wydarzenia. Odrzuć tę kartę wydarzenia i weź następną." }]
 },
 {
@@ -170,8 +177,10 @@
 	"Effects": [{ "Type": "Template", "Name": "prevent_action_item_skill" }]
 },
 {
+	"NeedUpdate": true,
+	"Comment": 	  "obrazek do zmiany",
 	"ID":		 "a23",
-	"Name": 	 "Chytra baba",
+	"Name": 	 "Jednorazowy atak kleptomanii",
 	"ImageName": "a24_chytra_baba.png",
 	"Points": 	 4,
 	"Effects": [{ "Type": "Template", "Name": "steal_item" }]
@@ -185,6 +194,8 @@
 	"Effects": [{ "Type": "Template", "Name": "change_objectives", "Value": 2 }]
 },
 {
+	"NeedUpdate": true,
+	"Comment": 	  "obrazek do zmiany",
 	"ID":		 "a25",
 	"Name": 	 "Na dywaniku u dziekana",
 	"ImageName": "a26_na_dywaniku_u_dziekana.png",
@@ -195,7 +206,7 @@
 	"ID":		 "a26",
 	"Name": 	 "Osaczony",
 	"ImageName": "a27_osaczony.png",
-	"Points": 	 2,
+	"Points": 	 3,
 	"Effects": [{ "Type": "Effect", "Text": "Z tej walki nie można uciec ani nie można uzyskać pomocy." }]
 },
 {
@@ -206,6 +217,8 @@
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj poza walką. Wybierz przedmiot z ekwipunku wybranego gracza i wymień z przedmiotem z twojego ekwipunku. Ofiarowany graczowi przedmiot nie może spowodować odrzucenia przedmiotu z jego ekwipunku." }]
 },
 {
+	"NeedUpdate": true,
+	"Comment": 	  "nazwa do zmiany, jak będzie trzeba to i obrazek do zmiany",
 	"ID":		 "a28",
 	"Name": 	 "Strzyżenie w Feniksie",
 	"ImageName": "a29_strzyzenie_w_feniksie.png",
@@ -254,7 +267,7 @@
 },
 {
 	"ID":		 "a34",
-	"Name": 	 "Na ratunek matce przełożonej",
+	"Name": 	 "Side-quest",
 	"ImageName": "a35_na_ratunek_matce_przeoryszy.png",
 	"Points": 	 2,
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj poza walką. Weź kartę przedmiotu albo [k6][k6] btc." }]
@@ -265,7 +278,7 @@
 	"ImageName": "a36_telefon_w_rekawie.png",
 	"Points": 	 1,
 	"Description": "Wersja dla profesjonalistów: kamera w brodzie.",
-	"Effects": [{ "Type": "Template", "Name": "ask_help" }]
+	"Effects": [{ "Type": "Template", "Name": "join_or_ask_help" }]
 },
 {
 	"ID":		 "a36",
@@ -273,7 +286,7 @@
 	"ImageName": "a37_spozniony_na_egzamin.png",
 	"Points": 	 1,
 	"Description": "- Można jeszcze?\n- Pan siada. ",
-	"Effects": [{ "Type": "Effect", "Text": "Przyłącz się do dowolnej walki." }]
+	"Effects": [{ "Type": "Template", "Name": "join_or_ask_help" }]
 },
 {
 	"ID":		 "a37",
@@ -300,7 +313,7 @@
 	"ID":		 "a40",
 	"Name": 	 "Przypływ optymizmu",
 	"ImageName": "",
-	"Points": 	 4,
+	"Points": 	 2,
 	"Description": "Będzie dobrze.",
 	"Effects": [{ "Type": "Template", "Name": "lower_panic" }]
 },
@@ -310,5 +323,33 @@
 	"ImageName": "",
 	"Points": 	 2,
 	"Effects": [{ "Type": "Template", "Name": "remove_poison_counters", "Value": "wszystkie" }]
-}
+},
+{
+	"ID":		 "a42",
+	"Name": 	 "To nie są droidy których szukacie",
+	"ImageName": "a42_to_nie_droidy_ktorych_szukacie.png",
+	"Points": 	 3,
+	"Description": "Będzie dobrze.",
+	"Effects": [{ "Type": "Template", "Name": "redirect_action_item_skill" }]
+},
+{
+	"ID":		 "a43",
+	"Name": 	 "Sobostwór",
+	"ImageName": "",
+	"Points": 	 4,
+	"Effects": [{ 
+		"Type": "Effect", 
+		"Text": "Zagraj w trakcie walki. Wybierz stworzenie biorące udział w tej walce i dodaj do niej kopię tego stworzenia. Kopia ma pełną wytrzymałość i nie otrzymuje efektów zagranych dotychczas w tej walce. Kopię należy traktować jako niezależnie stworzenie, które pozostaje na planszy aż do momentu, w którym zostanie pokonane. Kopia zapewnia nagrody zgodne z nagrodami zapewnianymi przez skopiowane stworzenie." 
+	}]
+},
+{
+	"ID":		 "a44",
+	"Name": 	 "Kserówka",
+	"ImageName": "",
+	"Points": 	 4,
+	"Effects": [{ 
+		"Type": "Effect", 
+		"Text": "Zagraj tę kartę od razu po zagraniu karty akcji lub przedmiotu zużywalnego przez dowolnego z graczy. Wykonaj efekt tej karty nie ponosząc jego kosztu." 
+	}]
+},
 ]

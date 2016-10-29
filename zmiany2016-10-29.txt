@@ -1,0 +1,44 @@
+Pieśń o Julianie i Romualdzie
+	-> obrazek do zmieny
+	-> nazwa do zmiany
+	-> 2 p.a.
+Inżynieria biomedyczna
+	-> obrazek do zmiany
+Kto nie skacze ten z es-gie-chu
+	-> obrazek do zmiany
+	-> "Kto nie skacze ten z SGH"
+Chytra baba
+	-> "Jednorazowy atak kleptomanii"
+	-> obrazek do poprawki
+Na dywaniku u dziekana
+	-> obrazek do zmiany
+Strzyżenie w feniksie
+	-> nazwa do zmiany, jak będzie trzeba to i obrazek
+Przynęta na kaszaloty
+	-> "Wabienie kaszalotów"
+Na ratunek matce przełożonej
+	-> "Side-quest"
+Atak grupowy
+	-> karta usunięta
+Telefon w rękawie
+	-> pomoc albo przyłączenie się
+Spóźniony na egzamin
+	-> pomoc albo przyłączenie się
+Mapa
+	-> karta usunięta
+Otóż nie
+	-> 1 p.a.
+Przypływ optymizmu
+	-> 2 p.a.
+Osaczony
+	-> 3 p.a.
+To nie są droidy których szukacie
+	-> [3] redirect_action_item_skill
+Sobostwór
+	-> karta dodana, 
+	-> [4] Zagraj w trakcie walki. Wybierz stworzenie biorące udział w tej walce i dodaj do niej kopię tego stworzenia. Kopia ma pełną wytrzymałość i nie otrzymuje efektów zagranych dotychczas w tej walce. Kopię należy traktować jako niezależnie stworzenie, które pozostaje na planszy aż do momentu, w którym zostanie pokonane. Kopia zapewnia nagrody zgodne z nagrodami zapewnianymi przez skopiowane stworzenie.
+Kserówka
+	-> karta dodana
+	-> [4] Zagraj tę kartę od razu po zagraniu karty akcji lub przedmiotu zużywalnego przez dowolnego z graczy. Wykonaj efekt tej karty nie ponosząc jego kosztu.
+Unik z gracją delfina
+	-> zmiana efektu

@@ -56,12 +56,20 @@
 		"Text": "Zagraj w trakcie swojej tury w walce. Możesz zmusić do pomocy w walce dowolnego gracza."
 	},
 	{
+		"Name": "join_or_ask_help",
+		"Text": "Zagraj w trakcie dowolnej walki. Jeśli nie bierzesz w niej udziału, możesz się do niej przyłączyć. Jeśli bierzesz udział w tej walce, możesz zmusić do pomocy dowolnego gracza. Gracz, który stanie się uczestnikiem walki na skutek zagrania tej karty otrzymuje punkty doświadczenia oraz btc za pokonane stworzenia, ale nie otrzymuje za nie przedmiotów."
+	},
+	{
 		"Name": "prevent_action",
 		"Text": "Zagraj tę kartę od razu po zagraniu karty akcji przez dowolnego gracza. Efekt tej karty jest unieważniony."
 	},	
 	{
 		"Name": "prevent_action_item_skill",
 		"Text": "Zagraj tę kartę od razu po zagraniu karty akcji, przedmiotu zużywalnego lub po użyciu aktywnej zdolności przez dowolnego z graczy. Efekt karty lub zdolności jest unieważniony."
+	},
+	{
+		"Name": "redirect_action_item_skill",
+		"Text": "Zagraj tę kartę od razu po zagraniu na twoją postać karty akcji, przedmiotu zużywalnego lub po użyciu na niej aktywnej zdolności przez dowolnego z graczy. Wybierz dowolnego gracza, który staje się celem tej karty lub zdolności."
 	},
 	{
 		"Name": "insane_enemy_boost",

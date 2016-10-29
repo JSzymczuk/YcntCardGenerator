@@ -279,7 +279,7 @@
 	"ImageName": "i48_analityczny_helm_amortyzujacy.png",
 	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Nakrycie głowy"],
-	"Effects": [{ "Type": "Effect", "Text": "Ilekroć posiadacz tego przedmiotu odnosi obrażenia na skutek ataku, może wydać dowolną liczbę [punktów akcji]. Za każde dwa wydane punkty akcji obrażenia od tego ataku zostają zmniejszone o 1." }]
+	"Effects": [{ "Type": "Effect", "Text": "Ilekroć posiadacz tego przedmiotu odnosi obrażenia na skutek ataku, może wydać dowolną liczbę [punktów akcji]. Za każdy wydany punkt akcji obrażenia od tego ataku zostają zmniejszone o 1." }]
 },
 {
 	"Id":		 "i30",
@@ -494,7 +494,7 @@
 	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Stary! Co to za sikacz?",
-	"Effects": [{ "Type": "Effect", "Text": "Zagraj na dowolnego gracza w trakcie dowolnej walki. Do końca tej walki gracz ten wykonuje [testy obrażeń] używając [k6], a żaden przedmiot nie zapewnia temu graczowi premii do zadawanych obrażeń." }]
+	"Effects": [{ "Type": "Effect", "Text": "Zagraj na wybranego gracza w trakcie dowolnej walki. Do końca tej walki wybrany gracz nie otrzymuje premii do zadawanych obrażeń od posiadanych oraz zagryanych przedmiotów, akcji, a także od używanych zdolności." }]
 },
 {
 	"Id":		 "i50",
@@ -719,6 +719,7 @@
 	"Effects": [{ "Type": "Template", "Name": "teleport" }]
 },
 {
+	"IsDeleted": true,
 	"Id":		 "i75",
 	"Name": 	 "Mapa",
 	"ImageName": "",
