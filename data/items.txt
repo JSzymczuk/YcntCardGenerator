@@ -494,7 +494,7 @@
 	"Price": 	 3,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Stary! Co to za sikacz?",
-	"Effects": [{ "Type": "Effect", "Text": "Zagraj na wybranego gracza w trakcie dowolnej walki. Do końca tej walki wybrany gracz nie otrzymuje premii do zadawanych obrażeń od posiadanych oraz zagryanych przedmiotów, akcji, a także od używanych zdolności." }]
+	"Effects": [{ "Type": "Effect", "Text": "Zagraj na wybranego gracza w trakcie dowolnej walki. Do końca tej walki wybrany gracz nie otrzymuje premii do zadawanych obrażeń od posiadanych oraz zagrywanych przedmiotów, akcji, a także od używanych zdolności." }]
 },
 {
 	"Id":		 "i50",

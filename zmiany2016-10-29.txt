@@ -14,10 +14,12 @@ Na dywaniku u dziekana
 	-> obrazek do zmiany
 Strzyżenie w feniksie
 	-> nazwa do zmiany, jak będzie trzeba to i obrazek
+	-> Zagraj poza walką na dowolnego gracza. Do końca tego semestru wybrany gracz nie otrzymuje premii od posiadanego ekwipunku oraz zagrywanych przedmiotów, akcji, a także od używanych zdolności. Gracz ten otrzymuje znacznik pierwszego gracza.
 Przynęta na kaszaloty
 	-> "Wabienie kaszalotów"
 Na ratunek matce przełożonej
 	-> "Side-quest"
+	-> 1 p.a.
 Atak grupowy
 	-> karta usunięta
 Telefon w rękawie
@@ -32,6 +34,7 @@ Przypływ optymizmu
 	-> 2 p.a.
 Osaczony
 	-> 3 p.a.
+	-> Zagraj w trakcie walki. Żaden z jej uczestników nie może z niej uciec ani uzyskać pomocy (również używając zdolności klasowych).
 To nie są droidy których szukacie
 	-> [3] redirect_action_item_skill
 Sobostwór
@@ -41,4 +44,12 @@ Kserówka
 	-> karta dodana
 	-> [4] Zagraj tę kartę od razu po zagraniu karty akcji lub przedmiotu zużywalnego przez dowolnego z graczy. Wykonaj efekt tej karty nie ponosząc jego kosztu.
 Unik z gracją delfina
-	-> zmiana efektu
+	-> zmiana / doprecyzowanie efektu
+Analityczny hełm amortyzujący
+	-> zmiana / doprecyzowanie efektu
+Wyciąg z frajera
+	-> zmiana / doprecyzowanie efektu
+Miękkie ląsowanie 
+	-> Zagraj w momencie skreślania dowolnego z graczy (również siebie). Gracz ten nie zostaje skreślony, uczestniczy w rozgrywce w dalszej części tego semestru, nie musi odrzucać posiadanych btc, kart ani ECTSów oraz odzyskuje wszystkie punkty wytrzymałości. Z gracza należy zdjąć również wszystkie znaczniki zatrucia. Pionek gracza należy umieścić w Dziekanacie tylko wtedy, gdy na polu, na którym znajduje się obecnie, znajduje się przynajmniej jedno stworzenie.
+Odwiedziny dobrej wróżki 
+	-> żetony zdolności -> punkty akcji

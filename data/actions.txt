@@ -1,4 +1,4 @@
-[
+﻿[
 {
 	"ID":		 "a01",
 	"Name": 	 "Klasyczna kula ognia",
@@ -207,7 +207,7 @@
 	"Name": 	 "Osaczony",
 	"ImageName": "a27_osaczony.png",
 	"Points": 	 3,
-	"Effects": [{ "Type": "Effect", "Text": "Z tej walki nie można uciec ani nie można uzyskać pomocy." }]
+	"Effects": [{ "Type": "Effect", "Text": "Zagraj w trakcie walki. Żaden z jej uczestników nie może z niej uciec ani uzyskać pomocy (również używając zdolności klasowych)." }]
 },
 {
 	"ID":		 "a27",
@@ -223,7 +223,8 @@
 	"Name": 	 "Strzyżenie w Feniksie",
 	"ImageName": "a29_strzyzenie_w_feniksie.png",
 	"Points": 	 3,
-	"Effects": [{ "Type": "Effect", "Text": "Zagraj poza walką na dowolnego gracza. Gracz ten do końca tego semestru jest pod wpływem Strach +2. Gracz ten otrzymuje znacznik pierwszego gracza." }]
+	"Effects": [{ "Type": "Effect", "Text": "Zagraj poza walką na dowolnego gracza. 
+Do końca tego semestru wybrany gracz nie otrzymuje premii od posiadanego ekwipunku oraz zagrywanych przedmiotów, akcji, a także od używanych zdolności. Gracz ten otrzymuje znacznik pierwszego gracza." }]
 },
 {
 	"IsDeleted": true,
@@ -255,7 +256,7 @@
 	"ImageName": "a33_miekkie_ladowanie.png",
 	"Points": 	 0,
 	"Description": "Nigdy się nie nauczą...",
-	"Effects": [{ "Type": "Effect", "Text": "Zagraj po śmierci, aby uniknąć związanych z nią konsekwencji." }]
+	"Effects": [{ "Type": "Effect", "Text": "Zagraj w momencie skreślania dowolnego z graczy (również siebie). Gracz ten nie zostaje skreślony, uczestniczy w rozgrywce w dalszej części tego semestru, nie musi odrzucać posiadanych btc, kart ani ECTSów oraz odzyskuje wszystkie punkty wytrzymałości. Z gracza należy zdjąć również wszystkie znaczniki zatrucia. Pionek gracza należy umieścić w Dziekanacie tylko wtedy, gdy na polu, na którym znajduje się obecnie, znajduje się przynajmniej jedno stworzenie." }]
 },
 {
 	"ID":		 "a33",
@@ -269,7 +270,7 @@
 	"ID":		 "a34",
 	"Name": 	 "Side-quest",
 	"ImageName": "a35_na_ratunek_matce_przeoryszy.png",
-	"Points": 	 2,
+	"Points": 	 1,
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj poza walką. Weź kartę przedmiotu albo [k6][k6] btc." }]
 },
 {

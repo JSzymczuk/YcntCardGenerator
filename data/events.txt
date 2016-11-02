@@ -1,4 +1,4 @@
-[
+﻿[
 {
 	"Id":		 "e01",
 	"Name":      "Opatrzność bogini płodności",
@@ -67,7 +67,7 @@
 			"Parameters": [
 				"pobrać kartę przedmiotu,",
 				"otrzymać modyfikator +2 do [zadawanych obrażeń] [for_this_semester],", 
-				"otrzymać 2 dodatkowe [żetony zdolności]."
+				"otrzymać 2 dodatkowe [punkty akcji]."
 			]
 		}
 	]
