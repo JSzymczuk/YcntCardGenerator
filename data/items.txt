@@ -737,7 +737,7 @@
 	"Effects": [	
 	{ 
 		"Type": "StatTemplate", 
-		"ModifiedStats": { "-2": ["[testu otwarcia]"] } 
+		"ModifiedStats": { "-2": ["[testu inicjatywy]"] } 
 	},
 	{ 
 		"Type": "Effect", 
