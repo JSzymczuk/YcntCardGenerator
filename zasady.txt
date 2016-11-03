@@ -28,7 +28,7 @@ XI.  Poziom paniki
 
 I. Cel gry
 
-Gracze wcielają się w studnetów, którzy muszą zmagać się z rozmaitymi przeszkodami na drodze do osiągnięcia wymarzonego tytułu inżyniera. Gracze zdobywają punkty zwycięstwa (ECTS). Wygrywa pierwszy z graczy, który zdobędzie 10 ECTS (gra kończy się natychmiast) lub jeśli w ciągu 7 semestrów żaden z graczy nie zgromadzi 10 ECTS, wygrywa ten, kto ma ich najwięcej.
+Gracze wcielają się w studentów, którzy muszą zmagać się z rozmaitymi przeszkodami na drodze do osiągnięcia wymarzonego tytułu inżyniera. Gracze zdobywają punkty zwycięstwa (ECTS). Wygrywa pierwszy z graczy, który zdobędzie 10 ECTS (gra kończy się natychmiast) lub jeśli w ciągu 7 semestrów żaden z graczy nie zgromadzi 10 ECTS, wygrywa ten, kto ma ich najwięcej.
 
 Postać gracza posiada dwie statystyki: punkty wytrzymałości oraz potencjał. Wytrzymałość mierzy się punktami od 0 do 20. Jeśli wytrzymałość spadnie do zera, to postać gracza zostaje skreślona z listy studentów. Potencjał mierzy się od 1 do 5. Każdy poziom potencjału określa, jakich kości gracz używa przy określonych testach oraz jaką liczbą punktów akcji dysponuje. Gracze rozpoczynają z potencjałem na poziomie 1 oraz maksymalną żywotnością.
 
@@ -44,24 +44,47 @@ Kujoni to indywidualiści, którzy wierzą, że nie opuszczając żadnego wykła
 
 Każdy pracoholik jest świadom, że jest na studiach wyłącznie po to, aby zdobyć papier, który uczyni go bardziej atrakcyjnym na rynku pracy. Po co więc tracić czas na zajęcia na uczelni, skoro można od razu podłapać rewelacyjną ofertę w korpo i trzepać hajsy? Przecież jest oczywistym, że pracoholik i tak najlepiej nauczy się zawodu w praktyce. Notatki i wykłady należy pozostawić tym leszczom, którzy nie wiedzą jak działa biznes.
 
-Leserzy wychodzą z założenia, że studia są idealnym okresem na konkretne melanże i zawieranie nowych znajomości. Nauka nie jest niczym innym jak marnowaniem czasu, skoro można załatwić pytania od wyższego rocznika i przejechać całe studia na farcie. Częste uczestnictwo w libacjach alkoholowych sprawia, że tolerancja alkoholu leserów jest znacznie wyższa niż u przeciętnego śmiertelnika. Nieraz można odnieść wrażenie, że leserzy dzielą ludzi na tych, z którymi pili i na tych, z którymi jeszcze nie pili.
+Leserzy wychodzą z założenia, że studia są idealnym okresem na konkretne melanże i zawieranie nowych znajomości. Nauka nie jest niczym innym jak marnowaniem czasu, skoro można załatwić pytania od wyższego rocznika i przejechać całe studia na farcie. Częste uczestnictwo w libacjach alkoholowych sprawia, że tolerancja alkoholu leserów jest znacznie wyższa niż u przeciętnego śmiertelnika. Nieraz można odnieść wrażenie, że leserzy dzielą ludzi na tych, z którymi już pili i na tych, z którymi dopiero będą pili.
 
 ################################################################
 
 III. Elementy w grze
 
-to do:
--omówić rodzaje kart
--omówić planszę
--omówić znaczniki
--omówić karty postaci
+1. Plansza 
+Plansza w grze przedstawia kampus uczelni, na którą uczęszczają postacie graczy. Podzielona jest ona na pola, po których postacie poruszają się aby zdobywać zasoby, wykonywać cele gry, walczyć z przeciwnikami, a także przeszkadzać innym graczom. Centralnym elementem planszy jest Dziekanat, który trzeba chronić przed wtargnięciem wrogich stworzeń. Każde stworzenie, jakie wchodzi do dziekanatu podnosi poziom paniki o 1. Gdy panika osiągnie poziom 5 gra natychmiast kończy się porażką każdego z graczy.
+
+2. Karty
+Poza planszą ważnym elementem w grze są karty. Dzielą się one na 5 rodzajów:
+   - Karty przedmiotów - reprezentują przedmioty posiadane przez postacie graczy. Każdy przedmiot posiada cenę (w btc) oraz kategorię (patrz roz. VII).
+
+   - Karty akcji - przedstawiają akcje, jakie postacie graczy mogą wykonywać w trakcie semestrów. Każda akcja posiada koszt w punktach akcji, które gracz musi odrzucić zagrywając daną kartę akcji. O ile opis na karcie nie precyzuje kiedy można ją zagrać, użycie jej jest możliwe w dowolnym momencie tury.
+
+   - Karty stworzeń - opisują stworzenia czyhające na studentów na kampusie. Każde stworzenie posiada kategorię, wytrzymałość, siłę ataku, inicjatywę, nagrody za stworzenie oraz schemat ruchu. Ilość łapek przy każdym rodzaju ruchu określa ile pól danego koloru przemierza stworzenie podczas swojej fazy ruchu (patrz roz. VI). 
+
+   - Karty wydarzeń - określają zdarzenia na początku semestru, które często mogą wpływać na dalszy jego przebieg. Każda karta wydarzenia posiada numer schematu ruchu, który będą używać stworzenia w danym semestrze oraz miejsca i ilość pojawiania się nowych stworzeń. Karty wydarzeń wyciągane są przez starostę na początku każdego semestru (patrz roz. V).
+
+   - Karty celów - przedstawiają cele, jakie mogą wykonywać gracze. Za wykonanie każdego celu gracz otrzymuje określoną na karcie liczbę punktów ECTS.
+
+3. Karty postaci
+Karty postaci przedstawiają profesje, w jakie mogą wcielić się gracze. Każda karta zawiera pięć poziomów potencjału (wraz z określoną liczbą kości obrażeń,  kości inicjatywy oraz punktów zdolności na każdym z nich) oraz zdolności specjalne danej profesji. Więcej o profesjach w rozdziale II.
+
+4. Znaczniki
+   - Znacznik starosty - ma go starosta.
+   - Znaczniki punktów akcji - służą do określenia liczby punktów akcji pozostających do dyspozycji każdego gracza.
+   - Znaczniki zatrucia - przedstawiają poziom zatrucia danej postaci. Postać na początku własnej tury w walce traci tyle punktów wytrzymałości, ile ma na sobie znaczników zatrucia (patrz roz VIII).
+   - Znaczniki obrażeń???
 
 ################################################################
 
 IV. Rozpoczęcie rozgrywki
 
-to do:
-- wkleić na razie to co ma Adrian u siebie
+1. Rozłożyć planszę oraz potasowane stosy przedmiotów, akcji, stworzeń, wydarzeń i celów.
+2. Gracze w kolejności od najstarszego wybierają profesje. Do wyboru są po dwie karty każdej profesji.
+3. Każdy gracz otrzymuje 2 karty przedmiotu i 2 karty akcji oraz 2btc.
+4. Pionki graczy należy umieścić w Dziekanacie.
+5. Odkryć pięć kart celów i umieścić je w miejscu widocznym dla graczy
+6. Odkryć pięć kart przedmiotów w sklepie.
+6. Gracz, który ostatni wybierał profesję otrzymuje znacznik pierwszego gracza.
 
 ################################################################
 
@@ -70,10 +93,10 @@ V. Przebieg semestru
 1. Faza wydarzenia
    - zastosowanie zdolności, które aktywują się po rozpoczęciu semestru
    - odkrycie karty wydarzenia
-   - umieszczenie stworzeń
+   - umieszczenie stworzeń (biorąc pod uwagę czarne kropki dla 4 lub mniej graczy i wszystkie kropki dla 5-6)
    - rozstrzygnięcie efektu karty wydarzenia
    - uzupełnienie żetonów zdolności
-   - dobranie 2btc oraz karty akcji przez każego z graczy
+   - dobranie 2btc oraz karty akcji przez każdego z graczy
 2. Faza ruchu
    - ruch graczy
    - ruch stworzeń
@@ -137,7 +160,7 @@ Jeśli stworzeń jest więcej, gracze muszą zdać test inicjatywy najwyższego 
  
 Gracze podejmują decyzje w walce zgodnie z kolejnością na torze inicjatywy.
 
-Walkę uznaje się za rozpoczętą po wykonaniu testu otwarcia.
+Walkę uznaje się za rozpoczętą po ustaleniu ostatecznego zwycięzcy testu otwarcia (gracz lub stworzenie).
 
 ### Akcje w turze ##############################################
  
@@ -215,15 +238,19 @@ Po zakończeniu fazy akcji w ręce gracza może znajdować się maksymalnie 5 ka
 
 ### Zakupy #####################################################
 
-Gracz może kupić dowolną liczbę przedmiotów ze sklepu.
+W fazie akcji gracz może kupować przedmioty ze sklepu za ich koszt określony na każdej karcie przedmiotu.
 Przedmioty nie mogą być sprzedawane.
 Gracz może kupić przedmiot w ciemno za 3btc i wziąć zakrytą kartę z wierzchu talii przedmiotów.
+Gracz może kupić w jednym semestrze maksymalnie 6 kart (5 odkrytych ze sklepu i 1 zakrytą).
+Karty przedmiotów w sklepie uzupełnia się do 5 po zakończeniu fazy akcji poszczególnych graczy.
 
 ################################################################
 
 X. Realizacja celów
 
-to do
+Głównym sposobem zdobywania punktów ECTS prowadzących do zwycięstwa jest realizacja warunków opisanych na kartach celów. Obok planszy w każdym momencie powinno leżeć pięć kart celów, jeśli tylko panika nie osiągnęła poziomu 4. W momencie wykonania danego celu przez gracza zabiera on kartę tego celu i zyskuje określoną na karcie ilość punktów ECTS. Natychmiast po tym należy dołożyć nowy cel i położyć go obok planszy, uzupełniając liczbę kart celów do 5.
+
+Jeśli dwóch graczy w tym samym momencie spełni warunki opisane na jednej z kart celów punkty otrzymuje gracz wyższy w starszeństwie (gracz ze znacznikiem starosty lub najbliższy według kolejki).
 
 ################################################################
 
