@@ -9,11 +9,11 @@
 	"ResultFileName": "cards.docx",
 	"AutoOpen": 	  true,
 	
-	"IncludeAllEvents": 	false,
-	"IncludeAllCreatures":  false,
-	"IncludeAllItems": 	    false,
-	"IncludeAllActions": 	false,
-	"IncludeAllObjectives": false,
+	"IncludeAllEvents": 	true,
+	"IncludeAllCreatures":  true,
+	"IncludeAllItems": 	    true,
+	"IncludeAllActions": 	true,
+	"IncludeAllObjectives": true,
 	"IncludeIds": 			"",
 
 	"MarginTop":	40.0,
