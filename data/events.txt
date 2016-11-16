@@ -387,7 +387,7 @@
 {
 	"Id":		 "e19",
 	"Name": "Turniej rycerski",
-	"ImageName": "e018.png",
+	"ImageName": "e19_turniej_rycerski.png",
 	"MovementCat": 2,
 	"Description": "Przetrzymujesz!",
 	"SpawnEasy": {
@@ -408,9 +408,9 @@
 	]
 },
 {
-	"Id":		 "e19",
+	"Id":		 "e20",
 	"Name": "Fundusz pomocy niepełnosprytnym",
-	"ImageName": "e19_turniej_rycerski.png",
+	"ImageName": "",
 	"MovementCat": 3,
 	"Description": "Dzielimy po równo czy sprawiedliwie?",
 	"SpawnEasy": {
