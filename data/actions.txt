@@ -6,21 +6,20 @@
 	
 	"Points": 	 1,
 	"Description": "Klasycznie wali ogniem.",
-	"Effects": [
-		{ "Type": "Effect", "Text": "Zagraj w trakcie walki, w której bierzesz udział." },
-		{ 
-			"Type": "StatTemplate", 
-			"Duration": "Turn", 
-			"ModifiedStats": { "[r6][r6][r6]": ["[testu obrażeń]"] }
-		}
-	]
+	"Effects": [{ 
+		"Type": "Effect", 
+		"Text": "Zagraj na dowolnego uczestnika walki, w której bierzesz udział. Zapewnia dodatkowe [r6][r6][r6] podczas najbliższego [testu obrażeń] wybranego uczestnika walki." 
+	}]
 },
 {
+	"NeedUpdate": true,
+	"Comment": 	  "obrazek do zmiany",
+	
 	"ID":		 "a02",
 	"Name": 	 "Firewall",
 	"ImageName": "a02_firewall.png",
 	"Points": 	 1,
-	"Effects": [{ "Type": "Effect", "Text": "Zagraj po dowolnym ataku. Zignoruj [k6][k6] obrażeń od tego ataku, które zamiast celu otrzymuje atakujący." }]
+	"Effects": [{ "Type": "Effect", "Text": "Zagraj po dowolnym ataku. Zignoruj [k6][k6][k6] obrażeń od tego ataku, które zamiast celu otrzymuje atakujący." }]
 },
 {
 	"ID":		 "a03",
@@ -34,7 +33,6 @@
 	"Name": 	 "Jak słup soli",
 	"ImageName": "a04_jak_slup_soli.png",
 	"Points": 	 1,
-	"Description": "Panie zajmują się robieniem herbaty, a panowie depczą im po piętach jak słup soli.",
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj na dowolne stworzenie przed fazą ruchu stworzeń. To stworzenie nie porusza się w trakcie tego semestru. Odrzuć tę kartę po zakończeniu fazy ruchu stworzeń." }]
 },
 {
@@ -46,7 +44,8 @@
 },
 {
 	"NeedUpdate": true,
-	"Comment": 	  "obrazek do zmieny, nazwa do zmiany",
+	"Comment": 	  "obrazek do zmiany, nazwa do zmiany",
+	
 	"ID":		 "a06",
 	"Name": 	 "Pieśń o Julianie i Romualdzie",
 	"ImageName": "a06_piesn_o_julianie_i_romualdzie.png",
@@ -68,11 +67,14 @@
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj na wybranego uczestnika walki po dowolnym ataku. Nie otrzymuje on obrażeń od tego ataku." }]
 },
 {
+	"NeedUpdate": true,
+	"Comment": 	  "nazwa do zmiany?",
+	
 	"ID":		 "a09",
 	"Name": 	 "Krejzolowy kręciołek",
 	"ImageName": "a09_krejzolowy_kreciolek.png",
 	"Points": 	 2,
-	"Effects": [{ "Type": "Effect", "Text": "Przesuń znacznik pierwszego gracza o dwa miejsca przeciwnie do ruchu wskazówek zegara." }]
+	"Effects": [{ "Type": "Effect", "Text": "Przesuń [first_player_token] o dwa miejsca przeciwnie do ruchu wskazówek zegara." }]
 },
 {
 	"ID":		 "a10",
@@ -89,8 +91,6 @@
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj na dowolnego gracza podczas walki. Gracz ten nie otrzymuje premii od swojego ekwipunku w trakcie tej walki." }]
 },
 {
-	"NeedUpdate": true,
-	"Comment": 	  "obrazek do zmiany",
 	"ID":		 "a12",
 	"Name": 	 "Zbiorowa praktyczna inżynieria biomedyczna",
 	"ImageName": "a12_zbiorowa_praktyczna_inzynieria_biomedyczna.png",
@@ -105,6 +105,9 @@
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj w trakcie swojej tury w walce. Rzuć [k6]. Wynik mniejszy od 2 oznacza, że wybrany uczestnik walki umiera." }]
 },
 {
+	"NeedUpdate": true,
+	"Comment": 	  "nazwa do zmiany?",
+	
 	"ID":		 "a14",
 	"Name": 	 "Czar z tablicy charów",
 	"ImageName": "a14_czar_z_tablicy_charow_2.png",
@@ -112,6 +115,9 @@
 	"Effects": [{ "Type": "Effect", "Text": "Dobierz dwie karty przedmiotu, a następnie odrzuć kartę z ręki." }]
 },
 {
+	"NeedUpdate": true,
+	"Comment": 	  "obrazek do poprawki",
+	
 	"ID":		 "a15",
 	"Name": 	 "Nikt nie przejdzie",
 	"ImageName": "a15_nikt_nie_przejdzie.png",
@@ -153,8 +159,6 @@
 	"Effects": [{ "Type": "Template", "Name": "move_enemy_or_player" }]
 },
 {
-	"NeedUpdate": true,
-	"Comment": 	  "obrazek do zmiany",
 	"ID":		 "a20",
 	"Name": 	 "Kto nie skacze ten z SGH",
 	"ImageName": "a20_kto_nie_skacze_ten_sesgiechu.png",
@@ -163,6 +167,8 @@
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj w dowolnym momencie w trakcie walki. Wszyscy gracze niepobierający nauk w SGH jednorazowo otrzymują modyfikator +2 do [zadawanych obrażeń]." }]
 },
 {
+	"IsDeleted": true,
+
 	"ID":		 "a21",
 	"Name": 	 "Otóż nie.",
 	"ImageName": "a21_otoz_nie.png",
@@ -177,8 +183,6 @@
 	"Effects": [{ "Type": "Template", "Name": "prevent_action_item_skill" }]
 },
 {
-	"NeedUpdate": true,
-	"Comment": 	  "obrazek do zmiany",
 	"ID":		 "a23",
 	"Name": 	 "Jednorazowy atak kleptomanii",
 	"ImageName": "a24_chytra_baba.png",
@@ -218,13 +222,12 @@
 },
 {
 	"NeedUpdate": true,
-	"Comment": 	  "nazwa do zmiany, jak będzie trzeba to i obrazek do zmiany",
+	"Comment": 	  "wszystko poza efektem do zmiany",
 	"ID":		 "a28",
 	"Name": 	 "Strzyżenie w Feniksie",
 	"ImageName": "a29_strzyzenie_w_feniksie.png",
 	"Points": 	 3,
-	"Effects": [{ "Type": "Effect", "Text": "Zagraj poza walką na dowolnego gracza. 
-Do końca tego semestru wybrany gracz nie otrzymuje premii od posiadanego ekwipunku oraz zagrywanych przedmiotów, akcji, a także od używanych zdolności. Gracz ten otrzymuje znacznik pierwszego gracza." }]
+	"Effects": [{ "Type": "Effect", "Text": "Zagraj poza walką na dowolnego gracza. Do końca tego semestru wybrany gracz nie otrzymuje premii od posiadanego ekwipunku oraz zagrywanych przedmiotów, akcji, a także od używanych zdolności. Gracz ten otrzymuje [first_player_token]." }]
 },
 {
 	"IsDeleted": true,
@@ -267,6 +270,7 @@ Do końca tego semestru wybrany gracz nie otrzymuje premii od posiadanego ekwipu
 	"Effects": [{ "Type": "Template", "Name": "prevent_action_item_skill" }]
 },
 {
+	"IsDeleted": true,
 	"ID":		 "a34",
 	"Name": 	 "Side-quest",
 	"ImageName": "a35_na_ratunek_matce_przeoryszy.png",
@@ -330,7 +334,7 @@ Do końca tego semestru wybrany gracz nie otrzymuje premii od posiadanego ekwipu
 	"Name": 	 "To nie są droidy których szukacie",
 	"ImageName": "a42_to_nie_droidy_ktorych_szukacie.png",
 	"Points": 	 3,
-	"Description": "Będzie dobrze.",
+	"Description": "To nie są droidy, których szukamy.",
 	"Effects": [{ "Type": "Template", "Name": "redirect_action_item_skill" }]
 },
 {
@@ -352,5 +356,12 @@ Do końca tego semestru wybrany gracz nie otrzymuje premii od posiadanego ekwipu
 		"Type": "Effect", 
 		"Text": "Zagraj tę kartę od razu po zagraniu karty akcji lub przedmiotu zużywalnego przez dowolnego z graczy. Wykonaj efekt tej karty nie ponosząc jego kosztu." 
 	}]
+},
+{
+	"ID":		 "a45",
+	"Name": 	 "Kolokwium odwołane",
+	"ImageName": "",
+	"Points": 	 1,
+	"Effects": [{ "Type": "Effect", "Text": "Zagraj tę kartę od razu po odkryciu karty wydarzenia. Odrzuć tę kartę wydarzenia i weź następną." }]
 },
 ]

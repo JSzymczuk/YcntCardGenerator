@@ -1,54 +1,53 @@
-ołowiany żołnierzyk
-mały trójnogi snotling
-Emerytowana zębowa wróżka
-Zapomniany gargulec - potencjalnie do przerobienia na jakąś prawdziwszą rzeźbę, np z PW
-Postrach dyskoteki berserker - potencjalnie można przerobić na pasztet.
-Elficki łotrzyk - na cosplayera czy coś.
-CHmiera
-Trzygłowy rycerz
-Leszek
-Zaklęta zbroja
-Dwurożec
+[+] ołowiany żołnierzyk
+[+] mały trójnogi snotling
+[+] Emerytowana zębowa wróżka
+[+] Zapomniany gargulec - potencjalnie do przerobienia na jakąś prawdziwszą rzeźbę, np z PW
+[+] Postrach dyskoteki berserker - potencjalnie można przerobić na pasztet.
+[+] Elficki łotrzyk - na cosplayera czy coś.
+[+] CHmiera
+[+] Trzygłowy rycerz
+[+] Leszek
+[+] Zaklęta zbroja
+[+] Dwurożec
 
 [akcje]
-firewall - dodać do efektu dodatkową kostkę
-jak słup soli - usunąć opis
-Pieśń o Julianie i Romualdzie -> chałturzenie na stacji metra
-Krejzolowy kręciołek - nazwa, ZNACZNIK STAROSTY!
-Czar z tablicy charów - nazwa do zmiany
-Nikt nie przejdzie - obrazek do poprawki
-Kto nie skacze - do zmiany obrazek
-Otóż nie -> kolokwium odwołane
-Strzyżenie w feniksie - tylko efekt zostaje!
-Side-quest - wyrzucić
-To nie są droidy - opis: To nie są droidy, których szukamy
+[+] firewall - dodać do efektu dodatkową kostkę
+[+] jak słup soli - usunąć opis
+[+] Pieśń o Julianie i Romualdzie -> chałturzenie na stacji metra
+[+] Krejzolowy kręciołek - nazwa, ZNACZNIK STAROSTY!
+[+] Czar z tablicy charów - nazwa do zmiany
+[+] Nikt nie przejdzie - obrazek do poprawki
+[+] Kto nie skacze - do zmiany obrazek
+[+] Otóż nie -> kolokwium odwołane
+[+] Strzyżenie w feniksie - tylko efekt zostaje!
+[+] Side-quest - wyrzucić
+[+] To nie są droidy - opis: To nie są droidy, których szukamy
 
 [wydarzenia]
-opatrzność - obrazek z testem ciążowym
-krucy i wilcy - do wymiany wszystko poza efektem, a i ten niekoniecznie
-walka o praktyki - obrazek
-krwawa rzeź - obrazek
-Szczepienia okresowe - coś z tym zrobić w każdym aspekcie
-Ursynalia -> Juwenalia
+[+] opatrzność - obrazek z testem ciążowym
+[+] krucy i wilcy - do wymiany wszystko poza efektem, a i ten niekoniecznie
+[+] walka o praktyki - obrazek
+[+] krwawa rzeź - obrazek
+[+] Szczepienia okresowe - coś z tym zrobić w każdym aspekcie
+[+] Ursynalia -> Juwenalia
 
 [przedmioty]
-medpak - znaczek na krzyżyk
-Imperialna płytówka - do usunięcia, efekt do skórzanej kurtki
-kestral - nazwa do zmiany
-Na wskroś zmrożony okoń - usunąć pierwszą linię opisu
-kurtka skórzana - Wpierza
-Nerdowskie okulary - przecz z tym!
-Lyrium -> banan
-Szalik - zabierz znacznik starosty
-Kartonowa zbroja - do wywalenia
-Kostur mistrza magii - zmieniony efekt: za 1 punkt akcji zwiększ obrażenia o 1
-Krwawy topór - do wywalenia
-Dizajnerska mysz - czerwona kostka do obrażeń
-Wymarzony oręż młodego wojownika - do wywalenia
-DODATKOWO ukulele: czarna kostka do obrażeń, odrzuć aby zadać dodatkowe 5 obrażeń podczas ataku.
-Kapcie-króliczki: 1 punkt akcji za +1 do testu inicjatywy
-Sandały turystyczne: +1 do testu otwarcia i 1 pole poza walką
-
+[+] medpak - znaczek na krzyżyk
+[+] Imperialna płytówka - do usunięcia, efekt do skórzanej kurtki
+[+] kestral - nazwa do zmiany
+[+] Na wskroś zmrożony okoń - usunąć pierwszą linię opisu
+[+] kurtka skórzana - Wpierza
+[+] Nerdowskie okulary - przecz z tym!
+[+] Lyrium -> banan
+[+] Szalik - zabierz znacznik starosty
+[+] Kartonowa zbroja - do wywalenia
+[+] Kostur mistrza magii - zmieniony efekt: za 1 punkt akcji zwiększ obrażenia o 1
+[+] Krwawy topór - do wywalenia
+[+] Dizajnerska mysz - czerwona kostka do obrażeń
+[+] Wymarzony oręż młodego wojownika - do wywalenia
+[+] DODATKOWO ukulele: czarna kostka do obrażeń, odrzuć aby zadać dodatkowe 5 obrażeń podczas ataku.
+[+] Kapcie-króliczki: 1 punkt akcji za +1 do testu inicjatywy
+[+] Sandały turystyczne: +1 do testu otwarcia i 1 pole poza walką
 
 [luźne pomysły na stworzenia]
 dwója w indeksie
@@ -56,3 +55,30 @@ wycieczka szkolna
 efemeryczny doktorant
 bibliotekarka czy coś
 Zabójczo nudny podręcznik
+
+
+
+
+Wprowadzone zmiany: 
+a02, a04, a09, a14, a28, a42, e13, i16, i17, i18, i23, i24, i37, i63, i77, i78
+
+Usunięte karty:
+- Otóż nie
+- Side-quest
+- Ołowiany żołnierzyk
+- Mały trójnogi snotling
+- Emerytowana zębowa wróżka
+- Elficki łotrzyk
+- Chmiera
+- Trzygłowy rycerz
+- Leszek
+- Zaklęta zbroja
+- Dwurożec
+- Krucy i wilcy
+- Szczepienia okresowe
+- Ursynalia
+- Imperialna płytówka
+- Lyrium
+- Kartonowa zbroja
+- Krwawy topór ostatniej przysługi
+- Wymarzony oręż młodego wojownika

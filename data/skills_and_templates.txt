@@ -120,6 +120,10 @@
 		"Text": "Zagraj poza walką. Weź kartę z ekwipunku dowolnego gracza i umieść ją w swoim ekwipunku."
 	},
 	{
+		"Name": "steal_token",
+		"Text": "Zagraj poza walką. Weź [first_player_token]."
+	},
+	{
 		"Name": "vote_2",
 		"Text": "Przeprowadźcie głosowanie:\n1) {0}\n2) {1}"
 	},

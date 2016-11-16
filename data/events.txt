@@ -25,6 +25,8 @@
 	]
 },
 {
+	"IsDeleted": true,
+
 	"Id":		 "e03",
 	"Name": "Krucy i wilcy",
 	"ImageName": "e03_krucy_i_wilcy.png",
@@ -98,6 +100,9 @@
 	]
 },
 {
+	"NeedUpdate": true,
+	"Comment":    "obrazek do wymiany",
+
 	"Id":		 "e06",
 	"Name": "Walka o darmowe praktyki w znanej firmie",
 	"ImageName": "e06_wyrocznia_przemowila.png",
@@ -135,6 +140,8 @@
 	}]
 },
 {
+	"IsDeleted": true,
+
 	"Id":		 "e08",
 	"Name": "Szczepienia okresowe",
 	"ImageName": "e08_szczepienia_okresowe.png",
@@ -200,11 +207,14 @@
 		"Name": "first_player_roll_dices",
 		"Parameters": [
 			"[r6]",
-			"[for_this_semester] wszystkie stworzenia poruszają się dwa razy." 
+			"to w trakcie tego semestru wszystkie stworzenia poruszają się dwukrotnie" 
 		]
 	}]
 },
 {
+	"NeedUpdate": true,
+	"Comment":    "obrazek do wymiany",
+	
 	"Id":		 "e11",
 	"Name": "Krwawa rzeź",
 	"ImageName": "e11_krawa_rzez.png",
@@ -258,7 +268,7 @@
 },
 {
 	"Id":		 "e13",
-	"Name": "Ursynalia",
+	"Name": "Juwenalia",
 	"ImageName": "e13_ursynalia.png",
 	"MovementCat": 3,
 	"SpawnEasy": {
@@ -271,7 +281,7 @@
 	},
 	"Effects": [{ 
 		"Type": "Effect", 
-		"Text": "[NO_ACTION_POINTS_IN_SEMESTER] Nikt się przecież nie uczy w Ursynalia." 
+		"Text": "[NO_ACTION_POINTS_IN_SEMESTER] Nikt się przecież nie uczy w Juwenalia." 
 	}]
 },
 {

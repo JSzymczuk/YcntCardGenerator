@@ -16,6 +16,9 @@
 	"Effects": [{ "Type": "Template", "Name": "heal", "Value": 10 }]
 },
 {
+	"NeedUpdate": true,
+	"Comment":    "znaczek przerobić na krzyżyk",
+
 	"Id":		 "i03",
 	"Name": 	 "Med-pak",
 	"ImageName": "i59_med_pak.png",
@@ -53,6 +56,9 @@
 	"Effects": [{ "Type": "Template", "Name": "heal", "Value": 10 }]
 },
 {
+	"NeedUpdate": true,
+	"Comment":    "nazwa do zmiany",
+
 	"Id":		 "i07",
 	"Name": 	 "Kestral",
 	"ImageName": "i06_kestral.png",
@@ -115,6 +121,7 @@
 	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "1": ["[zadawanych obrażeń]"] }}]
 },
 {
+	"IsDeleted": true,
 	"Id":		 "i14",
 	"Name": 	 "Wymarzony oręż młodego wojownika",
 	"ImageName": "i50_wymarzony_orez_mlodego_wojownika.png",
@@ -143,8 +150,7 @@
 	"ImageName": "i54_na_wskros_zmrozony_okon.png",
 	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Broń"],
-	"Description":
-	"- Zimny jak lód. Twardy jak stal. Śmierdzi jak ryba.\n- Podaję hasło: Okoń!",
+	"Description": "- Podaję hasło: Okoń!",
 	"Effects": [
 		{ "Type": "StatTemplate", "ModifiedStats": { "1": ["[zadawanych obrażeń]"] }},
 		{ "Type": "Effect", "Text": "Może zostać odrzucony w trakcie walki, aby jednorazowo zregenerować do 10 punktów wytrzymałości posiadacza. Kartę należy odrzucić przed wykonaniem ataku." }
@@ -154,27 +160,22 @@
 	"Id":		 "i17",
 	"Name": 	 "Kostur mistrza magii",
 	"ImageName": "i56_kostur_mistrza_magii.png",
-	"Price": 	 7,
+	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Broń"],
-	"Effects": [{
-			"Type": "StatTemplate", 
-			"ModifiedStats": {
-				"[k6]": ["[testu obrażeń]"],			
-				"1": ["[zadawanych obrażeń]"]
-			}
-		}]
+	"Effects": [{ "Type": "Effect", "Text": "Posiadacz tego przedmiotu może wydać dowolną liczbę [punktów akcji] po wykonaniu [testu obrażeń]. Za każdy wydany [punkt akcji] obrażenia od tego ataku zostają zwiększone o 1." }]
 },
 {
 	"Id":		 "i18",
 	"Name": 	 "Dizajnerska mysz bezprzewodowa",
 	"ImageName": "i57_dizajnerska_mysz_bezprzewodowa.png",
-	"Price": 	 4,
+	"Price": 	 5,
 	"Categories": ["Ekwipunek", "Broń"],
 	"Description":
 	"Wyśmienita precyzja, nietuzinkowy dizajn, liczne wcięcia oraz agresywny wygląd okraszony szkarłatną poświatą. Tradycjonaliści nawet na nią nie spojrzą.",
-	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "[k6]": ["[testu obrażeń]"] }}]
+	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "[r6]": ["[testu obrażeń]"] }}]
 },
 {
+	"IsDeleted": true, 
 	"Id":		 "i19",
 	"Name": 	 "Krwawy topór ostatniej przysługi",
 	"ImageName": "i58_krwawy_topor_ostatniej_przyslugi.png",
@@ -221,15 +222,18 @@
 	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Buty"],
 	"Description": "Są miękkie i różowe. I mają uszy.",
-	"Effects": [{ "Type": "Template", "Name": "ruch+1" }]
+	"Effects": [{ "Type": "Effect", "Text": "Posiadacz tego przedmiotu może wydać dowolną liczbę [punktów akcji] po wykonaniu [testu inicjatywy]. Za każdy wydany [punkt akcji] należy zwiększyć wynik tego testu o 1." }]
 },
 {
 	"Id":		 "i24",
 	"Name": 	 "Sandały turystyczne",
 	"ImageName": "i46_sandaly_turystyczne.png",
-	"Price": 	 1,
+	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Buty"],
-	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "[k6]": ["[testu otwarcia]"] }}]
+	"Effects": [
+		{ "Type": "StatTemplate", "ModifiedStats": { "[k6]": ["[testu otwarcia]"] }}, 
+		{ "Type": "Template", "Name": "ruch+1" }
+	]
 },
 {
 	"Id":		 "i25",
@@ -334,6 +338,8 @@
 	]
 },
 {
+	"IsDeleted": true,
+
 	"Id":		 "i35",
 	"Name": 	 "Kartonowa zbroja",
 	"ImageName": "i37_zbroja_z_kartonu.png",
@@ -367,8 +373,17 @@
 	"ImageName": "i40_sfatygowana_kurtka_skorzana.png",
 	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Zbroja"],
-	"Description": "Widzisz tę skórę? Czuć wpierza! Syntetycznego, ale wieprza!",
-	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "1": ["[redukcji obrażeń]"]}} ]
+	"Description": "Widzisz tę skórę? Czuć wieprza! Syntetycznego, ale wieprza!",
+	"Effects": [
+		{
+			"Type": "StatTemplate", 
+			"ModifiedStats": 
+			{ 
+				"2": ["[redukcji obrażeń]"],				
+				"-1": ["[zadawanych obrażeń]"] 
+			}
+		}
+	]
 },
 {
 	"Id":		 "i38",
@@ -380,6 +395,8 @@
 	"Effects": [{ "Type": "Effect", "Text": "Zapewnia trwały modyfikator +1 do redukcji obrażeń oraz trwały modyfikator +3 do ochrony przed wodą." }]
 },
 {
+	"IsDeleted": true,
+
 	"Id":		 "i39",
 	"Name": 	 "Imperialna płytówka obrońcy",
 	"ImageName": "i45_imperialna_plytowka_obroncy.png",
@@ -459,7 +476,7 @@
 },
 {
 	"Id":		 "i46",
-	"Name": 	 "Nie-ściaga",
+	"Name": 	 "Nie-ściąga",
 	"ImageName": "i15_niesciaga.png",
 	"Price": 	 2,
 	"Categories": ["Przedmioty zużywalne"],
@@ -530,6 +547,7 @@
 	"Effects": [{ "Type": "Effect", "Text": "Przejrzyj stos odrzuconych przedmiotów, wybierz jeden z nich, pokaż go pozostałym graczom i umieść go w swojej ręce." }]
 },
 {
+	"IsDeleted": true,
 	"Id":		 "i54",
 	"Name": 	 "Nerdowskie okulary",
 	"ImageName": "i47_nerdowskie_okulary.png",
@@ -590,6 +608,7 @@
 	"Effects": [{ "Type": "Template", "Name": "restore_action_points", "Value": 2  }]
 },
 {
+	"IsDeleted": true, 
 	"Id":		 "i61",
 	"Name": 	 "Lyrium",
 	"ImageName": "i62_lyrium.png",
@@ -602,9 +621,9 @@
 	"Id":		 "i63",
 	"Name": 	 "Szalik prawdziwego kibica",
 	"ImageName": "",
-	"Price": 	 4,
+	"Price": 	 5,
 	"Categories": ["Przedmioty zużywalne"],
-	"Effects": [{ "Type": "Template", "Name": "steal_item" }]
+	"Effects": [{ "Type": "Template", "Name": "steal_token" }]
 },
 {
 	"Id":		 "i64",
@@ -621,7 +640,7 @@
 	"Price": 	 4,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Jeśli zamknie się w niej hotentockiego zabójcę matki głupka i jąkały, to w skrócie można nazwać ją Hottentottenstottertrottelmutterattentäter-beutelrattenlattengitterkoffer.",
-	"Effects": [{ "Type": "Effect", "Text": "Wybierz stworzenie biorące udział w walce. Stworzenie to zostaje złapane w klatkę z plecionki. Jeśli jest to jedyne stworzenie w tej walce, walka kończy się. Posiadacz klatki zdobywa połowę (zaokrąglając w dół) puli btc przeznaczonej za schwytane stworzenie. Nikt nie otrzymuje punktów doświadczenia ani przedmiotów za to stworzenie. Po walce odrzuć schwytane stworzenie." }]
+	"Effects": [{ "Type": "Effect", "Text": "Wybierz stworzenie biorące udział w walce. Stworzenie to zostaje złapane w klatkę z plecionki (nie liczy się jako pokonane). Jeśli jest to jedyne stworzenie w tej walce, walka kończy się. Posiadacz klatki zdobywa połowę (zaokrąglając w dół) puli btc przeznaczonej za schwytane stworzenie. Nikt nie otrzymuje punktów doświadczenia ani przedmiotów za to stworzenie. Po zakończeniu walki odrzuć schwytane stworzenie." }]
 },
 {
 	"Id":		 "i66",
@@ -748,5 +767,25 @@
 		"Name": "hand_nasty_item", 
 		"Value": "Styropianową kulę u nogi" 
 	}]
-}
+},
+{
+	"Id":		 "i77",
+	"Name": 	 "Banan",
+	"ImageName": "",
+	"Price": 	 2,
+	"Categories": ["Przedmioty zużywalne"],
+	"Effects": [{ "Type": "Template", "Name": "restore_action_points", "Value": 2 }]
+},
+{
+	"Id":		 "i78",
+	"Name": 	 "Rozstrojone ukulele",
+	"ImageName": "",
+	"Price": 	 4,
+	"Categories": ["Ekwipunek", "Broń"],
+	"Description": "",
+	"Effects": [
+		{ "Type": "StatTemplate", "ModifiedStats": { "1": ["[zadawanych obrażeń]"] }},
+		{ "Type": "Effect", "Text": "Może zostać odrzucone w trakcie ataku, aby zwiększyć obrażenia od tego ataku o 5. Kartę należy odrzucić po wykonaniu ataku, ale należy zadeklarować jej odrzucenie przed wykonaniem [testu obrażeń]." }
+	]
+},
 ]

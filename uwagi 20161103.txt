@@ -1,19 +1,26 @@
-cel obrońca (centrum wszechświata -> dziekanat)
-komunikatywność za zero
-nerdowskie okulary do wyrzucenia
-potworna biba
+[+] cel obrońca (centrum wszechświata -> dziekanat)
+[+] komunikatywność za zero
+[+] nerdowskie okulary do wyrzucenia
+[+] potworna biba
+[+] literówka w celu mocarz, doprecyzować że w wyniku jednego ataku 
+[+] przystojny nastletni wąpierz leczy się PO swoim ataku
+[+] Kula ognia - jednorazowo
+[+] klatka nie pokonuje stworzenia
+[+] Nie-ściaga
+[?] chochoł
 
-potencjalny przedmiot: stała regeneracja
+[+] potencjalny przedmiot: stała regeneracja
+- Nie.
 
-co jeśli uciekam z walki, a na każdym sąsiadującym polu są stworzenia?
+[+] co jeśli uciekam z walki, a na każdym sąsiadującym polu są stworzenia?
+- Nic. Można być na tym samym polu co stworzenie, ale nie można wtedy podjąć akcji na polu.
 
-klatka nie pokonuje stworzenia
 
-chochoł
-Kula ognia - jednorazowo
 
-literówka w celu mocarz, doprecyzować że w wyniku jednego ataku 
 
-przystojny nastletni wąpierz leczy się PO swoim ataku
 
-Nie-ściaga
+Wprowadzone zmiany: 
+o04, o46, e10, e34, c13, a01, i46, i65
+
+Usunięte karty:
+- Nerdowskie okulary

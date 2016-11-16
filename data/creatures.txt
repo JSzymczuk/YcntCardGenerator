@@ -114,6 +114,8 @@
 	}
 },
 {
+	"IsDeleted":   true,
+
 	"ID":		   "c05",
 	"Name": 	   "Ołowiany żołnierzyk",
 	"Tag":  	   "zabawka",		
@@ -274,6 +276,8 @@
 	}
 }, 	
 {
+	"IsDeleted":   true,
+	
 	"ID":	"c11",
 	"Name": "Mały trójnogi snotling",
 	"Tag":  "bestia",		
@@ -299,6 +303,8 @@
 	}
 },	
 {
+	"IsDeleted":   true,
+	
 	"ID":		 "c12",
 	"Name": 	 "Emerytowana zębowa wróżka",
 	"Tag":  	 "baśniowe",		
@@ -334,7 +340,7 @@
 	
 	"Skills": 	  [
 	{ "Type": "Effect", "Text": "Na tym stworzeniu nie mogą znajdować się znaczniki zatrucia.\n" },
-	{ "Type": "Effect", "Text": "Ilekroć Przystojny nastoletni wąpierz atakuje graczy, odzyskuje liczbę [punktów wytrzymałości] odpowiadającą połowie (zaokrąglając do góry) [znaczników zatrucia] znajdujących się na graczach będących celem ataku (niezależnie od zadanych obrażeń)." }
+	{ "Type": "Effect", "Text": "Po wykonaniu swojego ataku Przystojny nastoletni wąpierz, odzyskuje liczbę [punktów wytrzymałości] odpowiadającą liczbie [znaczników zatrucia] znajdujących się na graczach będących celem ataku." }
 	],
 	
 	"HP": 	      10,
@@ -357,6 +363,9 @@
 	}
 },
 {
+	"NeedUpdate": true,
+	"Comment":    "Potencjalnie do przerobienia",
+
 	"ID":	"c14",
 	"Name": "Zapomniany gargulec",
 	"Tag":  "konstrukt",		
@@ -513,6 +522,9 @@
 	}
 },	
 {
+	"NeedUpdate": true,
+	"Comment":    "Potencjalnie do przerobienia",
+	
 	"ID":		 "c20",
 	"Name": 	 "Postrach dyskoteki berserker",
 	"Tag":  	 "podczłowiek imprezowy",		
@@ -573,6 +585,8 @@
 	}
 },
 {
+	"IsDeleted":   true,
+
 	"ID":		 "c22",
 	"Name": 	 "Elficki łotrzyk",
 	"Tag":  	 "baśniowe",		
@@ -636,6 +650,8 @@
 	}
 },
 {
+	"IsDeleted":   true,
+
 	"ID":		 "c24",
 	"Name":  	 "Chimera",
 	"Tag":  	 "bestia",		
@@ -763,6 +779,8 @@
 	}
 },
 {	
+	"IsDeleted":   true,
+	
 	"ID":		 "c28",
 	"Name": 	 "Trzygłowy rycerz",
 	"Tag":  	 "zbrojny",		
@@ -793,6 +811,8 @@
 	}
 },	
 {
+	"IsDeleted":   true,
+	
 	"ID":		 "c29",
 	"Name":		 "Leszek",
 	"Tag":  	 "bestia",		
@@ -853,7 +873,8 @@
 	}
 },	
 {
-
+	"IsDeleted":   true,
+	
 	"ID":		 "c31",
 	"Name": 	 "Zaklęta zbroja",
 	"Tag":  	 "konstrukt",		
@@ -947,7 +968,7 @@
 	"Skills": 
 	[{
 		"Type": "Effect", 
-		"Text": "Tak długo jak to stworzenie pozostaje na planszy, każdy z graczy, który nie znajduje się na tym samym polu, co to stworzenie, po fazie ruchu graczy musi rzucić [k6] i przesunąć swój pionek w kierunku wskazywanym przez żółtą strzałkę tyle razy ile wyniósł wynik rzutu."
+		"Text": "Tak długo jak to stworzenie pozostaje na planszy, każdy z graczy, który nie znajduje się na tym samym polu, co Chochoł, po fazie ruchu graczy musi rzucić [k6] i przesunąć swój pionek w kierunku wskazywanym przez żółtą strzałkę tyle razy ile wyniósł wynik rzutu."
 	}],
 	
 	"HP": 	      11,
@@ -971,6 +992,8 @@
 	}
 },
 {
+	"IsDeleted":   true,
+
 	"ID":		 "c35",
 	"Name": 	 "Dwurożec",	
 	"Tag":  	 "bestia",	

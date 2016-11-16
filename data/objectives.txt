@@ -22,7 +22,7 @@
 	"Name": "Obrońca",
 	"Id": "o04",
 	"VictoryPts":  3,
-	"Condition": { "Type": "Template", "Name": "defeat_on_certain_type", "Value": "przyległych do Centrum wszechświata" }
+	"Condition": { "Type": "Template", "Name": "defeat_on_certain_type", "Value": "przyległych do Dziekanatu" }
 },
 {
 	"Name": "Strażnik rubieży",
@@ -234,6 +234,9 @@
 	"Condition": { "Type": "Effect", "Text": "Skutecznie ucieknij z walki." }
 },
 {
+	"NeedUpdate": true,
+	"Comment":    "fluorescencyjne spodnie raczej do elfa",
+
 	"Name": "Imprezowicz",
 	"Id": "o27",
 	"VictoryPts": 2,
@@ -279,6 +282,9 @@
 	}
 },
 {
+	"NeedUpdate": true,
+	"Comment":    "nie ma już okularów",
+
 	"Name": "Turbonerd",
 	"Id": "o30",
 	"VictoryPts": 2,
@@ -324,6 +330,9 @@
 	}
 },
 {
+	"NeedUpdate": true,
+	"Comment":    "nie ma topora ani płytówki",
+	
 	"Name": "Wojownik",
 	"Id": "o33",
 	"VictoryPts": 2,
@@ -339,6 +348,9 @@
 	}
 },
 {
+	"NeedUpdate": true,
+	"Comment":    "nie ma już mapy",
+	
 	"Name": "Turysta",
 	"Id": "o34",
 	"VictoryPts": 2,
@@ -429,7 +441,7 @@
 	}
 },
 {
-	"Name": "Łowca trofeów ",
+	"Name": "Łowca trofeów",
 	"Id": "o43",
 	"VictoryPts": 1,
 	"Condition": { 
@@ -458,7 +470,7 @@
 	"Name": "Mocarz",
 	"Id": "o46",
 	"VictoryPts":  2,
-	"Condition": { "Type": "Effect", "Text": "Zadaj co najmniej 10 obrażeń w jednym ataku (nie uwzględniając obrażenia na skutek zatrucia)." }
+	"Condition": { "Type": "Effect", "Text": "Zadaj co najmniej 10 obrażeń na skutek jednego ataku. Cel musi otrzymać obrażenia od tego ataku, a nie na skutek użycia przedmiotu, akcji lub zdolności. Nie uwzględnia się dodatkowych obrażeń od zatrucia." }
 },
 {
 	"Name": "Gadżeciarz",
