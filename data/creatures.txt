@@ -1,10 +1,11 @@
 ﻿[
 {
+	"IsDeleted":   true,
+	
 	"ID":		   "c01",
 	"Name":        "Oliwki",
 	"Tag":         "spożywcze",
 	"IsLegendary": false,
-	"IsDeleted":   false,
 	
 	"ImageName":   "m01_oliwki.png",
 	"Skills": 	   [{ "Type": "Template", "Name": "hard_skin", "Value": 1 }],
@@ -34,6 +35,8 @@
 	}
 },	
 {
+	"IsDeleted":   true,
+	
 	"ID":		   "c02",
 	"Name":        "Żelkowy golem",
 	"Tag":         "spożywcze",
@@ -61,11 +64,11 @@
 {
 	"ID":   "c03",
 	"Name": "Antyczna kanapka sprzed tygodnia",
-	"Tag":  "spożywcze",
+	"Tag":  "fauna akademika",
 	
 	"ImageName": "m45_antyczna_kanapka.png",	
 	
-	"HP": 	      6,
+	"HP": 	      8,
 	"Initiative": 1,
 	"Damage":     1,
 	"AttackDices": 
@@ -88,7 +91,7 @@
 {
 	"ID":	"c04",
 	"Name": "Półkobieta-półryba",
-	"Tag":  "spożywcze",
+	"Tag":  "baśniowe",
 	
 	"ImageName": "m12_polkobieta_polryba.png",	
 	"Description":
@@ -141,6 +144,8 @@
 	}
 },
 {
+	"IsDeleted":   true,
+	
 	"ID":	"c06",
 	"Name": "Pisklę zielonego smoka",
 	"Tag":  "zabawka",		
@@ -166,6 +171,8 @@
 	}
 },
 {
+	"IsDeleted":   true,
+	
 	"ID":   "c07",
 	"Name": "Urocze pluszowe różowe coś",
 	"Tag":  "zabawka",
@@ -363,8 +370,7 @@
 	}
 },
 {
-	"NeedUpdate": true,
-	"Comment":    "Potencjalnie do przerobienia",
+	"IsDeleted":   true,
 
 	"ID":	"c14",
 	"Name": "Zapomniany gargulec",
@@ -429,13 +435,13 @@
 	"Prize":
 	{
 		"Gold":  7,
-		"Items": 2
+		"Items": 1
 	}
 },
 {
 	"ID":		 "c16",
 	"Name": 	 "Najzwyklejszy z cieci",
-	"Tag":  	 "menda",		
+	"Tag":  	 "duch przyszłego zawodu",		
 	"ImageName": "m16_ejdzej.png",
 	
 	"HP": 	      12,
@@ -521,17 +527,14 @@
 		"Items": 3
 	}
 },	
-{
-	"NeedUpdate": true,
-	"Comment":    "Potencjalnie do przerobienia",
-	
+{	
 	"ID":		 "c20",
-	"Name": 	 "Postrach dyskoteki berserker",
-	"Tag":  	 "podczłowiek imprezowy",		
-	"ImageName": "m20_postrach_dyskoteki_berserker.png",
+	"Name": 	 "Całkiem niezły pasztet",
+	"Tag":  	 "podczłowiek imprezowy",
 	
+	"ImageName": "",	
 	"Description":
-	"Jaka puszcza taki postrach. Jest przerażająca i już trochę podpita. Udawaj, że jej nie widzisz, bo jeszcze podejdzie.",
+	"Jest przerażająca i już trochę podpita. Udawaj, że jej nie widzisz, bo jeszcze podejdzie.",
 	
 	"HP": 	      12,
 	"Initiative": 2,
@@ -549,8 +552,8 @@
 	},
 	"Prize":
 	{
-		"Gold":  8,
-		"Items": 3
+		"Gold":  7,
+		"Items": 2
 	}
 },
 {
@@ -624,7 +627,7 @@
 {
 	"ID":		 "c23",
 	"Name": 	 "Homogoblin",
-	"Tag":   	 "bestia",		
+	"Tag":   	 "baśniowe",		
 	"ImageName": "m23_homogoblin.png",
 	
 	"Description":
@@ -646,7 +649,7 @@
 	"Prize":
 	{
 		"Gold":  9,
-		"Items": 3
+		"Items": 1
 	}
 },
 {
@@ -713,7 +716,7 @@
 
 	"ID":		 "c26",
 	"Name": 	 "Wojownik otaku",
-	"Tag":  	 "zbrojny",		
+	"Tag":  	 "podczłowiek imprezowy",		
 	"ImageName": "m27_wojownik_otaku.png",
 	
 	"Description": "Kawaii~~!!! (≧∇≦)/",
@@ -740,6 +743,8 @@
 	}
 },
 {
+	"IsDeleted":   true,
+	
 	"ID":		 "c27",
 	"Name": 	 "Pomniejszy pieseł",
 	"Tag":  	 "zbrojny",		
@@ -933,6 +938,8 @@
 	}
 },	
 {
+	"IsDeleted":   true,
+	
 	"ID":		 "c33",
 	"Name": 	 "Morderczy papierowy kaczor",
 	"Tag":  	 "konstrukt",		
@@ -960,7 +967,7 @@
 {	
 	"ID":		 "c34",
 	"Name": 	 "Chochoł",
-	"Tag":  	 "konstrukt",		
+	"Tag":  	 "baśniowe",		
 	"ImageName": "m42_chochol.png",
 	
 	"Description": "Miałeś, chamie, złoty róg, ostał ci się ino sznur.",
@@ -1022,64 +1029,267 @@
 		"Items": 5
 	}
 },
-
-
-
-
-
-
-
-
 {
-	"IsDeleted": true,
-	"ID":		 "l01",
-	"Name": 	 "Dwurożec",
-	"IsLegendary": true,		
-	"ImageName": "m33_dwurozec.png",
+	"ID":   "c36",
+	"Name": "Przynudzający wykładowca",
+	"Tag":  "zmora studenta",
 	
-	"Description": "Mądrym zwierzęciem będąc, dwurożec rozumie niechybnie, że ponad miarę w dziewictwie trwać podejrzaną i przeciwną naturze jest rzeczą.",
+	"ImageName": "",
+	"Description": "",
 	
-	"HP": 	      43,
-	"Initiative": 5,
+	"Skills": [{ "Type": "Effect", "Text": "Wywołuje senność u wszystkich pobliskich studentów. Za każdym razem, gdy gracz biorący udział w walce z Przynudzającym wykładowcą chce zaatakować, zagrać kartę lub użyć zdolności, musi rzucić [test inicjatywy] (przed wykonaniem działania). Wynik rzutu mniejszy lub równy inicjatywie tego stworzenia sprawia, że gracz zupełnie się wyłączył słuchając Przynudzającego wykładowcy - podjęte przez niego działanie kończy się niepowodzeniem, a tura gracza kończy się natychmiast." }],
+		
+	"HP": 	      8,
+	"Initiative": 1,
 	"Damage":     1,
-	
 	"AttackDices": 
 	{
-		"White": 1,
-		"Red": 2
+		"White": 3
 	},		
 	"Movement":
 	{
-		"First":  "R",
-		"Second": "B",
+		"First":  "GG",
+		"Second": "G",
 		"Third":  "BB"
 	},
 	"Prize":
 	{
-		"Gold":  14,
-		"Items": 3
+		"Gold":  6,
+		"Items": 1
+	}
+}, 
+{
+	"ID":   "c37",
+	"Name": "Zabójczo nużący podręcznik",
+	"Tag":  "zmora studenta",
+	
+	"ImageName": "",
+	"Description": "",
+
+	"HP": 	      6,
+	"Initiative": 0,
+	"Damage":     2,
+	"AttackDices": 
+	{
+		"White": 1
+	},		
+	"Movement":
+	{
+		"First":  "B",
+		"Second": "R",
+		"Third":  "G"
+	},
+	"Prize":
+	{
+		"Gold":  4,
+		"Items": 1
+	}
+}, 
+{
+	"ID":   "c38",
+	"Name": "Natrętny ankieter",
+	"Tag":  "menda",
+	
+	"ImageName": "",
+	"Description": "Atakuje znienacka!",
+
+	"Skills": 	   
+	[{ 
+		"Type": "Effect", 
+		"Text": "Jeśli to stworzenie pojawi się w pierwszym semestrze, należy wtasować je z powrotem do talii stworzeń i położyć na jego miejsce kolejną kartę stworzenia. \nW przeciwnym przypadku Natrętnego ankietera należy umieścić od razu na polu, na którym znajduje się Starosta." 
+	}],	
+	
+	"Movement":
+	{
+		"First":  "RG",
+		"Second": "B",
+		"Third":  "G"
+	},
+	
+	"HP": 	      7,
+	"Initiative": 4,
+	"Damage":     0,
+	"AttackDices": 
+	{
+		"White": 2,
+		"Red":   1
+	},
+	"Prize":
+	{
+		"Gold":  7,
+		"Items": 1
 	}
 },
 {
-	"IsDeleted": true,
-	"ID":		 "l02",
-	"Name": "Wściekły warg",
-	"IsLegendary": true,		
-	"ImageName": "m34_wsciekly_warg.png",
+	"ID":   "c39",
+	"Name": "Urzędowy relikt PRL-u",
+	"Tag":  "menda",
 	
-	"Description": 
-	"Uwaga! Zły pies. Na dodatek nieszczepiony.",
-	
-	"Skills": 
-	[{
+	"ImageName": "",
+	"Description": "- Jest 5 po ósmej, a jestem zmęczona jakby było 15 po... Ten pośpiech mnie kiedyś wykończy!",
+
+	"Skills": [{ 
 		"Type": "Effect", 
-		"Text": "Instynkt bierze górę nad jego łagodnym usposobieniem. Ilekroć to stworzenie rozpoczyna swoją turę, zadawane przez nie obrażenia wzrastają o 1."
-	}],
+		"Text": "Za każdym razem, gdy gracz chce zaatakować to stworzenie, zagrać przeciwko niemu kartę lub użyć na nim zdolności specjalnej, musi wydać [punkt akcji]. Jeśli gracz nie może tego zrobić, automatycznie ucieka z walki." 
+	}],	
 	
-	"HP": 	      35,
-	"Initiative": 4,
+	"Movement":
+	{
+		"First":  "GG",
+		"Second": "BG",
+		"Third":  "BB"
+	},
+	
+	"HP": 	      10,
+	"Initiative": 0,
+	"Damage":     1,
+	"AttackDices": 
+	{
+		"Green": 1,
+		"Red":   2
+	},
+	"Prize":
+	{
+		"Gold":  6,
+		"Items": 2
+	}
+},
+{
+	"ID":		 "c40",
+	"Name": 	 "Larwa akademicka",
+	"Tag":  	 "fauna akademika",		
+	
+	"ImageName":   "",
+	"Description": "- A tak sama siedziałam, to pomyślałam, że do was zajrzę. Co tam? Macie może pożyczyć makaron?",
+	
+	"Skills": [{
+		"Type": "Effect", 
+		"Text": "Każdy gracz, który walczy z tym stworzeniem na początku swojej tury musi rzucić [test inicjatywy]. Jeśli wynik tego testu jest mniejszy od inicjatywy tego stworzenia, gracz musi odrzucić kartę z ręki lub z ekwipunku."
+	}],	
+	
+	"HP": 	      11,
+	"Initiative": 3,
+	"Damage":     0,
+	"AttackDices": 
+	{
+		"White": 3
+	},		
+	"Movement":
+	{
+		"First":  "B",
+		"Second": "R",
+		"Third":  "BB"
+	},
+	"Prize":
+	{
+		"Gold":  9,
+		"Items": 0
+	}
+},
+{
+	"ID":		 "c41",
+	"Name": 	 "Student z wymiany",
+	"Tag":  	 "fauna akademika",		
+	
+	"ImageName":   "",
+	"Description": "",
+	
+	"HP": 	      15,
+	"Initiative": 2,
+	"Damage":     0,
+	"AttackDices": 
+	{
+		"Red":   2,
+		"Green": 2
+	},		
+	"Movement":
+	{
+		"First":  "B",
+		"Second": "BB",
+		"Third":  "BBB"
+	},
+	"Prize":
+	{
+		"Gold":  8,
+		"Items": 1
+	}
+},
+{
+	"ID":		 "c42",
+	"Name": 	 "Brudny golem",
+	"Tag":  	 "fauna akademika",		
+	
+	"ImageName":   "",
+	"Description": "",
+	
+	Skills: [{ "Type": "Effect", "Text": "Na tym stworzeniu nie mogą znajdować się [znaczniki zatrucia]." }],
+	
+	"HP": 	      16,
+	"Initiative": 2,
 	"Damage":     0,
 	
+	"AttackDices": 
+	{
+		"Green":   4
+	},		
+	"Movement":
+	{
+		"First":  "R",
+		"Second": "R",
+		"Third":  "B"
+	},
+	"Prize":
+	{
+		"Gold":  11,
+		"Items": 2
+	}
+},
+{
+	"ID":		 "c43",
+	"Name": 	 "Zabłąkany nietrzeźwy imprezowicz",
+	"Tag":  	 "fauna akademika",		
+	
+	"ImageName":   "",
+	"Description": "",
+	
+	Skills: [{ "Type": "Effect", "Text": "To stworzenie otrzymuje podwójne obrażenia od zatrucia." }],
+	
+	"HP": 	      10,
+	"Initiative": 1,
+	"Damage":     0,
+	"AttackDices": 
+	{
+		"White": 2,
+		"Green": 2
+	},		
+	"Movement":
+	{
+		"First":  "G",
+		"Second": "B",
+		"Third":  "R"
+	},
+	"Prize":
+	{
+		"Gold":  5,
+		"Items": 2
+	}
+},
+{
+	"ID":		 "c44",
+	"Name": 	 "Trener motywacyjny",
+	"Tag":  	 "duch przyszłego zawodu",		
+	
+	"ImageName":   "",
+	"Description": "- Wszyscy musicie otworzyć umysły i wyjść poza komfort znanych rozwiązań!",
+	
+	Skills: [{
+		"Type": "Effect", 
+		"Text": "To stworzenie nie otrzymuje obrażeń od ataków ani od przedmiotów. Aby z nim walczyć należy uciec się do niestandardowych metod. Walcząc z Trenerem motywacyjnym raz w trakcie tury gracz może wydać punkt akcji albo odrzucić kartę z ręki lub ekwipunku i pozbawić to stworzenie odpowiednio jednego albo dwóch punktów wytrzymałości." 
+	}],
+	
+	"HP": 	      7,
+	"Initiative": 2,
+	"Damage":     0,
 	"AttackDices": 
 	{
 		"White": 2
@@ -1087,200 +1297,95 @@
 	"Movement":
 	{
 		"First":  "R",
-		"Second": "G",
-		"Third":  "R"
+		"Second": "BR",
+		"Third":  "GR"
 	},
 	"Prize":
 	{
-		"Gold":  12,
-		"Items": 3
+		"Gold":  2,
+		"Items": 4
 	}
 },
 {
-	"IsDeleted": true,
-	"ID":		 "l03",
-	"Name": "Best Igor",
-	"IsLegendary": true,		
-	"ImageName": "m35_the_best_igor.png",
-			
-	"HP": 	      33,
-	"Initiative": 3,
-	"Damage":     0,
+	"ID":		 "c45",
+	"Name": 	 "Starszy frytkarz",
+	"Tag":  	 "duch przyszłego zawodu",		
 	
+	"ImageName":   "",
+	"Description": "Ciągle poniżej minimalnej krajowej.",
+	
+	"HP": 	      5,
+	"Initiative": 0,
+	"Damage":     0,
 	"AttackDices": 
 	{
-		"Red": 3
-	},		
-	"Movement":
-	{
-		"First":  "R",
-		"Second": "B",
-		"Third":  "R"
-	},
-	"Prize":
-	{
-		"Gold":  12,
-		"Items": 3
-	}
-},
-{
-	"IsDeleted":   true,
-	"ID":		   "l04",
-	"Name": 	   "Hydra",
-	"IsLegendary": true,		
-	"ImageName":   "m36_hydra.png",
-	
-	"Description": 
-	"Grałeś kiedyś w Heroes III? Pamiętasz Cytadelę? To był w niej najsilniejszy stwór! Okaż trochę szacunku!",
-		
-	"HP": 	      20,
-	"Initiative": 2,
-	"Damage":     0,
-	
-	"AttackDices": 
-	{
-		"White": 3,
-		"Green": 1
+		"White": 2
 	},		
 	"Movement":
 	{
 		"First":  "B",
-		"Second": "R",
+		"Second": "B",
+		"Third":  "GG"
+	},
+	"Prize":
+	{
+		"Gold":  4,
+		"Items": 0
+	}
+},
+{
+	"ID":		 "c46",
+	"Name": 	 "Ulotkarz",
+	"Tag":  	 "duch przyszłego zawodu",		
+	
+	"ImageName":   "",
+	"Description": "- Tak trudno wziąć ci tę pier*****ą kartkę?!",
+	
+	"HP": 	      6,
+	"Initiative": 2,
+	"Damage":     0,
+	"AttackDices": 
+	{
+		"White": 1,
+		"Red":   1
+	},		
+	"Movement":
+	{
+		"First":  "G",
+		"Second": "GB",
 		"Third":  "B"
 	},
 	"Prize":
 	{
-		"Gold":  18,
-		"Items": 4
+		"Gold":  6,
+		"Items": 0
 	}
 },
 {
-	"IsDeleted": true,
-	"ID":		 "l05",
-	"Name": "Lisz z liszajami",
-	"IsLegendary": true,		
-	"ImageName": "m37_lisz_z_liszajami.png",
-			
-	"HP": 	      22,
+	"ID":		 "c47",
+	"Name": 	 "Junior Visionary Client Strategy Specialist",
+	"Tag":  	 "duch przyszłego zawodu",		
+	
+	"ImageName":   "",
+	"Description": "- To czym się właściwie zajmujesz?\n- Głównie to parzeniem kawy.",
+	
+	"HP": 	      10,
 	"Initiative": 1,
 	"Damage":     0,
-	
 	"AttackDices": 
 	{
-		"Red": 2,
-		"Green": 1
-	},		
-	"Movement":
-	{
-		"First":  "B",
-		"Second": "R",
-		"Third":  "G"
-	},
-	"Prize":
-	{
-		"Gold":  14,
-		"Items": 5
-	}
-},
-{
-	"IsDeleted": true,
-	"ID":		 "l06",
-	"Name": "Arcymistrz Raikhard",
-	"IsLegendary": true,		
-	"ImageName": "m38_arcymistrz_raikhard.png",
-			
-	"HP": 	      25,
-	"Initiative": 1,
-	"Damage":     2,
-	
-	"AttackDices": 
-	{
-		"Red": 3
+		"White": 2
 	},		
 	"Movement":
 	{
 		"First":  "R",
 		"Second": "B",
-		"Third":  "G"
+		"Third":  "R"
 	},
 	"Prize":
 	{
-		"Gold":  17,
-		"Items": 4
-	},
-	"Description": 
-	"Stary?! Synek, ja ja ci zaraz przy*******ę!",
-},
-{
-	"IsDeleted": true,
-	"ID":		 "l07",
-	"Name": "Niszczyciel wszechświatów",
-	"IsLegendary": true,		
-	"ImageName": "m39_niszczyciel_wszechswiatow.png",
-	
-	"Skills": 
-	[{
-		"Type": "Effect", 
-		"Text": "Wszyscy gracze znajdujący się na polach przyległych zostają wciągnięci do walki z tym stworzeniem."
-	}],
-	
-	"Description": 
-	"Hej chłopaki! Chodźcie tutaj! Coś tu jest! Chyba znalazłem tego snotlinga!",
-			
-	"HP": 	      41,
-	"Initiative": 2,
-	"Damage":     0,
-	
-	"AttackDices": 
-	{
-		"White": 2,
-		"Red":   2
-	},		
-	"Movement":
-	{
-		"First":  "R",
-		"Second": "R",
-		"Third":  "RR"
-	},
-	"Prize":
-	{
-		"Gold":  24,
-		"Items": 6
-	}
-},
-{
-	"IsDeleted": true,
-	"ID":		 "l08",
-	"Name": "Czerwony smok",
-	"IsLegendary": true,		
-	"ImageName": "m40_czerwony_smok.png",
-	
-	"Skills": 
-	[{
-		"Type": "Effect", 
-		"Text": "Na początku piątej tury Czerwonego smoka, uznaje on, że nie jesteś godny z nim walczyć i odlatuje. Jeżeli tak się stanie, żaden z graczy nie dostaje nagród za jego pokonanie, a kartę tego stworzenia należy odrzucić."
-	}],
-			
-	"HP": 	      100,
-	"Initiative": 3,
-	"Damage":     2,
-	
-	"AttackDices": 
-	{
-		"White": 2,
-		"Red":   2,
-		"Green": 2
-	},		
-	"Movement":
-	{
-		"First":  "GGG",
-		"Second": "GG",
-		"Third":  "G"
-	},
-	"Prize":
-	{
-		"Gold":  50,
-		"Items": 6
+		"Gold":  5,
+		"Items": 1
 	}
 }
 ]

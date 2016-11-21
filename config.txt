@@ -8,10 +8,11 @@
 
 	"ResultFileName": "cards.docx",
 	"AutoOpen": 	  true,
+	"UseOldEventStyle": false,
 	
 	"IncludeAllEvents": 	false,
 	"IncludeAllCreatures":  false,
-	"IncludeAllItems": 	    false,
+	"IncludeAllItems": 	false,
 	"IncludeAllActions": 	false,
 	"IncludeAllObjectives": false,
 	"IncludeIds": 			"",
@@ -88,10 +89,10 @@
 	"STplDicesText": 			"dodatkowe {0} podczas {1}",	
 	
 	"ConstTerms": {
-		"[żeton zdolności]":    "żeton zdolności",
-		"[żetony zdolności]":   "żetony zdolności",
-		"[żetonów zdolności]":  "żetonów zdolności",
-		"[żetonami zdolności]": "żetonami zdolności",
+		"[żeton zdolności]":    "punkt akcji",
+		"[żetony zdolności]":   "punkty akcji",
+		"[żetonów zdolności]":  "punktów akcji",
+		"[żetonami zdolności]": "punktami akcji",
 		"[punkt akcji]": 		"punkt akcji",
 		"[punkty akcji]": 		"punkty akcji",
 		"[punktów akcji]": 		"punktów akcji",
@@ -133,12 +134,15 @@
 		"[zdolność]":        "zdolność",
 		"[Infekcja +1]":     "Infekcja +1",
 		"[Strach +2]":       "Strach +2",
-		"[Twarda skóra +2]": "Twarda skóra +2",		
+		"[Twarda skóra +2]": "Twarda skóra +2",	
+		
+		"[Dworku bogów]":    "Dworku bogów",
+		"[Obcych krajach]":  "Obcych krajach",
 		
 		"[for_this_semester]": "na czas semestru",
 		"[Every_time_card_cant_be_discarded]": "Za każdym razem, gdy gracz nie może odrzucić karty",
 		
-		"[NO_ACTION_POINTS_IN_SEMESTER]": "Żaden z graczy nie otrzymuje w tym semestrze żetonów zdolności.",
-		"[NO_ACTION_POINTS_AND_GOLD_IN_SEMESTER]": "Żaden z graczy nie otrzymuje w tym semestrze złota ani żetonów zdolności.",
+		"[NO_ACTION_POINTS_IN_SEMESTER]": "Żaden z graczy nie otrzymuje w tym semestrze punktów akcji.",
+		"[NO_ACTION_POINTS_AND_GOLD_IN_SEMESTER]": "Żaden z graczy nie otrzymuje w tym semestrze złota ani punktów akcji.",
 	}
 }

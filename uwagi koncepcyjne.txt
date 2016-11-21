@@ -55,30 +55,3 @@ wycieczka szkolna
 efemeryczny doktorant
 bibliotekarka czy coś
 Zabójczo nudny podręcznik
-
-
-
-
-Wprowadzone zmiany: 
-a02, a04, a09, a14, a28, a42, e13, i16, i17, i18, i23, i24, i37, i63, i77, i78
-
-Usunięte karty:
-- Otóż nie
-- Side-quest
-- Ołowiany żołnierzyk
-- Mały trójnogi snotling
-- Emerytowana zębowa wróżka
-- Elficki łotrzyk
-- Chmiera
-- Trzygłowy rycerz
-- Leszek
-- Zaklęta zbroja
-- Dwurożec
-- Krucy i wilcy
-- Szczepienia okresowe
-- Ursynalia
-- Imperialna płytówka
-- Lyrium
-- Kartonowa zbroja
-- Krwawy topór ostatniej przysługi
-- Wymarzony oręż młodego wojownika

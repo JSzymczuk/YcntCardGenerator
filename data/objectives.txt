@@ -87,6 +87,7 @@
 	"Condition": { "Type": "Effect", "Text": "Zdobądź 20 btc." }
 },
 {
+	"IsDeleted": true,
 	"Name": "Korepetytor",
 	"Id": "o12",
 	"VictoryPts": 1,
@@ -97,6 +98,7 @@
 	}
 },
 {
+	"IsDeleted": true,
 	"Name": "Droid",
 	"Id": "o13",
 	"VictoryPts": 1,
@@ -107,6 +109,7 @@
 	}
 },
 {
+	"IsDeleted": true,
 	"Name": "Szaman",
 	"Id": "o14",
 	"VictoryPts": 1,
@@ -117,6 +120,7 @@
 	}
 },
 {
+	"IsDeleted": true,
 	"Name": "Finansista",
 	"Id": "o15",
 	"VictoryPts": 1,
@@ -175,7 +179,7 @@
 	"Condition": { 
 		"Type": "Template", 
 		"Name": "discard_on", 
-		"Parameters": [ "10 btc", "Łektołat(Dworek bogów)" ]
+		"Parameters": [ "10 btc", "Dworek bogów" ]
 	}
 },
 {
@@ -252,6 +256,8 @@
 	}
 },
 {
+	"NeedUpdate": true,
+	
 	"Name": "Metal",
 	"Id": "o28",
 	"VictoryPts": 2,
@@ -267,6 +273,8 @@
 	}
 },
 {
+	"NeedUpdate": true,
+	
 	"Name": "Dresiarz",
 	"Id": "o29",
 	"VictoryPts": 2,
@@ -300,6 +308,8 @@
 	}
 },
 {
+	"NeedUpdate": true,
+	
 	"Name": "Arcymag",
 	"Id": "o31",
 	"VictoryPts": 2,
@@ -315,6 +325,8 @@
 	}
 },
 {
+	"NeedUpdate": true,
+	
 	"Name": "Elficki Mistrz Cieni",
 	"Id": "o32",
 	"VictoryPts": 2,
@@ -412,6 +424,7 @@
 	}
 },
 {
+	"IsDeleted": true,
 	"Name": "Pasibrzuch",
 	"Id": "o40",
 	"VictoryPts": 1,
@@ -421,6 +434,7 @@
 	}
 },
 {
+	"IsDeleted": true,
 	"Name": "Poważny dorosły człowiek",
 	"Id": "o41",
 	"VictoryPts": 1,
@@ -431,6 +445,7 @@
 	}
 },
 {
+	"IsDeleted": true,
 	"Name": "Inżynier",
 	"Id": "o42",
 	"VictoryPts": 1,
@@ -441,6 +456,7 @@
 	}
 },
 {
+	"IsDeleted": true,
 	"Name": "Łowca trofeów",
 	"Id": "o43",
 	"VictoryPts": 1,
@@ -451,6 +467,7 @@
 	}
 },
 {
+	"IsDeleted": true,
 	"Name": "Mistrz sztuki wojennej",
 	"Id": "o44",
 	"VictoryPts": 1,
@@ -476,6 +493,26 @@
 	"Name": "Gadżeciarz",
 	"Id": "o47",
 	"VictoryPts":  3,
-	"Condition": { "Type": "Effect", "Text": "W trakcie walki zagraj 5 przedmiotów zużywalnych w trakcie jednej tury." }
+	"Condition": { "Type": "Effect", "Text": "Zagraj 5 przedmiotów zużywalnych w trakcie jednej tury walki." }
+},
+{
+	"Name": "Łowca trofeów",
+	"Id": "o48",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "defeat_enemy_type", 
+		"Value": "przedstawicielem fauny akademickiej" 
+	}
+},
+{
+	"Name": "Łowca trofeów",
+	"Id": "o49",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "defeat_enemy_type", 
+		"Value": "duchem przyszłego zawodu" 
+	}
 }
 ]

@@ -23,7 +23,7 @@
 },
 {
 	"ID":		 "a03",
-	"Name": 	 "Larwa akademicka",
+	"Name": 	 "Transfuzja",
 	"ImageName": "a03_larwa_akademicka_2.png",
 	"Points": 	 2,
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj w trakcie walki. Wybierz dowolnego uczestnika tej walki. Rzuć [k6][k6][k6]. Wybrany uczestnik traci tyle [punktów wytrzymałości] ile wynosi wynik rzutu (nie uwzględniając modyfikatorów od [redukcji obrażeń]). Wybierz innego uczestnika tej walki. Odzyskuje on tyle [punktów wytrzymałości] ile wynosi wynik rzutu." }]

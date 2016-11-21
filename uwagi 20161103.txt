@@ -14,13 +14,3 @@
 
 [+] co jeśli uciekam z walki, a na każdym sąsiadującym polu są stworzenia?
 - Nic. Można być na tym samym polu co stworzenie, ale nie można wtedy podjąć akcji na polu.
-
-
-
-
-
-Wprowadzone zmiany: 
-o04, o46, e10, e34, c13, a01, i46, i65
-
-Usunięte karty:
-- Nerdowskie okulary

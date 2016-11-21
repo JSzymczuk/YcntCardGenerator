@@ -3,8 +3,15 @@
 	"Id":		 "e01",
 	"Name":      "Opatrzność bogini płodności",
 	"ImageName": "e01_blogoslawienstwo_bogini_plodnosci.png",
-	"MovementCat": 3,
-	"Description": "Każda nieledwie przedludzka rasa i każde pierwotne, koczownicze jeszcze ludzkie plemię czciły jakąś boginię urodzaju i płodności, opiekunkę rolników i ogrodników, patronkę miłości i małżeństwa.",
+	"Description": "",
+	
+	"NewMovementCat": 1,
+	"SpawnNormal": {
+		"TopLeft": 0, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 0,
+	},
+	
+	"MovementCat": 3,	
 	"SpawnEasy": {
 		"TopLeft": 0, "TopRight": 1,
 		"BottomLeft": 1, "BottomRight": 0,
@@ -18,7 +25,7 @@
 			"Type": "Template", 
 			"Name": "vote_2", 
 			"Parameters": [
-				"Pojawia się liczba stworzeń równa połowie (zaokrąglając do góry) liczby graczy. Każdy gracz dostaje 1 [punkt doświadczenia]. Dodatkowe stworzenia należy rozkładać na siedliskach zaczynając od Dworku bogów zgodnie z ruchem wskazówek zegara.",
+				"Pojawia się jedno dodatkowe stworzenie w [Dworku bogów] oraz w [Obcych krajach]. Każdy gracz otrzymuje 1 [punkt doświadczenia].",
 				"[Poziom paniki] wzrasta o 1."
 			]
 		}
@@ -49,6 +56,8 @@
 	}]
 },
 {
+	"IsDeleted": true,
+
 	"Id":		 "e04",
 	"Name": "Odwiedziny dobrej wróżki",
 	"ImageName": "e04_odwiedziny_dobrej_wrozki.png",
@@ -76,10 +85,10 @@
 },
 {
 	"Id":		 "e05",
-	"Name": "Metalowe Karaoke",
+	"Name": "Metalowe karaoke",
 	"ImageName": "e05_metalowe_karaoke_o_4_nad_ranem.png",
 	"MovementCat": 1,
-	"Description": "W jednym z sąsiednich pokoi odbywała się impreza trwająca do rana. Przez całą noc nie zmrużyłeś oka.",
+	"Description": "Impreza trwała do rana i nikt się na niej nie oszczędzał. Czas oddać szmaty do pralni.",
 	"SpawnEasy": {
 		"TopLeft": 1, "TopRight": 1,
 		"BottomLeft": 1, "BottomRight": 0,
@@ -87,26 +96,31 @@
 	"SpawnHard": {
 		"TopLeft": 1, "TopRight": 1,
 		"BottomLeft": 1, "BottomRight": 1,
+	},	
+	
+	"NewMovementCat": 1,
+	"SpawnNormal": {
+		"TopLeft": 0, "TopRight": 0,
+		"BottomLeft": 1, "BottomRight": 1,
 	},
+	
 	"Effects": [
 		{ 	
-			"Type": "Template", 
-			"Name": "vote_2", 
-			"Parameters": [
-				"[NO_ACTION_POINTS_IN_SEMESTER]",
-				"Wszystkie stworzenia otrzymują dodatkowe [g6][g6] do [testów obrażeń] [for_this_semester]."
-			]
+			"Type": "Effect", 
+			"Text": "Każdy gracz musi zapłacić za przedmioty znajdujące się w ekwipunku swojej postaci. Za każdy wyposażony przedmiot należy wpłacić kwotę równą połowie jego ceny (zaokrągloną do góry). Kolejność opłacania przedmiotów jest dowolna. Jeśli gracza nie stać na opłacenie danego przedmiotu, musi go odrzucić."
 		}
 	]
 },
 {
-	"NeedUpdate": true,
-	"Comment":    "obrazek do wymiany",
-
 	"Id":		 "e06",
 	"Name": "Walka o darmowe praktyki w znanej firmie",
-	"ImageName": "e06_wyrocznia_przemowila.png",
-	"MovementCat": 2,
+	"ImageName": "",
+	"MovementCat": 2,	
+	"NewMovementCat": 2,
+	"SpawnNormal": {
+		"TopLeft": 1, "TopRight": 0,
+		"BottomLeft": 1, "BottomRight": 1,
+	},
 	"SpawnEasy": {
 		"TopLeft": 1, "TopRight": 0,
 		"BottomLeft": 1, "BottomRight": 0,
@@ -121,6 +135,8 @@
 	}]
 },
 {
+	"IsDeleted": true,
+	
 	"Id":		 "e07",
 	"Name": "Frytkowy alarm",
 	"ImageName": "e07_frytkowy_alarm.png",
@@ -168,6 +184,8 @@
 	]
 },
 {
+	"IsDeleted": true,
+	
 	"Id":		 "e09",
 	"Name": "Romantyczna kolacja",
 	"ImageName": "e09_romantyczna_kolacja.png",
@@ -189,6 +207,8 @@
 	]
 },
 {
+	"IsDeleted": true,
+
 	"Id":		 "e10",
 	"Name": "Potworna biba",
 	"ImageName": "e10_potworna_biba.png",
@@ -212,6 +232,7 @@
 	}]
 },
 {
+	"IsDeleted": true,
 	"NeedUpdate": true,
 	"Comment":    "obrazek do wymiany",
 	
@@ -252,7 +273,12 @@
 	"Id":		 "e12",
 	"Name": "Wyciągamy karteczki",
 	"ImageName": "e12_wyciagamy_karteczki.png",
-	"MovementCat": 1,
+	"MovementCat": 1,	
+	"NewMovementCat": 3,
+	"SpawnNormal": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 1,
+	},
 	"SpawnEasy": {
 		"TopLeft": 1, "TopRight": 0,
 		"BottomLeft": 1, "BottomRight": 1,
@@ -270,7 +296,14 @@
 	"Id":		 "e13",
 	"Name": "Juwenalia",
 	"ImageName": "e13_ursynalia.png",
-	"MovementCat": 3,
+	"MovementCat": 3,	
+	
+	"NewMovementCat": 1,
+	"SpawnNormal": {
+		"TopLeft": 0, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 0,
+	},
+		
 	"SpawnEasy": {
 		"TopLeft": 0, "TopRight": 1,
 		"BottomLeft": 0, "BottomRight": 1,
@@ -301,13 +334,24 @@
 	"Effects": [{ 
 		"Type": "Effect", 
 		"Text": "Nic się nie dzieje." 
-	}]
+	}],
+		
+	"NewMovementCat": 3,
+	"SpawnNormal": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 1,
+	},
 },
 {
 	"Id":		 "e15",
 	"Name": "Tydzień zarazy",
 	"ImageName": "e15_tydzien_zarazy.png",
-	"MovementCat": 2,
+	"MovementCat": 2,		
+	"NewMovementCat": 1,
+	"SpawnNormal": {
+		"TopLeft": 0, "TopRight": 1,
+		"BottomLeft": 0, "BottomRight": 1,
+	},
 	"SpawnEasy": {
 		"TopLeft": 1, "TopRight": 1,
 		"BottomLeft": 0, "BottomRight": 1,
@@ -326,6 +370,8 @@
 	}]
 },
 {
+	"IsDeleted": true,
+	
 	"Id":		 "e16",
 	"Name": "Jesteśmy zgubieni!",
 	"ImageName": "e16_jestesmy_zgubieni.png",
@@ -344,6 +390,8 @@
 	}]
 },
 {
+	"IsDeleted": true,
+	
 	"Id":		 "e17",
 	"Name": "Atak dzikich",
 	"ImageName": "",
@@ -370,7 +418,12 @@
 	"Id":		 "e18",
 	"Name": "Rewaluacja priorytetów",
 	"ImageName": "e18_rewaluacja_priorytetow.png",
-	"MovementCat": 1,
+	"MovementCat": 1,	
+	"NewMovementCat": 2,
+	"SpawnNormal": {
+		"TopLeft": 0, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 1,
+	},
 	"SpawnEasy": {
 		"TopLeft": 0, "TopRight": 0,
 		"BottomLeft": 1, "BottomRight": 0,
@@ -388,8 +441,13 @@
 	"Id":		 "e19",
 	"Name": "Turniej rycerski",
 	"ImageName": "e19_turniej_rycerski.png",
-	"MovementCat": 2,
-	"Description": "Przetrzymujesz!",
+	"Description": "",
+	"MovementCat": 2,	
+	"NewMovementCat": 2,
+	"SpawnNormal": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 0,
+	},
 	"SpawnEasy": {
 		"TopLeft": 0, "TopRight": 0,
 		"BottomLeft": 0, "BottomRight": 1,
@@ -408,6 +466,8 @@
 	]
 },
 {
+	"IsDeleted": true,
+	
 	"Id":		 "e20",
 	"Name": "Fundusz pomocy niepełnosprytnym",
 	"ImageName": "",
@@ -425,5 +485,169 @@
 		"Type": "Effect", 
 		"Text": "Każdy gracz otrzymuje btc w ilości odpowiadającej różnicy posiadanych [punktów zwycięstwa] i [punktom zwycięstwa] gracza, który ma ich najwięcej. Gracz, który posiada najmniej [punktów zwycięstwa] otrzymuje [first_player_token]." 
 	}]
+},
+
+
+
+
+
+{
+	"Id":		   "e21",
+	"Name":        "Inwazja karaluchów",
+	"ImageName":   "",
+	"Description": "- Dzień czwarty: Nadchodzą. Musimy dobrze zaplanować działanie, jeśli chcemy mieć w tym starciu jakiekolwiek szanse.\n- Po prostu zdejmij buta i zadepcz go!",
+	"MovementCat":    1,
+	"NewMovementCat": 3,
+	"SpawnNormal": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 1, "BottomRight": 1,
+	},
+	"SpawnEasy": {
+		"TopLeft": 0, "TopRight": 0,
+		"BottomLeft": 0, "BottomRight": 0,
+	},
+	"SpawnHard": {
+		"TopLeft": 0, "TopRight": 0,
+		"BottomLeft": 0, "BottomRight": 0,
+	},
+	"Effects": [{ 
+		"Type": "Effect", 
+		"Text": "Każdy gracz pobiera kartę akcji albo otrzymuje 2 dodatkowe [punkty akcji]." 
+	}]
+},
+{
+	"Id":		   "e22",
+	"Name":        "Godziny dziekańskie",
+	"ImageName":   "",
+	"Description": "",
+	"MovementCat":    1,	
+	"NewMovementCat": 1,
+	"SpawnNormal": {
+		"TopLeft": 1, "TopRight": 0,
+		"BottomLeft": 0, "BottomRight": 1,
+	},
+	"SpawnEasy": {
+		"TopLeft": 0, "TopRight": 0,
+		"BottomLeft": 0, "BottomRight": 0,
+	},
+	"SpawnHard": {
+		"TopLeft": 0, "TopRight": 0,
+		"BottomLeft": 0, "BottomRight": 0,
+	},
+	"Effects": [{ 
+		"Type": "Template", 
+		"Name": "first_player_roll_dices",
+		"Parameters": [
+			"[r6]",
+			"to w trakcie tego semestru wszystkie stworzenia poruszają się dwukrotnie" 
+		]
+	}]
+},
+{
+	"Id":		   "e23",
+	"Name":        "Pora karmienia",
+	"ImageName":   "",
+	"Description": "- Przysiągłbym, że wczoraj widziałem to na śmietniku.\n- Jedz, nie marudź.",
+	"MovementCat":    1,
+	"NewMovementCat": 1,
+	"SpawnNormal": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 0, "BottomRight": 0,
+	},
+	"SpawnEasy": {
+		"TopLeft": 0, "TopRight": 0,
+		"BottomLeft": 0, "BottomRight": 0,
+	},
+	"SpawnHard": {
+		"TopLeft": 0, "TopRight": 0,
+		"BottomLeft": 0, "BottomRight": 0,
+	},
+	"Effects": [{ 
+		"Type": "Template", 
+		"Name": "first_player_roll_dices",
+		"Parameters": [
+			"[k6]",
+			"[poziom paniki] wzrasta o 1" 
+		]
+	}]
+},
+{
+	"Id":		   "e24",
+	"Name":        "Poranny korek",
+	"ImageName":   "",
+	"Description": "",
+	"MovementCat":    1,
+	"NewMovementCat": 1,
+	"SpawnNormal": {
+		"TopLeft": 1, "TopRight": 0,
+		"BottomLeft": 0, "BottomRight": 1,
+	},
+	"SpawnEasy": {
+		"TopLeft": 0, "TopRight": 0,
+		"BottomLeft": 0, "BottomRight": 0,
+	},
+	"SpawnHard": {
+		"TopLeft": 0, "TopRight": 0,
+		"BottomLeft": 0, "BottomRight": 0,
+	},
+	"Effects": [
+		{ 	
+			"Type": "Template", 
+			"Name": "vote_2", 
+			"Parameters": [
+				"Każdy z graczy otrzymuje w tym semestrze tylko połowę (zaokrąglając do góry) [punktów akcji].",
+				"W fazie ruchu każdy z graczy porusza się w tym semestrze o 1 pole mniej."
+			]
+		}
+	]
+},
+{
+	"Id":		   "e25",
+	"Name":        "Rutynowa wymiana pościeli",
+	"ImageName":   "",
+	"Description": "",
+	"MovementCat":    1,
+	"NewMovementCat": 1,
+	"SpawnNormal": {
+		"TopLeft": 1, "TopRight": 0,
+		"BottomLeft": 1, "BottomRight": 0,
+	},
+	"SpawnEasy": {
+		"TopLeft": 0, "TopRight": 0,
+		"BottomLeft": 0, "BottomRight": 0,
+	},
+	"SpawnHard": {
+		"TopLeft": 0, "TopRight": 0,
+		"BottomLeft": 0, "BottomRight": 0,
+	},
+	"Effects": [{ 
+		"Type": "Effect", 
+		"Text": "Każdy gracz musi odrzucić trzy karty z ręki. [Every_time_card_cant_be_discarded], należy umieścić na jego postaci [znacznik zatrucia]." 
+	}]
+},
+{
+	"Id":		   "e26",
+	"Name":        "Szkolenie biblioteczne",
+	"ImageName":   "",
+	"Description": "",
+	"MovementCat":    1,	
+	"NewMovementCat": 2,
+	"SpawnNormal": {
+		"TopLeft": 1, "TopRight": 1,
+		"BottomLeft": 0, "BottomRight": 1,
+	},
+	"SpawnEasy": {
+		"TopLeft": 0, "TopRight": 0,
+		"BottomLeft": 0, "BottomRight": 0,
+	},
+	"SpawnHard": {
+		"TopLeft": 0, "TopRight": 0,
+		"BottomLeft": 0, "BottomRight": 0,
+	},
+	"Effects": [{ 
+		"Type": "Effect", 
+		"Text": "Każdy gracz może odrzucić dowolną liczbę kart z ręki lub ekwipunku. Za każde dwie odrzucone w ten sposób karty, gracz może pobrać kartę przedmiotu albo kartę akcji." 
+	}]
 }
+
 ]
