@@ -255,9 +255,7 @@
 		]
 	}
 },
-{
-	"NeedUpdate": true,
-	
+{	
 	"Name": "Metal",
 	"Id": "o28",
 	"VictoryPts": 2,
@@ -272,9 +270,7 @@
 		]
 	}
 },
-{
-	"NeedUpdate": true,
-	
+{	
 	"Name": "Dresiarz",
 	"Id": "o29",
 	"VictoryPts": 2,
@@ -290,9 +286,6 @@
 	}
 },
 {
-	"NeedUpdate": true,
-	"Comment":    "nie ma już okularów",
-
 	"Name": "Turbonerd",
 	"Id": "o30",
 	"VictoryPts": 2,
@@ -301,15 +294,13 @@
 		"Name": "collect_set", 
 		"Parameters": [ 
 			"uniwersalna zbroja informatyczna", 
-			"nerdowskie okulary",
+			"notatki",
 			"dizajnerska mysz bezprzewodowa",
 			"zestaw kustomowych kości"
 		]
 	}
 },
-{
-	"NeedUpdate": true,
-	
+{	
 	"Name": "Arcymag",
 	"Id": "o31",
 	"VictoryPts": 2,
@@ -342,6 +333,7 @@
 	}
 },
 {
+	"IsDeleted": true,
 	"NeedUpdate": true,
 	"Comment":    "nie ma topora ani płytówki",
 	
@@ -359,10 +351,7 @@
 		]
 	}
 },
-{
-	"NeedUpdate": true,
-	"Comment":    "nie ma już mapy",
-	
+{	
 	"Name": "Turysta",
 	"Id": "o34",
 	"VictoryPts": 2,
@@ -371,7 +360,7 @@
 		"Name": "collect_set", 
 		"Parameters": [ 
 			"sandały turystyczne",
-			"mapa",
+			"miękki bawełniany biodegradowalny jednorazowy kocyk turbodrzemki",
 			"lembas",
 			"ulgowy bilet jednoprzejazdowy"
 		]
@@ -394,7 +383,7 @@
 	}
 },
 {
-	"Name": "Strażnik Ciszy Nocnej",
+	"Name": "Stróż Ciszy Nocnej",
 	"Id": "o37",
 	"VictoryPts": 1,
 	"Condition": { 
@@ -496,7 +485,7 @@
 	"Condition": { "Type": "Effect", "Text": "Zagraj 5 przedmiotów zużywalnych w trakcie jednej tury walki." }
 },
 {
-	"Name": "Łowca trofeów",
+	"Name": "Nadzorca",
 	"Id": "o48",
 	"VictoryPts": 1,
 	"Condition": { 
@@ -506,7 +495,7 @@
 	}
 },
 {
-	"Name": "Łowca trofeów",
+	"Name": "Karierowicz",
 	"Id": "o49",
 	"VictoryPts": 1,
 	"Condition": { 

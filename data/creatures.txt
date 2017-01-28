@@ -94,8 +94,7 @@
 	"Tag":  "baśniowe",
 	
 	"ImageName": "m12_polkobieta_polryba.png",	
-	"Description":
-	"Może i oczu nie cieszy, ale kto wybrzydza...",
+	"Description": "Może i oczu nie cieszy, ale kto wybrzydza...",
 	
 	"HP": 	      10,
 	"Initiative": 4,
@@ -533,8 +532,7 @@
 	"Tag":  	 "podczłowiek imprezowy",
 	
 	"ImageName": "",	
-	"Description":
-	"Jest przerażająca i już trochę podpita. Udawaj, że jej nie widzisz, bo jeszcze podejdzie.",
+	"Description":	"Jest przerażająca i już trochę podpita. Udawaj, że jej nie widzisz, bo jeszcze podejdzie.",
 	
 	"HP": 	      12,
 	"Initiative": 2,
@@ -752,7 +750,7 @@
 	
 	"Description": "Jest poza twoim zasięgiem.",
 	
-	Skills: 
+	"Skills": 
 	[{ 
 		"Type": "Effect", 
 		"Text": "Każdy gracz rozpoczynający walkę z tym przeciwnikiem musi podrapać za prawym uchem gracza siedzącego po jego lewej stronie.\n" 
@@ -1216,13 +1214,13 @@
 },
 {
 	"ID":		 "c42",
-	"Name": 	 "Brudny golem",
+	"Name": 	 "Golem syfu",
 	"Tag":  	 "fauna akademika",		
 	
 	"ImageName":   "",
 	"Description": "",
 	
-	Skills: [{ "Type": "Effect", "Text": "Na tym stworzeniu nie mogą znajdować się [znaczniki zatrucia]." }],
+	"Skills": [{ "Type": "Effect", "Text": "Odporny na zatrucie." }],
 	
 	"HP": 	      16,
 	"Initiative": 2,
@@ -1252,7 +1250,7 @@
 	"ImageName":   "",
 	"Description": "",
 	
-	Skills: [{ "Type": "Effect", "Text": "To stworzenie otrzymuje podwójne obrażenia od zatrucia." }],
+	"Skills": [{ "Type": "Effect", "Text": "To stworzenie otrzymuje podwójne obrażenia od zatrucia." }],
 	
 	"HP": 	      10,
 	"Initiative": 1,
@@ -1280,9 +1278,9 @@
 	"Tag":  	 "duch przyszłego zawodu",		
 	
 	"ImageName":   "",
-	"Description": "- Wszyscy musicie otworzyć umysły i wyjść poza komfort znanych rozwiązań!",
+	"Description": "- Czemu nie napierdalacie?! Kto wam kurwa ukradł marzenia?!",
 	
-	Skills: [{
+	"Skills": [{
 		"Type": "Effect", 
 		"Text": "To stworzenie nie otrzymuje obrażeń od ataków ani od przedmiotów. Aby z nim walczyć należy uciec się do niestandardowych metod. Walcząc z Trenerem motywacyjnym raz w trakcie tury gracz może wydać punkt akcji albo odrzucić kartę z ręki lub ekwipunku i pozbawić to stworzenie odpowiednio jednego albo dwóch punktów wytrzymałości." 
 	}],
@@ -1339,7 +1337,7 @@
 	"Tag":  	 "duch przyszłego zawodu",		
 	
 	"ImageName":   "",
-	"Description": "- Tak trudno wziąć ci tę pier*****ą kartkę?!",
+	"Description": "- Tak trudno wziąć ci tę pierdoloną kartkę?!",
 	
 	"HP": 	      6,
 	"Initiative": 2,

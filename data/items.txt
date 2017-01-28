@@ -56,11 +56,8 @@
 	"Effects": [{ "Type": "Template", "Name": "heal", "Value": 10 }]
 },
 {
-	"NeedUpdate": true,
-	"Comment":    "nazwa do zmiany",
-
 	"Id":		 "i07",
-	"Name": 	 "Kestral",
+	"Name": 	 "Pustułka",
 	"ImageName": "i06_kestral.png",
 	"Price": 	 1,
 	"Categories": ["Przedmioty zużywalne", "Eliksiry"],

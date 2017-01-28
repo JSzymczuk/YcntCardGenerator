@@ -1,0 +1,3 @@
+TÓDÓ:
+ - zmienić nazwy pól na planszy (dworek bogów->administracja, krąg druidzki i wixownia (WTF??)->mordownia, obce kraje->zwierzętarnia, szklarnia->kraina grzybów)
+ - opis śródziemia i rozdroża += "i połóż na wierzchu lub na spodzie stosu"
