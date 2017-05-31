@@ -1,4 +1,11 @@
-﻿[
+[
+{
+	"IsDeleted": true,
+	"Id": 		 "o01",
+	"Name": "Półmartwy",
+	"VictoryPts":  2,
+	"Condition": { "Type": "Effect", "Text": "Zgiń 4 razy." }
+},
 {
 	"Name": "Weterynarz",
 	"Id": "o02",
@@ -80,6 +87,72 @@
 	"Condition": { "Type": "Effect", "Text": "Zdobądź 20 btc." }
 },
 {
+	"IsDeleted": true,
+	"Name": "Korepetytor",
+	"Id": "o12",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "deliver_item", 
+		"Value": "Notatki"
+	}
+},
+{
+	"IsDeleted": true,
+	"Name": "Droid",
+	"Id": "o13",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "deliver_item", 
+		"Value": "Napój magiczny"
+	}
+},
+{
+	"IsDeleted": true,
+	"Name": "Szaman",
+	"Id": "o14",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "deliver_item", 
+		"Value": "Intensywne perfumy piżmowe"
+	}
+},
+{
+	"IsDeleted": true,
+	"Name": "Finansista",
+	"Id": "o15",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "deliver_item", 
+		"Value": "Świnka skarbonka"
+	}
+},
+{
+	"IsDeleted": true,
+	"Name": "Biomanta",
+	"Id": "o16",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "play_action_card", 
+		"Value": "Zbiorowa praktyczna inżynieria biomedyczna"
+	}
+},
+{
+	"IsDeleted": true,
+	"Name": "Urzędnik",
+	"Id": "o17",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "play_action_card", 
+		"Value": "Podanie odrzucone"
+	}
+},
+{
 	"Name": "Obieżyświat",
 	"Id": "o18",
 	"VictoryPts":  1,
@@ -110,6 +183,17 @@
 	}
 },
 {
+	"IsDeleted": true,
+	"Name": "Działkowiec",
+	"Id": "o21",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "discard_on", 
+		"Parameters": [ "10 btc", "Ogródki działkowe" ]
+	}
+},
+{
 	"Name": "Szczodry",
 	"Id": "o22",
 	"VictoryPts": 1,
@@ -117,6 +201,17 @@
 		"Type": "Template", 
 		"Name": "discard_on", 
 		"Parameters": [ "3 karty z ręki", "Wioska żaków" ]
+	}
+},
+{
+	"IsDeleted": true,
+	"Name": "Hodowca",
+	"Id": "o23",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "discard_on", 
+		"Parameters": [ "3 karty z ręki", "Szklarnia" ]
 	}
 },
 {
@@ -134,6 +229,13 @@
 	"Id": "o25",
 	"VictoryPts": 3,
 	"Condition": { "Type": "Effect", "Text": "Jako jedyny skutecznie przeszkodź w walce innemu graczowi, który w jej wyniku zginie." }
+},
+{
+	"IsDeleted": true,
+	"Name": "Tchórz",
+	"Id": "o26",
+	"VictoryPts": 1,
+	"Condition": { "Type": "Effect", "Text": "Skutecznie ucieknij z walki." }
 },
 {
 	"NeedUpdate": true,
@@ -230,6 +332,25 @@
 		]
 	}
 },
+{
+	"IsDeleted": true,
+	"NeedUpdate": true,
+	"Comment":    "nie ma topora ani płytówki",
+	
+	"Name": "Wojownik",
+	"Id": "o33",
+	"VictoryPts": 2,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "collect_set", 
+		"Parameters": [ 
+			"krwawy topór ostatniej przysługi",
+			"imperialna płytówka obrońcy",
+			"fiolka krwi berserkera",
+			"rączy rumak"
+		]
+	}
+},
 {	
 	"Name": "Turysta",
 	"Id": "o34",
@@ -289,6 +410,60 @@
 		"Type": "Template", 
 		"Name": "defeat_enemy_type", 
 		"Value": "zmorą studenta" 
+	}
+},
+{
+	"IsDeleted": true,
+	"Name": "Pasibrzuch",
+	"Id": "o40",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Effect", 
+		"Text": "Pokonaj stworzenie spożywcze."
+	}
+},
+{
+	"IsDeleted": true,
+	"Name": "Poważny dorosły człowiek",
+	"Id": "o41",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "defeat_enemy_type", 
+		"Value": "zabawką" 
+	}
+},
+{
+	"IsDeleted": true,
+	"Name": "Inżynier",
+	"Id": "o42",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "defeat_enemy_type", 
+		"Value": "konstruktem" 
+	}
+},
+{
+	"IsDeleted": true,
+	"Name": "Łowca trofeów",
+	"Id": "o43",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "defeat_enemy_type", 
+		"Value": "bestią" 
+	}
+},
+{
+	"IsDeleted": true,
+	"Name": "Mistrz sztuki wojennej",
+	"Id": "o44",
+	"VictoryPts": 1,
+	"Condition": { 
+		"Type": "Template", 
+		"Name": "defeat_enemy_type", 
+		"Value": "wojownikiem" 
 	}
 },
 {

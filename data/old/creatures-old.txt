@@ -1,5 +1,67 @@
 ﻿[
 {
+	"IsDeleted":   true,
+	
+	"ID":		   "c01",
+	"Name":        "Oliwki",
+	"Tag":         "spożywcze",
+	"IsLegendary": false,
+	
+	"ImageName":   "m01_oliwki.png",
+	"Skills": 	   [{ "Type": "Template", "Name": "hard_skin", "Value": 1 }],
+	"Description":  
+	"Nikt nie lubi Oliwek, dlatego postanowiły powziąć straszliwy odwet - zabijają, gwałcą i palą wsie. Gdyby tylko udało ci się odkręcić słoik...",
+	
+	"HP": 	      3,
+	"Initiative": 0,
+	"Damage":     0,
+	
+	"AttackDices": 
+	{
+		"White": 1,
+		"Red":   0,
+		"Green": 0
+	},		
+	"Movement":
+	{
+		"First":  "B",
+		"Second": "B",
+		"Third":  "G"
+	},
+	"Prize":
+	{
+		"Gold":  3,
+		"Items": 0
+	}
+},	
+{
+	"IsDeleted":   true,
+	
+	"ID":		   "c02",
+	"Name":        "Żelkowy golem",
+	"Tag":         "spożywcze",
+	
+	"ImageName":   "m02_zelkowy_golem.png",
+	"Skills": 	   [{ "Type": "Effect", "Text": "Obrażenia zadawane weganom i wegetarianom +1." }],	
+	
+	"HP": 	      5,		
+	"AttackDices": 
+	{
+		"Red":   1
+	},		
+	"Movement":
+	{
+		"First":  "R",
+		"Second": "G",
+		"Third":  "B"
+	},
+	"Prize":
+	{
+		"Gold":  2,
+		"Items": 1
+	}
+}, 	
+{
 	"ID":   "c03",
 	"Name": "Antyczna kanapka sprzed tygodnia",
 	"Tag":  "fauna akademika",
@@ -53,6 +115,93 @@
 		"Items": 2
 	}
 },
+{
+	"IsDeleted":   true,
+
+	"ID":		   "c05",
+	"Name": 	   "Ołowiany żołnierzyk",
+	"Tag":  	   "zabawka",		
+	"ImageName":   "m04_olowiany_zolnierzyk.png",
+	
+	"HP": 	      4,
+	"Initiative": 1,
+	"Damage":     1,
+	"AttackDices": 
+	{
+		"Red": 1
+	},		
+	"Movement":
+	{
+		"First":  "B",
+		"Second": "B",
+		"Third":  "R"
+	},
+	"Prize":
+	{
+		"Gold":  4,
+		"Items": 1
+	}
+},
+{
+	"IsDeleted":   true,
+	
+	"ID":	"c06",
+	"Name": "Pisklę zielonego smoka",
+	"Tag":  "zabawka",		
+	"ImageName": "m03_piskle_zielonego_smoka.png",
+	
+	"HP": 	      3,
+	"Initiative": 0,
+	"Damage":     2,
+	"AttackDices": 
+	{
+		"White": 1
+	},		
+	"Movement":
+	{
+		"First":  "B",
+		"Second": "R",
+		"Third":  "G"
+	},
+	"Prize":
+	{
+		"Gold":  4,
+		"Items": 0
+	}
+},
+{
+	"IsDeleted":   true,
+	
+	"ID":   "c07",
+	"Name": "Urocze pluszowe różowe coś",
+	"Tag":  "zabawka",
+	
+	"ImageName": "m10_urocze_pluszowe_rozowe_cos.png",
+	
+	"Skills": [{ "Type": "Effect", "Text": "Wszyscy gracze, którzy chcą zaatakować to stworzenie, zadać mu obrażenia lub zagrać przeciwko niemu kartę, muszą rzucić [test inicjatywy]. Wynik rzutu mniejszy lub równy inicjatywie tego stworzenia sprawia, że gracze ulegają jego urokowi, podjęte przez nich działanie kończy się niepowodzeniem, a stworzenie nie doznaje obrażeń ani żadnego efektu od zagrywanej karty (zagraną kartę należy odrzucić)." }],
+	
+	"Description":
+	"Tak naprawdę może być tetrowe.",
+	
+	"HP": 	      4,
+	"Initiative": 1,
+	"Damage":     1,
+	"AttackDices": 
+	{
+		"White": 2
+	},		
+	"Movement":
+	{
+		"First":  "GG",
+		"Second": "G",
+		"Third":  "BB"
+	},
+	"Prize":
+	{
+		"Gold":  4,
+		"Items": 1
+	}
+}, 
 {
 	"ID":   "c08",
 	"Name": "Całka potrójna",
@@ -111,7 +260,7 @@
 	"ID":		 "c10",
 	"Name": 	 "Roztargniony profesor",
 	"Tag":  	 "zmora studenta",		
-	"ImageName": "m46_roztargniony_profesor.png",
+	"ImageName": "",
 	
 	"HP": 	      11,
 	"Initiative": 1,
@@ -132,6 +281,63 @@
 		"Items": 3
 	}
 }, 	
+{
+	"IsDeleted":   true,
+	
+	"ID":	"c11",
+	"Name": "Mały trójnogi snotling",
+	"Tag":  "bestia",		
+	"ImageName": "m05_maly_trojnogi_snotling.png",
+	
+	"HP": 	      3,
+	"Initiative": 4,
+	"Damage":     0,
+	"AttackDices": 
+	{
+		"White": 1
+	},		
+	"Movement":
+	{
+		"First":  "RR",
+		"Second": "R",
+		"Third":  "RRR"
+	},
+	"Prize":
+	{
+		"Gold":  3,
+		"Items": 1
+	}
+},	
+{
+	"IsDeleted":   true,
+	
+	"ID":		 "c12",
+	"Name": 	 "Emerytowana zębowa wróżka",
+	"Tag":  	 "baśniowe",		
+	"ImageName": "m06_emerytowana_zebowa_wrozka.png",
+	
+	"Skills":
+	[{ "Type": "Effect", "Text": "Jeśli to stworzenie nie otrzymało obrażeń oraz nie zaatakowało żadnego z graczy, wszyscy gracze biorący udział w walce mogą przeprowadzić licytację w ciemno [żetonami zdolności]. Jeśli graczom uda się zgromadzić przynajmniej 4 [żetony zdolności], to każdy z nich może pobrać 2 btc, walka kończy się natychmiast, a stworzenie to należy odrzucić." }],
+	
+	"HP": 	      6,
+	"Initiative": 0,
+	"Damage":     0,
+	"AttackDices": 
+	{
+		"White": 3
+	},		
+	"Movement":
+	{
+		"First":  "GG",
+		"Second": "B",
+		"Third":  "G"
+	},
+	"Prize":
+	{
+		"Gold":  3,
+		"Items": 0
+	}
+},	
 {
 	"ID":		 "c13",
 	"Name": 	 "Przystojny nastoletni wąpierz",
@@ -160,6 +366,41 @@
 	{
 		"Gold":  9,
 		"Items": 3
+	}
+},
+{
+	"IsDeleted":   true,
+
+	"ID":	"c14",
+	"Name": "Zapomniany gargulec",
+	"Tag":  "konstrukt",		
+	"ImageName": "m43_zapomniany_gargulec.png",
+
+	"Skills": 	   
+	[{ 
+		"Type": "Effect", 
+		"Text": "Jeśli to stworzenie pojawi się w pierwszym semestrze, należy wtasować je z powrotem do talii stworzeń i położyć na jego miejsce kolejną kartę stworzenia. \nW przeciwnym przypadku Zapomnianego gargulca należy umieścić od razu na polu, na którym znajduje się Starosta. Stworzenie to nie może zostać przesunięte przy użyciu żadnych kart ani zdolności.\n" 
+	},
+	{ 
+		"Type": "Template", 
+		"Name": "hard_skin",
+		"Value": 1 
+	}],
+
+	"Description": "On cały czas tu był.",
+	
+	"HP": 	      7,
+	"Initiative": 0,
+	"Damage":     0,
+	"AttackDices": 
+	{
+		"White": 2,
+		"Red": 1
+	},
+	"Prize":
+	{
+		"Gold":  6,
+		"Items": 2
 	}
 },
 {
@@ -345,6 +586,43 @@
 	}
 },
 {
+	"IsDeleted":   true,
+
+	"ID":		 "c22",
+	"Name": 	 "Elficki łotrzyk",
+	"Tag":  	 "baśniowe",		
+	"ImageName": "m22_elficki_lotrzyk.png",
+	
+	"Description":
+	"Nawet się nie spostrzeżesz, w którym momencie jego ręka znajdzie się w twojej kieszeni.",
+		
+	"Skills": 
+	[{
+		"Type": "Effect", 
+		"Text": "Każda nieudana próba ucieczki z walki z tym stworzeniem oznacza utratę wszystkich posiadanych btc przez gracza."
+	}],	
+	
+	"HP": 	      11,
+	"Initiative": 5,
+	"Damage":     0,
+	"AttackDices": 
+	{
+		"White": 1,
+		"Red": 2
+	},		
+	"Movement":
+	{
+		"First":  "BB",
+		"Second": "BR",
+		"Third":  "GG"
+	},
+	"Prize":
+	{
+		"Gold":  10,
+		"Items": 2
+	}
+},
+{
 	"ID":		 "c23",
 	"Name": 	 "Homogoblin",
 	"Tag":   	 "baśniowe",		
@@ -370,6 +648,39 @@
 	{
 		"Gold":  9,
 		"Items": 1
+	}
+},
+{
+	"IsDeleted":   true,
+
+	"ID":		 "c24",
+	"Name":  	 "Chimera",
+	"Tag":  	 "bestia",		
+	"ImageName": "m24_chimera.png",
+	
+	"Description":
+	"Warczy, śmierdzi siarką i zabija wszystko na swojej drodze. Założę się o Miodowo-Lipowy, że nie złapiesz jej za ogon!",
+	
+	"HP": 	      9,
+	"Initiative": 2,
+	"Damage":     3,
+	
+	"AttackDices": 
+	{
+		"White": 1,
+		"Red":   1,
+		"Green": 1
+	},		
+	"Movement":
+	{
+		"First":  "G",
+		"Second": "R",
+		"Third":  "RR"
+	},
+	"Prize":
+	{
+		"Gold":  9,
+		"Items": 2
 	}
 },
 {
@@ -429,6 +740,108 @@
 		"Items": 4
 	}
 },
+{
+	"IsDeleted":   true,
+	
+	"ID":		 "c27",
+	"Name": 	 "Pomniejszy pieseł",
+	"Tag":  	 "zbrojny",		
+	"ImageName": "m28_pomniejszy_piesel.png",
+	
+	"Description": "Jest poza twoim zasięgiem.",
+	
+	"Skills": 
+	[{ 
+		"Type": "Effect", 
+		"Text": "Każdy gracz rozpoczynający walkę z tym przeciwnikiem musi podrapać za prawym uchem gracza siedzącego po jego lewej stronie.\n" 
+	},
+	{ 
+		"Type": "Template", 
+		"Name": "hard_skin", 
+		"Value": 2 
+	}],
+	
+	"HP": 	      10,
+	"Initiative": 2,
+	"Damage":     2,
+	
+	"AttackDices": 
+	{
+		"Red":   3
+	},		
+	"Movement":
+	{
+		"First":  "R",
+		"Second": "R",
+		"Third":  "B"
+	},
+	"Prize":
+	{
+		"Gold":  11,
+		"Items": 3
+	}
+},
+{	
+	"IsDeleted":   true,
+	
+	"ID":		 "c28",
+	"Name": 	 "Trzygłowy rycerz",
+	"Tag":  	 "zbrojny",		
+	"ImageName": "m29_trzyglowy_rycerz.png",
+	
+	"Description": 
+	"-Bądźmy dla niego mili.\n-Zamknij się.",
+	
+	"HP": 	      18,
+	"Initiative": 3,
+	"Damage":     0,
+	
+	"AttackDices": 
+	{
+		"White":   3,
+		"Red":	   3
+	},		
+	"Movement":
+	{
+		"First":  "B",
+		"Second": "R",
+		"Third":  "RB"
+	},
+	"Prize":
+	{
+		"Gold":  14,
+		"Items": 3
+	}
+},	
+{
+	"IsDeleted":   true,
+	
+	"ID":		 "c29",
+	"Name":		 "Leszek",
+	"Tag":  	 "bestia",		
+	"ImageName": "m30_leszek.png",
+	
+	"HP": 	      16,
+	"Initiative": 1,
+	"Damage":     0,
+	
+	"AttackDices": 
+	{
+		"Red":	 3,
+		"Green": 3
+	},		
+	"Movement":
+	{
+		"First":  "GG",
+		"Second": "R",
+		"Third":  "R"
+	},
+	"Prize":
+	{
+		"Gold":  15,
+		"Items": 4
+	}
+},	
 {	
 	"ID":		 "c30",
 	"Name": 	 "Cztery schaby",
@@ -462,6 +875,39 @@
 		"Items": 5
 	}
 },	
+{
+	"IsDeleted":   true,
+	
+	"ID":		 "c31",
+	"Name": 	 "Zaklęta zbroja",
+	"Tag":  	 "konstrukt",		
+	"ImageName": "m32_zakleta_zbroja.png",
+	
+	"Description":
+	"Pusta zbroja... Serio? Jak zabić sam pancerz...?",
+	
+	Skills: [{ "Type": "Template", "Name": "hard_skin", "Value": 3 }],
+	
+	"HP": 	      8,
+	"Initiative": 0,
+	"Damage":     2,
+	
+	"AttackDices": 
+	{
+		"Red": 3
+	},		
+	"Movement":
+	{
+		"First":  "B",
+		"Second": "R",
+		"Third":  "B"
+	},
+	"Prize":
+	{
+		"Gold":  10,
+		"Items": 4
+	}
+},	
 {	
 	"ID":		 "c32",
 	"Name": 	 "Spragniony ghul przydworcowy",
@@ -487,6 +933,33 @@
 	{
 		"Gold":  9,
 		"Items": 3
+	}
+},	
+{
+	"IsDeleted":   true,
+	
+	"ID":		 "c33",
+	"Name": 	 "Morderczy papierowy kaczor",
+	"Tag":  	 "konstrukt",		
+	"ImageName": "m08_morderczy_papierowy_kaczor.png",
+	
+	"Description": "Stworzyłem... potwora...",
+	
+	"HP": 	      13,
+	"Initiative": 3,
+	"Damage":     4,
+	
+	"AttackDices": { },		
+	"Movement":
+	{
+		"First":  "RR",
+		"Second": "BB",
+		"Third":  "BBB"
+	},
+	"Prize":
+	{
+		"Gold":  6,
+		"Items": 2
 	}
 },	
 {	
@@ -521,6 +994,37 @@
 	{
 		"Gold":  8,
 		"Items": 2
+	}
+},
+{
+	"IsDeleted":   true,
+
+	"ID":		 "c35",
+	"Name": 	 "Dwurożec",	
+	"Tag":  	 "bestia",	
+	"ImageName": "m33_dwurozec.png",
+	
+	"Description": "Mądrym zwierzęciem będąc, dwurożec rozumie niechybnie, że ponad miarę w dziewictwie trwać podejrzaną i przeciwną naturze jest rzeczą.",
+	
+	"HP": 	      25,
+	"Initiative": 5,
+	"Damage":     4,
+	
+	"AttackDices": 
+	{
+		"White": 2,
+		"Red": 2
+	},		
+	"Movement":
+	{
+		"First":  "R",
+		"Second": "B",
+		"Third":  "BB"
+	},
+	"Prize":
+	{
+		"Gold":  18,
+		"Items": 5
 	}
 },
 {
@@ -584,7 +1088,7 @@
 	"Name": "Natrętny ankieter",
 	"Tag":  "menda",
 	
-	"ImageName": "m47_natretny_ankieter.png",
+	"ImageName": "",
 	"Description": "Atakuje znienacka!",
 
 	"Skills": 	   

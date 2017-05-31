@@ -48,7 +48,7 @@
 	
 	"ID":		 "a06",
 	"Name": 	 "Pieśń o Julianie i Romualdzie",
-	"ImageName": "a06_piesn_o_julianie_i_romualdzie.png",
+	"ImageName": "",
 	"Points": 	 2,
 	"Effects": [{ "Type": "Effect", "Text": "Weź po 2 btc od gracza po twojej prawej i lewej stronie." }]
 },
@@ -67,9 +67,6 @@
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj na wybranego uczestnika walki po dowolnym ataku. Nie otrzymuje on obrażeń od tego ataku." }]
 },
 {
-	"NeedUpdate": true,
-	"Comment": 	  "nazwa do zmiany?",
-	
 	"ID":		 "a09",
 	"Name": 	 "Krejzolowy kręciołek",
 	"ImageName": "a09_krejzolowy_kreciolek.png",
@@ -350,7 +347,7 @@
 {
 	"ID":		 "a44",
 	"Name": 	 "Kserówka",
-	"ImageName": "",
+	"ImageName": "a43_kserowka.png",
 	"Points": 	 4,
 	"Effects": [{ 
 		"Type": "Effect", 

@@ -118,6 +118,17 @@
 	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "1": ["[zadawanych obrażeń]"] }}]
 },
 {
+	"IsDeleted": true,
+	"Id":		 "i14",
+	"Name": 	 "Wymarzony oręż młodego wojownika",
+	"ImageName": "i50_wymarzony_orez_mlodego_wojownika.png",
+	"Price": 	 4,
+	"Categories": ["Ekwipunek", "Broń"],
+	"Description":
+	"Niby kawałek deski, ale w danych dziejach nie było na świecie smoka, który by się pod nim nie ugiął.",
+	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "[k6]": ["[testu obrażeń]"] }}]
+},
+{
 	"Id":		 "i15",
 	"Name": 	 "Pedalski miecz grawerowany",
 	"ImageName": "i53_pedalski_miecz_grawerowany.png",
@@ -159,6 +170,15 @@
 	"Description":
 	"Wyśmienita precyzja, nietuzinkowy dizajn, liczne wcięcia oraz agresywny wygląd okraszony szkarłatną poświatą. Tradycjonaliści nawet na nią nie spojrzą.",
 	"Effects": [{ "Type": "StatTemplate", "ModifiedStats": { "[r6]": ["[testu obrażeń]"] }}]
+},
+{
+	"IsDeleted": true, 
+	"Id":		 "i19",
+	"Name": 	 "Krwawy topór ostatniej przysługi",
+	"ImageName": "i58_krwawy_topor_ostatniej_przyslugi.png",
+	"Price": 	 5,
+	"Categories": ["Ekwipunek", "Broń"],
+	"Effects": [{"Type": "StatTemplate", "ModifiedStats": { "[r6]": ["[testu obrażeń]"] }}]
 },
 {
 	"Id":		 "i20",
@@ -291,11 +311,11 @@
 },
 {
 	"Id":		 "i33",
-	"Name": 	 "Piątkowy T-shirt nietuzinkowego blichtru",
-	"ImageName": "ix05_tshirt_imprezowego_blichtru.png",
+	"Name": 	 "Imprezowa koszulka",
+	"ImageName": "i36_imprezowa_koszulka.png",
 	"Price": 	 5,
 	"Categories": ["Ekwipunek", "Zbroja"],
-	"Description": "#SWAG",
+	"Description": "Posiadacz tej relikwii uzyskuje nadnaturalną moc, która sprawia, że każdy wypity przez niego eliksir może się zwrócić następnego dnia.",
 	"Effects": [
 		{"Type": "StatTemplate", "ModifiedStats": { "1": ["[redukcji obrażeń]"] }},
 		{"Type": "Effect", "Text": "Ilekroć posiadacz tego przedmiotu używa karty eliksiru na swojej postaci, może rzucić [test inicjatywy] - uzyskany wynik 2 oznacza, że posiadacz może wziąć zagraną kartę eliksiru do ręki." }
@@ -312,6 +332,27 @@
 		{"Type": "StatTemplate", "ModifiedStats": { "1": ["[redukcji obrażeń]"] }},
 		{"Type": "Effect", "Text": "Możesz odrzucić ten przedmiot w trakcie walki, w której bierzesz udział, aby zająć wybrane stworzenie pykaniem." },
 		{"Type": "Template", "Name": "enemy_busy" }
+	]
+},
+{
+	"IsDeleted": true,
+
+	"Id":		 "i35",
+	"Name": 	 "Kartonowa zbroja",
+	"ImageName": "i37_zbroja_z_kartonu.png",
+	"Price": 	 3,
+	"Categories": ["Ekwipunek", "Zbroja"],
+	"Description": "Legendarny artefakt wielu akademików. Pozwala dużo skuteczniej odebrać pizzę od dostawcy.",
+	"Effects": [
+		{
+			"Type": "StatTemplate", 
+			"ModifiedStats": 
+			{ 
+				"1": ["[redukcji obrażeń]"],				
+				"-1": ["[testu otwarcia]"] 
+			}
+		},
+		{"Type": "Effect", "Text": "Posiadacz nie otrzymuje obrażeń od Śmierdzi 10 stóp." }
 	]
 },
 {
@@ -349,6 +390,26 @@
 	"Categories": ["Ekwipunek", "Zbroja"],
 	"Description": "Trzy paski zapewnią szacun na dzielni!",
 	"Effects": [{ "Type": "Effect", "Text": "Zapewnia trwały modyfikator +1 do redukcji obrażeń oraz trwały modyfikator +3 do ochrony przed wodą." }]
+},
+{
+	"IsDeleted": true,
+
+	"Id":		 "i39",
+	"Name": 	 "Imperialna płytówka obrońcy",
+	"ImageName": "i45_imperialna_plytowka_obroncy.png",
+	"Price": 	 4,
+	"Categories": ["Ekwipunek", "Zbroja"],
+	"Description": "Prawie każdy marzy o grze tankiem. Chyba, że jest supportem - support nie ma marzeń.",
+	"Effects": [
+		{
+			"Type": "StatTemplate", 
+			"ModifiedStats": 
+			{ 
+				"2": ["[redukcji obrażeń]"],				
+				"-1": ["[zadawanych obrażeń]"] 
+			}
+		}
+	]
 },
 {
 	"Id":		 "i40",
@@ -483,6 +544,15 @@
 	"Effects": [{ "Type": "Effect", "Text": "Przejrzyj stos odrzuconych przedmiotów, wybierz jeden z nich, pokaż go pozostałym graczom i umieść go w swojej ręce." }]
 },
 {
+	"IsDeleted": true,
+	"Id":		 "i54",
+	"Name": 	 "Nerdowskie okulary",
+	"ImageName": "i47_nerdowskie_okulary.png",
+	"Price": 	 1,
+	"Categories": ["Przedmioty zużywalne"],
+	"Effects": [{ "Type": "Effect", "Text": "Zobacz kolejną kartę wydarzenia, nie pokazuj jej nikomu innemu. Jeśli chcesz, możesz odłożyć ją na wierzch talii wydarzeń. W przeciwnym wypadku odłóż ją na spód talii wydarzeń i potasuj karty w tej talii." }]
+},
+{
 	"Id":		 "i55",
 	"Name": 	 "Ciasteczko z horoskopem",
 	"ImageName":     "i74_ciasteczko_z_horoskopem.png",
@@ -500,6 +570,15 @@
 	"Effects": [{ "Type": "Effect", "Text": "Zagraj tę kartę w momencie, w którym dobierasz kartę z talii przedmiotów. Weź drugą kartę przedmiotu i umieść w swojej ręce." }]
 },
 {
+	"IsDeleted": true,
+	"Id":		 "i57",
+	"Name": 	 "Smocza babeczka predestynacji",
+	"ImageName": "i28_babeczka_predestynacji.png",
+	"Price": 	 3,
+	"Categories": ["Przedmioty zużywalne"],
+	"Effects": [{ "Type": "Effect", "Text": "Weź na rękę kartę leżącą na wierzchu talii wydarzeń. Po odkryciu karty wydarzenia możesz zagrać na jej miejsce kartę wydarzenia z ręki." }]
+},
+{
 	"Id":		 "i58",
 	"Name": 	 "Super grzybek mocy",
 	"ImageName": "i63_super_grzybek_mocy.png",
@@ -510,7 +589,7 @@
 {
 	"Id":		 "i59",
 	"Name": 	 "Frappé z pianką",
-	"ImageName": "ix02_frappe_z_pianka.png",
+	"ImageName": "",
 	"Price": 	 2,
 	"Categories": ["Przedmioty zużywalne", "Eliksiry"],
 	"Description": "Orzeźwia i pobudza.",
@@ -524,6 +603,16 @@
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Kocyk złożony w kostkę traci na milutkości. Musi po prostu sobie leżeć pofałdowany, zawinięty, porzucony - ale nie na zawsze.",
 	"Effects": [{ "Type": "Template", "Name": "restore_action_points", "Value": 2  }]
+},
+{
+	"IsDeleted": true, 
+	"Id":		 "i61",
+	"Name": 	 "Lyrium",
+	"ImageName": "i62_lyrium.png",
+	"Price": 	 2,
+	"Categories": ["Przedmioty zużywalne", "Eliksiry"],
+	"Description": "Taki stymulant. Coś jak mocniejsza kawa. Tylko nie do picia.",
+	"Effects": [{ "Type": "Template", "Name": "restore_action_points", "Value": 2 }]
 },
 {
 	"Id":		 "i63",
@@ -553,7 +642,7 @@
 {
 	"Id":		 "i66",
 	"Name": 	 "Pompka do materaca",
-	"ImageName": "ix04_pompka_do_materaca.png",
+	"ImageName": "",
 	"Price": 	 1,
 	"Categories": ["Przedmioty zużywalne"],
 	"Description": "Najlepsza na kaca.",
@@ -646,6 +735,16 @@
 	"Effects": [{ "Type": "Template", "Name": "teleport" }]
 },
 {
+	"IsDeleted": true,
+	"Id":		 "i75",
+	"Name": 	 "Mapa",
+	"ImageName": "",
+	"Price": 	 3,
+	"Categories": ["Przedmioty zużywalne"],
+	"Description": "Może jednak zapytamy o drogę?",
+	"Effects": [{ "Type": "Template", "Name": "teleport" }]
+},
+{
 	"Id":		 "i76",
 	"Name": 	 "Styropianowa kula u nogi",
 	"ImageName": "",
@@ -668,17 +767,16 @@
 },
 {
 	"Id":		 "i77",
-	"Name": 	 "Wykładowy zestaw przetrwania",
-	"ImageName": "ix03_wykladowy_zestaw_przetrwania.png",
+	"Name": 	 "Banan",
+	"ImageName": "",
 	"Price": 	 2,
 	"Categories": ["Przedmioty zużywalne"],
-	"Description": "- Wyrwij mi jedną kartkę.",
 	"Effects": [{ "Type": "Template", "Name": "restore_action_points", "Value": 2 }]
 },
 {
 	"Id":		 "i78",
 	"Name": 	 "Rozstrojone ukulele",
-	"ImageName": "ix01_rozstrojone_ukulele.png",
+	"ImageName": "",
 	"Price": 	 4,
 	"Categories": ["Ekwipunek", "Broń"],
 	"Description": "",

@@ -114,7 +114,7 @@
 {
 	"Id":		 "e06",
 	"Name": "Walka o darmowe praktyki w znanej firmie",
-	"ImageName": "",
+	"ImageName": "e06_walka_o_bezplatne_praktyki_w_znanej_firmie.png",
 	"MovementCat": 2,	
 	"NewMovementCat": 2,
 	"SpawnNormal": {
@@ -494,7 +494,7 @@
 {
 	"Id":		   "e21",
 	"Name":        "Inwazja karaluchów",
-	"ImageName":   "",
+	"ImageName":   "e22_inwazja_karaluchow.png",
 	"Description": "- Dzień czwarty: Nadchodzą. Musimy dobrze zaplanować działanie, jeśli chcemy mieć w tym starciu jakiekolwiek szanse.\n- Po prostu zdejmij buta i zadepcz go!",
 	"MovementCat":    1,
 	"NewMovementCat": 3,
@@ -518,7 +518,7 @@
 {
 	"Id":		   "e22",
 	"Name":        "Godziny dziekańskie",
-	"ImageName":   "",
+	"ImageName":   "xe01_godziny_dziekanskie.png",
 	"Description": "",
 	"MovementCat":    1,	
 	"NewMovementCat": 1,
@@ -546,7 +546,7 @@
 {
 	"Id":		   "e23",
 	"Name":        "Pora karmienia",
-	"ImageName":   "",
+	"ImageName":   "e21_pora_karmienia.png",
 	"Description": "- Przysiągłbym, że wczoraj widziałem to na śmietniku.\n- Jedz, nie marudź.",
 	"MovementCat":    1,
 	"NewMovementCat": 1,
@@ -628,7 +628,7 @@
 {
 	"Id":		   "e26",
 	"Name":        "Szkolenie biblioteczne",
-	"ImageName":   "",
+	"ImageName":   "e20_szkolenie_biblioteczne.png",
 	"Description": "",
 	"MovementCat":    1,	
 	"NewMovementCat": 2,
